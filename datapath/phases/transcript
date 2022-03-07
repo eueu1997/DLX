@@ -1,0 +1,169 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:21:45 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Compiling package phases_package
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(5): near ".": (vcom-1576) expecting END.
+# End time: 15:21:45 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:22:27 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Compiling package phases_package
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(6): (vcom-1136) Unknown identifier "std_logic_vector".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(7): (vcom-1136) Unknown identifier "std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(8): (vcom-1136) Unknown identifier "std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(9): (vcom-1136) Unknown identifier "std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(10): (vcom-1136) Unknown identifier "std_logic_vector".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(11): (vcom-1136) Unknown identifier "i_size".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(11): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(11): (vcom-1136) Unknown identifier "std_logic_vector".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(13): near "component": (vcom-1576) expecting END.
+# End time: 15:22:27 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:23:07 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# ** Error: (vcom-11) Could not find ieee.std_logic.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(2): (vcom-1195) Cannot find expanded name "ieee.std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(2): Unknown expanded name.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(4): VHDL Compiler exiting
+# End time: 15:23:07 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:23:39 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# ** Error: (vcom-11) Could not find ieee.std_logic.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(2): (vcom-1195) Cannot find expanded name "ieee.std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(2): Unknown expanded name.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(4): VHDL Compiler exiting
+# End time: 15:23:39 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:24:32 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package phases_package
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(14): (vcom-1136) Unknown identifier "i_size".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(14): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(14): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(16): near "component": (vcom-1576) expecting END.
+# End time: 15:24:32 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:33:45 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package phases_package
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(14): (vcom-1136) Unknown identifier "i_size".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(14): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(14): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(16): near "component": (vcom-1576) expecting END.
+# End time: 15:33:45 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:37:38 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package phases_package
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(28): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(28): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(28): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(29): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(29): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(29): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(30): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(30): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(30): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(41): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(41): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(41): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(42): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(42): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(42): Type error in range expression.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(45): VHDL Compiler exiting
+# End time: 15:37:38 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:38:57 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package phases_package
+# End time: 15:38:57 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:38:57 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package phases_package
+# End time: 15:38:57 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlib work
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:48:56 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(3): (vcom-1136) Unknown identifier "phase_1".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(4): (vcom-1136) Unknown identifier "phase_2".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(5): (vcom-1136) Unknown identifier "phase_4".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(7): VHDL Compiler exiting
+# End time: 15:48:56 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:50:15 on Sep 02,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phases_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find phase_1.fetch.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(4): (vcom-1195) Cannot find expanded name "phase_1.fetch".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(4): Unknown expanded name.
+# ** Error: (vcom-11) Could not find phase_2.decode.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(6): (vcom-1195) Cannot find expanded name "phase_2.decode".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(6): Unknown expanded name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(7): (vcom-1598) Library "phase_3" not found.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(8): (vcom-1136) Unknown identifier "phase_4".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phases_package.vhd(10): VHDL Compiler exiting
+# End time: 15:50:15 on Sep 02,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0

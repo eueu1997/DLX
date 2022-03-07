@@ -1,0 +1,270 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.41/Desktop/project/phase_4
+T_opt
+!s110 1628851073
+VBiB7YkMo]hZ_U8FJRKDSU1
+04 6 0 work cfg_tb 1
+=1-5254009c17d7-61164b81-50482-1b44
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+Ccfg_mux21_behavioral
+eMUX21
+aBEHAVIORAL
+DAx4 work 5 mux21 10 behavioral 22 eQMkL][?_jX]0i9XJW84P1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z3 DEx4 work 5 mux21 0 22 ;K3cjh>I^JiP8TE38hJ@@1
+Z4 w1628760179
+R0
+Z5 8/home/ms21.41/Desktop/project/phase_4/mux21.vhd
+Z6 F/home/ms21.41/Desktop/project/phase_4/mux21.vhd
+l0
+L23
+V[J8B:6h8^8F@P?M285U:`3
+!s100 QdRn<e8PXFAXEMY>EJ^=a2
+Z7 OL;C;10.7c;67
+32
+Z8 !s110 1628847994
+!i10b 0
+Z9 !s108 1628847994.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_4/mux21.vhd|
+Z11 !s107 /home/ms21.41/Desktop/project/phase_4/mux21.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Ccfg_tb
+etb
+atb1
+Z14 DEx4 work 7 phase_4 0 22 Zl2OGz3lJ1ojQNAzMH[3M3
+DAx4 work 2 tb 3 tb1 22 <E=zff^mJo2P?OJI`]:<^3
+R1
+R2
+Z15 DEx4 work 2 tb 0 22 Vg0_fn95if_JE0Pgf6FX:3
+Z16 w1628851051
+R0
+Z17 8/home/ms21.41/Desktop/project/phase_4/tb.vhd
+Z18 F/home/ms21.41/Desktop/project/phase_4/tb.vhd
+l0
+L49
+VeSS?=DbKi?lY6:lUV<[@]3
+!s100 T`b?nTB`0V1Tl^P_@j9R30
+R7
+32
+Z19 !s110 1628851066
+!i10b 0
+Z20 !s108 1628851066.000000
+Z21 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_4/tb.vhd|
+Z22 !s107 /home/ms21.41/Desktop/project/phase_4/tb.vhd|
+!i113 0
+R12
+R13
+Emux21
+R4
+R1
+R2
+R0
+R5
+R6
+l0
+L6
+V;K3cjh>I^JiP8TE38hJ@@1
+!s100 SDf2BUhdoEiUY4MB`US]J0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+l17
+L15
+VeQMkL][?_jX]0i9XJW84P1
+!s100 7L31MNB5PFkZIgocPh`1T1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ephase_4
+Z23 w1628760905
+R1
+R2
+R0
+Z24 8/home/ms21.41/Desktop/project/phase_4/phase_4.vhd
+Z25 F/home/ms21.41/Desktop/project/phase_4/phase_4.vhd
+l0
+L4
+VZl2OGz3lJ1ojQNAzMH[3M3
+!s100 o@lhQEX6M<J2eD^Wjg^bE2
+R7
+32
+Z26 !s110 1628850748
+!i10b 1
+Z27 !s108 1628850748.000000
+Z28 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_4/phase_4.vhd|
+Z29 !s107 /home/ms21.41/Desktop/project/phase_4/phase_4.vhd|
+!i113 0
+R12
+R13
+Astructural
+R1
+R2
+R14
+l60
+L22
+VWj:<1V=8_=;kGcWc6jbXB1
+!s100 27do@jK6X5hS=H:9Pc[E60
+R7
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R12
+R13
+Eram
+Z30 w1629470240
+Z31 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z32 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R0
+Z33 8/home/ms21.41/Desktop/project/phase_4/RAM.vhd
+Z34 F/home/ms21.41/Desktop/project/phase_4/RAM.vhd
+l0
+L7
+V4[cP[zL]zHiimCI9UdYNo1
+!s100 W59RFET[RD23@h6SEi_g?0
+R7
+32
+Z35 !s110 1629470243
+!i10b 1
+Z36 !s108 1629470243.000000
+Z37 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_4/RAM.vhd|
+Z38 !s107 /home/ms21.41/Desktop/project/phase_4/RAM.vhd|
+!i113 0
+R12
+R13
+Aram_bhe
+R31
+R32
+R1
+R2
+Z39 DEx4 work 3 ram 0 22 4[cP[zL]zHiimCI9UdYNo1
+l29
+L23
+VdYLg>Ja6bNnUTEfK]j_Xn3
+!s100 RfbImK6<gL31EoEbciEb13
+R7
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R12
+R13
+Eregister_1
+Z40 w1628850154
+R1
+R2
+R0
+Z41 8/home/ms21.41/Desktop/project/phase_4/register.vhd
+Z42 F/home/ms21.41/Desktop/project/phase_4/register.vhd
+l0
+L4
+V>KJX6WQbb>AWbDOg]b<jR1
+!s100 a5:0H84Y6bHblT8bXl0?R0
+R7
+32
+Z43 !s110 1628850163
+!i10b 1
+Z44 !s108 1628850163.000000
+Z45 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_4/register.vhd|
+Z46 !s107 /home/ms21.41/Desktop/project/phase_4/register.vhd|
+!i113 0
+R12
+R13
+Abeh
+R1
+R2
+DEx4 work 10 register_1 0 22 >KJX6WQbb>AWbDOg]b<jR1
+l15
+L13
+V^gd:TTaAj]YiY@AD?Aj<O2
+!s100 WkF^mckKNE5GIN^BB`m=W2
+R7
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R12
+R13
+Etb
+R16
+R1
+R2
+R0
+R17
+R18
+l0
+L4
+VVg0_fn95if_JE0Pgf6FX:3
+!s100 L>lk15]3WMJMB0@S;<Smi2
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R12
+R13
+Atb1
+R1
+R2
+R15
+l30
+L7
+V<E=zff^mJo2P?OJI`]:<^3
+!s100 :IERcnIEOl]OPm@:m_5a>2
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R12
+R13

@@ -1,0 +1,2108 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:52:04 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find ieee.std_logic.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(4): (vcom-1195) Cannot find expanded name "ieee.std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(4): Unknown expanded name.
+# -- Loading package NUMERIC_STD
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(10): VHDL Compiler exiting
+# End time: 14:52:04 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:53:01 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find ieee.std_logic.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(4): (vcom-1195) Cannot find expanded name "ieee.std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(4): Unknown expanded name.
+# -- Loading package NUMERIC_STD
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(10): VHDL Compiler exiting
+# End time: 14:53:01 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:53:34 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(13): (vcom-1136) Unknown identifier "operation_type".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(13): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 14:53:34 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:53:59 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1136) Unknown identifier "operation_width".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): (vcom-1136) Unknown identifier "co".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 14:53:59 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:55:50 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1136) Unknown identifier "operation_width".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): (vcom-1136) Unknown identifier "co".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 14:55:50 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/add_sub.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:56:48 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/add_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_sub
+# -- Compiling architecture structural of add_sub
+# End time: 14:56:48 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:00 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1136) Unknown identifier "operation_width".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): (vcom-1136) Unknown identifier "co".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 14:57:00 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:25 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1136) Unknown identifier "operation_width".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(22): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): (vcom-1136) Unknown identifier "co".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 14:57:25 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:58:20 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): (vcom-1136) Unknown identifier "co".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(23): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 14:58:20 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:58:37 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_behavioral of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(30): (vcom-1078) Identifier "signed" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.SIGNED (subtype declaration)
+#         ieee.std_logic_arith.SIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(31): (vcom-1078) Identifier "signed" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.SIGNED (subtype declaration)
+#         ieee.std_logic_arith.SIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(32): (vcom-1078) Identifier "signed" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.SIGNED (subtype declaration)
+#         ieee.std_logic_arith.SIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(33): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(41): Signal [mode IN port] "alu_input1" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(42): Signal [mode IN port] "alu_input2" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(49): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(49): Type error resolving infix expression "+" as type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(50): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(57): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(57): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(57): Type error resolving infix expression "or" as type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(58): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(64): (vcom-1604) No feasible entries for subprogram "TO_SIGNED" with expected return type "<ERROR>".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(65): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(66): (vcom-1581) No feasible entries for infix operator '>='.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(66): Type error resolving infix expression ">=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(67): (vcom-1604) No feasible entries for subprogram "TO_SIGNED" with expected return type "<ERROR>".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(68): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(76): (vcom-1604) No feasible entries for subprogram "TO_SIGNED" with expected return type "<ERROR>".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(77): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(78): (vcom-1581) No feasible entries for infix operator '<='.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(78): Type error resolving infix expression "<=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(79): (vcom-1604) No feasible entries for subprogram "TO_SIGNED" with expected return type "<ERROR>".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(80): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(89): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(90): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(98): (vcom-1604) No feasible entries for subprogram "TO_SIGNED" with expected return type "<ERROR>".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(99): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(100): (vcom-1581) No feasible entries for infix operator '/='.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(100): Type error resolving infix expression "/=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(101): (vcom-1604) No feasible entries for subprogram "TO_SIGNED" with expected return type "<ERROR>".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(102): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(118): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(118): Type error resolving infix expression "-" as type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(119): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(124): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(124): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(124): Type error resolving infix expression "xor" as type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(125): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(131): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(131): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.NUMERIC_STD.UNSIGNED (subtype declaration)
+#         ieee.std_logic_arith.UNSIGNED (type declaration)
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(131): Type error resolving infix expression "and" as type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(132): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(139): near "architecture": (vcom-1576) expecting ';'.
+# End time: 14:58:37 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 47, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:59:56 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(36): near "port": (vcom-1576) expecting ';'.
+# End time: 14:59:56 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:00:07 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(59): near "port": (vcom-1576) expecting ';'.
+# End time: 15:00:07 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:00:18 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(60): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(60): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(60): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(105): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(105): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(105): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Symbol "add_sub" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Statement cannot be labeled.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1136) Unknown identifier "log2".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): near "or": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(113): VHDL Compiler exiting
+# End time: 15:00:18 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 22, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:01:45 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(60): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(105): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(105): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(105): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Symbol "add_sub" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Statement cannot be labeled.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1136) Unknown identifier "log2".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): near "or": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(113): VHDL Compiler exiting
+# End time: 15:01:45 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:02:33 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Symbol "add_sub" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Statement cannot be labeled.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "nbit".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): near "or": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(114): VHDL Compiler exiting
+# End time: 15:02:33 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 19, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:05:00 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Symbol "add_sub" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Statement cannot be labeled.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "nbit".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): near "or": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(114): VHDL Compiler exiting
+# End time: 15:05:00 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:07:11 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1436) Actual expression (infix expression) of formal "d_in" is not globally static.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1035) Formal port "en" has OPEN or no actual associated with it.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Symbol "add_sub" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Statement cannot be labeled.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "nbit".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): near "or": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(114): VHDL Compiler exiting
+# End time: 15:07:12 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:08:11 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1436) Actual expression (infix expression) of formal "d_in" is not globally static.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(106): (vcom-1436) Actual expression (infix expression) of formal "en" is not globally static.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(107): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(108): near "register_1": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Symbol "add_sub" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): Statement cannot be labeled.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(109): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(110): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1136) Unknown identifier "nbit".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(111): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): (vcom-1590) Bad expression in left operand of infix expression 'and'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(112): near "or": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(114): VHDL Compiler exiting
+# End time: 15:08:12 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:36:25 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# ** Error: (vcom-11) Could not find ieee.std_logic_vector93.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(2): (vcom-1195) Cannot find expanded name "ieee.STD_LOGIC_VECTOR93".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(2): Unknown expanded name.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(4): VHDL Compiler exiting
+# End time: 15:36:25 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:36:41 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# ** Error: (vcom-11) Could not find ieee.std_logic_vector93.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(2): (vcom-1195) Cannot find expanded name "ieee.STD_LOGIC_VECTOR93".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(2): Unknown expanded name.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(4): VHDL Compiler exiting
+# End time: 15:36:41 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:37:02 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity final_mux_sel
+# -- Compiling architecture structural of final_mux_sel
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(13): near "sel": (vcom-1576) expecting BEGIN.
+# End time: 15:37:02 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:37:12 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity final_mux_sel
+# -- Compiling architecture structural of final_mux_sel
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(14): near "or": (vcom-1576) expecting ';'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(17): VHDL Compiler exiting
+# End time: 15:37:12 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:49:06 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity final_mux_sel
+# -- Compiling architecture structural of final_mux_sel
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(25): near "std_logic": (vcom-1576) expecting ':'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(27): (vcom-1136) Unknown identifier "tmp1".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(28): (vcom-1141) Identifier "and_2" does not identify a component declaration.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(29): (vcom-1141) Identifier "and_3" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(30): (vcom-1136) Unknown identifier "tmp1".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(30): (vcom-1136) Unknown identifier "tmp3".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(35): VHDL Compiler exiting
+# End time: 15:49:07 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:50:07 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity final_mux_sel
+# -- Compiling architecture structural of final_mux_sel
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(28): (vcom-1141) Identifier "and_2" does not identify a component declaration.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(29): (vcom-1141) Identifier "and_3" does not identify a component declaration.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd(35): VHDL Compiler exiting
+# End time: 15:50:07 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:50:22 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity final_mux_sel
+# -- Compiling architecture structural of final_mux_sel
+# End time: 15:50:22 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:54:05 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(133): Symbol "add_sub" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(133): (vcom-1141) Identifier "add_sub" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): Symbol "logic" has already been declared in this region.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1141) Identifier "logic" does not identify a component declaration.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Symbol "shifter" has already been declared in this region.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1141) Identifier "shifter" does not identify a component declaration.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 15:54:05 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:55:11 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1022) Formal part (enumeration literal '0') does not depict an interface object.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1023) Positional association (signal "logic_out") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1022) Formal part (enumeration literal '0') does not depict an interface object.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "ALU_type".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 15:55:12 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:56:35 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 15:56:36 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:58:00 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1022) Formal part (enumeration literal '0') does not depict an interface object.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "o".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "as_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "bs_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1022) Formal part (enumeration literal '0') does not depict an interface object.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "logic_out".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 15:58:00 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:58:54 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "o".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 15:58:54 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:02:17 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1590) Bad expression in right operand of infix expression '<'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1590) Bad expression in right operand of infix expression '<'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1590) Bad expression in right operand of infix expression '<'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1590) Bad expression in right operand of infix expression '<'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "o".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1590) Bad expression in right operand of infix expression '<'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:02:18 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:03:03 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): near ">": syntax error
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:03:03 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:03:59 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1022) Formal part (enumeration literal '0') does not depict an interface object.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "o".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "as_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "bs_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1022) Formal part (enumeration literal '0') does not depict an interface object.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "ALU_type".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1484) Unknown formal identifier "logic_out".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:03:59 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:07:01 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "o".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:07:01 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:08:43 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): near "<=": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Statement cannot be labeled.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:08:43 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:09:41 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "a".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "b".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1136) Unknown identifier "o".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:09:41 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:11:49 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): Formal "sel" index value 0 has already been specified on line 134.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(134): (vcom-1182) Formal "sel" index range (2 downto 0) implies 3 elements; 4 were associated.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:11:49 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:12:38 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): Cannot resolve expression type of range.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:12:38 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:14:40 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:14:40 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:14:57 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1136) Unknown identifier "sel".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1023) Positional association (signal "sr_en") found after named association.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1024) Individually associated formal "bs_shift" must be identified with a locally static name.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(135): (vcom-1484) Unknown formal identifier "bs_shift".
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd(140): VHDL Compiler exiting
+# End time: 16:14:58 on Oct 05,2021, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:15:16 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# -- Compiling configuration cfg_alu_str
+# -- Loading entity ALU
+# -- Loading architecture structural of ALU
+# -- Loading entity or_1
+# -- Loading entity add_sub
+# -- Loading entity logic
+# -- Loading entity shifter
+# -- Loading entity final_mux_sel
+# -- Loading entity MUX41
+# End time: 16:15:16 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:15:44 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(23): near "end": (vcom-1576) expecting IDENTIFIER.
+# End time: 16:15:44 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:16:09 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(38): (vcom-1136) Unknown identifier "operation_type".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(38): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 16:16:09 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:17:07 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(38): (vcom-1136) Unknown identifier "operation_type".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(38): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 16:17:07 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:17:29 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(48): (vcom-1136) Unknown identifier "co".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(48): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(48): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 16:17:29 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:17:39 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(49): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 16:17:39 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:17:57 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(81): Cannot read output "alu_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal "zero_out" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal [mode OUT port] "cond" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "zero_input" has OPEN or no actual associated with it.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "opcode" has OPEN or no actual associated with it.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(90): VHDL Compiler exiting
+# End time: 16:17:57 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:20:26 on Oct 05,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal "zero_out" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal [mode OUT port] "cond" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "zero_input" has OPEN or no actual associated with it.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "opcode" has OPEN or no actual associated with it.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(90): VHDL Compiler exiting
+# End time: 16:20:26 on Oct 05,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:22:24 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal "zero_out" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal [mode OUT port] "cond" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "zero_input" has OPEN or no actual associated with it.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "opcode" has OPEN or no actual associated with it.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(90): VHDL Compiler exiting
+# End time: 18:22:24 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:28:46 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(83): Signal [mode OUT port] "cond" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "zero_input" has OPEN or no actual associated with it.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "opcode" has OPEN or no actual associated with it.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(90): VHDL Compiler exiting
+# End time: 18:28:46 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:29:59 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "zero_input" has OPEN or no actual associated with it.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): (vcom-1035) Formal port "opcode" has OPEN or no actual associated with it.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(90): VHDL Compiler exiting
+# End time: 18:29:59 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:30:58 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(89): Signal "zero_out" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(90): VHDL Compiler exiting
+# End time: 18:30:58 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:32:29 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(70): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:32:30 on Oct 06,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:32:40 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# -- Compiling configuration phase3_cfg
+# -- Loading entity phase3
+# -- Loading architecture structural of phase3
+# -- Loading entity MUX21
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(95): 'ALU' must be the label of a BLOCK or GENERATE statement.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(95): near ";": (vcom-1576) expecting '[' or '.' or '(' or '\''.
+# End time: 18:32:41 on Oct 06,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:33:34 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# -- Compiling configuration phase3_cfg
+# -- Loading entity phase3
+# -- Loading architecture structural of phase3
+# -- Loading entity MUX21
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading entity ALU
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(95): 'ALU' must be the label of a BLOCK or GENERATE statement.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd(96): near "end": (vcom-1576) expecting '[' or '.' or '(' or '\''.
+# End time: 18:33:34 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:50:13 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find ieee.std_logic.
+# ** Error (suppressible): /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(4): (vcom-1195) Cannot find expanded name "ieee.std_logic".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(4): Unknown expanded name.
+# -- Loading package NUMERIC_STD
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(7): VHDL Compiler exiting
+# End time: 18:50:13 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:50:32 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(38): near "signal": syntax error
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(48): (vcom-1136) Unknown identifier "x".
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1136) Unknown identifier "row1".
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1136) Unknown identifier "row2".
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1136) Unknown identifier "row3".
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1136) Unknown identifier "row4".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(57): (vcom-1136) Unknown identifier "row5".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1136) Unknown identifier "row6".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(63): near "configuration": (vcom-1576) expecting END.
+# End time: 18:50:32 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:51:19 on Oct 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(48): (vcom-1136) Unknown identifier "x".
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(57): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1136) Unknown identifier "z".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(63): near "configuration": (vcom-1576) expecting END.
+# End time: 18:51:19 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:48:19 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(48): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(57): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(63): near "configuration": (vcom-1576) expecting END.
+# End time: 10:48:20 on Oct 08,2021, Elapsed time: 0:00:01
+# Errors: 17, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:49:03 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(48): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(57): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(63): near "configuration": (vcom-1576) expecting END.
+# End time: 10:49:03 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:50:21 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): Physical unit hidden by declaration of 'i' at line 49.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(50): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(57): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(63): near "configuration": (vcom-1576) expecting END.
+# End time: 10:50:21 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:51:12 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(51): Physical unit hidden by declaration of 'i' at line 50.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(51): Physical unit hidden by declaration of 'i' at line 50.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): Physical unit hidden by declaration of 'i' at line 53.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(54): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): Physical unit hidden by declaration of 'i' at line 57.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): Physical unit hidden by declaration of 'i' at line 57.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(58): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(59): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(65): near "configuration": (vcom-1576) expecting END.
+# End time: 10:51:12 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:54:22 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): Physical unit hidden by declaration of 'i' at line 51.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): Physical unit hidden by declaration of 'i' at line 55.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): Physical unit hidden by declaration of 'i' at line 59.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): Physical unit hidden by declaration of 'i' at line 59.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): Physical unit hidden by declaration of 'i' at line 63.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): Physical unit hidden by declaration of 'i' at line 63.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(67): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(72): VHDL Compiler exiting
+# End time: 10:54:22 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 8
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:55:17 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): Physical unit hidden by declaration of 'i' at line 59.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): Physical unit hidden by declaration of 'i' at line 59.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): Physical unit hidden by declaration of 'i' at line 63.
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): Physical unit hidden by declaration of 'i' at line 63.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(67): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(72): VHDL Compiler exiting
+# End time: 10:55:18 on Oct 08,2021, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 4
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:55:41 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(67): (vcom-1348) Prefix (component declaration "or_1") of indexed name is not an array.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): Cannot read output "z".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): (vcom-1348) Prefix (component declaration "exnor") of indexed name is not an array.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(72): VHDL Compiler exiting
+# End time: 10:55:41 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:56:59 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# -- Compiling configuration cfg_zero_str
+# -- Loading entity zero
+# -- Loading architecture structural of zero
+# -- Loading entity or_1
+# End time: 10:56:59 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:22:08 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(22): (vcom-1136) Unknown identifier "nbit".
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(22): Type error in range expression.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(30): near "opcode_s": (vcom-1576) expecting ';'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(32): VHDL Compiler exiting
+# End time: 11:22:08 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:22:19 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(30): near "opcode_s": (vcom-1576) expecting ';'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(32): VHDL Compiler exiting
+# End time: 11:22:19 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:23:01 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(31): near "opcode_s": (vcom-1576) expecting ';'.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(33): VHDL Compiler exiting
+# End time: 11:23:02 on Oct 08,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:23:49 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(31): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(33): VHDL Compiler exiting
+# End time: 11:23:49 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:24:42 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# End time: 11:24:42 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb -t 10ps
+# vsim work.tb -t 10ps 
+# Start time: 11:26:28 on Oct 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 11:26:28 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Load canceled
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:27:07 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# ** Error: (vcom-11) Could not find work.tb.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd(35): VHDL Compiler exiting
+# End time: 11:27:07 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:27:33 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity zero_tb
+# -- Loading architecture tb of zero_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading entity zero
+# End time: 11:27:33 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps WORK.cfg_tb
+# vsim -t 10ps WORK.cfg_tb 
+# Start time: 11:31:06 on Oct 08,2021
+# ** Error (suppressible): (vsim-19) Failed to access library 'WORK' at "WORK".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 11:31:06 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -t 10ps WORK/cfg_tb
+# vsim -t 10ps WORK/cfg_tb 
+# Start time: 11:33:30 on Oct 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit WORK/cfg_tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 11:33:30 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# vsim -t 10ps work.cfg_tb 
+# Start time: 11:37:36 on Oct 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): (vopt-3473) Component instance "/zero_tb/UUT/row_7 : exnor" is not bound.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(48): (vopt-1152) Index value 32 is out of index range 31 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vopt-1152) Index value 32 is out of index range 31 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vopt-1152) Index value 33 is out of index range 31 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(52): (vopt-1152) Index value 16 is out of index range 15 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vopt-1152) Index value 16 is out of index range 15 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vopt-1152) Index value 17 is out of index range 15 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(56): (vopt-1152) Index value 8 is out of index range 7 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vopt-1152) Index value 8 is out of index range 7 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vopt-1152) Index value 9 is out of index range 7 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(60): (vopt-1152) Index value 4 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vopt-1152) Index value 4 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vopt-1152) Index value 5 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(64): (vopt-1152) Index value 2 is out of index range 1 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(72): Vopt Compiler exiting
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# End time: 11:37:37 on Oct 08,2021, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:38:52 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# -- Compiling configuration cfg_zero_str
+# -- Loading entity zero
+# -- Loading architecture structural of zero
+# -- Loading entity or_1
+# End time: 11:38:52 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:38:56 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity zero_tb
+# -- Loading architecture tb of zero_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading entity zero
+# End time: 11:38:56 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# vsim -t 10ps work.cfg_tb 
+# Start time: 11:39:01 on Oct 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd(69): (vopt-3473) Component instance "/zero_tb/UUT/row_7 : exnor" is not bound.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cfg_tb#1
+# Loading work.zero_tb(tb)#1
+# Loading work.zero(structural)#1
+# ** Warning: (vsim-3473) Component instance "row_7 : exnor" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /zero_tb/UUT File: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /zero_tb/UUT/z, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /zero_tb/z_s.
+add waves *
+# ** Error: bad option "waves": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+add wave *
+run 400 ns
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:45:10 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd 
+# -- Loading package STANDARD
+# ** Error: /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd(2): near "-": (vcom-1576) expecting '[' or '.' or '(' or '\''.
+# End time: 11:45:10 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:45:45 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exnor
+# -- Compiling architecture structural of exnor
+# End time: 11:45:45 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:45:50 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 11:45:51 on Oct 08,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:45:53 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# -- Compiling configuration cfg_zero_str
+# -- Loading entity zero
+# -- Loading architecture structural of zero
+# -- Loading entity or_1
+# -- Loading entity exnor
+# End time: 11:45:53 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:45:55 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity zero_tb
+# -- Loading architecture tb of zero_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading entity zero
+# End time: 11:45:55 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:45:58 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity zero_tb
+# -- Loading architecture tb of zero_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading entity zero
+# End time: 11:45:58 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# End time: 11:46:13 on Oct 08,2021, Elapsed time: 0:07:12
+# Errors: 2, Warnings: 3
+# vsim -t 10ps work.cfg_tb 
+# Start time: 11:46:13 on Oct 08,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cfg_tb#1
+# Loading work.zero_tb(tb)#1
+# Loading work.zero(structural)#1
+# ** Warning: (vsim-3473) Component instance "row_7 : exnor" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /zero_tb/UUT File: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /zero_tb/UUT/z, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /zero_tb/z_s.
+run wave *
+# Invalid time value: wave *
+add wave *
+run 400 ns
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:48:15 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 11:48:15 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:48:17 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exnor
+# -- Compiling architecture structural of exnor
+# End time: 11:48:17 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:48:20 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# -- Compiling configuration cfg_zero_str
+# -- Loading entity zero
+# -- Loading architecture structural of zero
+# -- Loading entity or_1
+# -- Loading entity exnor
+# End time: 11:48:20 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:48:21 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity zero_tb
+# -- Loading architecture tb of zero_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading entity zero
+# End time: 11:48:22 on Oct 08,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# End time: 11:48:30 on Oct 08,2021, Elapsed time: 0:02:17
+# Errors: 1, Warnings: 2
+# vsim -t 10ps work.cfg_tb 
+# Start time: 11:48:30 on Oct 08,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cfg_tb#1
+# Loading work.zero_tb(tb)#1
+# Loading work.zero(structural)#1
+# ** Warning: (vsim-3473) Component instance "row_7 : exnor" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /zero_tb/UUT File: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /zero_tb/UUT/z, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /zero_tb/z_s.
+add wave *
+run 400 ns
+vsim -t 10ps work.cfg_tb
+# End time: 12:05:39 on Oct 08,2021, Elapsed time: 0:17:09
+# Errors: 0, Warnings: 2
+# vsim -t 10ps work.cfg_tb 
+# Start time: 12:05:39 on Oct 08,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cfg_tb#1
+# Loading work.zero_tb(tb)#1
+# Loading work.zero(structural)#1
+# ** Warning: (vsim-3473) Component instance "row_7 : exnor" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /zero_tb/UUT File: /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /zero_tb/UUT/z, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /zero_tb/z_s.
+add wave *
+run 4000 ns
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:21:29 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 12:21:29 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:21:32 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exnor
+# -- Compiling architecture structural of exnor
+# End time: 12:21:32 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:21:34 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# End time: 12:21:34 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:21:35 on Oct 08,2021
+# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero_tb
+# -- Compiling architecture tb of zero_tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity zero_tb
+# -- Loading architecture tb of zero_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading entity zero
+# End time: 12:21:35 on Oct 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 100ps work.cfg_tb
+# End time: 12:21:41 on Oct 08,2021, Elapsed time: 0:16:02
+# Errors: 0, Warnings: 2
+# vsim -t 100ps work.cfg_tb 
+# Start time: 12:21:41 on Oct 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cfg_tb#1
+# Loading work.zero_tb(tb)#1
+# Loading work.zero(structural)#1
+add wave *
+run 400 ns
+# End time: 12:22:49 on Oct 08,2021, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0

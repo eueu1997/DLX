@@ -1,0 +1,110 @@
+rchitecture ALU_behavioral of ALU is
+
+	signal alu_input1_int					:	signed(operand_width -1 downto 0);
+	signal alu_input2_int					:	signed(operand_width -1 downto 0);
+	signal alu_output_int1					:	signed(operand_width -1 downto 0);
+	signal alu_output_int2					:	unsigned(operand_width -1 downto 0);
+
+
+	
+	
+	
+begin
+
+	alu_input1_int <= alu_input1;
+	alu_input2_int <= alu_input2;
+	
+	process(alu_input1,alu_input2, alu_type)
+	begin
+	
+		--add
+		if alu_type = "" then
+			alu_output_int1		<= alu_input1_int + alu_input2_int;
+			alu_output		<= std_logic_vector(alu_output_int1);
+		end if;
+		
+
+
+		--or
+		if alu_type = "" then
+			alu_output_int2 	<= unsigned(alu_input1_int) or unsigned(alu_input2_int);
+			alu_output	<= std_logic_vector(alu_output_int2);
+		end if;
+
+
+		--sge
+		if alu_type = "" then
+			alu_output_int1		<= to_signed(0, 32);
+			alu_output		<= std_logic_vector(alu_output_int1);
+			if (alu_input1_int >= alu_input2_int) then
+				alu_output_int1 	<= to_signed(1, 32);
+				alu_output			<= std_logic_vector(alu_output_int1);
+			end if;
+		end if;
+
+
+
+		--sle
+		if alu_type = "" then
+			alu_output_int1		<= to_signed(0, 32);
+			alu_output		<= std_logic_vector(alu_output_int1	);
+			if (alu_input1_int <= alu_input2_int) then
+				alu_output_int1 	<= to_signed(1, 32);
+				alu_output			<= std_logic_vector(alu_output_int1);
+			end if;
+		end if;
+
+
+
+
+		--//sll
+		if alu_type = "" then
+			alu_output_int2	<= shift_left(unsigned(alu_input1_int) ,to_integer(alu_input2_int));
+			alu_output		<= std_logic_vector(alu_output_int2);
+		end if;	
+
+
+
+		--sne
+		--sge
+		if alu_type = "" then
+			alu_output_int1		<= to_signed(0, 32);
+			alu_output		<= std_logic_vector(alu_output_int1);
+			if (alu_input1_int /= alu_input2_int) then
+				alu_output_int1 	<= to_signed(1, 32);
+				alu_output			<= std_logic_vector(alu_output_int1);
+			end if;
+		end if;
+
+
+
+		--srl
+		if alu_type = "" then
+			alu_output_int2	<= shift_right(unsigned(alu_input1_int) ,to_integer(alu_input2_int));
+			alu_output		<= std_logic_vector(alu_output_int2);
+		end if;	
+
+
+
+		--sub
+		if alu_type = "" then
+			alu_output_int1		<= alu_input1_int - alu_input2_int;
+			alu_output		<= std_logic_vector(alu_output_int1);
+		end if;
+
+		--xor
+		if alu_type = "" then
+			alu_output_int2 	<= unsigned(alu_input1_int) xor unsigned(alu_input2_int);
+			alu_output			<= std_logic_vector(alu_output_int2);
+		end if;
+
+		--and
+		--or
+		if alu_type = "" then
+			alu_output_int2 	<= unsigned(alu_input1_int) and unsigned(alu_input2_int);
+			alu_output			<= std_logic_vector(alu_output_int2);
+		end if;
+
+	end process;
+
+end ALU_behavioral

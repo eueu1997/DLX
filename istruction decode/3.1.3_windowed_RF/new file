@@ -1,0 +1,57 @@
+F= numero di windows
+M = numero registri globali
+N = numero registri in IN/OUT/local
+
+dataout : out std_logic_ector(n-1 downto 0)
+addr : IN std_logic_vector(3-1 downto 0)
+signal addr': std_logic_vector(5-1 downto 0)
+SWP: 
+CWP
+CANSAVE : counter := F
+CANRESTORE : counter := 0
+
+IN A SUB
+process(READ,WRITE)
+if(call=1)
+cansave--
+cwp+=2*N
+if(cansave =1)
+spill()
+if(cpw= (F-1)*2*N)
+	if(addr<2*N)
+	addr'<=addr+cwp-----------%2*N* ( just take cwp(log2(2*N*F) downto 0)
+	elseif(2*N<=addr<3*N)
+	addr'= addr
+	else -- global register 
+	addr' <= (addr-3*N)+2*N*F
+else    N = 2 M=4 F = 3 X = 2*N*F +M = 16  
+	if(addr<3*N) -- IN/OUT/LOCAL registers 
+	addr'<= addr + cwp   -- addr'(4 downto 3) = cwp ; addr'( 2 downto 0 ) = addr
+	else -- GLOBAL registers
+	addr' <= (addr-3*N)+2*N*F
+
+SUBCALL
+
+if(call=1)&(cansave/=0)
+cansave--
+canrestore++
+cwp+=2*N
+if(cansave =0)
+spill()
+
+
+SUBRETURN
+if(return=1)
+cwp-=2*N
+cansave++
+carestore--
+if(canrestore =0 )
+restore()
+
+
+
+spill()
+for(i=0;i<2*N;i++)
+	dataout <= RF[SWP+i]
+
+swp+=2*N

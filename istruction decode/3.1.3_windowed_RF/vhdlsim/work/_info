@@ -1,0 +1,280 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.41/cap3/3.1.3/vhdlsim
+T_opt
+!s110 1619700535
+V5>1?_iE=YEYBTQNA3VU]e2
+04 11 0 work cfg_testwrf 1
+=1-5254009c17d7-608aab36-e32ad-2e6f
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Ccfg_rf_beh
+eregister_file
+aA
+DAx4 work 13 register_file 1 a 22 ^9OD8?5n@IOJ`hTggQnAd2
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DEx4 work 13 register_file 0 22 ihnESXeLV@Yk>ZPlgP6IT3
+Z8 w1618568118
+R0
+Z9 8/home/ms21.41/cap3/3.1.3/vhdlsim/registerfile.vhd
+Z10 F/home/ms21.41/cap3/3.1.3/vhdlsim/registerfile.vhd
+l0
+L63
+Ve`A7jIQQ^z78YlgeSTg9C3
+!s100 Q]ZVQ2zEH?G<KjdM[4]R=2
+Z11 OL;C;10.7c;67
+32
+Z12 !s110 1618589774
+!i10b 0
+Z13 !s108 1618589774.000000
+Z14 !s90 -reportprogress|300|-work|work|/home/ms21.41/cap3/3.1.3/vhdlsim/registerfile.vhd|
+Z15 !s107 /home/ms21.41/cap3/3.1.3/vhdlsim/registerfile.vhd|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Ccfg_testwrf
+eTBWREGISTERFILE
+aTESTA
+Z18 DEx4 work 11 windowed_rf 0 22 A8O`<WA>XBJOFm48[BEAk2
+DCx4 work 7 cfg_wrf 0 22 2224bLC=ljZnA>o<WDfo@2
+DAx4 work 15 tbwregisterfile 5 testa 22 QLozmYZSFW2FkASS65I^P3
+R2
+R1
+R5
+R6
+Z19 DEx4 work 15 tbwregisterfile 0 22 eU8mImBK39:2^^C]jNX[a2
+Z20 w1619700411
+R0
+Z21 8/home/ms21.41/cap3/3.1.3/vhdlsim/tb_registerfile.vhd
+Z22 F/home/ms21.41/cap3/3.1.3/vhdlsim/tb_registerfile.vhd
+l0
+L91
+V0KU2dh]oDkf_b>Hlga^D73
+!s100 5<ijXz5DV=fhbCoYQbYnM3
+R11
+32
+Z23 !s110 1619700489
+!i10b 0
+Z24 !s108 1619700489.000000
+Z25 !s90 -reportprogress|300|-work|work|/home/ms21.41/cap3/3.1.3/vhdlsim/tb_registerfile.vhd|
+Z26 !s107 /home/ms21.41/cap3/3.1.3/vhdlsim/tb_registerfile.vhd|
+!i113 0
+R16
+R17
+Ccfg_wrf
+eWINDOWED_RF
+abehavioral
+DAx4 work 11 windowed_rf 10 behavioral 22 geXjN[c3AbgX_JhJdoB]>1
+R2
+R1
+R5
+R6
+R18
+Z27 w1619606112
+R0
+Z28 8/home/ms21.41/cap3/3.1.3/vhdlsim/WIND_RF.vhd
+Z29 F/home/ms21.41/cap3/3.1.3/vhdlsim/WIND_RF.vhd
+l0
+L193
+V2224bLC=ljZnA>o<WDfo@2
+!s100 6agz5d[2<mcE4J5=Z7J9<1
+R11
+32
+Z30 !s110 1619606115
+!i10b 0
+Z31 !s108 1619606115.000000
+Z32 !s90 -reportprogress|300|-work|work|/home/ms21.41/cap3/3.1.3/vhdlsim/WIND_RF.vhd|
+Z33 !s107 /home/ms21.41/cap3/3.1.3/vhdlsim/WIND_RF.vhd|
+!i113 0
+R16
+R17
+Eregister_file
+R8
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R9
+R10
+l0
+L8
+VihnESXeLV@Yk>ZPlgP6IT3
+!s100 9m>0LFIJjQ^>hBLEiRU3A2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Aa
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+l35
+L27
+V^9OD8?5n@IOJ`hTggQnAd2
+!s100 S_<I_IimzZm5ZonbjzglV1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Etbregisterfile
+Z34 w1618829226
+R2
+R1
+R5
+R6
+R0
+R21
+R22
+l0
+L6
+V8Af;fz<BaS8F>B_[fJXe83
+!s100 A9GFljY8Nne=EeB6Gi7P:1
+R11
+32
+Z35 !s110 1618829420
+!i10b 1
+Z36 !s108 1618829420.000000
+R25
+R26
+!i113 0
+R16
+R17
+Atesta
+R2
+R1
+R5
+R6
+DEx4 work 14 tbregisterfile 0 22 8Af;fz<BaS8F>B_[fJXe83
+l62
+L9
+VjRGz9eX9I^HUWWh@mWCB62
+!s100 FAEAiLenD2nXckHdT4B9H0
+R11
+32
+R35
+!i10b 1
+R36
+R25
+R26
+!i113 0
+R16
+R17
+Etbwregisterfile
+R20
+R2
+R1
+R5
+R6
+R0
+R21
+R22
+l0
+L6
+VeU8mImBK39:2^^C]jNX[a2
+!s100 3OH?i2ZDB1:VfW=o_90IL2
+R11
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R16
+R17
+Atesta
+R2
+R1
+R5
+R6
+R19
+l62
+L9
+VQLozmYZSFW2FkASS65I^P3
+!s100 51lNF^4OPfUcan8G:oPmh3
+R11
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R16
+R17
+Ewindowed_rf
+R27
+R2
+R1
+R5
+R6
+R0
+R28
+R29
+l0
+L6
+VA8O`<WA>XBJOFm48[BEAk2
+!s100 8IL3C9bU4jzi3Q5S>7c]82
+R11
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R16
+R17
+Abehavioral
+R2
+R1
+R5
+R6
+R18
+l108
+L37
+VgeXjN[c3AbgX_JhJdoB]>1
+!s100 WG6IzDz@jHO:EH<VO;5fb0
+R11
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R16
+R17

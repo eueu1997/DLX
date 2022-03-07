@@ -1,0 +1,66 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : P4_ADDER
+Version: F-2011.09-SP3
+Date   : Thu Jul 29 11:37:28 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CLA_U/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)     0.00       0.00 f
+  CLA_U/U7/Z (XOR2_X1)                                    0.08       0.08 f
+  CLA_U/PG_GEN_1_5_1/pik (PG_0)                           0.00       0.08 f
+  CLA_U/PG_GEN_1_5_1/U3/ZN (AOI21_X1)                     0.05       0.13 r
+  CLA_U/PG_GEN_1_5_1/U2/ZN (INV_X1)                       0.02       0.15 f
+  CLA_U/PG_GEN_1_5_1/gij (PG_0)                           0.00       0.15 f
+  CLA_U/G_GEN_1_4_0/gik (G_8)                             0.00       0.15 f
+  CLA_U/G_GEN_1_4_0/U2/ZN (AOI21_X1)                      0.05       0.20 r
+  CLA_U/G_GEN_1_4_0/U1/ZN (INV_X1)                        0.04       0.24 f
+  CLA_U/G_GEN_1_4_0/gij (G_8)                             0.00       0.24 f
+  CLA_U/G_GEN_2_3_0_0/gik_1 (G_7)                         0.00       0.24 f
+  CLA_U/G_GEN_2_3_0_0/U2/ZN (AOI21_X1)                    0.05       0.29 r
+  CLA_U/G_GEN_2_3_0_0/U1/ZN (INV_X1)                      0.04       0.33 f
+  CLA_U/G_GEN_2_3_0_0/gij (G_7)                           0.00       0.33 f
+  CLA_U/G_GEN_2_2_0_1/gik_1 (G_5)                         0.00       0.33 f
+  CLA_U/G_GEN_2_2_0_1/U2/ZN (AOI21_X1)                    0.05       0.39 r
+  CLA_U/G_GEN_2_2_0_1/U1/ZN (INV_X1)                      0.05       0.43 f
+  CLA_U/G_GEN_2_2_0_1/gij (G_5)                           0.00       0.43 f
+  CLA_U/G_GEN_2_1_0_2/gik_1 (G_2)                         0.00       0.43 f
+  CLA_U/G_GEN_2_1_0_2/U2/ZN (AOI21_X1)                    0.06       0.50 r
+  CLA_U/G_GEN_2_1_0_2/U1/ZN (INV_X1)                      0.04       0.53 f
+  CLA_U/G_GEN_2_1_0_2/gij (G_2)                           0.00       0.53 f
+  CLA_U/Co[7] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)
+                                                          0.00       0.53 f
+  SG_U/Ci[7] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)     0.00       0.53 f
+  SG_U/CS_I_8/Cin (CARRY_SELECT_N_BIT4_1)                 0.00       0.53 f
+  SG_U/CS_I_8/MUX_OUT/SEL (MUX21_NBIT4_1)                 0.00       0.53 f
+  SG_U/CS_I_8/MUX_OUT/U1/Z (MUX2_X1)                      0.07       0.60 r
+  SG_U/CS_I_8/MUX_OUT/Y[3] (MUX21_NBIT4_1)                0.00       0.60 r
+  SG_U/CS_I_8/S[3] (CARRY_SELECT_N_BIT4_1)                0.00       0.60 r
+  SG_U/S[31] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)     0.00       0.60 r
+  S[31] (out)                                             0.00       0.60 r
+  data arrival time                                                  0.60
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

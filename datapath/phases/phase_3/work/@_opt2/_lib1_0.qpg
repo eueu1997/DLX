@@ -1,0 +1,1643 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.41/Desktop/datapath/phases/phase_3
+T_opt
+!s110 1633688501
+V8[EEk:VAI6>2V^Vd21^bG0
+04 6 0 work cfg_tb 1
+=1-5254009c17d7-61601bb5-6dd72-31c6
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1633691633
+V4W>OGh>aI?[^DW7cAzf<R0
+04 7 0 work cfg_tb1 1
+=1-5254009c17d7-616027f1-ae51-4d3
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1634381085
+V`jXHBzJAkn5^?Bi7Rln^21
+04 12 0 work cfg_logic_tb 1
+=1-5254009c17d7-616aad1d-45f86-6725
+R1
+R2
+n@_opt2
+R3
+Eadd_sub
+Z4 w1632991661
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z7 8/home/ms21.41/Desktop/datapath/phases/phase_3/add_sub.vhd
+Z8 F/home/ms21.41/Desktop/datapath/phases/phase_3/add_sub.vhd
+l0
+L4
+V_7>hdbP@TeCK]:A]=oQIB1
+!s100 8MC300fZ4fDT^GG0f[nnf1
+Z9 OL;C;10.7c;67
+32
+Z10 !s110 1633691149
+!i10b 1
+Z11 !s108 1633691149.000000
+Z12 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/add_sub.vhd|
+Z13 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/add_sub.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Astructural
+R5
+R6
+Z16 DEx4 work 7 add_sub 0 22 _7>hdbP@TeCK]:A]=oQIB1
+l46
+L16
+VE?Ha@_XlIFHc:7]lmN84]0
+!s100 n^dA0hC1:;JL_c?8znaN?3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eadd_sub_tb
+Z17 w1633691619
+R5
+R6
+R0
+Z18 8/home/ms21.41/Desktop/datapath/phases/phase_3/add_sub_tb.vhd
+Z19 F/home/ms21.41/Desktop/datapath/phases/phase_3/add_sub_tb.vhd
+l0
+L4
+VGFPMd1MzKY`[df35bUlzY3
+!s100 G?=00dJGIng7:R2R8LkEI3
+R9
+32
+Z20 !s110 1633691624
+!i10b 1
+Z21 !s108 1633691624.000000
+Z22 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/add_sub_tb.vhd|
+Z23 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/add_sub_tb.vhd|
+!i113 0
+R14
+R15
+Atb
+R5
+R6
+Z24 DEx4 work 10 add_sub_tb 0 22 GFPMd1MzKY`[df35bUlzY3
+l25
+L7
+V5VOd[UMG3OTMB[TZFokCm3
+!s100 7WKeT[CC<186QgS>Ui[191
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R14
+R15
+Ealu
+Z25 w1633443313
+Z26 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z27 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R5
+R6
+R0
+Z30 8/home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+Z31 F/home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd
+l0
+L11
+VR@ejClE>CMcQbg6;j=M8C2
+!s100 Ui>FX[l@U[EIm4MQ4ChhT1
+R9
+32
+Z32 !s110 1633443316
+!i10b 1
+Z33 !s108 1633443316.000000
+Z34 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd|
+Z35 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/ALU.vhd|
+!i113 0
+R14
+R15
+Astructural
+R26
+R27
+R28
+R29
+R5
+R6
+Z36 DEx4 work 3 alu 0 22 R@ejClE>CMcQbg6;j=M8C2
+l118
+L31
+VG6MD@n`7Xe^>L6][4PUM@0
+!s100 6AjWMG1NND=0^mdmJ:Az72
+R9
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 0
+R14
+R15
+Eand32
+Z37 w1634379655
+R5
+R6
+R0
+Z38 8/home/ms21.41/Desktop/datapath/phases/phase_3/and32.vhd
+Z39 F/home/ms21.41/Desktop/datapath/phases/phase_3/and32.vhd
+l0
+L4
+V[zIAkAkS1o@=]U>;WBKRL2
+!s100 mDH?WHTfm76XAbVF>36ZL3
+R9
+32
+Z40 !s110 1634379679
+!i10b 1
+Z41 !s108 1634379679.000000
+Z42 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/and32.vhd|
+Z43 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/and32.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 5 and32 0 22 [zIAkAkS1o@=]U>;WBKRL2
+l13
+L11
+VHg>;MbA`WQIlKBN;kYNLB3
+!s100 SGj3T@cjlZ??ZYJjd?10o0
+R9
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R14
+R15
+Eand_32
+Z44 w1634379870
+R5
+R6
+R0
+Z45 8/home/ms21.41/Desktop/datapath/phases/phase_3/and_32.vhd
+Z46 F/home/ms21.41/Desktop/datapath/phases/phase_3/and_32.vhd
+l0
+L4
+VP5h4@O`g;T>ec7[EkfNeo3
+!s100 ;=_g9>8JGhICVd@J=Oe0T0
+R9
+32
+Z47 !s110 1634380532
+!i10b 1
+Z48 !s108 1634380532.000000
+Z49 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/and_32.vhd|
+Z50 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/and_32.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 6 and_32 0 22 P5h4@O`g;T>ec7[EkfNeo3
+l13
+L11
+VP^I943J32bgKEU_;92lzJ0
+!s100 QaekQEi69>mzb0h6N5L;B3
+R9
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 0
+R14
+R15
+Ecarry_generator
+Z51 w1617806105
+Z52 DPx4 work 9 constants 0 22 LDG1jg>QdmLMC]HcdmRmg3
+R26
+R27
+R5
+R6
+R0
+Z53 8/home/ms21.41/Desktop/datapath/phases/phase_3/carry_generator.vhd
+Z54 F/home/ms21.41/Desktop/datapath/phases/phase_3/carry_generator.vhd
+l0
+L7
+V0_:gnz@Z2;PPm8GdUNBIi0
+!s100 4aDm14@im01Y@:TkRNfe@3
+R9
+32
+Z55 !s110 1633689776
+!i10b 1
+Z56 !s108 1633689776.000000
+Z57 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/carry_generator.vhd|
+Z58 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/carry_generator.vhd|
+!i113 0
+R14
+R15
+Astructural
+R52
+R26
+R27
+R5
+R6
+Z59 DEx4 work 15 carry_generator 0 22 0_:gnz@Z2;PPm8GdUNBIi0
+l47
+L18
+VVboQe=9AfM`o23<fk9Qha2
+!s100 LoA9WJMjieXId874>Cn^33
+R9
+32
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 0
+R14
+R15
+Ecarry_select
+Z60 w1617874099
+R52
+R5
+R6
+R0
+Z61 8/home/ms21.41/Desktop/datapath/phases/phase_3/carry_select.vhd
+Z62 F/home/ms21.41/Desktop/datapath/phases/phase_3/carry_select.vhd
+l0
+L6
+VF=i]Ref]=L2KQc:MTz9ze3
+!s100 _3Eh3EZ_Si?7?i<MPl[cJ0
+R9
+32
+Z63 !s110 1633689773
+!i10b 1
+Z64 !s108 1633689773.000000
+Z65 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/carry_select.vhd|
+Z66 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/carry_select.vhd|
+!i113 0
+R14
+R15
+Astructural
+R52
+R5
+R6
+Z67 DEx4 work 12 carry_select 0 22 F=i]Ref]=L2KQc:MTz9ze3
+l39
+L14
+VD6d]2f=>BlOZ?ZeXJbFAD0
+!s100 GN8d[N<iMa2OhgWQjl8;V1
+R9
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 0
+R14
+R15
+Ccfg_alu_str
+eALU
+Z68 astructural
+Z69 DEx4 work 5 mux41 0 22 31=AzS>JzMkMjfMdbIk9g0
+Z70 DEx4 work 13 final_mux_sel 0 22 ;HD5B0kNNR`BoPk;[;0WH2
+DEx4 work 7 shifter 0 22 jefhCl<=JGkYDQ2F[1A923
+Z71 DEx4 work 5 logic 0 22 J8=2mlFoTch`:T9nf<aS@2
+R16
+Z72 DEx4 work 4 or_1 0 22 7^m[P4NJGi93KJWC1=2L@1
+DAx4 work 3 alu 10 structural 22 G6MD@n`7Xe^>L6][4PUM@0
+R26
+R27
+R28
+R29
+R5
+R6
+R36
+R25
+R0
+R30
+R31
+l0
+L142
+VO_5g]Z`mXzlSh>HbYT9;00
+!s100 d4VKO8^kMXU@45<oc54Fi0
+R9
+32
+R32
+!i10b 0
+R33
+R34
+R35
+!i113 0
+R14
+R15
+Ccfg_carry_generator_structural
+eCARRY_GENERATOR
+Z73 aSTRUCTURAL
+Z74 DEx4 work 1 g 0 22 DjlPB`l2;Db]zWz@BD<P42
+Z75 DEx4 work 2 pg 0 22 :UzEEzJC_K>87X9oK4DL60
+DAx4 work 15 carry_generator 10 structural 22 VboQe=9AfM`o23<fk9Qha2
+R52
+R26
+R27
+R5
+R6
+R59
+R51
+R0
+R53
+R54
+l0
+L124
+Vni1d^B]RZ9>BEdk1[TlKL3
+!s100 hOcM=GbgOXhRnNNdPANLN2
+R9
+32
+R55
+!i10b 0
+R56
+R57
+R58
+!i113 0
+R14
+R15
+Ccfg_carry_select_structural
+eCARRY_SELECT
+R73
+Z76 DEx4 work 5 mux21 0 22 RSKXK2ZdkSP37VEPIbG:01
+Z77 DEx4 work 3 rca 0 22 Ef6_XUVdPPEfD1?5SFH<B2
+DCx4 work 20 cfg_mux21_behavioral 0 22 Tj<maO_7GVR65NE8f4QiP2
+R28
+R29
+DCx4 work 18 cfg_rca_structural 0 22 1^@z>k?`Wb?1`8nB0ZJ6>2
+DAx4 work 12 carry_select 10 structural 22 D6d]2f=>BlOZ?ZeXJbFAD0
+R52
+R5
+R6
+R67
+R60
+R0
+R61
+R62
+l0
+L54
+VEZfFk8^b0[bUPe;_>078l0
+!s100 BoeWX^<c1ZaM[SkbdoFI]3
+R9
+32
+R63
+!i10b 0
+R64
+R65
+R66
+!i113 0
+R14
+R15
+Ccfg_fa_behavioral
+eFA
+Z78 aBEHAVIORAL
+DAx4 work 2 fa 10 behavioral 22 VN4zj<1UDaI=Q>fmVIbH21
+R5
+R6
+Z79 DEx4 work 2 fa 0 22 @IjnZ7??KFC`DOlen7^781
+Z80 w1617874124
+R0
+Z81 8/home/ms21.41/Desktop/datapath/phases/phase_3/fa.vhd
+Z82 F/home/ms21.41/Desktop/datapath/phases/phase_3/fa.vhd
+l0
+L21
+VNPQMC<oE<8CcT6^oMIFj32
+!s100 >Bdj?3K]:j@Xai4Gj1gaR2
+R9
+32
+Z83 !s110 1633689744
+!i10b 0
+Z84 !s108 1633689744.000000
+Z85 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/fa.vhd|
+Z86 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/fa.vhd|
+!i113 0
+R14
+R15
+Ccfg_g_beh
+eG
+Z87 abehavioral
+DAx4 work 1 g 10 behavioral 22 KX4hE1PN9AO9FY_5^f[0C2
+R5
+R6
+R74
+Z88 w1617797208
+R0
+Z89 8/home/ms21.41/Desktop/datapath/phases/phase_3/G.vhd
+Z90 F/home/ms21.41/Desktop/datapath/phases/phase_3/G.vhd
+l0
+L16
+VG7k]SSXiO<>Z^TRZCKT]f0
+!s100 i3O_e?T;OR]3J^85I8^Zl2
+R9
+32
+Z91 !s110 1633689588
+!i10b 0
+Z92 !s108 1633689588.000000
+Z93 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/G.vhd|
+Z94 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/G.vhd|
+!i113 0
+R14
+R15
+Ccfg_logic_tb
+elogic_tb
+atb
+R71
+DAx4 work 8 logic_tb 2 tb 22 X7nAeWz4]6A;U2?[oK8CK1
+R5
+R6
+Z95 DEx4 work 8 logic_tb 0 22 3?zcT^edW35EHldPjYEZ02
+Z96 w1634381050
+R0
+Z97 8/home/ms21.41/Desktop/datapath/phases/phase_3/logic_tb.vhd
+Z98 F/home/ms21.41/Desktop/datapath/phases/phase_3/logic_tb.vhd
+l0
+L33
+Va_>:8mBNACWX::ZE^KCbg3
+!s100 O_d]d7L;mc7gGmTcBnnf10
+R9
+32
+Z99 !s110 1634381074
+!i10b 0
+Z100 !s108 1634381074.000000
+Z101 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/logic_tb.vhd|
+Z102 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/logic_tb.vhd|
+!i113 0
+R14
+R15
+Ccfg_mux21_behavioral
+eMUX21
+R78
+DAx4 work 5 mux21 10 behavioral 22 dXc0SJWLH50K4P3<XYNXY0
+R5
+R6
+R76
+Z103 w1631452122
+R0
+Z104 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd
+Z105 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd
+l0
+L19
+VTj<maO_7GVR65NE8f4QiP2
+!s100 ?hbOzU=M>ZIH_CoQE]Shm0
+R9
+32
+Z106 !s110 1633689758
+!i10b 0
+Z107 !s108 1633689758.000000
+Z108 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd|
+Z109 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd|
+!i113 0
+R14
+R15
+Ccfg_p4_adder_beh
+Z110 eP4_ADDER
+R87
+DAx4 work 8 p4_adder 10 behavioral 22 K2<WI:0B3S<L][GnIK62g2
+R28
+R29
+R5
+R6
+Z111 DEx4 work 8 p4_adder 0 22 V7AB`zM`LG?cKo:DBQkGQ1
+Z112 w1628161829
+R0
+Z113 8/home/ms21.41/Desktop/datapath/phases/phase_3/adder.vhd
+Z114 F/home/ms21.41/Desktop/datapath/phases/phase_3/adder.vhd
+l0
+L67
+VWg]?aVAGR;[RK`N4l_XNR0
+!s100 m;fhm5]EGBKlC5W@^j^lj1
+R9
+32
+Z115 !s110 1633689784
+!i10b 0
+Z116 !s108 1633689784.000000
+Z117 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/adder.vhd|
+Z118 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/adder.vhd|
+!i113 0
+R14
+R15
+Ccfg_p4_adder_structural
+R110
+R73
+Z119 DEx4 work 13 sum_generator 0 22 `A]8?D]_;gaoH;Q9Z7J[P0
+R59
+DCx4 work 28 cfg_sum_generator_structural 0 22 a837I51UMcEZNJ093?5=^0
+R52
+R26
+R27
+DCx4 work 30 cfg_carry_generator_structural 0 22 ni1d^B]RZ9>BEdk1[TlKL3
+DAx4 work 8 p4_adder 10 structural 22 cQI;_oTO:DLY`fRYL:23I2
+R28
+R29
+R5
+R6
+R111
+R112
+R0
+R113
+R114
+l0
+L57
+VljXC^WSQOdo>PfFoGfCa;3
+!s100 J2>O8_1kaeb@Rj_[PV3]P0
+R9
+32
+R115
+!i10b 0
+R116
+R117
+R118
+!i113 0
+R14
+R15
+Ccfg_pg_beh
+ePG
+R87
+DAx4 work 2 pg 10 behavioral 22 `6ocODG9IM=zNa3=3]BI_1
+R5
+R6
+R75
+Z120 w1617874976
+R0
+Z121 8/home/ms21.41/Desktop/datapath/phases/phase_3/PG.vhd
+Z122 F/home/ms21.41/Desktop/datapath/phases/phase_3/PG.vhd
+l0
+L19
+V<[PU?z>MgohMW?41VDNmL2
+!s100 ?MbAJ0>@GFf?IL[265hl52
+R9
+32
+Z123 !s110 1633689590
+!i10b 0
+Z124 !s108 1633689590.000000
+Z125 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/PG.vhd|
+Z126 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/PG.vhd|
+!i113 0
+R14
+R15
+Ccfg_rca_behavioral
+eRCA
+R78
+DAx4 work 3 rca 10 behavioral 22 M0Q7J8G8E34fdAmjfK]232
+R28
+R29
+R5
+R6
+R77
+Z127 w1617874190
+R0
+Z128 8/home/ms21.41/Desktop/datapath/phases/phase_3/rca.vhd
+Z129 F/home/ms21.41/Desktop/datapath/phases/phase_3/rca.vhd
+l0
+L70
+V<V2=zf:Tmbn1@a[c_l;RL3
+!s100 9J^1?UPjKQXToIGOhHN_l1
+R9
+32
+Z130 !s110 1632989771
+!i10b 0
+Z131 !s108 1632989771.000000
+Z132 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/rca.vhd|
+Z133 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/rca.vhd|
+!i113 0
+R14
+R15
+Ccfg_rca_structural
+eRCA
+R73
+R79
+DCx4 work 17 cfg_fa_behavioral 0 22 NPQMC<oE<8CcT6^oMIFj32
+DAx4 work 3 rca 10 structural 22 >lzCXQkO3<98aMN0<KAlz1
+R28
+R29
+R5
+R6
+R77
+R127
+R0
+R128
+R129
+l0
+L60
+V1^@z>k?`Wb?1`8nB0ZJ6>2
+!s100 `A5J_F]HH_UbfX<G45^c03
+R9
+32
+R130
+!i10b 0
+R131
+R132
+R133
+!i113 0
+R14
+R15
+Ccfg_sum_generator_structural
+eSUM_GENERATOR
+R73
+R67
+R52
+DCx4 work 27 cfg_carry_select_structural 0 22 EZfFk8^b0[bUPe;_>078l0
+DAx4 work 13 sum_generator 10 structural 22 NUjR[F@1_fgDJB]nECR?f1
+R5
+R6
+R119
+Z134 w1617036445
+R0
+Z135 8/home/ms21.41/Desktop/datapath/phases/phase_3/sum_generator.vhd
+Z136 F/home/ms21.41/Desktop/datapath/phases/phase_3/sum_generator.vhd
+l0
+L39
+Va837I51UMcEZNJ093?5=^0
+!s100 <GmbZ4VX`k9zoHQaNRIJ61
+R9
+32
+Z137 !s110 1632989795
+!i10b 0
+Z138 !s108 1632989795.000000
+Z139 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/sum_generator.vhd|
+Z140 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/sum_generator.vhd|
+!i113 0
+R14
+R15
+Ccfg_tb
+ezero_tb
+atb
+R29
+R28
+R27
+Z141 DEx4 work 4 zero 0 22 O9z]kZ<nYjD2D9DM5DOGI1
+DAx4 work 7 zero_tb 2 tb 22 `m]8=^HaiCNmYH9mJK64B3
+R5
+R6
+Z142 DEx4 work 7 zero_tb 0 22 MSoo5=VYcZfOeA>9nAWan3
+Z143 w1633687636
+R0
+Z144 8/home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+Z145 F/home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd
+l0
+L35
+VX:KUAUfm]z[IHJ0ZoVW`f3
+!s100 ^F=DjcZi:?NVKLfT33_P]3
+R9
+32
+Z146 !s110 1633688495
+!i10b 0
+Z147 !s108 1633688495.000000
+Z148 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd|
+Z149 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/zero_tb.vhd|
+!i113 0
+R14
+R15
+Ccfg_tb1
+eadd_sub_tb
+atb
+R16
+DAx4 work 10 add_sub_tb 2 tb 22 5VOd[UMG3OTMB[TZFokCm3
+R5
+R6
+R24
+R17
+R0
+R18
+R19
+l0
+L35
+V5I8:YP<dQ`z:nXeAo4m_k2
+!s100 TaG6hB`N4OXBHmDi8:nom0
+R9
+32
+R20
+!i10b 0
+R21
+R22
+R23
+!i113 0
+R14
+R15
+Ccfg_zero_str
+ezero
+R68
+Z150 DEx4 work 5 exnor 0 22 6RZKEU=8?@Xd175MbUV6?1
+R72
+DAx4 work 4 zero 10 structural 22 J]FIj0cQ>mJ7FjbH3DHZ02
+R27
+R28
+R29
+R5
+R6
+DEx4 work 4 zero 0 22 O]bU0id:6G:;?SXPYmHH^1
+w1633685923
+R0
+Z151 8/home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+Z152 F/home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd
+l0
+L74
+V[YAA6?Q;NOUFm6MW^AB^V3
+!s100 A@UYb?e;2bOfzT=OcQ1_I0
+R9
+32
+!s110 1633686500
+!i10b 0
+!s108 1633686500.000000
+Z153 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd|
+Z154 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/zero.vhd|
+!i113 0
+R14
+R15
+Pconstants
+w1617874106
+R0
+8/home/ms21.41/Desktop/datapath/phases/phase_3/constants.vhd
+F/home/ms21.41/Desktop/datapath/phases/phase_3/constants.vhd
+l0
+L1
+VLDG1jg>QdmLMC]HcdmRmg3
+!s100 <BS5I82dg74WBU@FBZObR0
+R9
+32
+!s110 1633689597
+!i10b 1
+!s108 1633689597.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/constants.vhd|
+!s107 /home/ms21.41/Desktop/datapath/phases/phase_3/constants.vhd|
+!i113 0
+R14
+R15
+Eexnor
+Z155 w1633686341
+R5
+R6
+R0
+Z156 8/home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd
+Z157 F/home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd
+l0
+L4
+V6RZKEU=8?@Xd175MbUV6?1
+!s100 ^:=b<Y>bO:9kdzQ3aP_5d2
+R9
+32
+Z158 !s110 1633688492
+!i10b 1
+Z159 !s108 1633688492.000000
+Z160 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd|
+Z161 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/exnor.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+R150
+l13
+L11
+VmV7DmRCG?9LYDD2_i7`o03
+!s100 0X20Y5kF[aNTD30WJ_:n92
+R9
+32
+R158
+!i10b 1
+R159
+R160
+R161
+!i113 0
+R14
+R15
+Efa
+R80
+R5
+R6
+R0
+R81
+R82
+l0
+L4
+V@IjnZ7??KFC`DOlen7^781
+!s100 ?=7GSNh2i_P381A[`Sd]i2
+R9
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R6
+R79
+l14
+L12
+VVN4zj<1UDaI=Q>fmVIbH21
+!s100 M@@WaOI_<AlQeUTGTcBZk0
+R9
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 0
+R14
+R15
+Efinal_mux_sel
+Z162 w1633441819
+R5
+R6
+R0
+Z163 8/home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+Z164 F/home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd
+l0
+L4
+V;HD5B0kNNR`BoPk;[;0WH2
+!s100 ^UC1R2``IGDNJZ@6c^6D]1
+R9
+32
+Z165 !s110 1633441822
+!i10b 1
+Z166 !s108 1633441822.000000
+Z167 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd|
+Z168 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/final_mux_sel.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+R70
+l26
+L11
+V?:mbZAchI4ioCHYmU_gUf3
+!s100 _^E1QI4j3[?CPXY5o5ija0
+R9
+32
+R165
+!i10b 1
+R166
+R167
+R168
+!i113 0
+R14
+R15
+Eg
+R88
+R5
+R6
+R0
+R89
+R90
+l0
+L4
+VDjlPB`l2;Db]zWz@BD<P42
+!s100 Yie0MDdibMFA9Nd^_AH0U1
+R9
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R6
+R74
+l12
+L11
+VKX4hE1PN9AO9FY_5^f[0C2
+!s100 f;c]W1=[?6O2_WG2j;BC42
+R9
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 0
+R14
+R15
+Elogic
+Z169 w1634380506
+R5
+R6
+R0
+Z170 8/home/ms21.41/Desktop/datapath/phases/phase_3/logic.vhd
+Z171 F/home/ms21.41/Desktop/datapath/phases/phase_3/logic.vhd
+l0
+L4
+VJ8=2mlFoTch`:T9nf<aS@2
+!s100 gT4;niKOgSd2mKz6GMeXc2
+R9
+32
+Z172 !s110 1634380546
+!i10b 1
+Z173 !s108 1634380546.000000
+Z174 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/logic.vhd|
+Z175 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/logic.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+R71
+l50
+L14
+V5a3hU?<5F4HAIgVz<O@AH0
+!s100 Mo=fac_^JdVW4>VAK=_>d3
+R9
+32
+R172
+!i10b 1
+R173
+R174
+R175
+!i113 0
+R14
+R15
+Elogic_tb
+R96
+R5
+R6
+R0
+R97
+R98
+l0
+L4
+V3?zcT^edW35EHldPjYEZ02
+!s100 9k>gVaU?<>ZIamhlSAQRD1
+R9
+32
+R99
+!i10b 1
+R100
+R101
+R102
+!i113 0
+R14
+R15
+Atb
+R5
+R6
+R95
+l22
+L7
+VX7nAeWz4]6A;U2?[oK8CK1
+!s100 ^8?YPGD4O5zO0h<QITc1g0
+R9
+32
+R99
+!i10b 1
+R100
+R101
+R102
+!i113 0
+R14
+R15
+Emux21
+R103
+R5
+R6
+R0
+R104
+R105
+l0
+L6
+VRSKXK2ZdkSP37VEPIbG:01
+!s100 B6>ABHTo^aHW0e>[UX69@3
+R9
+32
+R106
+!i10b 1
+R107
+R108
+R109
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R6
+R76
+l15
+L14
+VdXc0SJWLH50K4P3<XYNXY0
+!s100 E1[mQdUe7MFEfCg^oTm2l3
+R9
+32
+R106
+!i10b 1
+R107
+R108
+R109
+!i113 0
+R14
+R15
+Emux41
+Z176 w1631452375
+R5
+R6
+R0
+Z177 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd
+Z178 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd
+l0
+L6
+V31=AzS>JzMkMjfMdbIk9g0
+!s100 PDSOggmTZ@CYjF1hoEi@P2
+R9
+32
+Z179 !s110 1632989821
+!i10b 1
+Z180 !s108 1632989821.000000
+Z181 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd|
+Z182 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+R69
+l25
+L16
+VlAmzB0neAAk]E5lE1ZMbH1
+!s100 maFUcP]OYgQdmf7nLO3]f1
+R9
+32
+R179
+!i10b 1
+R180
+R181
+R182
+!i113 0
+R14
+R15
+Emux81
+Z183 w1631452836
+R5
+R6
+R0
+Z184 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd
+Z185 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd
+l0
+L6
+V7cEI@nK[Y=Y`^bcHLYUFz2
+!s100 C0fmYVjDE4EQlgdTaYk_l3
+R9
+32
+Z186 !s110 1632989824
+!i10b 1
+Z187 !s108 1632989824.000000
+Z188 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd|
+Z189 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 5 mux81 0 22 7cEI@nK[Y=Y`^bcHLYUFz2
+l38
+L20
+Vf@[ddJY]_F0@ESnL=>2??2
+!s100 1?3gk7>>^cU0=0DM<CYh60
+R9
+32
+R186
+!i10b 1
+R187
+R188
+R189
+!i113 0
+R14
+R15
+Enand32
+Z190 w1634380279
+R5
+R6
+R0
+Z191 8/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd
+Z192 F/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd
+l0
+L4
+Vh[_Clj2>kRo>gDXFf8IcB0
+!s100 ]]bV30i5V4^U3JI<Mz4EW2
+R9
+32
+Z193 !s110 1634380539
+!i10b 1
+Z194 !s108 1634380539.000000
+Z195 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd|
+Z196 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 6 nand32 0 22 h[_Clj2>kRo>gDXFf8IcB0
+l14
+L13
+VNo2aIXjWPP=^EiRfLJ`SI0
+!s100 k_lKeR1gg@Kb>R7_=Q_RP3
+R9
+32
+R193
+!i10b 1
+R194
+R195
+R196
+!i113 0
+R14
+R15
+Enot_32
+Z197 w1632993308
+R5
+R6
+R0
+Z198 8/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd
+Z199 F/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd
+l0
+L4
+VTlFCe4aZl88Tf2dzJHJX;2
+!s100 ELi>>gcHm^D6[eMUM0^a60
+R9
+32
+Z200 !s110 1634380541
+!i10b 1
+Z201 !s108 1634380541.000000
+Z202 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd|
+Z203 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd|
+!i113 0
+R14
+R15
+Abeh
+R5
+R6
+DEx4 work 6 not_32 0 22 TlFCe4aZl88Tf2dzJHJX;2
+l12
+L11
+V2T@Z2JY49fi`mKgE8N7lU3
+!s100 XVhJA0f4Z6Cj_ai`k0zM80
+R9
+32
+R200
+!i10b 1
+R201
+R202
+R203
+!i113 0
+R14
+R15
+Eor_1
+Z204 w1632989854
+R5
+R6
+R0
+Z205 8/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+Z206 F/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+l0
+L4
+V7^m[P4NJGi93KJWC1=2L@1
+!s100 Q^QTCAbPQc;FmB2_=mnzn2
+R9
+32
+Z207 !s110 1633688489
+!i10b 1
+Z208 !s108 1633688489.000000
+Z209 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd|
+Z210 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+R72
+l13
+L11
+VTabKDcf6=M`dl>OQAP<hG3
+!s100 T[Xiej9B[^=5Xf[M<H>gi3
+R9
+32
+R207
+!i10b 1
+R208
+R209
+R210
+!i113 0
+R14
+R15
+Eor_32
+Z211 w1634375578
+R5
+R6
+R0
+Z212 8/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd
+Z213 F/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd
+l0
+L4
+Vo3hV;W;655OT>za@OM7h02
+!s100 FI5dz9mDG:j^3fSlGTSfR1
+R9
+32
+Z214 !s110 1634378098
+!i10b 1
+Z215 !s108 1634378098.000000
+Z216 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd|
+Z217 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 5 or_32 0 22 o3hV;W;655OT>za@OM7h02
+l13
+L11
+V;cbfMg[zC7ofza6DhBPW41
+!s100 7Z>z46zndEd3_lICgMoF:1
+R9
+32
+R214
+!i10b 1
+R215
+R216
+R217
+!i113 0
+R14
+R15
+Ep4_adder
+R112
+R28
+R29
+R5
+R6
+R0
+R113
+R114
+l0
+L5
+VV7AB`zM`LG?cKo:DBQkGQ1
+!s100 1=W@379QgOknMVM;Q>f2=1
+R9
+32
+R115
+!i10b 1
+R116
+R117
+R118
+!i113 0
+R14
+R15
+Abehavioral
+R28
+R29
+R5
+R6
+R111
+l51
+L49
+VK2<WI:0B3S<L][GnIK62g2
+!s100 Lg6`PVfAR`?[A0B=TofRZ3
+R9
+32
+R115
+!i10b 1
+R116
+R117
+R118
+!i113 0
+R14
+R15
+Astructural
+R28
+R29
+R5
+R6
+R111
+l37
+L15
+VcQI;_oTO:DLY`fRYL:23I2
+!s100 j@BJClbE52`P_<gE;H=2R3
+R9
+32
+R115
+!i10b 1
+R116
+R117
+R118
+!i113 0
+R14
+R15
+Epg
+R120
+R5
+R6
+R0
+R121
+R122
+l0
+L4
+V:UzEEzJC_K>87X9oK4DL60
+!s100 35Uak0K;=m2jKXf?gL4U73
+R9
+32
+R123
+!i10b 1
+R124
+R125
+R126
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R6
+R75
+l14
+L13
+V`6ocODG9IM=zNa3=3]BI_1
+!s100 ]IW56EIO9bPNC^5FVT25@3
+R9
+32
+R123
+!i10b 1
+R124
+R125
+R126
+!i113 0
+R14
+R15
+Ephase3
+Z218 w1633538010
+R5
+R6
+R0
+Z219 8/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+Z220 F/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+l0
+L4
+VOFH^LN:ehf>2[Hzci3hL?1
+!s100 7Fe6;mn8>hOj1aL=V5:E61
+R9
+32
+Z221 !s110 1633538014
+!i10b 1
+Z222 !s108 1633538014.000000
+Z223 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd|
+Z224 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 6 phase3 0 22 OFH^LN:ehf>2[Hzci3hL?1
+l77
+L25
+V^@^HH6jjIW<cIHiMhH0_93
+!s100 07[AO@TOF8XO5?bogYEZ63
+R9
+32
+R221
+!i10b 1
+R222
+R223
+R224
+!i113 0
+R14
+R15
+Erca
+R127
+R28
+R29
+R5
+R6
+R0
+R128
+R129
+l0
+L5
+VEf6_XUVdPPEfD1?5SFH<B2
+!s100 8A]n:EQZ_J^KRd^TGV5U90
+R9
+32
+R130
+!i10b 1
+R131
+R132
+R133
+!i113 0
+R14
+R15
+Abehavioral
+R28
+R29
+R5
+R6
+R77
+l44
+L42
+VM0Q7J8G8E34fdAmjfK]232
+!s100 VC3H=c>T@7i17Pe=z^eXR2
+R9
+32
+R130
+!i10b 1
+R131
+R132
+R133
+!i113 0
+R14
+R15
+Astructural
+R28
+R29
+R5
+R6
+R77
+l28
+L15
+V>lzCXQkO3<98aMN0<KAlz1
+!s100 _Y5en@6e?lM<Dm[ljDTh?2
+R9
+32
+R130
+!i10b 1
+R131
+R132
+R133
+!i113 0
+R14
+R15
+Eshifter
+w1632994479
+R26
+R5
+R6
+R0
+8/home/ms21.41/Desktop/datapath/phases/phase_3/shifter.vhd
+F/home/ms21.41/Desktop/datapath/phases/phase_3/shifter.vhd
+l0
+L5
+VjefhCl<=JGkYDQ2F[1A923
+!s100 69VS><Q7Wd7KZ:0=ZffLl0
+R9
+32
+!s110 1632994482
+!i10b 1
+!s108 1632994482.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/shifter.vhd|
+!s107 /home/ms21.41/Desktop/datapath/phases/phase_3/shifter.vhd|
+!i113 0
+R14
+R15
+Esum_generator
+R134
+R5
+R6
+R0
+R135
+R136
+l0
+L4
+V`A]8?D]_;gaoH;Q9Z7J[P0
+!s100 <aoY2^5C]4mlD<Vl=AhLZ3
+R9
+32
+R137
+!i10b 1
+R138
+R139
+R140
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+R119
+l25
+L14
+VNUjR[F@1_fgDJB]nECR?f1
+!s100 8S6>QLY8d`O2F9KK;PeQ82
+R9
+32
+R137
+!i10b 1
+R138
+R139
+R140
+!i113 0
+R14
+R15
+Exor_1
+Z225 w1632990232
+R5
+R6
+R0
+Z226 8/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd
+Z227 F/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd
+l0
+L4
+V4`U;BdzX;F;W6cf>H4^212
+!s100 6BljSUboI[9cI]BEi^IR>2
+R9
+32
+Z228 !s110 1633691145
+!i10b 1
+Z229 !s108 1633691145.000000
+Z230 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd|
+Z231 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 5 xor_1 0 22 4`U;BdzX;F;W6cf>H4^212
+l13
+L11
+V`Q9F8I3c7n:BeL9Q_e3[z3
+!s100 ;NlYOn;]``KfRNma_ej1@2
+R9
+32
+R228
+!i10b 1
+R229
+R230
+R231
+!i113 0
+R14
+R15
+Exor_32
+Z232 w1633691127
+R5
+R6
+R0
+Z233 8/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd
+Z234 F/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd
+l0
+L4
+VYJCen>f2nk:gAB63:2G8J1
+!s100 0o1znN4a_Nc^aoE9iY<OY3
+R9
+32
+R228
+!i10b 1
+R229
+Z235 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd|
+Z236 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd|
+!i113 0
+R14
+R15
+Astructural
+R5
+R6
+DEx4 work 6 xor_32 0 22 YJCen>f2nk:gAB63:2G8J1
+l21
+L12
+V9@J0o@0oFkAP<ckF<e6VI0
+!s100 SiZ:@82ejKGQE=3KNUA<L0
+R9
+32
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

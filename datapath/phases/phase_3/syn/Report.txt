@@ -1,0 +1,56 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : zero_nbit32
+Version: F-2011.09-SP3
+Date   : Fri Oct  8 12:16:29 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: x[31] (input port)
+  Endpoint: z (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  zero_nbit32        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  x[31] (in)                               0.00       0.00 f
+  row_1_31/x (or_1_32)                     0.00       0.00 f
+  row_1_31/U1/ZN (OR2_X1)                  0.05       0.05 f
+  row_1_31/z (or_1_32)                     0.00       0.05 f
+  row_2_15/y (or_1_16)                     0.00       0.05 f
+  row_2_15/U1/ZN (OR2_X1)                  0.06       0.10 f
+  row_2_15/z (or_1_16)                     0.00       0.10 f
+  row_3_7/y (or_1_8)                       0.00       0.10 f
+  row_3_7/U1/ZN (OR2_X1)                   0.06       0.16 f
+  row_3_7/z (or_1_8)                       0.00       0.16 f
+  row_4_3/y (or_1_4)                       0.00       0.16 f
+  row_4_3/U1/ZN (OR2_X1)                   0.06       0.22 f
+  row_4_3/z (or_1_4)                       0.00       0.22 f
+  row_5_1/y (or_1_2)                       0.00       0.22 f
+  row_5_1/U1/ZN (OR2_X1)                   0.06       0.27 f
+  row_5_1/z (or_1_2)                       0.00       0.27 f
+  row_6/y (or_1_1)                         0.00       0.27 f
+  row_6/U1/ZN (OR2_X1)                     0.06       0.33 f
+  row_6/z (or_1_1)                         0.00       0.33 f
+  row_7/x (exnor)                          0.00       0.33 f
+  row_7/U1/ZN (XNOR2_X1)                   0.05       0.39 f
+  row_7/z (exnor)                          0.00       0.39 f
+  z (out)                                  0.00       0.39 f
+  data arrival time                                   0.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+

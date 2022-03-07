@@ -1,0 +1,75 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : P4_ADDER
+Version: F-2011.09-SP3
+Date   : Thu Jul 29 11:37:44 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[20] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CLA_U/A[3] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)     0.00       0.00 r
+  CLA_U/U13/ZN (INV_X1)                                   0.02       0.02 f
+  CLA_U/U9/ZN (NAND2_X1)                                  0.03       0.05 r
+  CLA_U/U11/ZN (NAND2_X1)                                 0.03       0.08 f
+  CLA_U/PG_GEN_1_5_1/pik (PG_0)                           0.00       0.08 f
+  CLA_U/PG_GEN_1_5_1/U3/ZN (AOI21_X1)                     0.04       0.12 r
+  CLA_U/PG_GEN_1_5_1/U1/ZN (INV_X1)                       0.02       0.14 f
+  CLA_U/PG_GEN_1_5_1/gij (PG_0)                           0.00       0.14 f
+  CLA_U/G_GEN_1_4_0/gik (G_8)                             0.00       0.14 f
+  CLA_U/G_GEN_1_4_0/U2/ZN (AOI21_X1)                      0.05       0.19 r
+  CLA_U/G_GEN_1_4_0/U1/ZN (INV_X1)                        0.03       0.22 f
+  CLA_U/G_GEN_1_4_0/gij (G_8)                             0.00       0.22 f
+  CLA_U/G_GEN_2_3_0_0/gik_1 (G_7)                         0.00       0.22 f
+  CLA_U/G_GEN_2_3_0_0/U2/ZN (NAND2_X1)                    0.03       0.25 r
+  CLA_U/G_GEN_2_3_0_0/U3/ZN (NAND2_X1)                    0.03       0.28 f
+  CLA_U/G_GEN_2_3_0_0/gij (G_7)                           0.00       0.28 f
+  CLA_U/G_GEN_2_2_0_1/gik_1 (G_5)                         0.00       0.28 f
+  CLA_U/G_GEN_2_2_0_1/U2/ZN (NAND2_X1)                    0.03       0.30 r
+  CLA_U/G_GEN_2_2_0_1/U1/ZN (NAND2_X1)                    0.04       0.35 f
+  CLA_U/G_GEN_2_2_0_1/gij (G_5)                           0.00       0.35 f
+  CLA_U/G_GEN_2_1_0_0/gik_1 (G_4)                         0.00       0.35 f
+  CLA_U/G_GEN_2_1_0_0/U2/ZN (NAND2_X1)                    0.04       0.38 r
+  CLA_U/G_GEN_2_1_0_0/U3/ZN (NAND2_X1)                    0.04       0.43 f
+  CLA_U/G_GEN_2_1_0_0/gij (G_4)                           0.00       0.43 f
+  CLA_U/Co[5] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)
+                                                          0.00       0.43 f
+  SG_U/Ci[5] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)     0.00       0.43 f
+  SG_U/CS_I_6/Cin (CARRY_SELECT_N_BIT4_3)                 0.00       0.43 f
+  SG_U/CS_I_6/MUX_OUT/SEL (MUX21_NBIT4_3)                 0.00       0.43 f
+  SG_U/CS_I_6/MUX_OUT/U1/Z (MUX2_X1)                      0.07       0.50 r
+  SG_U/CS_I_6/MUX_OUT/Y[0] (MUX21_NBIT4_3)                0.00       0.50 r
+  SG_U/CS_I_6/S[0] (CARRY_SELECT_N_BIT4_3)                0.00       0.50 r
+  SG_U/S[20] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBLOCKS8)     0.00       0.50 r
+  S[20] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.50       0.50
+  output external delay                                   0.00       0.50
+  data required time                                                 0.50
+  --------------------------------------------------------------------------
+  data required time                                                 0.50
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

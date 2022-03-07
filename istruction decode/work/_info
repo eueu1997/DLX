@@ -1,0 +1,207 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.41/Desktop/istruction decode
+Ccfg_rf_beh
+eregister_file
+aA
+DAx4 work 13 register_file 1 a 22 ?Y=ScdTZNV^=QKZ@6C;J:3
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DEx4 work 13 register_file 0 22 GWaP:Kl=BTKEJzc=S_VIE2
+Z8 w1628590237
+R0
+Z9 8/home/ms21.41/Desktop/istruction decode/registerfile.vhd
+Z10 F/home/ms21.41/Desktop/istruction decode/registerfile.vhd
+l0
+L63
+Ve`A7jIQQ^z78YlgeSTg9C3
+!s100 Q]ZVQ2zEH?G<KjdM[4]R=2
+Z11 OL;C;10.7c;67
+32
+Z12 !s110 1629469255
+!i10b 0
+Z13 !s108 1629469255.000000
+Z14 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/registerfile.vhd|
+Z15 !s107 /home/ms21.41/Desktop/istruction decode/registerfile.vhd|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Pconstants
+w1628589484
+R0
+8/home/ms21.41/Desktop/istruction decode/constants.vhd
+F/home/ms21.41/Desktop/istruction decode/constants.vhd
+l0
+L1
+VPMOOiAnA^PXPEk5kLCnEb3
+!s100 TSWRYlj5T7BiDLhF;F9Qn0
+R11
+32
+!s110 1629304228
+!i10b 1
+!s108 1629304227.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/constants.vhd|
+!s107 /home/ms21.41/Desktop/istruction decode/constants.vhd|
+!i113 0
+R16
+R17
+Edecode
+w1629377713
+Z18 DPx4 work 9 constants 0 22 PMOOiAnA^PXPEk5kLCnEb3
+R5
+R6
+R0
+8/home/ms21.41/Desktop/istruction decode/decode.vhd
+F/home/ms21.41/Desktop/istruction decode/decode.vhd
+l0
+L5
+VM]nbzZA8L[9f[@aD>E;H50
+!s100 bH[@WO7dGZo?A<GF5D7?O2
+R11
+32
+!s110 1629378134
+!i10b 1
+!s108 1629378134.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/decode.vhd|
+!s107 /home/ms21.41/Desktop/istruction decode/decode.vhd|
+!i113 0
+R16
+R17
+Ereg_fetch
+Z19 w1629469548
+R18
+R5
+R6
+R0
+Z20 8/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd
+Z21 F/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd
+l0
+L5
+V3[l@B4ECoh=R]1?l3gYPA2
+!s100 N5eDQKng@RYA5zN<TRA?20
+R11
+32
+Z22 !s110 1629469579
+!i10b 1
+Z23 !s108 1629469579.000000
+Z24 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd|
+!s107 /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd|
+!i113 0
+R16
+R17
+Astructural
+R18
+R5
+R6
+DEx4 work 9 reg_fetch 0 22 3[l@B4ECoh=R]1?l3gYPA2
+l59
+L31
+Vc?Z7^d^@CPb87G@:d1:gg3
+!s100 9O[>AmA:P6GYfbF`IUD@:1
+R11
+32
+R22
+!i10b 1
+R23
+R24
+Z25 !s107 /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd|
+!i113 0
+R16
+R17
+Eregister_1
+Z26 w1628589338
+R5
+R6
+R0
+Z27 8/home/ms21.41/Desktop/istruction decode/register.vhd
+Z28 F/home/ms21.41/Desktop/istruction decode/register.vhd
+l0
+L4
+V[Lmb4KS?OH7i3PKhH9EfS2
+!s100 HAJ;?^<M6C1lm_a@NLoV>1
+R11
+32
+Z29 !s110 1629469253
+!i10b 1
+Z30 !s108 1629469253.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/register.vhd|
+Z32 !s107 /home/ms21.41/Desktop/istruction decode/register.vhd|
+!i113 0
+R16
+R17
+Abeh
+R5
+R6
+DEx4 work 10 register_1 0 22 [Lmb4KS?OH7i3PKhH9EfS2
+l15
+L13
+V:Y`=C`1VE=V:BbagRLDLP1
+!s100 N4;3D_;c=1bG5k_YBk_ng1
+R11
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R16
+R17
+Eregister_file
+R8
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R9
+R10
+l0
+L8
+VGWaP:Kl=BTKEJzc=S_VIE2
+!s100 cNOCWn[dkT:l>g4IG]BaG2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Aa
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+l35
+L27
+V?Y=ScdTZNV^=QKZ@6C;J:3
+!s100 i7z0=FN^za6<;e@LhLXca3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
