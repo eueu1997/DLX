@@ -17,6 +17,7 @@ Z1 o-quiet -auto_acc_if_foreign -work work
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;10.7c;67
+R0
 T_opt1
 !s110 1633691633
 V4W>OGh>aI?[^DW7cAzf<R0
@@ -506,21 +507,21 @@ DAx4 work 5 mux21 10 behavioral 22 dXc0SJWLH50K4P3<XYNXY0
 R5
 R6
 R77
-Z104 w1631452122
-R0
-Z105 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd
-Z106 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd
+Z104 w1646670574
+Z105 d/home/ms22.57/Documents/DLX/datapath/phases/phase_3
+Z106 8/home/ms22.57/Documents/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd
+Z107 F/home/ms22.57/Documents/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd
 l0
 L19
 VTj<maO_7GVR65NE8f4QiP2
 !s100 ?hbOzU=M>ZIH_CoQE]Shm0
 R9
 32
-Z107 !s110 1633689758
+Z108 !s110 1646671221
 !i10b 0
-Z108 !s108 1633689758.000000
-Z109 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd|
-Z110 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux21.vhd|
+Z109 !s108 1646671221.000000
+Z110 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd|
+!s107 /home/ms22.57/Documents/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd|
 !i113 0
 R14
 R15
@@ -1063,20 +1064,20 @@ Emux21
 R104
 R5
 R6
-R0
 R105
 R106
+R107
 l0
 L6
 VRSKXK2ZdkSP37VEPIbG:01
 !s100 B6>ABHTo^aHW0e>[UX69@3
 R9
 32
-R107
-!i10b 1
 R108
+!i10b 1
 R109
 R110
+Z186 !s107 /home/ms22.57/Documents/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd|
 !i113 0
 R14
 R15
@@ -1086,36 +1087,36 @@ R6
 R77
 l15
 L14
-VdXc0SJWLH50K4P3<XYNXY0
-!s100 E1[mQdUe7MFEfCg^oTm2l3
+Z187 VdXc0SJWLH50K4P3<XYNXY0
+Z188 !s100 E1[mQdUe7MFEfCg^oTm2l3
 R9
 32
-R107
-!i10b 1
 R108
+!i10b 1
 R109
 R110
+R186
 !i113 0
 R14
 R15
 Emux41
-Z186 w1631452375
+Z189 w1631452375
 R5
 R6
 R0
-Z187 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd
-Z188 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd
+Z190 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd
+Z191 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd
 l0
 L6
 V31=AzS>JzMkMjfMdbIk9g0
 !s100 PDSOggmTZ@CYjF1hoEi@P2
 R9
 32
-Z189 !s110 1632989821
+Z192 !s110 1632989821
 !i10b 1
-Z190 !s108 1632989821.000000
-Z191 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd|
-Z192 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd|
+Z193 !s108 1632989821.000000
+Z194 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd|
+Z195 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux41.vhd|
 !i113 0
 R14
 R15
@@ -1129,32 +1130,32 @@ VlAmzB0neAAk]E5lE1ZMbH1
 !s100 maFUcP]OYgQdmf7nLO3]f1
 R9
 32
-R189
-!i10b 1
-R190
-R191
 R192
+!i10b 1
+R193
+R194
+R195
 !i113 0
 R14
 R15
 Emux81
-Z193 w1631452836
+Z196 w1631452836
 R5
 R6
 R0
-Z194 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd
-Z195 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd
+Z197 8/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd
+Z198 F/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd
 l0
 L6
 V7cEI@nK[Y=Y`^bcHLYUFz2
 !s100 C0fmYVjDE4EQlgdTaYk_l3
 R9
 32
-Z196 !s110 1632989824
+Z199 !s110 1632989824
 !i10b 1
-Z197 !s108 1632989824.000000
-Z198 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd|
-Z199 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd|
+Z200 !s108 1632989824.000000
+Z201 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd|
+Z202 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/mux81.vhd|
 !i113 0
 R14
 R15
@@ -1168,32 +1169,32 @@ Vf@[ddJY]_F0@ESnL=>2??2
 !s100 1?3gk7>>^cU0=0DM<CYh60
 R9
 32
-R196
-!i10b 1
-R197
-R198
 R199
+!i10b 1
+R200
+R201
+R202
 !i113 0
 R14
 R15
 Enand32
-Z200 w1634388848
+Z203 w1634388848
 R5
 R6
 R0
-Z201 8/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd
-Z202 F/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd
+Z204 8/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd
+Z205 F/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd
 l0
 L4
 Vh[_Clj2>kRo>gDXFf8IcB0
 !s100 ]]bV30i5V4^U3JI<Mz4EW2
 R9
 32
-Z203 !s110 1634388891
+Z206 !s110 1634388891
 !i10b 1
-Z204 !s108 1634388891.000000
-Z205 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd|
-Z206 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd|
+Z207 !s108 1634388891.000000
+Z208 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd|
+Z209 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/nand32.vhd|
 !i113 0
 R14
 R15
@@ -1207,32 +1208,32 @@ VW1Lbf2Bf4_:E4UgNV@W^m0
 !s100 GYoXHcGTz6]K[VE5IRYFL3
 R9
 32
-R203
-!i10b 1
-R204
-R205
 R206
+!i10b 1
+R207
+R208
+R209
 !i113 0
 R14
 R15
 Enot_32
-Z207 w1632993308
+Z210 w1632993308
 R5
 R6
 R0
-Z208 8/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd
-Z209 F/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd
+Z211 8/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd
+Z212 F/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd
 l0
 L4
 VTlFCe4aZl88Tf2dzJHJX;2
 !s100 ELi>>gcHm^D6[eMUM0^a60
 R9
 32
-Z210 !s110 1634380541
+Z213 !s110 1634380541
 !i10b 1
-Z211 !s108 1634380541.000000
-Z212 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd|
-Z213 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd|
+Z214 !s108 1634380541.000000
+Z215 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd|
+Z216 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/not_32.vhd|
 !i113 0
 R14
 R15
@@ -1246,32 +1247,32 @@ V2T@Z2JY49fi`mKgE8N7lU3
 !s100 XVhJA0f4Z6Cj_ai`k0zM80
 R9
 32
-R210
-!i10b 1
-R211
-R212
 R213
+!i10b 1
+R214
+R215
+R216
 !i113 0
 R14
 R15
 Eor_1
-Z214 w1632989854
+Z217 w1632989854
 R5
 R6
 R0
-Z215 8/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
-Z216 F/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+Z218 8/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
+Z219 F/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd
 l0
 L4
 V7^m[P4NJGi93KJWC1=2L@1
 !s100 Q^QTCAbPQc;FmB2_=mnzn2
 R9
 32
-Z217 !s110 1633688489
+Z220 !s110 1633688489
 !i10b 1
-Z218 !s108 1633688489.000000
-Z219 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd|
-Z220 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd|
+Z221 !s108 1633688489.000000
+Z222 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd|
+Z223 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/or_1.vhd|
 !i113 0
 R14
 R15
@@ -1285,32 +1286,32 @@ VTabKDcf6=M`dl>OQAP<hG3
 !s100 T[Xiej9B[^=5Xf[M<H>gi3
 R9
 32
-R217
-!i10b 1
-R218
-R219
 R220
+!i10b 1
+R221
+R222
+R223
 !i113 0
 R14
 R15
 Eor_32
-Z221 w1634375578
+Z224 w1634375578
 R5
 R6
 R0
-Z222 8/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd
-Z223 F/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd
+Z225 8/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd
+Z226 F/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd
 l0
 L4
 Vo3hV;W;655OT>za@OM7h02
 !s100 FI5dz9mDG:j^3fSlGTSfR1
 R9
 32
-Z224 !s110 1634378098
+Z227 !s110 1634378098
 !i10b 1
-Z225 !s108 1634378098.000000
-Z226 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd|
-Z227 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd|
+Z228 !s108 1634378098.000000
+Z229 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd|
+Z230 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/or_32.vhd|
 !i113 0
 R14
 R15
@@ -1324,11 +1325,11 @@ V;cbfMg[zC7ofza6DhBPW41
 !s100 7Z>z46zndEd3_lICgMoF:1
 R9
 32
-R224
-!i10b 1
-R225
-R226
 R227
+!i10b 1
+R228
+R229
+R230
 !i113 0
 R14
 R15
@@ -1435,23 +1436,23 @@ R127
 R14
 R15
 Ephase3
-Z228 w1633538010
+Z231 w1633538010
 R5
 R6
 R0
-Z229 8/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
-Z230 F/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+Z232 8/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
+Z233 F/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd
 l0
 L4
 VOFH^LN:ehf>2[Hzci3hL?1
 !s100 7Fe6;mn8>hOj1aL=V5:E61
 R9
 32
-Z231 !s110 1633538014
+Z234 !s110 1633538014
 !i10b 1
-Z232 !s108 1633538014.000000
-Z233 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd|
-Z234 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd|
+Z235 !s108 1633538014.000000
+Z236 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd|
+Z237 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/phase3.vhd|
 !i113 0
 R14
 R15
@@ -1465,11 +1466,11 @@ V^@^HH6jjIW<cIHiMhH0_93
 !s100 07[AO@TOF8XO5?bogYEZ63
 R9
 32
-R231
-!i10b 1
-R232
-R233
 R234
+!i10b 1
+R235
+R236
+R237
 !i113 0
 R14
 R15
@@ -1637,23 +1638,23 @@ R150
 R14
 R15
 Exor_1
-Z235 w1632990232
+Z238 w1632990232
 R5
 R6
 R0
-Z236 8/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd
-Z237 F/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd
+Z239 8/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd
+Z240 F/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd
 l0
 L4
 V4`U;BdzX;F;W6cf>H4^212
 !s100 6BljSUboI[9cI]BEi^IR>2
 R9
 32
-Z238 !s110 1633691145
+Z241 !s110 1633691145
 !i10b 1
-Z239 !s108 1633691145.000000
-Z240 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd|
-Z241 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd|
+Z242 !s108 1633691145.000000
+Z243 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd|
+Z244 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/xor_1.vhd|
 !i113 0
 R14
 R15
@@ -1667,32 +1668,32 @@ V`Q9F8I3c7n:BeL9Q_e3[z3
 !s100 ;NlYOn;]``KfRNma_ej1@2
 R9
 32
-R238
-!i10b 1
-R239
-R240
 R241
+!i10b 1
+R242
+R243
+R244
 !i113 0
 R14
 R15
 Exor_32
-Z242 w1633691127
+Z245 w1633691127
 R5
 R6
 R0
-Z243 8/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd
-Z244 F/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd
+Z246 8/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd
+Z247 F/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd
 l0
 L4
 VYJCen>f2nk:gAB63:2G8J1
 !s100 0o1znN4a_Nc^aoE9iY<OY3
 R9
 32
-R238
+R241
 !i10b 1
-R239
-Z245 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd|
-Z246 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd|
+R242
+Z248 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd|
+Z249 !s107 /home/ms21.41/Desktop/datapath/phases/phase_3/xor_32.vhd|
 !i113 0
 R14
 R15
@@ -1706,16 +1707,16 @@ V9@J0o@0oFkAP<ckF<e6VI0
 !s100 SiZ:@82ejKGQE=3KNUA<L0
 R9
 32
-R238
+R241
 !i10b 1
-R239
-R245
-R246
+R242
+R248
+R249
 !i113 0
 R14
 R15
 Ezero
-Z247 w1633687526
+Z250 w1633687526
 R27
 R28
 R29
@@ -1730,9 +1731,9 @@ VO9z]kZ<nYjD2D9DM5DOGI1
 !s100 I0zhZ`]aE;=gMgIT391WM2
 R9
 32
-Z248 !s110 1633688494
+Z251 !s110 1633688494
 !i10b 1
-Z249 !s108 1633688494.000000
+Z252 !s108 1633688494.000000
 R163
 R164
 !i113 0
@@ -1751,9 +1752,9 @@ VJ]FIj0cQ>mJ7FjbH3DHZ02
 !s100 ;JQiUm4IPP5]b0>6dQBzB1
 R9
 32
-R248
+R251
 !i10b 1
-R249
+R252
 R163
 R164
 !i113 0

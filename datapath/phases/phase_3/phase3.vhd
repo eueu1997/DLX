@@ -84,7 +84,7 @@ zero_reg : register_1 generic map ( 1) port map (zero_out,cond,cond_en);
 alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,alu_out_en);
 
 
-alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,alu_type,alu_out,c_out);
+alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,alu_type,alu_outs,c_out);
 
 zero1 : zero port map ( zero_in,'0',zero_out);
 end structural;
