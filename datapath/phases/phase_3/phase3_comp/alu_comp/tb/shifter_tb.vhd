@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.math_real.all;
 
 entity shifter_tb is
 end shifter_tb;
@@ -25,10 +26,10 @@ architecture tb of shifter_tb is
 
     uut : shifter generic map(nb) port map(inputs,sels,lrs,outputs);
 
-    inputs <= "00000000000000000000000011110000","0000000000001111000000000000000" after ns;
-    sels <= "00000","00001" after 20 ns,"00010" after 40 ns,"00011" after 60 ns,"00111" after 80 ns,"11111" after 100 ns;
+    inputs <= "00000000100000100000000000011000","00000000000111000000001010000110" after 120 ns;
+    sels <= "00000","00001" after 20 ns,"00010" after 40 ns,"00011" after 60 ns,"00111" after 80 ns,"11111" after 100 ns,"00000" after 120 ns,"00001" after 140 ns,"00010" after 160 ns,"00011" after 180 ns,"00111" after 200 ns,"11111" after 220 ns;
 
-    process()
+    proc : process is
     begin
     lrs <= '0';
     wait for 10 ns;

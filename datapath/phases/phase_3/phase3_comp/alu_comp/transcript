@@ -1,0 +1,343 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:50:05 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL of MUX21
+# End time: 17:50:05 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:50:05 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX41
+# -- Compiling architecture structural of MUX41
+# End time: 17:50:06 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:50:06 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX81
+# -- Compiling architecture structural of MUX81
+# End time: 17:50:06 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:50:28 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): Symbol "m0" has already been declared in this region.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): (vcom-1454) Formal "Y" of mode OUT cannot be associated with an expression.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(55): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(55): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(56): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(56): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(57): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(57): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(59): Bad expression.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(61): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(62): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(63): (vcom-1136) Unknown identifier "y".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(64): near "EOF": syntax error
+# End time: 17:50:28 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:57:36 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): Symbol "m0" has already been declared in this region.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(54): (vcom-1454) Formal "Y" of mode OUT cannot be associated with an expression.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(55): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(55): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(56): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(56): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(57): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(57): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(59): Bad expression.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(61): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(62): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(63): (vcom-1136) Unknown identifier "y".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(64): near "EOF": syntax error
+# End time: 17:57:36 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:02:27 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(56): Symbol "m0" has already been declared in this region.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(56): (vcom-1454) Formal "Y" of mode OUT cannot be associated with an expression.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(57): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(57): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(58): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(58): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(59): (vcom-1436) Actual expression (infix expression) of formal "A" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(59): (vcom-1436) Actual expression (infix expression) of formal "B" is not globally static.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(61): Bad expression.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(63): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(64): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(65): (vcom-1136) Unknown identifier "y".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(66): near "EOF": syntax error
+# End time: 18:02:27 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:22:21 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(62): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(62): (vcom-1136) Unknown identifier "ext5".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(63): (vcom-1136) Unknown identifier "ext6".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(64): (vcom-1136) Unknown identifier "ext5".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(64): (vcom-1136) Unknown identifier "ext6".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(66): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(66): (vcom-1136) Unknown identifier "ext7".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(67): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(67): (vcom-1136) Unknown identifier "ext8".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(68): (vcom-1136) Unknown identifier "ext7".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(68): (vcom-1136) Unknown identifier "ext8".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(73): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(74): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(75): (vcom-1136) Unknown identifier "y".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(76): near "EOF": syntax error
+# End time: 18:22:21 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:22:56 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(73): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(74): (vcom-1027) Number of positional association elements (11) exceeds number of formals (10).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(75): (vcom-1136) Unknown identifier "y".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(76): near "EOF": syntax error
+# End time: 18:22:56 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:32:15 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(75): (vcom-1136) Unknown identifier "y".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd(76): near "EOF": syntax error
+# End time: 18:32:15 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:33:03 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 18:33:03 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:33:13 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(12): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(20): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(31): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(34): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(36): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(37): near "process": (vcom-1576) expecting ';'.
+# End time: 18:33:14 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:37:06 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(12): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(20): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(31): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(34): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(36): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(37): near "process": (vcom-1576) expecting ';'.
+# End time: 18:37:06 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:37:18 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(12): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(20): (vcom-1136) Unknown identifier "log2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(31): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(34): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(36): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(37): near "process": (vcom-1576) expecting ';'.
+# End time: 18:37:18 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:39:04 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(32): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(35): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(37): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(38): near "process": (vcom-1576) expecting ';'.
+# End time: 18:39:04 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:40:04 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(29): (vcom-1272) Length of expected is 32; length of actual is 31.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd(40): VHDL Compiler exiting
+# End time: 18:40:04 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:41:20 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# End time: 18:41:21 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.shifter_tb -t 10ps
+# vsim work.shifter_tb -t 10ps 
+# Start time: 18:42:14 on Mar 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.shifter_tb(tb)#1
+# Loading work.shifter(structural)#1
+add wave *
+run 100 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:51:29 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 18:51:29 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:51:37 on Mar 21,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# End time: 18:51:37 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.shifter_tb
+# End time: 18:51:55 on Mar 21,2022, Elapsed time: 0:09:41
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.shifter_tb 
+# Start time: 18:51:55 on Mar 21,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.shifter_tb(tb)#1
+# Loading work.shifter(structural)#1
+add wave *
+run 200 ns
