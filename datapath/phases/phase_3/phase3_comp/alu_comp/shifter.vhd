@@ -51,7 +51,7 @@ signal yl,yr : std_logic_vector(nbit downto 0);
 
 begin
 --1 stage
-M0 : mux21 generic map ( nbit + 8 ) port map(input & std_logic_vector(to_unsigned(0,8)),std_logic_vector(to_unsigned(0,8)) & input,lr,m0);
+M0 : mux21 generic map ( nbit + 8 ) port map(input & "00000000","00000000" & input,lr,m0);
 M8 : mux21 generic map ( nbit + 8 ) port map(input(23 downto 0) & std_logic_vector(to_unsigned(0,16)),std_logic_vector(to_unsigned(0,16)) & input(31 downto 8),lr,m1);
 M16 : mux21 generic map ( nbit + 8 ) port map(input(15 downto 0) & std_logic_vector(to_unsigned(0,24)),std_logic_vector(to_unsigned(0,24)) & input(31 downto 16),lr,m2);
 M24 : mux21 generic map ( nbit + 8 ) port map(input(7 downto 0) & std_logic_vector(to_unsigned(0,32)),std_logic_vector(to_unsigned(0,32)) & input(31 downto 24),lr,m3);
