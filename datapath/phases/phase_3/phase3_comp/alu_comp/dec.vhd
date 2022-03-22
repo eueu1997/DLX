@@ -18,21 +18,21 @@ end dec;
 architecture dataflow of dec is
 
 begin
-
-add <= '1' when opcode = "000";
-	 	'0' when others
-sub <= '1' when opcode = "010";
-	 	'0' when others
-and_en <= '1' when opcode = "001";
-	 	'0' when others
-or_en <= '1' when opcode = "111";
-	 	'0' when others
-xor_en <= '1' when opcode = "110";
-	 	'0' when others
-sl_en <= '1' when opcode = "101";
-	 	'0' when others
-sr_en <= '1' when opcode = "100";
-	 	'0' when others
-cmp <= '1' when opcode = "011";
-	 	'0' when others
+ 
+add <= '1' when opcode = "000" else
+	   '0';
+sub <= '1' when opcode = "010" else
+	 	'0';
+and_en <= '1' when opcode = "001" else
+	 	'0' ;
+or_en <= '1' when opcode = "111" else 
+	 	'0' ;
+xor_en <= '1' when opcode = "110" else
+	 	'0' ;
+sl_en <= '1' when opcode = "101" else
+	 	'0' ;
+sr_en <= '1' when opcode = "100" else
+	 	'0';
+cmp <= '1' when opcode = "011" else
+	 	'0' ;
 end dataflow;
