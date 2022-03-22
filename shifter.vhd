@@ -7,7 +7,7 @@ entity shifter is
 	generic ( nbit : integer );
 	port ( input : in std_logic_vector(nbit -1 downto 0);
 			sel : in std_logic_vector(integer(log2(real(nbit))) - 1 downto 0);
-			lr : in std_logic; -- o left,1 right
+			lr : in std_logic; 
 			output : out std_logic_vector(nbit-1 downto 0));
 
 end shifter;

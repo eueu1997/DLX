@@ -1,13 +1,17 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.math_real.all;
 
-entity shifter is
+entity _tb is
+end _tb;
+
+architecture tb of _tbis
+
+component  shifter is
 
 	generic ( nbit : integer );
 	port ( input : in std_logic_vector(nbit -1 downto 0);
 			sel : in std_logic_vector(integer(log2(real(nbit))) - 1 downto 0);
-			lr : in std_logic; -- o left,1 right
+			lr : in std_logic; -- 0 per left, 1 per right
 			output : out std_logic_vector(nbit-1 downto 0));
 
 end shifter;
@@ -61,3 +65,4 @@ mux2 : mux41 generic map(nbit + 8) port map(m0,m1,m2,m3,sel(4 downto 3),gshift);
 mux3l : mux81 generic map( nbit) port map (gshift(39 downto 8),gshift(38 downto 7),gshift(37 downto 6),gshift(36 downto 5),gshift(35 downto 4),gshift(34 downto 3),gshift(33 downto 2),gshift(32 downto 1),gshift(31 downto 0),sel(2 downto 0),yl);
 mux3r : mux81 generic map( nbit) port map (gshift(31 downto 0),gshift(32 downto 1),gshift(33 downto 2),gshift(34 downto 3),gshift(35 downto 4),gshift(36 downto 5),gshift(37 downto 6),gshift(38 downto 7),gshift(39 downto 8),sel(2 downto 0),yr);
 muxfinal : mux21 generic map(nbit) port map ( yl,yr,lr,y);
+ component;
