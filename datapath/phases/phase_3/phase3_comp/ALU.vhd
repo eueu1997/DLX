@@ -111,32 +111,103 @@ component final_mux_sel is
 			sel : out std_logic_vector(1 downto 0));
 
 end component;
-
-signal a_en,s_en,and_en,or_en,xor_en,sl_en,sr_en,cmp,a_or_s,logic_en,tmp1,shift_en : std_logic;
+-- TODO ACTUALLY IS NOT IMPLEMENTING COMPARING
+signal a_en,s_en,and_en,or_en,xor_en,sl_en,sr_en,cmp,a_or_s,logic_en,tmp1,tmp2,shift_en : std_logic;
 signal as_add,bs_add,as_logic,bs_logic,as_shift,bs_shift,as_out,logic_out,s_out : std_logic_vector(31 downto 0);
 signal fm_sel : std_logic_vector(1 downto 0);
 begin
-aors : 		or_1 port map ( a_en,s_en,a_or_s);
-and_or_or : or_1 port map ( and_en , or_en , tmp1);
-andor_or_xor : or_1 port map ( tmp1 , xor_en , logic_en); --and_en or or_en or xor_en per logic_reg
-shift_enable : or_1 port map ( sr_en , sl_en,shift_en);
 
-reg_en_dec : dec port map(alu_type,a_en,s_en,and_en,or_en,xor_en,sl_en,sr_en,cmp);
+tmp2 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
+add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp2,as_out,co);
 
-as_reg_a :	  register_1 generic map(32) port map ( alu_input1,  as_add, a_or_s);
-as_reg_b : 	  register_1 generic map(32) port map ( alu_input2,  bs_add, a_or_s);
-logic_reg_a : register_1  generic map(32) port map ( alu_input1 ,  as_logic,logic_en);
-logic_reg_b : register_1  generic map(32) port map ( alu_input2,  bs_logic,logic_en);
-s_reg_a : 	  register_1  generic map(32) port map ( alu_input1, as_shift,shift_en);
-s_reg_b : 	  register_1  generic map(32) port map ( alu_input2, bs_shift,shift_en);
-
-add_sub1 : add_sub generic map(32) port map(as_add,bs_add,'0',s_en,as_out,co);
 logic1 : logic generic map (32) port map ( a => as_logic  ,b => bs_logic ,sel(3) => '0',sel(2 downto 0) => alu_type,o => logic_out);
-shifter1 : shifter generic map (32) port map( as_shift, bs_shift(integer(log2(real(32))) -1  downto 0) , sr_en,s_out);
+shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) , sr_en,s_out);
 fms : final_mux_sel port map ( alu_type,fm_sel);
-
+-- add 000
+-- sub 010
+-- and 001
+-- or 111
+-- xor 110
+-- sl 101
+-- sr 100
+--cmp 011
 final_mux : mux41 generic map (32) port map(as_out,logic_out,s_out,"00000000000000000000000000000000",fm_sel, alu_output); -- karnough 
 
+mux : process (alu_input1,alu_input2,alu_type)
+begin
+	case alu_type is
+		when "000" => 
+			as_add <= alu_input1;
+			bs_add <= alu_input2;
+			a_en <= '1';
+			s_en <= '0';
+			and_en <= '0';
+			or_en <= '0';
+			xor_en <= '0';
+			sr_en <='0' ;
+			cmp <= '0';
+		when "010" => 
+			as_add <= alu_input1;
+			bs_add <= alu_input2;
+			a_en <= '0';
+			s_en <= '1';
+			and_en <= '0';
+			or_en <= '0';
+			xor_en <= '0';
+			sr_en <='0' ;
+			cmp <= '0';
+		when "001" => 
+			as_logic <= alu_input1;
+			bs_logic <= alu_input2;
+			a_en <= '0';
+			s_en <= '0';
+			and_en <= '1';
+			or_en <= '0';
+			xor_en <= '0';
+			sr_en <='0' ;
+			cmp <= '0';
+		when "111" => 
+			as_logic <= alu_input1;
+			bs_logic <= alu_input2;
+			a_en <= '0';
+			s_en <= '0';
+			and_en <= '0';
+			or_en <= '1';
+			xor_en <= '0';
+			sr_en <='0' ;
+			cmp <= '0';
+		when "110" => 
+			as_logic <= alu_input1;
+			bs_logic <= alu_input2;
+			a_en <= '0';
+			s_en <= '0';
+			and_en <= '0';
+			or_en <= '0';
+			xor_en <= '1';
+			sr_en <='0' ;
+			cmp <= '0';
+		when "101" => 
+			as_shift <= alu_input1;
+			bs_shift <= alu_input2;
+			a_en <= '0';
+			s_en <= '0';
+			and_en <= '0';
+			or_en <= '0';
+			xor_en <= '0';
+			sr_en <='0' ;
+			cmp <= '0';
+		when "100" => 
+			as_shift <= alu_input1;
+			bs_shift <= alu_input2;
+			a_en <= '0';
+			s_en <= '0';
+			and_en <= '0';
+			or_en <= '0';
+			xor_en <= '0';
+			sr_en <='1' ;
+			cmp <= '0';	
+	end case;
+	end process;				  
 end structural;
 
 configuration cfg_alu_str of alu is
