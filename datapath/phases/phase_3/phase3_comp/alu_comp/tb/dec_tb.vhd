@@ -17,7 +17,7 @@ architecture tb of dec_tb is
 		   sr_en : out std_logic;
 		   cmp : out std_logic);
 
-end component; 
+	end component; 
 
 signal opcodes : std_logic_vector(2 downto 0);
 signal adds,subs,ands,ors,xors,sls,srs,cmps : std_logic;
