@@ -57,10 +57,10 @@ end component;
 component shifter is
 
 	generic ( nbit : integer );
-	port ( input : std_logic_vector(nbit -1 downto 0);
-			sel : std_logic_vector(integer(log2(real(nbit)))-1 downto 0);
-			lr : std_logic; -- 0 per left, 1 per right
-			output : std_logic_vector(nbit-1 downto 0));
+	port ( input : in std_logic_vector(nbit -1 downto 0);
+			sel : in std_logic_vector(integer(log2(real(nbit)))-1 downto 0);
+			lr : in std_logic; -- 0 per left, 1 per right
+			output : out std_logic_vector(nbit-1 downto 0));
 
 end component;
 
@@ -206,6 +206,8 @@ begin
 			xor_en <= '0';
 			sr_en <='1' ;
 			cmp <= '0';	
+		when others =>
+			
 	end case;
 	end process;				  
 end structural;

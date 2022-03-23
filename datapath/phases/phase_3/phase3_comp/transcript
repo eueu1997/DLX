@@ -1,0 +1,302 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:55:09 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 20:55:09 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:57:05 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL of MUX21
+# End time: 20:57:05 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:57:06 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX41
+# -- Compiling architecture structural of MUX41
+# End time: 20:57:07 on Mar 22,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:57:08 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX81
+# -- Compiling architecture structural of MUX81
+# End time: 20:57:08 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:57:11 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 20:57:12 on Mar 22,2022, Elapsed time: 0:00:01
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Errors: 0, Warnings: 0
+# Start time: 20:57:12 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 20:57:12 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:57:15 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/shifter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter_tb
+# -- Compiling architecture tb of shifter_tb
+# End time: 20:57:16 on Mar 22,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.shifter_tb -t 10ps
+# vsim work.shifter_tb -t 10ps 
+# Start time: 20:57:40 on Mar 22,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.shifter_tb(tb)#1
+# Loading work.shifter(structural)#1
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/add_sub_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:58:21 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/add_sub_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_sub_tb
+# -- Compiling architecture tb of add_sub_tb
+# -- Compiling configuration cfg_tb1
+# -- Loading entity add_sub_tb
+# -- Loading architecture tb of add_sub_tb
+# -- Loading entity add_sub
+# End time: 20:58:22 on Mar 22,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.add_sub_tb
+# End time: 20:58:37 on Mar 22,2022, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.add_sub_tb 
+# Start time: 20:58:37 on Mar 22,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.add_sub_tb(tb)#1
+add wave *
+run 200 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb/UUT/add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /add_sub_tb/UUT/add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /add_sub_tb/UUT/add
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:07 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_sub
+# -- Compiling architecture structural of add_sub
+# End time: 21:00:07 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/dec.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:08 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dec
+# -- Compiling architecture dataflow of dec
+# End time: 21:00:09 on Mar 22,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/final_mux_sel.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:10 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/final_mux_sel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity final_mux_sel
+# -- Compiling architecture structural of final_mux_sel
+# End time: 21:00:10 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:11 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity logic
+# -- Compiling architecture structural of logic
+# End time: 21:00:11 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/mux41.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:12 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/mux41.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX41
+# -- Compiling architecture structural of MUX41
+# End time: 21:00:12 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:13 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 21:00:13 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/register.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:14 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1
+# -- Compiling architecture beh of register_1
+# End time: 21:00:14 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:15 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 21:00:15 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:22 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# -- Compiling configuration cfg_alu_str
+# -- Loading entity ALU
+# -- Loading architecture structural of ALU
+# -- Loading entity add_sub
+# -- Loading entity logic
+# -- Loading entity shifter
+# -- Loading entity final_mux_sel
+# -- Loading entity MUX41
+# End time: 21:00:22 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:00:28 on Mar 22,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu_tb
+# -- Compiling architecture tb of alu_tb
+# End time: 21:00:28 on Mar 22,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps WORK.alu_tb
+# End time: 21:00:55 on Mar 22,2022, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 3
+# vsim -t 10ps WORK.alu_tb 
+# Start time: 21:00:55 on Mar 22,2022
+# ** Error (suppressible): (vsim-19) Failed to access library 'WORK' at "WORK".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 21:00:56 on Mar 22,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -t 10ps work.alu_tb
+# vsim -t 10ps work.alu_tb 
+# Start time: 21:01:55 on Mar 22,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu_tb(tb)#1
+# ** Warning: (vsim-3473) Component instance "add_sub1 : add_sub" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# ** Warning: (vsim-3473) Component instance "logic1 : logic" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# ** Warning: (vsim-3473) Component instance "shifter1 : shifter" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# ** Warning: (vsim-3473) Component instance "fms : final_mux_sel" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# ** Warning: (vsim-3473) Component instance "final_mux : MUX41" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /alu_tb/uut/alu_output, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /alu_tb/ao.
+add wave *
+run 1000 ns
+# End time: 09:37:23 on Mar 23,2022, Elapsed time: 12:35:28
+# Errors: 0, Warnings: 6

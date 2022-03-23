@@ -34,6 +34,7 @@ architecture tb of alu_tb is
 
     uut : alu generic map (nbit,5) port map ( ai1,ai2,at,ao,co);
 
-    ai1 <= "00000000000000000000000000011010"
-    ai2 <= "00000000000000000000000000000010"
+    ai1 <= "00000000000000000000000000011010";
+    ai2 <= "00000000000000000000000000000010";
     at <= "000" , "010" after 100 ns , "001" after 200 ns, "111" after 300 ns , "110" after 400 ns , "101" after 500 ns , "100" after 600 ns;
+end architecture;
