@@ -19,17 +19,17 @@ component add_sub is
 end component ; 
 
 signal a_s , b_s , s_s: std_logic_vector (31 downto 0);
-signal as_s,co_s : std_logic ;
+signal as_s,co_s,cis : std_logic ;
 
 
 begin 
 
-UUT : add_sub generic map ( 32 ) port map (  a_s , b_s ,'0' , as_s , s_s ,co_s);
+UUT : add_sub generic map ( 32 ) port map (  a_s , b_s ,cis , as_s , s_s ,co_s);
 
-a_s <= "00000000000000000000000000000001" ,"11111111111111111111111111111111" after 20 ns,"00000000000000000000000000000011" after 40 ns ;
-b_s <= "00000000000000000000000000000001" , "11111111111111111111111111111111" after 20 ns,"00000000000000000000000000000111" after 40 ns; 
-as_s <= '0', '1' after 10 ns, '0' after 20 ns , '1' after 30 ns , '0' after 40 ns;
-
+a_s <= "00000000000000000000000000000001" ,"00000000000000000000000000000111" after 20 ns,"00000000000000000000000000000011" after 40 ns ;
+b_s <= "00000000000000000000000000000001" , "00000000000000000000000000010001" after 20 ns,"00000000000000000000000000000111" after 40 ns; 
+as_s <= '0', '1' after 10 ns, '0' after 20 ns , '1' after 30 ns , '0' after 40 ns,'1' after 50 ns;;
+cis <= '1','0' after 10 ns, '1' after 20 ns,
 end architecture ;
 
 configuration cfg_tb1 of add_sub_tb is
