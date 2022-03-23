@@ -64,15 +64,6 @@ component shifter is
 
 end component;
 
-component register_1 is
-
-	generic ( n_bit : integer);
-	port (d_in : in std_logic_vector(n_bit-1 downto 0);
-		  d_out : out std_logic_vector(n_bit-1 downto 0);
-		  en : in std_logic);
-
-end component;
-
 
 component dec is 
 		
@@ -115,14 +106,8 @@ end component;
 signal a_en,s_en,and_en,or_en,xor_en,sl_en,sr_en,cmp,a_or_s,logic_en,tmp1,tmp2,shift_en : std_logic;
 signal as_add,bs_add,as_logic,bs_logic,as_shift,bs_shift,as_out,logic_out,s_out : std_logic_vector(31 downto 0);
 signal fm_sel : std_logic_vector(1 downto 0);
+
 begin
-
-tmp2 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
-add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp2,as_out,co);
-
-logic1 : logic generic map (32) port map ( a => as_logic  ,b => bs_logic ,sel(3) => '0',sel(2 downto 0) => alu_type,o => logic_out);
-shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) , sr_en,s_out);
-fms : final_mux_sel port map ( alu_type,fm_sel);
 -- add 000
 -- sub 010
 -- and 001
@@ -131,6 +116,14 @@ fms : final_mux_sel port map ( alu_type,fm_sel);
 -- sl 101
 -- sr 100
 --cmp 011
+
+tmp2 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
+add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp2,as_out,co);
+
+logic1 : logic generic map (32) port map ( a => as_logic  ,b => bs_logic ,sel(3) => '0',sel(2 downto 0) => alu_type,o => logic_out);
+shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) , sr_en,s_out);
+fms : final_mux_sel port map ( alu_type,fm_sel);
+
 final_mux : mux41 generic map (32) port map(as_out,logic_out,s_out,"00000000000000000000000000000000",fm_sel, alu_output); -- karnough 
 
 mux : process (alu_input1,alu_input2,alu_type)
@@ -212,7 +205,3 @@ begin
 	end process;				  
 end structural;
 
-configuration cfg_alu_str of alu is
-for structural
-end for;
-end configuration;

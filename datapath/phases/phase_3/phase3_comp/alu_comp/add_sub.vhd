@@ -6,7 +6,7 @@ entity add_sub is
 	generic ( nbit : integer );
 	port 	(A: in std_logic_vector(NBIT-1 downto 0);
        		 B: in std_logic_vector(NBIT-1 downto 0);
-       		 Cin: in std_logic; -- 0 for addition, when sub set to one
+       		 Cin: in std_logic; -- 0 for addition, when sub set to 1
 			 as : in std_logic; -- 0 for sum,1 for sub
         	 S: out std_logic_vector(NBIT-1 downto 0);
         	 Co: out std_logic);
@@ -50,4 +50,10 @@ add : p4_adder generic map (32,4) port map ( A,b_xor_as, cin_or_as , s ,co );
 
 end structural;
 
-
+configuration CFG_ADD_SUB_STRUCTURAL of ADD_SUB is
+	for STRUCTURAL
+	  for alL: P4_ADDER
+		use configuration WORK.CFG_P4_ADDER_STRUCTURAL;
+	  end for;
+	end for;
+  end configuration;
