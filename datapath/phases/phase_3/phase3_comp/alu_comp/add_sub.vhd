@@ -6,7 +6,7 @@ entity add_sub is
 	generic ( nbit : integer );
 	port 	(A: in std_logic_vector(NBIT-1 downto 0);
        		 B: in std_logic_vector(NBIT-1 downto 0);
-       		 Cin: in std_logic; -- 0 for addition, when sub set to 1
+       		 Cin: in std_logic; 
 			 as : in std_logic; -- 0 for sum,1 for sub
         	 S: out std_logic_vector(NBIT-1 downto 0);
         	 Co: out std_logic);
