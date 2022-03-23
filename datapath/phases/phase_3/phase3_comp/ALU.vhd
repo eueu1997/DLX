@@ -65,19 +65,7 @@ component shifter is
 end component;
 
 
-component dec is 
-		
-	port ( opcode : in std_logic_vector(2 downto 0 );
-		   add : out std_logic;
-		   sub : out std_logic;
-		   and_en : out std_logic;
-		   or_en : out std_logic;
-		   xor_en : out std_logic;
-		   sl_en : out std_logic;
-		   sr_en : out std_logic;
-		   cmp : out std_logic);
 
-end component;
 
 component MUX41 is
 	Generic (NBIT: integer );
@@ -109,12 +97,12 @@ signal fm_sel : std_logic_vector(1 downto 0);
 
 begin
 -- add 000
--- sub 010
--- and 001
--- or 111
--- xor 110
--- sl 101
--- sr 100
+-- sub 010 26-2 = 23 non carica il crry in. il problema è in add_sub
+-- and 001 wrong
+-- or 111 xxxxx
+-- xor 110 xxxx
+-- sl 101 corretto
+-- sr 100 corrett
 --cmp 011
 
 tmp2 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub

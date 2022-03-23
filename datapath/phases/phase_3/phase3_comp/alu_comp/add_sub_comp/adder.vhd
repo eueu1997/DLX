@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
 
 entity P4_ADDER is
   generic (NBIT: integer ;
@@ -47,11 +47,14 @@ architecture STRUCTURAL of P4_ADDER is
 end STRUCTURAL;
 
 architecture behavioral of P4_ADDER is
-
+	signal tmp1 : std_logic_vector(31 downto 0);
+	signal tmp2 : std_logic_vector(31 downto 0);
   begin
 
-   S <= A + B ;
-                
+   tmp1 <= std_logic_vector(unsigned(A) + unsigned(B)) ;
+	tmp2(0) <= cin;
+	tmp2 ( 31 downto 1) <= (others =>'0');
+   s <= std_logic_vector(unsigned(tmp1) + unsigned(tmp2))  ;        
 end behavioral;
 
 configuration CFG_P4_ADDER_STRUCTURAL of P4_ADDER is

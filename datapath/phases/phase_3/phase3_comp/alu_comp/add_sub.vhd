@@ -53,7 +53,7 @@ end structural;
 configuration CFG_ADD_SUB_STRUCTURAL of ADD_SUB is
 	for STRUCTURAL
 	  for alL: P4_ADDER
-		use configuration WORK.CFG_P4_ADDER_STRUCTURAL;
+		use configuration WORK.CFG_P4_ADDER_BEH;
 	  end for;
 	end for;
   end configuration;
