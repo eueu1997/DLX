@@ -15,7 +15,7 @@ port ( 		x: in std_logic_vector(31 downto 0);
 end component;
 
 signal xs,zs : std_logic_vector(31 downto 0);
-signal ys : std_logic;
+signal ys,suca,cazzo : std_logic;
 
 begin
 
@@ -23,5 +23,5 @@ uut : xor_32 port map (xs,ys,zs);
 
 xs <= "00000010000010000000100000000000";
 ys <= '0', '1' after 10 ns;
-
+cazzo <= '1';
 end tb;

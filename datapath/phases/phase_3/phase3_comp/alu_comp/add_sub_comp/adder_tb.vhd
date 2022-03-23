@@ -17,14 +17,15 @@ architecture tb of p4_tb is
       end component;
 
     signal as,bs,ss : std_logic_vector(31 downto 0);
-    signal cin,co : std_logic;
+    signal cins,cos : std_logic;
+
 
     begin
 
-    uut : p4_adder generic map (32,4) port map (as,bs,cin,ss,co);
+    uut : entity work.p4_adder(behavioral) generic map (32,4) port map (as,bs,cins,ss,cos);
 
-    as <= "00000000000000000000000000001101"
-    bs <= "00000000000000000000000000000010"
-    cin <= '0', '1' after 20 ns ;
+    as <= "00000000000000000000000000001101";
+    bs <= "00000000000000000000000000000010";
+    cins <= '1', '0' after 100 ns;
 
     end tb;
