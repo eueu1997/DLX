@@ -97,7 +97,7 @@ signal fm_sel : std_logic_vector(1 downto 0);
 
 begin
 -- add 000
--- sub 010 26-2 = 23
+-- sub 010 26-2 = 23 non carica il crry in. il problema è in add_sub
 -- and 001 wrong
 -- or 111 xxxxx
 -- xor 110 xxxx
