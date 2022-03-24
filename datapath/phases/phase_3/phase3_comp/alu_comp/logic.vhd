@@ -6,7 +6,7 @@ entity logic is
 	generic(nbit : integer);
 	port( a : in std_logic_vector(nbit-1 downto 0);
 		  b : in std_logic_vector(nbit-1 downto 0);
-		  sel : in std_logic_vector(0 downto 3); 
+		  sel : in std_logic_vector(0 downto 3); -- inverted as graziano showed in slide
 		  o : out std_logic_vector(nbit-1 downto 0));
 
 end logic;
