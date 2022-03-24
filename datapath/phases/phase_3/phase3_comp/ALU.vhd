@@ -97,14 +97,14 @@ signal fm_sel : std_logic_vector(1 downto 0);
 
 begin
 -- add 000
--- sub 010 26-2 = 23 non carica il crry in. il problema è in add_sub
--- and 001 wrong
--- or 111 xxxxx
--- xor 110 xxxx
+-- sub 010 beh work . struct non legge carri in
+-- and 001  
+-- or 111 
+-- xor 110 
 -- sl 101 corretto
 -- sr 100 corrett
 --cmp 011
-
+-- va cambita la codifica e farlo lavorare completo ( and nand or nor xor xnor)
 tmp2 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
 add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp2,as_out,co);
 
