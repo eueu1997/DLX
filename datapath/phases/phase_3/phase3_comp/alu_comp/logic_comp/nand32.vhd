@@ -12,8 +12,12 @@ entity nand32 is
 
 architecture structural of nand32 is
 begin
-out32 <= a nand b when sel = '1';
-out32 <= "11111111111111111111111111111111" when sel = '0';
-
+process(a,b,sel)
+begin
+case sel is
+when '1' => out32 <= a nand b;
+when others => out32 <="11111111111111111111111111111111";
+end case;
+end process;
 end structural;
 
