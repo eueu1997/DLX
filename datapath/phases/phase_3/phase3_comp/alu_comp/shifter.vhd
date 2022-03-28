@@ -48,39 +48,42 @@ architecture structural of shifter is
 		Y:	Out	std_logic_vector(NBIT-1 downto 0));
 	end component;
 signal m0,m1,m2,m3,gshift : std_logic_vector(nbit + 7 downto 0);
-signal yl,yr,as,bs : std_logic_vector(nbit - 1  downto 0);
+signal yl,yr,inputs : std_logic_vector(nbit - 1  downto 0);
+signal sels : std_logic_vector(integer(log2(real(nbit))) - 1 downto 0);
 signal ext1,ext2,ext3,ext4,ext5,ext6,ext7,ext8 : std_logic_vector(nbit + 7 downto 0);
+signal lrs : std_logic;
 begin
-	process ( en,as,bs)
+	process ( en,input,sel)
 	begin
 		if ( en = '1') then
-			as <= a;
-			bs <= b;
+			inputs <= input;
+			sels <= sel;
+			lrs <= lr;
 		end if;
 	end process;
 	
 --1 stage
-ext1 <=input & "00000000";
-ext2 <= "00000000" & input;
-M0_i : mux21 generic map ( nbit + 8 ) port map(ext1,ext2,lr,m0);
+ext1 <=inputs & "00000000";
+ext2 <= "00000000" & inputs;
+M0_i : mux21 generic map ( nbit + 8 ) port map(ext1,ext2,lrs,m0);
 
-ext3 <= input(23 downto 0) & "0000000000000000";
-ext4 <= "0000000000000000" & input(31 downto 8);
-M8_i : mux21 generic map ( nbit + 8 ) port map(ext3,ext4,lr,m1);
+ext3 <= inputs(23 downto 0) & "0000000000000000";
+ext4 <= "0000000000000000" & inputs(31 downto 8);
+M8_i : mux21 generic map ( nbit + 8 ) port map(ext3,ext4,lrs,m1);
 
-ext5 <= input(15 downto 0) & "000000000000000000000000";
-ext6 <= "000000000000000000000000" & input(31 downto 16);
-M16_i : mux21 generic map ( nbit + 8 ) port map(ext5,ext6,lr,m2);
+ext5 <= inputs(15 downto 0) & "000000000000000000000000";
+ext6 <= "000000000000000000000000" & inputs(31 downto 16);
+M16_i : mux21 generic map ( nbit + 8 ) port map(ext5,ext6,lrs,m2);
 
-ext7 <= input(7 downto 0) & "00000000000000000000000000000000";
-ext8 <= "00000000000000000000000000000000" & input(31 downto 24);
-M24_i : mux21 generic map ( nbit + 8 ) port map(ext7,ext8,lr,m3);
+ext7 <= inputs(7 downto 0) & "00000000000000000000000000000000";
+ext8 <= "00000000000000000000000000000000" & inputs(31 downto 24);
+M24_i : mux21 generic map ( nbit + 8 ) port map(ext7,ext8,lrs,m3);
 
 --2 stage
-mux2 : mux41 generic map(nbit + 8) port map(m0,m1,m2,m3,sel(4 downto 3),gshift);
+mux2 : mux41 generic map(nbit + 8) port map(m0,m1,m2,m3,sels(4 downto 3),gshift);
 --3 stage
-mux3l : mux81 generic map( nbit) port map (gshift(39 downto 8),gshift(38 downto 7),gshift(37 downto 6),gshift(36 downto 5),gshift(35 downto 4),gshift(34 downto 3),gshift(33 downto 2),gshift(32 downto 1),sel(2 downto 0),yl);
-mux3r : mux81 generic map( nbit) port map (gshift(31 downto 0),gshift(32 downto 1),gshift(33 downto 2),gshift(34 downto 3),gshift(35 downto 4),gshift(36 downto 5),gshift(37 downto 6),gshift(38 downto 7),sel(2 downto 0),yr);
-muxfinal : mux21 generic map(nbit) port map ( yl,yr,lr,output);
+mux3l : mux81 generic map( nbit) port map (gshift(39 downto 8),gshift(38 downto 7),gshift(37 downto 6),gshift(36 downto 5),gshift(35 downto 4),gshift(34 downto 3),gshift(33 downto 2),gshift(32 downto 1),sels(2 downto 0),yl);
+mux3r : mux81 generic map( nbit) port map (gshift(31 downto 0),gshift(32 downto 1),gshift(33 downto 2),gshift(34 downto 3),gshift(35 downto 4),gshift(36 downto 5),gshift(37 downto 6),gshift(38 downto 7),sels(2 downto 0),yr);
+muxfinal : mux21 generic map(nbit) port map ( yl,yr,lrs,output);
 end structural;
 

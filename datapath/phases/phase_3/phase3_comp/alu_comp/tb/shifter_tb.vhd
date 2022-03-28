@@ -29,13 +29,21 @@ architecture tb of shifter_tb is
 
     inputs <= "00000000100000100000000000011000","00000000000111000000001010000110" after 120 ns;
     sels <= "00000","00001" after 20 ns,"00010" after 40 ns,"00011" after 60 ns,"00111" after 80 ns,"11111" after 100 ns,"00000" after 120 ns,"00001" after 140 ns,"00010" after 160 ns,"00011" after 180 ns,"00111" after 200 ns,"11111" after 220 ns;
-    proc : process is
+	
+proc1 : process  
+	begin
+	
+	ens <= '0';
+	wait for 5 ns;
+	ens <= '1' ;
+	wait for 5 ns;
+end process;  
+
+	proc : process 
     begin
     lrs <= '0';
-    ens <= '0';
     wait for 10 ns;
     lrs <= '1' ;
-    ens <= '1';
     wait for 10 ns;
     end process;
 
