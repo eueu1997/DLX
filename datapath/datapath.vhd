@@ -29,6 +29,29 @@ architecture structural of datapath is
 		  imm_out: out std_logic_vector(bit_data-1 downto 0));
 	end component;
 
+	component phase3 is 
+
+	generic ( nbit : integer);
+	port( npc : in std_logic_vector(nbit-1 downto 0);
+		 a : in std_logic_vector(nbit-1 downto 0);
+		 b : in std_logic_vector(nbit-1 downto 0);
+		 imm : in std_logic_vector(nbit -1 downto 0);
+		 npc_or_a : in std_logic; -- '0' for npc
+		 b_or_imm : in std_logic; -- '0' for b
+		 branch_or_comp : in std_logic;
+		 be : in std_logic; -- 0 be , 1 bne
+		 alu_type : in std_logic_vector(3 downto 0);
+		 c_out : out std_logic;
+		 -- output of the condition
+		 cond: out std_logic_vector(0 downto 0);
+		 -- aoutput of the block
+		 alu_out : out std_logic_vector(nbit-1 downto 0);
+		 -- register output enable
+		 cond_en : in std_logic;
+		 alu_out_en : in std_logic);
+
+	end component;
+
 	component phase_4 is --PHASE 4
 		port(alu_out : in std_logic_vector(bit_data-1  downto 0);
 		  b : in std_logic_vector(bit_data-1 downto 0);
