@@ -43,19 +43,21 @@ end component;
 
 
 signal b_xor_as,asi,bs : std_logic_vector(nbit -1 downto 0 );
-signal cin_or_as : std_logic;
+signal cin_or_as,ass,cins : std_logic;
 begin 
 
-process ( a,b,en)
+process ( a,b,cin,as,en)
 begin
 	if ( en = '1') then
 		asi <= a;
 		bs <= b;
+		cins <= cin;
+		ass <= as;
 	end if;
 	end process;
 
-xor1 : xor_32 port map ( bs, as,b_xor_as);
-or1: or_1 port map (cin,as,cin_or_as);
+xor1 : xor_32 port map ( bs, ass,b_xor_as);
+or1: or_1 port map (cins,as,cin_or_as);
 add : p4_adder generic map (32,4) port map ( asi,b_xor_as, cin_or_as , s ,co );
 
 end structural;

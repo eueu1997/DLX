@@ -19,10 +19,10 @@ n@_opt
 Z3 OL;O;10.7c;67
 R0
 T_opt1
-!s110 1648473216
-V[@MeGEdU9dN=MJSJObdH20
+!s110 1648473508
+V[UWimYmIg=9@C6@lVLVZ=2
 04 8 2 work logic_tb tb 1
-=1-5254009c17d7-6241b480-292d5-3048
+=1-5254009c17d7-6241b5a3-8f2f2-1c41
 R1
 R2
 n@_opt1
@@ -376,11 +376,11 @@ Ccfg_logic_tb
 elogic_tb
 atb
 Z73 DEx4 work 5 logic 0 22 55EX5><`oT=Cnf57]h@7f1
-DAx4 work 8 logic_tb 2 tb 22 JI6KI^1zfD25Om;0cYn:d0
+DAx4 work 8 logic_tb 2 tb 22 ZOb_SBRj=i1La8O`FoBAO1
 R5
 R6
 Z74 DEx4 work 8 logic_tb 0 22 3?zcT^edW35EHldPjYEZ02
-Z75 w1648472673
+Z75 w1648473479
 R0
 Z76 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/logic_tb.vhd
 Z77 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/logic_tb.vhd
@@ -390,9 +390,9 @@ VS2VPE>2320V9aQ0C0Ue_@1
 !s100 z`fPcX9c[?fMGm=7?9:mC1
 R9
 32
-Z78 !s110 1648473189
+Z78 !s110 1648473499
 !i10b 0
-Z79 !s108 1648473188.000000
+Z79 !s108 1648473499.000000
 Z80 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/logic_tb.vhd|
 Z81 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/logic_tb.vhd|
 !i113 0
@@ -727,7 +727,7 @@ R72
 R14
 R15
 Elogic
-Z121 w1648473172
+Z121 w1648473389
 R5
 R6
 R0
@@ -739,9 +739,9 @@ V55EX5><`oT=Cnf57]h@7f1
 !s100 gcDO:]EEeG^WfL>V`Q]h@3
 R9
 32
-Z124 !s110 1648473185
+Z124 !s110 1648473392
 !i10b 1
-Z125 !s108 1648473185.000000
+Z125 !s108 1648473392.000000
 Z126 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd|
 Z127 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd|
 !i113 0
@@ -792,8 +792,8 @@ R6
 R74
 l24
 L7
-VJI6KI^1zfD25Om;0cYn:d0
-!s100 ?^ROQZnGG_Fh3SgA9?1Mo3
+VZOb_SBRj=i1La8O`FoBAO1
+!s100 jBRZ_Ndl6=BnHg<XMDBHK2
 R9
 32
 R78
