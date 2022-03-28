@@ -57,7 +57,7 @@ begin
 	end process;
 
 xor1 : xor_32 port map ( bs, ass,b_xor_as);
-or1: or_1 port map (cins,as,cin_or_as);
+or1: or_1 port map (cins,ass,cin_or_as);
 add : p4_adder generic map (32,4) port map ( asi,b_xor_as, cin_or_as , s ,co );
 
 end structural;
