@@ -8,6 +8,7 @@ entity shifter is
 	port ( input : in std_logic_vector(nbit -1 downto 0);
 			sel : in std_logic_vector(integer(log2(real(nbit))) - 1 downto 0);
 			lr : in std_logic; -- o left,1 right
+			en : in std_logic;
 			output : out std_logic_vector(nbit-1 downto 0));
 
 end shifter;
@@ -47,9 +48,17 @@ architecture structural of shifter is
 		Y:	Out	std_logic_vector(NBIT-1 downto 0));
 	end component;
 signal m0,m1,m2,m3,gshift : std_logic_vector(nbit + 7 downto 0);
-signal yl,yr : std_logic_vector(nbit - 1  downto 0);
+signal yl,yr,as,bs : std_logic_vector(nbit - 1  downto 0);
 signal ext1,ext2,ext3,ext4,ext5,ext6,ext7,ext8 : std_logic_vector(nbit + 7 downto 0);
 begin
+	process ( en,as,bs)
+	begin
+		if ( en = '1') then
+			as <= a;
+			bs <= b;
+		end if;
+	end process;
+	
 --1 stage
 ext1 <=input & "00000000";
 ext2 <= "00000000" & input;

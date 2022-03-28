@@ -6,7 +6,8 @@ entity logic is
 	generic(nbit : integer);
 	port( a : in std_logic_vector(nbit-1 downto 0);
 		  b : in std_logic_vector(nbit-1 downto 0);
-		  sel : in std_logic_vector(0 downto 3); -- inverted as graziano showed in slide
+		  sel : in std_logic_vector(0 to 3);
+		  en : in std_logic;
 		  o : out std_logic_vector(nbit-1 downto 0));
 
 end logic;
@@ -45,11 +46,19 @@ component or_32 is
 
 	end component;
 
-	signal l0,l1,l2,l3,nota,notb,notl0,notl1,notl2,notl3,tmp1,tmp2,tmp3 : std_logic_vector(31 downto 0);
+	signal l0,l1,l2,l3,nota,notb,notl0,notl1,notl2,notl3,tmp1,tmp2,tmp3,as,bs : std_logic_vector(31 downto 0);
 	
 	begin 
-	not_a : not_32 port map ( a,nota);
-	not_b : not_32 port map ( b,notb);
+	process (en,a,b)
+	begin
+		if ( en = '1') then
+			as <=a ;
+			bs <=b;
+		end if;
+	end process;
+
+	not_a : not_32 port map ( as,nota);
+	not_b : not_32 port map ( bs,notb);
 	s0 : nand32 port map(nota,notb,sel(0),l0);
 	s1 : nand32 port map(nota,b,sel(1),l1);
 	s2 : nand32 port map(a,notb,sel(2),l2);

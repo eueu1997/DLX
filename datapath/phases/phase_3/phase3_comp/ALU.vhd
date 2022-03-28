@@ -18,8 +18,8 @@ entity ALU is
 	
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
-		
-		ALU_type	:	in	std_logic_vector(2 downto 0);
+		cin 		: 	in std_logic;
+		ALU_type	:	in	std_logic_vector(3 downto 0);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
 		co 			: out std_logic
 	);
@@ -39,6 +39,7 @@ component add_sub is
        		 Cin: in std_logic;
 			 as : in std_logic;
         	 S: out std_logic_vector(NBIT-1 downto 0);
+			 en : in std_logic;
         	 Co: out std_logic);
 
 end component ; 
@@ -49,6 +50,7 @@ component logic is
 	port( a : in std_logic_vector(nbit-1 downto 0);
 		  b : in std_logic_vector(nbit-1 downto 0);
 		  sel : in std_logic_vector(3 downto 0);
+		  en : in std_logic;
 		  o : out std_logic_vector(nbit-1 downto 0));
 
 end component;
@@ -60,12 +62,10 @@ component shifter is
 	port ( input : in std_logic_vector(nbit -1 downto 0);
 			sel : in std_logic_vector(integer(log2(real(nbit)))-1 downto 0);
 			lr : in std_logic; -- 0 per left, 1 per right
+			en : in std_logic;
 			output : out std_logic_vector(nbit-1 downto 0));
 
 end component;
-
-
-
 
 component MUX41 is
 	Generic (NBIT: integer );
@@ -90,104 +90,119 @@ component final_mux_sel is
 			sel : out std_logic_vector(1 downto 0));
 
 end component;
--- TODO ACTUALLY IS NOT IMPLEMENTING COMPARING
-signal a_en,s_en,and_en,or_en,xor_en,sl_en,sr_en,cmp,a_or_s,logic_en,tmp1,tmp2,shift_en : std_logic;
-signal as_add,bs_add,as_logic,bs_logic,as_shift,bs_shift,as_out,logic_out,s_out : std_logic_vector(31 downto 0);
+
+
+
+signal logic_en,add_en,shift_en,mul_en,tmp1,tmp2,lr,a_en,s_en : std_logic;
+signal as_add,bs_add,as_mul,bs_mul,as_logic,bs_logic,as_shift,bs_shift,as_out,logic_out,s_out : std_logic_vector(31 downto 0);
 signal fm_sel : std_logic_vector(1 downto 0);
 
 begin
--- add 000
--- sub 010 26-2 = 23 non carica il crry in. il problema è in add_sub
--- and 001 wrong
--- or 111 xxxxx
--- xor 110 xxxx
--- sl 101 corretto
--- sr 100 corrett
---cmp 011
+-- add  0000
+-- and  0001  
+-- sub  0010 beh work . struct non legge carri in
+-- mul  0011 attualmente non implementata. 
+-- sl   0100
+-- sr   0101
+-- xor  0110
+-- or   0111 
+-- nor  1000
+-- xnor 1001
+-- cmp   1011 implementato tramite adder. se cout allora a>b. se zero allora a=b. 
+-- nand 1110
 
-tmp2 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
-add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp2,as_out,co);
+tmp1 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
+tmp2 <= tmp1 or cin;  -- il carry in del add sub viene or'ed con il segnale che va a 1 se cè sub
 
-logic1 : logic generic map (32) port map ( a => as_logic  ,b => bs_logic ,sel(3) => '0',sel(2 downto 0) => alu_type,o => logic_out);
-shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) , sr_en,s_out);
+add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp1,as_out,add_en,co);
+logic1 : logic generic map (32) port map ( as_logic  , bs_logic ,alu_type , logic_en, logic_out);
+shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) ,lr , shift_en,s_out);
+
 fms : final_mux_sel port map ( alu_type,fm_sel);
-
 final_mux : mux41 generic map (32) port map(as_out,logic_out,s_out,"00000000000000000000000000000000",fm_sel, alu_output); -- karnough 
+--dove cè "00..0" andrebbe output mul
 
 mux : process (alu_input1,alu_input2,alu_type)
 begin
 	case alu_type is
-		when "000" => 
+		when "0000" => 
 			as_add <= alu_input1;
 			bs_add <= alu_input2;
+			add_en <= '1';
 			a_en <= '1';
 			s_en <= '0';
-			and_en <= '0';
-			or_en <= '0';
-			xor_en <= '0';
-			sr_en <='0' ;
-			cmp <= '0';
-		when "010" => 
+			mul_en <= '0';
+			logic_en <= '0'; -- enabling solo del blocco, poi tramite  alu_type fa automaticamente funz logica
+			shift_en <= '0';
+			lr <='0' ; -- se 1 fa right, se 0 fa left
+		when "0010" => 
 			as_add <= alu_input1;
 			bs_add <= alu_input2;
+			add_en <= '1';
 			a_en <= '0';
 			s_en <= '1';
-			and_en <= '0';
-			or_en <= '0';
-			xor_en <= '0';
-			sr_en <='0' ;
-			cmp <= '0';
-		when "001" => 
+			mul_en <= '0';
+			logic_en <= '0';
+			shift_en <= '0';
+			lr <='0' ;
+		when "0001" | "0110" | "0111" | "1000" | "1001" | "1110" => 
 			as_logic <= alu_input1;
 			bs_logic <= alu_input2;
+			add_en <= '0';
 			a_en <= '0';
 			s_en <= '0';
-			and_en <= '1';
-			or_en <= '0';
-			xor_en <= '0';
-			sr_en <='0' ;
-			cmp <= '0';
-		when "111" => 
-			as_logic <= alu_input1;
-			bs_logic <= alu_input2;
+			mul_en <= '0';
+			logic_en <= '1';
+			shift_en <= '0';
+			lr <='0' ;
+		when "0011" => 
+			as_mul <= alu_input1;
+			bs_mul <= alu_input2;
+			add_en <= '0';
 			a_en <= '0';
 			s_en <= '0';
-			and_en <= '0';
-			or_en <= '1';
-			xor_en <= '0';
-			sr_en <='0' ;
-			cmp <= '0';
-		when "110" => 
-			as_logic <= alu_input1;
-			bs_logic <= alu_input2;
-			a_en <= '0';
-			s_en <= '0';
-			and_en <= '0';
-			or_en <= '0';
-			xor_en <= '1';
-			sr_en <='0' ;
-			cmp <= '0';
-		when "101" => 
+			mul_en <= '1';
+			logic_en <= '0';
+			shift_en <= '0';
+			lr <='0' ;
+		when "0100" => 
 			as_shift <= alu_input1;
 			bs_shift <= alu_input2;
+			add_en <= '0';
 			a_en <= '0';
 			s_en <= '0';
-			and_en <= '0';
-			or_en <= '0';
-			xor_en <= '0';
-			sr_en <='0' ;
-			cmp <= '0';
-		when "100" => 
+			mul_en <= '0';
+			logic_en <= '0';
+			shift_en <= '1';
+			lr <='0' ;
+		when "0101" => 
 			as_shift <= alu_input1;
 			bs_shift <= alu_input2;
+			add_en <= '0';
 			a_en <= '0';
 			s_en <= '0';
-			and_en <= '0';
-			or_en <= '0';
-			xor_en <= '0';
-			sr_en <='1' ;
-			cmp <= '0';	
+			mul_en <= '0';
+			logic_en <= '0';
+			shift_en <= '1';
+			lr <='1' ;
+		when "1011" => -- when compare perform an add and get cout and zero in outer block
+			as_add <= alu_input1;
+			bs_add <= alu_input2;
+			add_en <= '1';
+			a_en <= '1';
+			s_en <= '0';
+			mul_en <= '0';
+			logic_en <= '0';
+			shift_en <= '1';
+			lr <='1' ;
 		when others =>
+			add_en <= '0';
+			a_en <= '0';
+			s_en <= '0';
+			mul_en <= '0';
+			logic_en <= '0';
+			shift_en <= '0';
+			lr <='0' ;
 			
 	end case;
 	end process;				  

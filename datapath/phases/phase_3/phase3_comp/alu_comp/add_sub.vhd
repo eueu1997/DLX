@@ -9,6 +9,7 @@ entity add_sub is
        		 Cin: in std_logic; 
 			 as : in std_logic; -- 0 for sum,1 for sub
         	 S: out std_logic_vector(NBIT-1 downto 0);
+			 en : in std_logic;
         	 Co: out std_logic);
 
 end add_sub ; 
@@ -41,12 +42,21 @@ component or_1 is
 end component;
 
 
-signal b_xor_as : std_logic_vector(nbit -1 downto 0 );
+signal b_xor_as,asi,bs : std_logic_vector(nbit -1 downto 0 );
 signal cin_or_as : std_logic;
 begin 
-xor1 : xor_32 port map ( B, as,b_xor_as);
+
+process ( a,b,en)
+begin
+	if ( en = '1') then
+		asi <= a;
+		bs <= b;
+	end if;
+	end process;
+
+xor1 : xor_32 port map ( bs, as,b_xor_as);
 or1: or_1 port map (cin,as,cin_or_as);
-add : p4_adder generic map (32,4) port map ( A,b_xor_as, cin_or_as , s ,co );
+add : p4_adder generic map (32,4) port map ( asi,b_xor_as, cin_or_as , s ,co );
 
 end structural;
 

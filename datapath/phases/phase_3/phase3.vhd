@@ -8,13 +8,18 @@ entity phase3 is
 		 a : in std_logic_vector(nbit-1 downto 0);
 		 b : in std_logic_vector(nbit-1 downto 0);
 		 imm : in std_logic_vector(nbit -1 downto 0);
-		 npc_or_a : in std_logic;
-		 b_or_imm : in std_logic;
-		 alu_type : in std_logic_vector(2 downto 0);
+
+		 npc_or_a : in std_logic; -- '0' for npc
+		 b_or_imm : in std_logic; -- '0' for b
+		 branch_or_comp : in std_logic; -- branching means we get a, comparing means we need the result of a+b so we can check if it is zero to say that are equalt
+		 be : in std_logic; -- 0 be , 1 bne
+		 alu_type : in std_logic_vector(3 downto 0);
 		 c_out : out std_logic;
-		 branch_or_comp : in std_logic;
+		 -- output of the condition
 		 cond: out std_logic_vector(0 downto 0);
+		 -- aoutput of the block
 		 alu_out : out std_logic_vector(nbit-1 downto 0);
+		 -- register output enable
 		 cond_en : in std_logic;
 		 alu_out_en : in std_logic);
 
@@ -43,7 +48,7 @@ component ALU is
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
 		
-		ALU_type	:	in	std_logic_vector(2 downto 0);
+		ALU_type	:	in	std_logic_vector(3 downto 0);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
 		co 			: out std_logic	);
 
@@ -86,7 +91,7 @@ alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,alu_out_en)
 
 alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,alu_type,alu_outs,c_out);
 
-zero1 : zero port map ( zero_in,'0',zero_out);
+zero1 : zero port map ( zero_in,be,zero_out);
 end structural;
 
 

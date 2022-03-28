@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 
 entity comparator is 
 	
-	generic ( nbit : integer );
 	port ( cout : in std_logic;
 		   zero : in std_logic;
 		   g : out std_logic;
