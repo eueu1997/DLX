@@ -17,7 +17,7 @@ architecture tb of alu_tb is
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
 		cin         :   in std_logic;
-		ALU_type	:	in	std_logic_vector(2 downto 0);
+		ALU_type	:	in	std_logic_vector(3 downto 0);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
 		co 			:   out std_logic
 	);
@@ -26,15 +26,15 @@ architecture tb of alu_tb is
 
     constant nbit :integer :=  32; 
     signal ai1,ai2,ao : std_logic_vector(nbit - 1 downto 0 );
-    signal at : std_logic_vector(2 downto 0);
-    signal co : std_logic;
+    signal at : std_logic_vector(3 downto 0);
+    signal co,cin : std_logic;
 
      
     begin
 
-    uut : alu generic map (nbit,5) port map ( ai1,ai2,at,ao,co);
-
+    uut : alu generic map (nbit,5) port map ( ai1,ai2,cin,at,ao,co);
+	cin <= '0';
     ai1 <= "00000000000000000000000000011010";
     ai2 <= "00000000000000000000000000000010";
-    at <= "000" , "010" after 100 ns , "001" after 200 ns, "111" after 300 ns , "110" after 400 ns , "101" after 500 ns , "100" after 600 ns;
+    at <= "0000" , "0001" after 100 ns , "0010" after 200 ns, "0011" after 300 ns , "0100" after 400 ns , "0101" after 500 ns , "0110" after 600 ns, "0111" after 700 ns, "1000" after 800 ns, "1001" after 900 ns, "1010" after 1000 ns,"1011" after 1100 ns , "1100" after 1200 ns, "1101" after 1300 ns, "1110" after 1400 ns, "1111" after 1500 ns ;
 end architecture;

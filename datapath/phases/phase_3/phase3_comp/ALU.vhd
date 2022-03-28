@@ -49,7 +49,7 @@ component logic is
 	generic(nbit : integer);
 	port( a : in std_logic_vector(nbit-1 downto 0);
 		  b : in std_logic_vector(nbit-1 downto 0);
-		  sel : in std_logic_vector(3 downto 0);
+		  sel : in std_logic_vector(0 to 3);
 		  en : in std_logic;
 		  o : out std_logic_vector(nbit-1 downto 0));
 
@@ -67,35 +67,12 @@ component shifter is
 
 end component;
 
-component MUX41 is
-	Generic (NBIT: integer );
-	Port (	A:	In	std_logic_vector(NBIT-1 downto 0) ;
-		B:	In	std_logic_vector(NBIT-1 downto 0);
-		C:	In	std_logic_vector(NBIT-1 downto 0);
-		D:	In	std_logic_vector(NBIT-1 downto 0);
-		SEL:In	std_logic_vector(1 downto 0);
-		Y:	Out	std_logic_vector(NBIT-1 downto 0));
-end component;
-
-component or_1 is
-	
-	port ( x: in std_logic;
-		   y: in std_logic;
-		   z: out std_logic);
-end component;
-
-component final_mux_sel is
-	
-	port ( a : in std_logic_vector(2 downto 0);
-			sel : out std_logic_vector(1 downto 0));
-
-end component;
 
 
 
 signal logic_en,add_en,shift_en,mul_en,tmp1,tmp2,lr,a_en,s_en : std_logic;
 signal as_add,bs_add,as_mul,bs_mul,as_logic,bs_logic,as_shift,bs_shift,as_out,logic_out,s_out : std_logic_vector(31 downto 0);
-signal fm_sel : std_logic_vector(1 downto 0);
+
 
 begin
 -- add  0000
@@ -108,7 +85,7 @@ begin
 -- or   0111 
 -- nor  1000
 -- xnor 1001
--- cmp   1011 implementato tramite adder. se cout allora a>b. se zero allora a=b. 
+-- cmp  1011 implementato tramite adder. se cout allora a>b. se zero allora a=b. 
 -- nand 1110
 
 tmp1 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
@@ -117,10 +94,6 @@ tmp2 <= tmp1 or cin;  -- il carry in del add sub viene or'ed con il segnale che 
 add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp1,as_out,add_en,co);
 logic1 : logic generic map (32) port map ( as_logic  , bs_logic ,alu_type , logic_en, logic_out);
 shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) ,lr , shift_en,s_out);
-
-fms : final_mux_sel port map ( alu_type,fm_sel);
-final_mux : mux41 generic map (32) port map(as_out,logic_out,s_out,"00000000000000000000000000000000",fm_sel, alu_output); -- karnough 
---dove cè "00..0" andrebbe output mul
 
 mux : process (alu_input1,alu_input2,alu_type)
 begin
@@ -135,6 +108,7 @@ begin
 			logic_en <= '0'; -- enabling solo del blocco, poi tramite  alu_type fa automaticamente funz logica
 			shift_en <= '0';
 			lr <='0' ; -- se 1 fa right, se 0 fa left
+			alu_output <=  as_out;
 		when "0010" => 
 			as_add <= alu_input1;
 			bs_add <= alu_input2;
@@ -145,6 +119,7 @@ begin
 			logic_en <= '0';
 			shift_en <= '0';
 			lr <='0' ;
+			alu_output <=  as_out;
 		when "0001" | "0110" | "0111" | "1000" | "1001" | "1110" => 
 			as_logic <= alu_input1;
 			bs_logic <= alu_input2;
@@ -155,6 +130,7 @@ begin
 			logic_en <= '1';
 			shift_en <= '0';
 			lr <='0' ;
+			alu_output <=  logic_out;
 		when "0011" => 
 			as_mul <= alu_input1;
 			bs_mul <= alu_input2;
@@ -165,6 +141,7 @@ begin
 			logic_en <= '0';
 			shift_en <= '0';
 			lr <='0' ;
+			alu_output <=  "00000000000000000000000000000000"; -- verra sostituito dal output del mul
 		when "0100" => 
 			as_shift <= alu_input1;
 			bs_shift <= alu_input2;
@@ -175,6 +152,7 @@ begin
 			logic_en <= '0';
 			shift_en <= '1';
 			lr <='0' ;
+			alu_output <=  s_out;
 		when "0101" => 
 			as_shift <= alu_input1;
 			bs_shift <= alu_input2;
@@ -185,6 +163,7 @@ begin
 			logic_en <= '0';
 			shift_en <= '1';
 			lr <='1' ;
+			alu_output <=  s_out;
 		when "1011" => -- when compare perform an add and get cout and zero in outer block
 			as_add <= alu_input1;
 			bs_add <= alu_input2;
@@ -195,6 +174,7 @@ begin
 			logic_en <= '0';
 			shift_en <= '1';
 			lr <='1' ;
+			alu_output <=  as_out;
 		when others =>
 			add_en <= '0';
 			a_en <= '0';

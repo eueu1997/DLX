@@ -26,7 +26,7 @@ signal as_s,co_s,cis,ens : std_logic ;
 begin 
 
 UUT : add_sub generic map ( 32 ) port map (  a_s , b_s ,cis , as_s , s_s,ens ,co_s);
--
+
 a_s <= "00000000000000000000000000000001" ,"00000000000000000000000000000111" after 20 ns,"00000000000000000000000000000011" after 40 ns ;
 b_s <= "00000000000000000000000000000001" , "00000000000000000000000000010001" after 20 ns,"00000000000000000000000000000111" after 40 ns; 
 as_s <= '0', '1' after 10 ns, '0' after 20 ns , '1' after 30 ns , '0' after 40 ns,'1' after 50 ns;

@@ -29,16 +29,16 @@ n@_opt1
 R3
 R0
 T_opt2
-!s110 1648474279
-V=5zM:N@o0C2PCmM[he1be1
+!s110 1648475144
+VDkRJ5GQ49zXZV6Bj3LT9L3
 04 10 2 work add_sub_tb tb 1
-=1-5254009c17d7-6241b8a6-50fb9-783c
+=1-5254009c17d7-6241bc07-baaf4-6c46
 R1
 R2
 n@_opt2
 R3
 Eadd_sub
-Z4 w1648474229
+Z4 w1648475085
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 R0
@@ -50,9 +50,9 @@ V5^9D]WJ_OYf^SZXn7z[<F0
 !s100 QcC]ZR`j28^@717PY4z7P0
 Z9 OL;C;10.7c;67
 32
-Z10 !s110 1648474251
+Z10 !s110 1648475106
 !i10b 1
-Z11 !s108 1648474250.000000
+Z11 !s108 1648475105.000000
 Z12 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd|
 Z13 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd|
 !i113 0
@@ -64,8 +64,8 @@ R6
 Z16 DEx4 work 7 add_sub 0 22 5^9D]WJ_OYf^SZXn7z[<F0
 l47
 L17
-Vf7Gmmc[_k?NoUHISM4TC]1
-!s100 nQc:FIcORM^l^@MC4WZz^2
+V3<Ab6hH1MK[Y6:NdXaTHG1
+!s100 ]@241Q3XXZY>kY`VABo[h0
 R9
 32
 R10
@@ -77,7 +77,7 @@ R13
 R14
 R15
 Eadd_sub_tb
-Z17 w1648474038
+Z17 w1648475124
 R5
 R6
 R0
@@ -89,9 +89,9 @@ VGFPMd1MzKY`[df35bUlzY3
 !s100 G?=00dJGIng7:R2R8LkEI3
 R9
 32
-Z20 !s110 1648474255
+Z20 !s110 1648475128
 !i10b 1
-Z21 !s108 1648474255.000000
+Z21 !s108 1648475127.000000
 Z22 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/add_sub_tb.vhd|
 Z23 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/tb/add_sub_tb.vhd|
 !i113 0
@@ -287,7 +287,7 @@ Z58 DEx4 work 4 or_1 0 22 7^m[P4NJGi93KJWC1=2L@1
 Z59 DEx4 work 6 xor_32 0 22 YJCen>f2nk:gAB63:2G8J1
 R41
 DCx4 work 16 cfg_p4_adder_beh 0 22 QV7Qa2:KJERMPU<j8CaF:2
-DAx4 work 7 add_sub 10 structural 22 f7Gmmc[_k?NoUHISM4TC]1
+DAx4 work 7 add_sub 10 structural 22 3<Ab6hH1MK[Y6:NdXaTHG1
 R5
 R6
 R16
