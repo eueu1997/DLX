@@ -7,7 +7,7 @@ use ieee.math_real.all;
 
 --I considered one signal for immediate. I am not sure whether I should have used another signal for immediate address in jump ins.
 
-
+--
 entity ALU is 
 	generic(
 		operand_width	: integer	:=32;
