@@ -1244,3 +1244,2392 @@ vsim -voptargs=+acc work.zero_tb -t 10ps
 # Loading work.or_1(structural)#1
 add wave *
 run 50 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/G.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:09 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/G.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity G
+# -- Compiling architecture behavioral of G
+# -- Compiling configuration CFG_G_BEH
+# -- Loading entity G
+# -- Loading architecture behavioral of G
+# End time: 12:46:09 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/PG.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:10 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/PG.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PG
+# -- Compiling architecture behavioral of PG
+# -- Compiling configuration CFG_PG_BEH
+# -- Loading entity PG
+# -- Loading architecture behavioral of PG
+# End time: 12:46:10 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/fa.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:15 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 12:46:15 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:16 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL of MUX21
+# End time: 12:46:16 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/rca.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:17 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RCA
+# -- Compiling architecture STRUCTURAL of RCA
+# -- Compiling architecture BEHAVIORAL of RCA
+# -- Loading entity RCA
+# -- Compiling configuration CFG_RCA_STRUCTURAL
+# -- Loading entity RCA
+# -- Loading architecture STRUCTURAL of RCA
+# -- Loading entity FA
+# -- Loading configuration cfg_fa_behavioral
+# -- Compiling configuration CFG_RCA_BEHAVIORAL
+# -- Loading entity RCA
+# -- Loading architecture BEHAVIORAL of RCA
+# End time: 12:46:18 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/carry_select.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:19 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/carry_select.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity CARRY_SELECT
+# -- Compiling architecture STRUCTURAL of CARRY_SELECT
+# -- Compiling configuration CFG_CARRY_SELECT_STRUCTURAL
+# -- Loading entity CARRY_SELECT
+# -- Loading architecture STRUCTURAL of CARRY_SELECT
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity RCA
+# -- Loading entity MUX21
+# -- Loading configuration cfg_rca_structural
+# -- Loading configuration cfg_mux21_behavioral
+# End time: 12:46:20 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_generator.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:23 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Compiling entity CARRY_GENERATOR
+# -- Compiling architecture structural of CARRY_GENERATOR
+# -- Compiling configuration CFG_CARRY_GENERATOR_STRUCTURAL
+# -- Loading entity CARRY_GENERATOR
+# -- Loading architecture structural of CARRY_GENERATOR
+# -- Loading entity PG
+# -- Loading entity G
+# End time: 12:46:24 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:24 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SUM_GENERATOR
+# -- Compiling architecture STRUCTURAL of SUM_GENERATOR
+# -- Compiling configuration CFG_SUM_GENERATOR_STRUCTURAL
+# -- Loading entity SUM_GENERATOR
+# -- Loading architecture STRUCTURAL of SUM_GENERATOR
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_SELECT
+# -- Loading configuration cfg_carry_select_structural
+# End time: 12:46:24 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:39 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# -- Compiling architecture behavioral of P4_ADDER
+# -- Loading entity P4_ADDER
+# -- Compiling configuration CFG_P4_ADDER_STRUCTURAL
+# -- Loading entity P4_ADDER
+# -- Loading architecture STRUCTURAL of P4_ADDER
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading configuration cfg_carry_generator_structural
+# -- Loading configuration cfg_sum_generator_structural
+# -- Compiling configuration CFG_P4_ADDER_BEH
+# -- Loading entity P4_ADDER
+# -- Loading architecture behavioral of P4_ADDER
+# End time: 12:46:39 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/tb/adder_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:46:42 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/tb/adder_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p4_tb
+# -- Compiling architecture tb of p4_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity P4_ADDER
+# End time: 12:46:43 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.p4_tb -t 10 ps
+# End time: 12:48:02 on Mar 29,2022, Elapsed time: 0:15:25
+# Errors: 0, Warnings: 0
+# ** Error: (vsim-3000) Invalid resolution limit (-t 10).
+# Use the -help option for complete vsim usage.
+# vsim -voptargs="+acc" work.p4_tb -t 10 ps 
+# Error loading design
+# Errors: 1, Warnings: 0
+vsim -voptargs=+acc work.p4_tb -t 10ps
+# vsim -voptargs="+acc" work.p4_tb -t 10ps 
+# Start time: 12:49:22 on Mar 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p4_tb(tb)#1
+# Loading work.p4_adder(behavioral)#1
+# ** Warning: (vsim-8683) Uninitialized out port /p4_tb/uut/Co has no driver.
+# This port will contribute value (U) to the signal network.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/tb/adder_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:51:12 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/tb/adder_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p4_tb
+# -- Compiling architecture tb of p4_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity P4_ADDER
+# End time: 12:51:12 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.p4_tb -t 10ps
+# End time: 12:51:22 on Mar 29,2022, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.p4_tb -t 10ps 
+# Start time: 12:51:22 on Mar 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p4_tb(tb)#1
+# Loading work.p4_adder(structural)#1
+# Loading ieee.math_real(body)
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#1
+add wave *
+ run 200 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/tb/adder_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:55:41 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/tb/adder_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p4_tb
+# -- Compiling architecture tb of p4_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity P4_ADDER
+# End time: 12:55:42 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.p4_tb -t 10ps
+# End time: 12:55:52 on Mar 29,2022, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 48
+# vsim -voptargs="+acc" work.p4_tb -t 10ps 
+# Start time: 12:55:52 on Mar 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p4_tb(tb)#1
+# Loading work.p4_adder(structural)#1
+# Loading ieee.math_real(body)
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#1
+add wave *
+run 600 n
+# Invalid time value: 600 n
+run 600 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:53 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 13:02:54 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:55 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 13:02:55 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:56 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_1
+# -- Compiling architecture structural of xor_1
+# End time: 13:02:56 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:57 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32
+# -- Compiling architecture structural of xor_32
+# End time: 13:02:58 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:03:02 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_sub
+# -- Compiling architecture structural of add_sub
+# -- Compiling configuration CFG_ADD_SUB_STRUCTURAL
+# -- Loading entity add_sub
+# -- Loading architecture structural of add_sub
+# -- Loading entity xor_32
+# -- Loading entity or_1
+# -- Loading package NUMERIC_STD
+# -- Loading entity P4_ADDER
+# -- Loading configuration cfg_p4_adder_structural
+# End time: 13:03:03 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:43:56 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# -- Compiling architecture behavioral of P4_ADDER
+# -- Loading entity P4_ADDER
+# -- Compiling configuration CFG_P4_ADDER_STRUCTURAL
+# -- Loading entity P4_ADDER
+# -- Loading architecture STRUCTURAL of P4_ADDER
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading configuration cfg_carry_generator_structural
+# -- Loading configuration cfg_sum_generator_structural
+# -- Compiling configuration CFG_P4_ADDER_BEH
+# -- Loading entity P4_ADDER
+# -- Loading architecture behavioral of P4_ADDER
+# End time: 14:43:56 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:01 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 14:44:01 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:02 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 14:44:02 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:03 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_1
+# -- Compiling architecture structural of xor_1
+# End time: 14:44:03 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:04 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32
+# -- Compiling architecture structural of xor_32
+# End time: 14:44:04 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:09 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_sub
+# -- Compiling architecture structural of add_sub
+# -- Compiling configuration CFG_ADD_SUB_STRUCTURAL
+# -- Loading entity add_sub
+# -- Loading architecture structural of add_sub
+# -- Loading entity xor_32
+# -- Loading entity or_1
+# -- Loading package NUMERIC_STD
+# -- Loading entity P4_ADDER
+# -- Loading configuration cfg_p4_adder_structural
+# End time: 14:44:09 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:12 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity logic
+# -- Compiling architecture structural of logic
+# End time: 14:44:12 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:14 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# -- Loading package TEXTIO
+# Start time: 14:44:14 on Mar 29,2022
+# -- Loading package std_logic_1164
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 14:44:14 on Mar 29,2022, Elapsed time: 0:00:00
+# -- Loading package STANDARD
+# Errors: 0, Warnings: 0
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 14:44:14 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:33 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# End time: 14:44:33 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:44:37 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu_tb
+# -- Compiling architecture tb of alu_tb
+# End time: 14:44:38 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc -t 10ps work.alu_tb
+# End time: 14:45:16 on Mar 29,2022, Elapsed time: 1:49:24
+# Errors: 1, Warnings: 48
+# vsim -voptargs="+acc" -t 10ps work.alu_tb 
+# Start time: 14:45:16 on Mar 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(behavioral)#1
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.mux21(behavioral)#2
+# ** Warning: (vsim-8683) Uninitialized out port /alu_tb/uut/add_sub1/add/Co has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run 2000 ns
+vsim -voptargs=+acc -t 10ps work.alu_tb
+# End time: 14:52:03 on Mar 29,2022, Elapsed time: 0:06:47
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" -t 10ps work.alu_tb 
+# Start time: 14:52:03 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(behavioral)#1
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.mux21(behavioral)#2
+# ** Warning: (vsim-8683) Uninitialized out port /alu_tb/uut/add_sub1/add/Co has no driver.
+# This port will contribute value (U) to the signal network.
+vsim -voptargs=+acc -t 10ps work.p4_tb
+# End time: 14:53:01 on Mar 29,2022, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" -t 10ps work.p4_tb 
+# Start time: 14:53:01 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p4_tb(tb)#1
+# Loading work.p4_adder(structural)#1
+# Loading ieee.math_real(body)
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#1
+add wave *
+# (vish-4014) No objects found matching '*'.
+add wave *
+# (vish-4014) No objects found matching '*'.
+vsim -voptargs=+acc -t 10ps work.p4_tb
+# End time: 14:54:10 on Mar 29,2022, Elapsed time: 0:01:09
+# Errors: 2, Warnings: 0
+# vsim -voptargs="+acc" -t 10ps work.p4_tb 
+# Start time: 14:54:11 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p4_tb(tb)#1
+# Loading work.p4_adder(structural)#1
+# Loading ieee.math_real(body)
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#1
+add wave *
+run 500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p4_tb/uut/SG_U/SUMG1(1)/CS_I/RCA_0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:02 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# -- Compiling architecture behavioral of P4_ADDER
+# -- Loading entity P4_ADDER
+# -- Compiling configuration CFG_P4_ADDER_STRUCTURAL
+# -- Loading entity P4_ADDER
+# -- Loading architecture STRUCTURAL of P4_ADDER
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading configuration cfg_carry_generator_structural
+# -- Loading configuration cfg_sum_generator_structural
+# -- Compiling configuration CFG_P4_ADDER_BEH
+# -- Loading entity P4_ADDER
+# -- Loading architecture behavioral of P4_ADDER
+# End time: 14:57:03 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:04 on Mar 29,2022
+# Start time: 14:57:04 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd 
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# ** Warning: (vcom-6) -- Waiting for lock by "ms22.57@localhost.localdomain, pid = 25318". Lockfile is "/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/work/_lock".
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 14:57:04 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 14:57:06 on Mar 29,2022, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:07 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 14:57:07 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:16 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# -- Compiling architecture behavioral of P4_ADDER
+# -- Loading entity P4_ADDER
+# -- Compiling configuration CFG_P4_ADDER_STRUCTURAL
+# -- Loading entity P4_ADDER
+# -- Loading architecture STRUCTURAL of P4_ADDER
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading configuration cfg_carry_generator_structural
+# -- Loading configuration cfg_sum_generator_structural
+# -- Compiling configuration CFG_P4_ADDER_BEH
+# -- Loading entity P4_ADDER
+# -- Loading architecture behavioral of P4_ADDER
+# End time: 14:57:17 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:18 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/or_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_1
+# -- Compiling architecture structural of or_1
+# End time: 14:57:19 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:20 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_1
+# -- Compiling architecture structural of xor_1
+# End time: 14:57:21 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:22 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor_32
+# -- Compiling architecture structural of xor_32
+# End time: 14:57:22 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:26 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_sub
+# -- Compiling architecture structural of add_sub
+# -- Loading package NUMERIC_STD
+# -- Loading entity P4_ADDER
+# End time: 14:57:27 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:29 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity logic
+# -- Compiling architecture structural of logic
+# End time: 14:57:29 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:30 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# End time: 14:57:30 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:35 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity ALU
+# -- Compiling architecture structural of ALU
+# End time: 14:57:36 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:57:39 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu_tb
+# -- Compiling architecture tb of alu_tb
+# End time: 14:57:40 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc -t 10ps work.alu_tb
+# End time: 14:58:01 on Mar 29,2022, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 49
+# vsim -voptargs="+acc" -t 10ps work.alu_tb 
+# Start time: 14:58:01 on Mar 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.mux21(behavioral)#3
+vsim -voptargs=+acc -t 10ps work.alu_tb
+# End time: 14:58:23 on Mar 29,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -t 10ps work.alu_tb 
+# Start time: 14:58:23 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(tb)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.mux21(behavioral)#3
+add wave *
+run 2000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /alu_tb/uut/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/wave.do
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:11:28 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL of MUX21
+# End time: 15:11:29 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/register.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:11:30 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1
+# -- Compiling architecture beh of register_1
+# End time: 15:11:31 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:11:32 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero
+# -- Compiling architecture structural of zero
+# End time: 15:11:33 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:11:37 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# End time: 15:11:37 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:11:38 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# End time: 15:11:39 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:12:03 on Mar 29,2022, Elapsed time: 0:13:40
+# Errors: 0, Warnings: 80
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:12:03 on Mar 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:12:59 on Mar 29,2022, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:12:59 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+add wave *
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:23:31 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# End time: 15:23:32 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:23:34 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd(63): near "a": (vcom-1576) expecting ';'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd(78): near "a": (vcom-1576) expecting ';'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd(94): near "end": (vcom-1576) expecting ';'.
+# End time: 15:23:35 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:24:02 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd(94): near "tb": (vcom-1576) expecting PROCESS.
+# End time: 15:24:02 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:24:13 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# End time: 15:24:14 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:24:28 on Mar 29,2022, Elapsed time: 0:11:29
+# Errors: 4, Warnings: 48
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:24:28 on Mar 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:25:34 on Mar 29,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:25:34 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+add wave *
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:46:45 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd(154): near "b": (vcom-1576) expecting ';'.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd(169): VHDL Compiler exiting
+# End time: 15:46:46 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:47:06 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# End time: 15:47:06 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:47:15 on Mar 29,2022, Elapsed time: 0:21:41
+# Errors: 2, Warnings: 80
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:47:16 on Mar 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:47:46 on Mar 29,2022, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:47:46 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+add wave *
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:53:14 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd(93): near "process": (vcom-1576) expecting IF.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd(96): Illegal sequential statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd(98): Illegal sequential statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd(100): Illegal sequential statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd(101): near "structural": (vcom-1576) expecting PROCESS.
+# End time: 15:53:15 on Mar 29,2022, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:53:36 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase3
+# -- Compiling architecture structural of phase3
+# End time: 15:53:36 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:53:40 on Mar 29,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/p3_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p3_tb
+# -- Compiling architecture tb of p3_tb
+# End time: 15:53:40 on Mar 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:54:16 on Mar 29,2022, Elapsed time: 0:06:30
+# Errors: 5, Warnings: 80
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:54:16 on Mar 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+vsim -voptargs=+acc -t 10ps work.p3_tb
+# End time: 15:55:05 on Mar 29,2022, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -t 10ps work.p3_tb 
+# Start time: 15:55:06 on Mar 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p3_tb(tb)#1
+# Loading work.phase3(structural)#1
+# Loading work.mux21(behavioral)#1
+# Loading work.register_1(beh)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.alu(structural)#1
+# Loading work.add_sub(structural)#1
+# Loading work.xor_32(structural)#1
+# Loading work.xor_1(structural)#1
+# Loading work.or_1(structural)#1
+# Loading work.p4_adder(structural)#1
+# Loading work.constants
+# Loading work.carry_generator(structural)#1
+# Loading work.g(behavioral)#1
+# Loading work.pg(behavioral)#1
+# Loading work.sum_generator(structural)#1
+# Loading work.carry_select(structural)#1
+# Loading work.rca(behavioral)#1
+# Loading work.mux21(behavioral)#2
+# Loading work.logic(structural)#1
+# Loading work.not_32(beh)#1
+# Loading work.nand32(structural)#1
+# Loading work.and_32(structural)#1
+# Loading work.shifter(structural)#1
+# Loading work.mux21(behavioral)#3
+# Loading work.mux41(structural)#1
+# Loading work.mux81(structural)#1
+# Loading work.mux41(structural)#2
+# Loading work.zero(structural)#1
+add wave *
+run 1000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(8)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(7)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(6)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(5)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(4)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(3)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(2)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /p3_tb/uut/alu1/add_sub1/add/SG_U/SUMG1(1)/CS_I/RCA_1
+# End time: 16:05:26 on Mar 29,2022, Elapsed time: 0:10:20
+# Errors: 0, Warnings: 80

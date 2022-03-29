@@ -58,14 +58,8 @@ begin
 
 xor1 : xor_32 port map ( bs, ass,b_xor_as);
 or1: or_1 port map (cins,ass,cin_or_as);
-add : p4_adder generic map (32,4) port map ( asi,b_xor_as, cin_or_as , s ,co );
+add : entity work.p4_adder(structural) generic map (32,4) port map ( asi,b_xor_as, cin_or_as , s ,co );
 
 end structural;
 
-configuration CFG_ADD_SUB_STRUCTURAL of ADD_SUB is
-	for STRUCTURAL
-	  for alL: P4_ADDER
-		use configuration WORK.CFG_P4_ADDER_BEH;
-	  end for;
-	end for;
-  end configuration;
+

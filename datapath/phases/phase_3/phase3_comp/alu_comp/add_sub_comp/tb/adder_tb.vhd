@@ -22,10 +22,10 @@ architecture tb of p4_tb is
 
     begin
 
-    uut : entity work.p4_adder(behavioral) generic map (32,4) port map (as,bs,cins,ss,cos);
+    uut : entity work.p4_adder(structural) generic map (32,4) port map (as,bs,cins,ss,cos);
 
-    as <= "00000000000000000000000000001101";
+    as <= "00000000000000000000000000001101","11111111111111111111111111111111" after 200 ns;
     bs <= "00000000000000000000000000000010";
-    cins <= '1', '0' after 100 ns;
+    cins <= '1', '0' after 100 ns,'1' after 200 ns,'0' after 300 ns;
 
     end tb;
