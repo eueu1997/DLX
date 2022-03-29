@@ -17,7 +17,7 @@ architecture tb of alu_tb is
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
 		cin         :   in std_logic;
-		ALU_type	:	in	std_logic_vector(3 downto 0);
+		ALU_type	:	in	std_logic_vector(0 to 3);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
 		co 			:   out std_logic
 	);
@@ -26,7 +26,7 @@ architecture tb of alu_tb is
 
     constant nbit :integer :=  32; 
     signal ai1,ai2,ao : std_logic_vector(nbit - 1 downto 0 );
-    signal at : std_logic_vector(3 downto 0);
+    signal at : std_logic_vector(0 to 3);
     signal co,cin : std_logic;
 
      

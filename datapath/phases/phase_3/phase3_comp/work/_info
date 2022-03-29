@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 d/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp
 T_opt
-!s110 1648477533
-VR^:[:>>SD1`:R2gYa>0VC0
+!s110 1648539542
+VEFZ>6^YEHHD6_j8>[TFgN2
 04 6 2 work alu_tb tb 1
-=1-5254009c17d7-6241c55c-1db42-7824
+=1-5254009c17d7-6242b795-b312b-6943
 Z1 o-quiet -auto_acc_if_foreign -work work
 Z2 tCvgOpt 0
 n@_opt
@@ -116,7 +116,7 @@ R23
 R14
 R15
 Ealu
-Z25 w1648477241
+Z25 w1648539175
 Z26 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 Z27 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
@@ -128,13 +128,13 @@ Z30 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
 Z31 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
 l0
 L11
-Vh>`YSaeF[;m?7bWGePbo<3
-!s100 ;HFlhSP@4og7YT5AWTfYc2
+V;`:IZz4UEn>TETV^O16OP3
+!s100 A@IaW=D]bZ>ZbK4T]GN?U2
 R9
 32
-Z32 !s110 1648477262
+Z32 !s110 1648539523
 !i10b 1
-Z33 !s108 1648477261.000000
+Z33 !s108 1648539522.000000
 Z34 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd|
 Z35 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd|
 !i113 0
@@ -147,11 +147,11 @@ R28
 R29
 R5
 R6
-DEx4 work 3 alu 0 22 h>`YSaeF[;m?7bWGePbo<3
+DEx4 work 3 alu 0 22 ;`:IZz4UEn>TETV^O16OP3
 l77
 L31
-VY6;4nloSSMPJ8eZGC`IOK0
-!s100 UM2[Dki0b^C<=m=6]<fV10
+VGbEDWm]oPnG5g0NGiX<H?2
+!s100 AV]lbTe7LTjCMB4Ej8@^:3
 R9
 32
 R32
@@ -163,23 +163,23 @@ R35
 R14
 R15
 Ealu_tb
-Z36 w1648477497
+Z36 w1648538589
 R5
 R6
 R0
-Z37 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd
-Z38 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd
+Z37 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_tb.vhd
+Z38 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_tb.vhd
 l0
 L4
 VN6_9JQoeKQEW6<Y=:hJ[b2
 !s100 SNankSR:g51Gk:]aRH_`@0
 R9
 32
-Z39 !s110 1648477510
+Z39 !s110 1648539524
 !i10b 1
-Z40 !s108 1648477510.000000
-Z41 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd|
-Z42 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/tb/alu_tb.vhd|
+Z40 !s108 1648539524.000000
+Z41 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_tb.vhd|
+Z42 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_tb.vhd|
 !i113 0
 R14
 R15
@@ -189,8 +189,8 @@ R6
 DEx4 work 6 alu_tb 0 22 N6_9JQoeKQEW6<Y=:hJ[b2
 l33
 L7
-VW6AG?Tc6I7JfX9]h6:T7Q3
-!s100 `PJjzIN45N?lS=DJV:1TD1
+VjH<=be4cdgF3a4c9Z_@N51
+!s100 O;<@H<ZnH;MCEXTCUh?E<1
 R9
 32
 R39
@@ -1401,7 +1401,7 @@ R130
 R14
 R15
 Eshifter
-Z187 w1648472030
+Z187 w1648539502
 R26
 R5
 R6
@@ -1414,9 +1414,9 @@ Vd^aU=E9>Jej_<B;k>`Se31
 !s100 oNLg^zUF@YKoVIFgLf]?H0
 R9
 32
-Z190 !s110 1648475805
+Z190 !s110 1648539519
 !i10b 1
-Z191 !s108 1648475804.000000
+Z191 !s108 1648539518.000000
 Z192 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd|
 Z193 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd|
 !i113 0
@@ -1429,8 +1429,8 @@ R6
 DEx4 work 7 shifter 0 22 d^aU=E9>Jej_<B;k>`Se31
 l55
 L16
-V8<MD9NOYL=l6b@QiznFBS0
-!s100 ^TOS9mm99<T0gmz0=5[oo2
+V943GJ5hcgZX9ZXIfRd;MY2
+!s100 cYm50[mDSN[E1]V2^czI43
 R9
 32
 R190

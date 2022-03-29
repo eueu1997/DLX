@@ -53,7 +53,7 @@ signal sels : std_logic_vector(integer(log2(real(nbit))) - 1 downto 0);
 signal ext1,ext2,ext3,ext4,ext5,ext6,ext7,ext8 : std_logic_vector(nbit + 7 downto 0);
 signal lrs : std_logic;
 begin
-	process ( en,input,sel)
+	process ( en,input,sel,lr)
 	begin
 		if ( en = '1') then
 			inputs <= input;
