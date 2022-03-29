@@ -48,9 +48,9 @@ component ALU is
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
 		
-		ALU_type	:	in	std_logic_vector(3 downto 0);
+		ALU_type	:	in	std_logic_vector(0 to 3);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
-		co 			: out std_logic	);
+		co 			:   out std_logic	);
 
 end component;
 
@@ -80,17 +80,16 @@ signal alu_1,alu_2,alu_outs,zero_in : std_logic_vector(nbit - 1 downto 0);
 signal zero_out : std_logic_vector(0 downto 0);
 
 begin 
-
+-- muxes
 muxA : mux21 generic map (nbit) port map ( npc,a,npc_or_a,alu_1);
 muxB : mux21 generic map (nbit) port map ( b,imm ,b_or_imm,alu_2);
 muxBranchOrComp : mux21 generic map (nbit) port map ( a,alu_outs,branch_or_comp,zero_in);
-
+-- edge registers
 zero_reg : register_1 generic map ( 1) port map (zero_out,cond,cond_en);
 alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,alu_out_en);
-
-
+--ALU
 alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,alu_type,alu_outs,c_out);
-
+-- zero check block
 zero1 : zero port map ( zero_in,be,zero_out);
 end structural;
 
