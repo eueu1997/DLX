@@ -85,8 +85,12 @@ begin
 -- or   0111 
 -- nor  1000
 -- xnor 1001
+--      1010
 -- cmp  1011 implementato tramite adder. se cout allora a>b. se zero allora a=b. 
+--      1100
+--      1101
 -- nand 1110
+--      1111
 
 tmp1 <= not(a_en) and s_en; -- A + B' + 1 is logic function for add/sub
 tmp2 <= tmp1 or cin;  -- il carry in del add sub viene or'ed con il segnale che va a 1 se cè sub
@@ -164,7 +168,7 @@ begin
 			shift_en <= '1';
 			lr <='1' ;
 			alu_output <=  s_out;
-		when "1011" => -- when compare perform a sub and get cout and zero in outer block.
+		when "1011" => -- when compare perform an sub and get cout and zero in outer block
 			as_add <= alu_input1;
 			bs_add <= alu_input2;
 			add_en <= '1';
