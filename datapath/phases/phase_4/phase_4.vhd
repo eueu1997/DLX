@@ -8,16 +8,12 @@ entity phase_4 is
 		  npc : in std_logic_vector( nbit - 1 downto 0);
 		  cond : in std_logic;
 		  j_en : in std_logic;
-		  npc_en : in std_logic;
-		  lmd_en : in std_logic;
+		  en : in std_logic;
 		  ram_en : in std_logic; 
-		  aluout_en : in std_logic;
-		  wb_en : in std_logic;
 		  wb_sel : in std_logic;
 		  ram_res : in std_logic;
 		  rw : in std_logic;
 		  pc : out std_logic_vector ( nbit -1 downto 0 );
-
 		  wb : out std_logic_vector ( nbit -1 downto 0));
 
 end phase_4;
@@ -70,9 +66,9 @@ mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb_t
 
 ram1 : RAM generic map (nbit , nbit) port map ( ram_res, ram_en , rw , alu_out_s , ram_to_lmd , b);
 
-lmd_reg 	: register_1 generic map (nbit) port map (ram_to_lmd,lmd_to_wb,lmd_en);
-alu_out_reg : register_1 generic map (nbit) port map (alu_out_s,aluout_s,aluout_en);
-wb_reg 		: register_1 generic map (nbit) port map (wb_to_reg,wb,wb_en);
+lmd_reg 	: register_1 generic map (nbit) port map (ram_to_lmd,lmd_to_wb,en);
+alu_out_reg : register_1 generic map (nbit) port map (alu_out_s,aluout_s,en);
+wb_reg 		: register_1 generic map (nbit) port map (wb_to_reg,wb,en);
 
 end structural;
 

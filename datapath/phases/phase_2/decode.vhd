@@ -8,7 +8,7 @@ entity decode is
 	port (inst_type: in std_logic_vector (1 downto 0);
 		  ir_s: in std_logic_vector(bit_data-1 downto 0);
 		  WR_in: in std_logic_vector(bit_data-1 downto 0);
-
+		  en : in std_logic;
 		  A_out: out std_logic_vector(bit_data-1 downto 0);
 		  B_out: out std_logic_vector(bit_data-1 downto 0);
 		  imm_out: out std_logic_vector(bit_data-1 downto 0)
@@ -64,4 +64,4 @@ begin
 			generic map(bit_data, bit_add)
 			port map(RegA_LATCH_EN, RegB_LATCH_EN, RegIMM_LATCH_EN, CLK, RS1_s, RD1_s, RS2_s, RD2_s, RD_s, WR_s, IMM_s, WR_in);
 
-end behavioral;
+end structural;

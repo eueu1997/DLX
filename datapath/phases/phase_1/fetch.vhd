@@ -6,10 +6,10 @@ entity fetch is
 	generic ( bit_add : integer;
 			  i_size : integer);
 	port( pc_s : in std_logic_vector(bit_add -1 downto 0);
-		  npc_en : in std_logic;
-		  ir_en : in std_logic;
+		  en : in std_logic;
 		  imem_res : in std_logic;
 		  npc_s : out std_logic_vector(bit_add-1  downto 0);
+		  npc_d : out std_logic_vector(bit_add-1  downto 0);
 		  ir_s : out std_logic_vector(i_size -1 downto 0));
 
 end fetch;
@@ -53,8 +53,7 @@ signal mem_to_ir : std_logic_vector(i_size-1 downto 0);
 -----------------------------------------------------------------------
 
 begin 
-
-from_pc<=pc_s;
+npc_d <= add_to_npc;
 
 ADD : P4_ADDER   generic map ( bit_add,4)
 				port map( from_pc,std_logic_vector(to_unsigned(1,bit_add)),'0',add_to_npc,open);
@@ -63,10 +62,11 @@ I_MEM : IRAM    generic map ( bit_add,i_size)
   				port map ( imem_res,from_pc,mem_to_ir);
 
 NPC : register_1 generic map( bit_add)
- 				port map(add_to_npc,npc_s,npc_en);
+ 				port map(add_to_npc,npc_s,en);
 IR : register_1 generic map(i_size)
-				port map(mem_to_ir,ir_s,ir_en);
-
+				port map(mem_to_ir,ir_s,en);
+PC : register_1 generic map ( bit_add)
+				port map(pc_s,from_pc,en)
 end structural;
 
 configuration CFG_FETCH of fetch is

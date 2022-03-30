@@ -21,8 +21,7 @@ entity phase3 is
 		 -- aoutput of the block
 		 alu_out : out std_logic_vector(nbit-1 downto 0);
 		 -- register output enable
-		 cond_en : in std_logic;
-		 alu_out_en : in std_logic);
+		 en : in std_logic);
 
 
 
@@ -83,18 +82,16 @@ muxA : mux21 generic map (nbit) port map ( npc,a,npc_or_a,alu_1);
 muxB : mux21 generic map (nbit) port map ( b,imm ,b_or_imm,alu_2);
 muxBranchOrComp : mux21 generic map (nbit) port map ( a,alu_outs,branch_or_comp,zero_in);
 -- edge registers
-zero_reg : process(zero_out,cond_en,alu_out_en,c_outs)
+zero_reg : process(zero_out,en,c_outs)
 begin
-if(cond_en = '1') then
+if(en = '1') then
 cond<=zero_out;
-end if;
-if(alu_out_en = '1') then
 c_out<=c_outs;
 end if;
 end process;
 
 --zero_reg : register_1 generic map ( 1) port map (zero_out,cond,cond_en);
-alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,alu_out_en);
+alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,en);
 --ALU
 alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,cin,alu_type,alu_outs,c_outs);
 -- zero check block
