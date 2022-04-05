@@ -36,8 +36,8 @@ begin
 						RD2 <= '1';
 						RD <= ir_s(15 downto 0);
 						WR <= '1';
-		when "11" then	IMM <= ir_s(25) & (others => '0') & ir_s(24 downto 0);
-		when others => RD1<='0', RD2<='0', WR<='0';
+		when "11" then	IMM <= ir_s(25) & (others => '0') & ir_s(24 downto 0); -- da euge : in ogni when devi assegnare tutti i segnali
+		when others => RD1<='0', RD2<='0', WR<='0';                            -- ir_s, se non messa in sensitivity list, non viene letta(da problemi)
 	end case;
   end process;
 

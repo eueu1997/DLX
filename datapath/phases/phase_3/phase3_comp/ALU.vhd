@@ -18,7 +18,8 @@ entity ALU is
 	
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
-		cin 		: 	in std_logic;
+		cin 		: 	in  std_logic;
+		alu_en 		:   in  std_logic;
 		ALU_type	:	in	std_logic_vector(0 to 3);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
 		co 			:   out std_logic
@@ -99,8 +100,9 @@ add_sub1 : add_sub generic map(32) port map(as_add,bs_add,tmp2,tmp1,as_out,add_e
 logic1 : logic generic map (32) port map ( as_logic  , bs_logic ,alu_type , logic_en, logic_out);
 shifter1 : shifter generic map (32) port map( as_shift, bs_shift(4 downto 0) ,lr , shift_en,s_out);
 
-mux : process (alu_input1,alu_input2,alu_type,as_out,logic_out,s_out)
+mux : process (alu_input1,alu_input2,alu_type,as_out,logic_out,s_out,alu_en)
 begin
+	if(alu_en = '1') then
 	case alu_type is
 		when "0000" => 
 			as_add <= alu_input1;
@@ -189,6 +191,7 @@ begin
 			lr <='0' ;
 			
 	end case;
+	end if;
 	end process;				  
 end structural;
 

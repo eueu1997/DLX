@@ -55,13 +55,13 @@ component register_1 is
 end component;
 
 signal  alu_out_s, aluout_s , mux_to_pc, ram_to_lmd , lmd_to_wb,wb_to_reg: std_logic_vector(nbit-1 downto 0);
-
+signal cond2 : std_logic;
 begin 
 
 
 alu_out_s <= alu_out;
-
-mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond , j_en , pc);
+cond2 <= cond or j_en;
+mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond , b_en , pc);
 mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb_to_reg);
 
 ram1 : RAM generic map (nbit , nbit) port map ( ram_res, ram_en , rw , alu_out_s , ram_to_lmd , b);
