@@ -22,22 +22,29 @@ end inst_decode;
 architecture behavioral of inst_decode is
 begin
 
-  process(inst_type) is
+  process(inst_type,ir_s) is
 	begin
 	case inst_type is
-		when "01" then	RS1 <= ir_s(25 downto 21);
+		when "01" =>	RS1 <= ir_s(25 downto 21);
 						RD1 <= '1';
 						RD <= ir_s(20 downto 16);
 						WR <= '1';
-						IMM <= ir_s(15) & (others => '0') & ir_s(14 downto 0);
-		when "10" then	RS1 <= ir_s(25 downto 21);
+						IMM(31) <= ir_s(15);
+						IMM(30 downto 15) <= (others => '0');
+						IMM(14 downto 0) <= ir_s (14 downto 0) ;
+		when "10" =>	RS1 <= ir_s(25 downto 21);
 						RD1 <= '1';
 						RS2 <= ir_s(20 downto 16);
 						RD2 <= '1';
 						RD <= ir_s(15 downto 0);
 						WR <= '1';
-		when "11" then	IMM <= ir_s(25) & (others => '0') & ir_s(24 downto 0);
-		when others => RD1<='0', RD2<='0', WR<='0';
+		when "11" =>	IMM(31) <= ir_s(25);
+						IMM(30 downto 25) <= (others => '0');
+						IMM(24 downto 0) <= ir_s (24 downto 0) ;
+			--IMM <= ir_s(25) & (others => '0') & ir_s(24 downto 0);
+		when others => RD1<='0';
+						 RD2<='0'; 
+						WR<='0';
 	end case;
   end process;
 

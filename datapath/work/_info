@@ -1,0 +1,1700 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms22.57/Documents/DLX/DLX/datapath
+Eadd_sub
+Z1 w1648558591
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z4 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd
+Z5 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd
+l0
+L4
+V5^9D]WJ_OYf^SZXn7z[<F0
+!s100 QcC]ZR`j28^@717PY4z7P0
+Z6 OL;C;10.7c;67
+32
+Z7 !s110 1648891949
+!i10b 1
+Z8 !s108 1648891949.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd|
+Z10 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z14 DEx4 work 8 p4_adder 0 22 5@QX6:1cQUP0oM7cM?PIm3
+R2
+R3
+DEx4 work 7 add_sub 0 22 5^9D]WJ_OYf^SZXn7z[<F0
+l47
+L17
+V9^[kSU2XK7[0Ti6N=]R2^3
+!s100 ZH2;5f?a@KU^IOgG]=ZBX3
+R6
+32
+Z15 !s110 1648891950
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ealu
+Z16 w1648540792
+Z17 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R13
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z20 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+Z21 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd
+l0
+L11
+V;`:IZz4UEn>TETV^O16OP3
+!s100 A@IaW=D]bZ>ZbK4T]GN?U2
+R6
+32
+Z22 !s110 1648891951
+!i10b 1
+Z23 !s108 1648891951.000000
+Z24 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd|
+Z25 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/ALU.vhd|
+!i113 0
+R11
+R12
+Astructural
+R17
+R13
+R18
+R19
+R2
+R3
+DEx4 work 3 alu 0 22 ;`:IZz4UEn>TETV^O16OP3
+l77
+L31
+Vm0ekAJm4nJQ=15jElASb_2
+!s100 <Om2^ITLfU:?@GFd<CIlN3
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R11
+R12
+Eand_32
+Z26 w1646670574
+R2
+R3
+R0
+Z27 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/and_32.vhd
+Z28 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/and_32.vhd
+l0
+L4
+VP5h4@O`g;T>ec7[EkfNeo3
+!s100 ;=_g9>8JGhICVd@J=Oe0T0
+R6
+32
+Z29 !s110 1648891946
+!i10b 1
+Z30 !s108 1648891946.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/and_32.vhd|
+Z32 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/and_32.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 6 and_32 0 22 P5h4@O`g;T>ec7[EkfNeo3
+l13
+L11
+VP^I943J32bgKEU_;92lzJ0
+!s100 QaekQEi69>mzb0h6N5L;B3
+R6
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R11
+R12
+Ecarry_generator
+R26
+Z33 DPx4 work 9 constants 0 22 LDG1jg>QdmLMC]HcdmRmg3
+R17
+R13
+R2
+R3
+R0
+Z34 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_generator.vhd
+Z35 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_generator.vhd
+l0
+L7
+V0_:gnz@Z2;PPm8GdUNBIi0
+!s100 4aDm14@im01Y@:TkRNfe@3
+R6
+32
+Z36 !s110 1648891943
+!i10b 1
+Z37 !s108 1648891942.000000
+Z38 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_generator.vhd|
+Z39 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_generator.vhd|
+!i113 0
+R11
+R12
+Astructural
+R33
+R17
+R13
+R2
+R3
+Z40 DEx4 work 15 carry_generator 0 22 0_:gnz@Z2;PPm8GdUNBIi0
+l47
+L18
+VVboQe=9AfM`o23<fk9Qha2
+!s100 LoA9WJMjieXId874>Cn^33
+R6
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R11
+R12
+Ecarry_select
+R26
+R33
+R2
+R3
+R0
+Z41 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/carry_select.vhd
+Z42 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/carry_select.vhd
+l0
+L6
+VF=i]Ref]=L2KQc:MTz9ze3
+!s100 _3Eh3EZ_Si?7?i<MPl[cJ0
+R6
+32
+Z43 !s110 1648891942
+!i10b 1
+R37
+Z44 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/carry_select.vhd|
+Z45 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/carry_select.vhd|
+!i113 0
+R11
+R12
+Astructural
+R33
+R2
+R3
+Z46 DEx4 work 12 carry_select 0 22 F=i]Ref]=L2KQc:MTz9ze3
+l39
+L14
+VD6d]2f=>BlOZ?ZeXJbFAD0
+!s100 GN8d[N<iMa2OhgWQjl8;V1
+R6
+32
+R43
+!i10b 1
+R37
+R44
+R45
+!i113 0
+R11
+R12
+Ccfg_carry_generator_structural
+eCARRY_GENERATOR
+Z47 aSTRUCTURAL
+Z48 DEx4 work 1 g 0 22 DjlPB`l2;Db]zWz@BD<P42
+Z49 DEx4 work 2 pg 0 22 :UzEEzJC_K>87X9oK4DL60
+DAx4 work 15 carry_generator 10 structural 22 VboQe=9AfM`o23<fk9Qha2
+R33
+R17
+R13
+R2
+R3
+R40
+R26
+R0
+R34
+R35
+l0
+L124
+Vni1d^B]RZ9>BEdk1[TlKL3
+!s100 hOcM=GbgOXhRnNNdPANLN2
+R6
+32
+R36
+!i10b 0
+R37
+R38
+R39
+!i113 0
+R11
+R12
+Ccfg_carry_select_structural
+eCARRY_SELECT
+R47
+Z50 DEx4 work 5 mux21 0 22 RSKXK2ZdkSP37VEPIbG:01
+Z51 DEx4 work 3 rca 0 22 Ef6_XUVdPPEfD1?5SFH<B2
+DCx4 work 20 cfg_mux21_behavioral 0 22 Tj<maO_7GVR65NE8f4QiP2
+R18
+R19
+DCx4 work 18 cfg_rca_structural 0 22 1^@z>k?`Wb?1`8nB0ZJ6>2
+DAx4 work 12 carry_select 10 structural 22 D6d]2f=>BlOZ?ZeXJbFAD0
+R33
+R2
+R3
+R46
+R26
+R0
+R41
+R42
+l0
+L54
+VEZfFk8^b0[bUPe;_>078l0
+!s100 BoeWX^<c1ZaM[SkbdoFI]3
+R6
+32
+R43
+!i10b 0
+R37
+R44
+R45
+!i113 0
+R11
+R12
+Ccfg_fa_behavioral
+eFA
+Z52 aBEHAVIORAL
+DAx4 work 2 fa 10 behavioral 22 VN4zj<1UDaI=Q>fmVIbH21
+R2
+R3
+Z53 DEx4 work 2 fa 0 22 @IjnZ7??KFC`DOlen7^781
+R26
+R0
+Z54 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/fa.vhd
+Z55 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/fa.vhd
+l0
+L21
+VNPQMC<oE<8CcT6^oMIFj32
+!s100 >Bdj?3K]:j@Xai4Gj1gaR2
+R6
+32
+Z56 !s110 1648891941
+!i10b 0
+Z57 !s108 1648891940.000000
+Z58 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/fa.vhd|
+Z59 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/fa.vhd|
+!i113 0
+R11
+R12
+Ccfg_g_beh
+eG
+Z60 abehavioral
+DAx4 work 1 g 10 behavioral 22 KX4hE1PN9AO9FY_5^f[0C2
+R2
+R3
+R48
+R26
+R0
+Z61 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/G.vhd
+Z62 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/G.vhd
+l0
+L16
+VG7k]SSXiO<>Z^TRZCKT]f0
+!s100 i3O_e?T;OR]3J^85I8^Zl2
+R6
+32
+Z63 !s110 1648891939
+!i10b 0
+Z64 !s108 1648891939.000000
+Z65 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/G.vhd|
+Z66 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/G.vhd|
+!i113 0
+R11
+R12
+Ccfg_mux21_behavioral
+eMUX21
+R52
+DAx4 work 5 mux21 10 behavioral 22 dXc0SJWLH50K4P3<XYNXY0
+R2
+R3
+R50
+R26
+R0
+Z67 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd
+Z68 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd
+l0
+L19
+VTj<maO_7GVR65NE8f4QiP2
+!s100 ?hbOzU=M>ZIH_CoQE]Shm0
+R6
+32
+Z69 !s110 1648891952
+!i10b 0
+R23
+Z70 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd|
+Z71 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/mux21.vhd|
+!i113 0
+R11
+R12
+Ccfg_p4_adder_beh
+Z72 eP4_ADDER
+R60
+DAx4 work 8 p4_adder 10 behavioral 22 m:m0@COA9fMUdHbBfRKBi0
+R13
+R2
+R3
+R14
+Z73 w1648041812
+R0
+Z74 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd
+Z75 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd
+l0
+L70
+VQV7Qa2:KJERMPU<j8CaF:2
+!s100 8B2`ORnZ9O^HSG[0_eY9i2
+R6
+32
+Z76 !s110 1648891944
+!i10b 0
+Z77 !s108 1648891943.000000
+Z78 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd|
+Z79 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder.vhd|
+!i113 0
+R11
+R12
+Ccfg_p4_adder_structural
+R72
+R47
+Z80 DEx4 work 13 sum_generator 0 22 `A]8?D]_;gaoH;Q9Z7J[P0
+R40
+DCx4 work 28 cfg_sum_generator_structural 0 22 a837I51UMcEZNJ093?5=^0
+R33
+R17
+DCx4 work 30 cfg_carry_generator_structural 0 22 ni1d^B]RZ9>BEdk1[TlKL3
+DAx4 work 8 p4_adder 10 structural 22 cQI;_oTO:DLY`fRYL:23I2
+R13
+R2
+R3
+R14
+R73
+R0
+R74
+R75
+l0
+L60
+V3:M6T0Un[R?GS8CPlE<kZ1
+!s100 3hm<jnS:L`G9ajQM`bD=M3
+R6
+32
+R76
+!i10b 0
+R77
+R78
+R79
+!i113 0
+R11
+R12
+Ccfg_pg_beh
+ePG
+R60
+DAx4 work 2 pg 10 behavioral 22 `6ocODG9IM=zNa3=3]BI_1
+R2
+R3
+R49
+R26
+R0
+Z81 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/PG.vhd
+Z82 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/PG.vhd
+l0
+L19
+V<[PU?z>MgohMW?41VDNmL2
+!s100 ?MbAJ0>@GFf?IL[265hl52
+R6
+32
+Z83 !s110 1648891940
+!i10b 0
+R64
+Z84 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/PG.vhd|
+Z85 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/carry_gen_comp/PG.vhd|
+!i113 0
+R11
+R12
+Ccfg_rca_behavioral
+eRCA
+R52
+DAx4 work 3 rca 10 behavioral 22 M0Q7J8G8E34fdAmjfK]232
+R18
+R19
+R2
+R3
+R51
+R26
+R0
+Z86 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/rca.vhd
+Z87 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/rca.vhd
+l0
+L70
+V<V2=zf:Tmbn1@a[c_l;RL3
+!s100 9J^1?UPjKQXToIGOhHN_l1
+R6
+32
+R43
+!i10b 0
+Z88 !s108 1648891941.000000
+Z89 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/rca.vhd|
+Z90 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/rca.vhd|
+!i113 0
+R11
+R12
+Ccfg_rca_structural
+eRCA
+R47
+R53
+DCx4 work 17 cfg_fa_behavioral 0 22 NPQMC<oE<8CcT6^oMIFj32
+DAx4 work 3 rca 10 structural 22 >lzCXQkO3<98aMN0<KAlz1
+R18
+R19
+R2
+R3
+R51
+R26
+R0
+R86
+R87
+l0
+L60
+V1^@z>k?`Wb?1`8nB0ZJ6>2
+!s100 `A5J_F]HH_UbfX<G45^c03
+R6
+32
+R43
+!i10b 0
+R88
+R89
+R90
+!i113 0
+R11
+R12
+Ccfg_rf_beh
+eregister_file
+aA
+DAx4 work 13 register_file 1 a 22 ?Y=ScdTZNV^=QKZ@6C;J:3
+R17
+R13
+R18
+R19
+R2
+R3
+Z91 DEx4 work 13 register_file 0 22 GWaP:Kl=BTKEJzc=S_VIE2
+R26
+R0
+Z92 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
+Z93 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
+l0
+L63
+Ve`A7jIQQ^z78YlgeSTg9C3
+!s100 Q]ZVQ2zEH?G<KjdM[4]R=2
+R6
+32
+Z94 !s110 1648891955
+!i10b 0
+Z95 !s108 1648891955.000000
+Z96 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd|
+Z97 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd|
+!i113 0
+R11
+R12
+Ccfg_sum_generator_structural
+eSUM_GENERATOR
+R47
+R46
+R33
+DCx4 work 27 cfg_carry_select_structural 0 22 EZfFk8^b0[bUPe;_>078l0
+DAx4 work 13 sum_generator 10 structural 22 NUjR[F@1_fgDJB]nECR?f1
+R2
+R3
+R80
+R26
+R0
+Z98 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator.vhd
+Z99 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator.vhd
+l0
+L39
+Va837I51UMcEZNJ093?5=^0
+!s100 <GmbZ4VX`k9zoHQaNRIJ61
+R6
+32
+R36
+!i10b 0
+R77
+Z100 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator.vhd|
+Z101 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator.vhd|
+!i113 0
+R11
+R12
+Pconstants
+R26
+R0
+8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/constants.vhd
+F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/constants.vhd
+l0
+L1
+VLDG1jg>QdmLMC]HcdmRmg3
+!s100 <BS5I82dg74WBU@FBZObR0
+R6
+32
+R83
+!i10b 1
+R57
+!s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/constants.vhd|
+!s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/adder_comp/sum_generator_comp/constants.vhd|
+!i113 0
+R11
+R12
+Edatapath
+Z102 w1648888535
+R33
+R2
+R3
+R0
+8/home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
+F/home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
+l0
+L5
+Vn09@VhekUbJCEcd9mAlel1
+!s100 g=BnQj3O5j2`_8`NHD<L23
+R6
+32
+Z103 !s110 1648891958
+!i10b 1
+!s108 1648891958.000000
+!s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd|
+!s107 /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd|
+!i113 0
+R11
+R12
+Edecode
+R102
+R33
+R2
+R3
+R0
+8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/decode.vhd
+F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/decode.vhd
+l0
+L5
+VCOJVYhmEQ@FV9BgYnVCP33
+!s100 mg6?j@OL=4b:zNCX5]iZU1
+R6
+32
+Z104 !s110 1648891957
+!i10b 1
+Z105 !s108 1648891956.000000
+!s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/decode.vhd|
+!s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/decode.vhd|
+!i113 0
+R11
+R12
+Eexnor
+R26
+R2
+R3
+R0
+Z106 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/exnor.vhd
+Z107 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/exnor.vhd
+l0
+L4
+V6RZKEU=8?@Xd175MbUV6?1
+!s100 ^:=b<Y>bO:9kdzQ3aP_5d2
+R6
+32
+Z108 !s110 1648891953
+!i10b 1
+Z109 !s108 1648891952.000000
+Z110 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/exnor.vhd|
+Z111 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/exnor.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 5 exnor 0 22 6RZKEU=8?@Xd175MbUV6?1
+l13
+L11
+VmV7DmRCG?9LYDD2_i7`o03
+!s100 0X20Y5kF[aNTD30WJ_:n92
+R6
+32
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 0
+R11
+R12
+Efa
+R26
+R2
+R3
+R0
+R54
+R55
+l0
+L4
+V@IjnZ7??KFC`DOlen7^781
+!s100 ?=7GSNh2i_P381A[`Sd]i2
+R6
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+R53
+l14
+L12
+VVN4zj<1UDaI=Q>fmVIbH21
+!s100 M@@WaOI_<AlQeUTGTcBZk0
+R6
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 0
+R11
+R12
+Eg
+R26
+R2
+R3
+R0
+R61
+R62
+l0
+L4
+VDjlPB`l2;Db]zWz@BD<P42
+!s100 Yie0MDdibMFA9Nd^_AH0U1
+R6
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+R48
+l12
+L11
+VKX4hE1PN9AO9FY_5^f[0C2
+!s100 f;c]W1=[?6O2_WG2j;BC42
+R6
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 0
+R11
+R12
+Einst_decode
+Z112 w1648891915
+R33
+R2
+R3
+R0
+Z113 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
+Z114 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
+l0
+L5
+V]h^=7h109>L>nWCz6Q5k02
+!s100 eeIAzS3lo@Ie6JO>dfN742
+R6
+32
+Z115 !s110 1648891956
+!i10b 1
+R105
+Z116 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd|
+Z117 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R33
+R2
+R3
+DEx4 work 11 inst_decode 0 22 ]h^=7h109>L>nWCz6Q5k02
+l23
+L22
+V9S_K_fTzM@N@eRJTU5i8f0
+!s100 ET^Z?djai;M0cHVMK>aAn0
+R6
+32
+R115
+!i10b 1
+R105
+R116
+R117
+!i113 0
+R11
+R12
+Eiram
+R26
+R13
+Z118 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R2
+R3
+R0
+Z119 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+Z120 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+l0
+L12
+VFeMlkT8<DgJkgf1b6L^eJ1
+!s100 0edlm[30VlU=:Z2XT3Rkg3
+R6
+32
+Z121 !s110 1648891954
+!i10b 1
+Z122 !s108 1648891954.000000
+Z123 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd|
+Z124 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd|
+!i113 0
+R11
+R12
+Airam_bhe
+R13
+R118
+R2
+R3
+DEx4 work 4 iram 0 22 FeMlkT8<DgJkgf1b6L^eJ1
+l30
+L24
+ViCSDhAf3`;D70G^0RaNS?2
+!s100 R1=g8I8:TM0YM87kO2??h3
+R6
+32
+R121
+!i10b 1
+R122
+R123
+R124
+!i113 0
+R11
+R12
+Elogic
+Z125 w1648473389
+R2
+R3
+R0
+Z126 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd
+Z127 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd
+l0
+L4
+V55EX5><`oT=Cnf57]h@7f1
+!s100 gcDO:]EEeG^WfL>V`Q]h@3
+R6
+32
+R15
+!i10b 1
+Z128 !s108 1648891950.000000
+Z129 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd|
+Z130 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 5 logic 0 22 55EX5><`oT=Cnf57]h@7f1
+l51
+L15
+VF4ha<3CGeQlkLHfBbM9ll2
+!s100 cIIM>Vhif78629m9E>D3:0
+R6
+32
+R15
+!i10b 1
+R128
+R129
+R130
+!i113 0
+R11
+R12
+Emux21
+R26
+R2
+R3
+R0
+R67
+R68
+l0
+L6
+VRSKXK2ZdkSP37VEPIbG:01
+!s100 B6>ABHTo^aHW0e>[UX69@3
+R6
+32
+R69
+!i10b 1
+R23
+R70
+R71
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+R50
+l15
+L14
+VdXc0SJWLH50K4P3<XYNXY0
+!s100 E1[mQdUe7MFEfCg^oTm2l3
+R6
+32
+R69
+!i10b 1
+R23
+R70
+R71
+!i113 0
+R11
+R12
+Emux41
+R26
+R2
+R3
+R0
+Z131 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd
+Z132 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd
+l0
+L6
+V31=AzS>JzMkMjfMdbIk9g0
+!s100 PDSOggmTZ@CYjF1hoEi@P2
+R6
+32
+R7
+!i10b 1
+Z133 !s108 1648891948.000000
+Z134 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd|
+Z135 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux41.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 5 mux41 0 22 31=AzS>JzMkMjfMdbIk9g0
+l25
+L16
+VlAmzB0neAAk]E5lE1ZMbH1
+!s100 maFUcP]OYgQdmf7nLO3]f1
+R6
+32
+R7
+!i10b 1
+R133
+R134
+R135
+!i113 0
+R11
+R12
+Emux81
+R26
+R2
+R3
+R0
+Z136 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd
+Z137 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd
+l0
+L6
+V7cEI@nK[Y=Y`^bcHLYUFz2
+!s100 C0fmYVjDE4EQlgdTaYk_l3
+R6
+32
+R7
+!i10b 1
+R8
+Z138 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd|
+Z139 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter_comp/mux81.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 5 mux81 0 22 7cEI@nK[Y=Y`^bcHLYUFz2
+l38
+L20
+Vf@[ddJY]_F0@ESnL=>2??2
+!s100 1?3gk7>>^cU0=0DM<CYh60
+R6
+32
+R7
+!i10b 1
+R8
+R138
+R139
+!i113 0
+R11
+R12
+Enand32
+Z140 w1648109921
+R2
+R3
+R0
+Z141 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/nand32.vhd
+Z142 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/nand32.vhd
+l0
+L4
+Vh[_Clj2>kRo>gDXFf8IcB0
+!s100 ]]bV30i5V4^U3JI<Mz4EW2
+R6
+32
+Z143 !s110 1648891947
+!i10b 1
+R30
+Z144 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/nand32.vhd|
+Z145 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/nand32.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 6 nand32 0 22 h[_Clj2>kRo>gDXFf8IcB0
+l14
+L13
+VSU2L81HOMKfzeXTZKRX1j3
+!s100 Oz0f4RH?:jBbQ0i0<cO:Q1
+R6
+32
+R143
+!i10b 1
+R30
+R144
+R145
+!i113 0
+R11
+R12
+Enot_32
+R26
+R2
+R3
+R0
+Z146 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/not_32.vhd
+Z147 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/not_32.vhd
+l0
+L4
+VTlFCe4aZl88Tf2dzJHJX;2
+!s100 ELi>>gcHm^D6[eMUM0^a60
+R6
+32
+R143
+!i10b 1
+Z148 !s108 1648891947.000000
+Z149 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/not_32.vhd|
+Z150 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/not_32.vhd|
+!i113 0
+R11
+R12
+Abeh
+R2
+R3
+DEx4 work 6 not_32 0 22 TlFCe4aZl88Tf2dzJHJX;2
+l12
+L11
+V2T@Z2JY49fi`mKgE8N7lU3
+!s100 XVhJA0f4Z6Cj_ai`k0zM80
+R6
+32
+R143
+!i10b 1
+R148
+R149
+R150
+!i113 0
+R11
+R12
+Eor_1
+R26
+R2
+R3
+R0
+Z151 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/or_1.vhd
+Z152 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/or_1.vhd
+l0
+L4
+V7^m[P4NJGi93KJWC1=2L@1
+!s100 Q^QTCAbPQc;FmB2_=mnzn2
+R6
+32
+R108
+!i10b 1
+Z153 !s108 1648891953.000000
+Z154 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/or_1.vhd|
+Z155 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/zero_comp/or_1.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 4 or_1 0 22 7^m[P4NJGi93KJWC1=2L@1
+l13
+L11
+VTabKDcf6=M`dl>OQAP<hG3
+!s100 T[Xiej9B[^=5Xf[M<H>gi3
+R6
+32
+R108
+!i10b 1
+R153
+R154
+R155
+!i113 0
+R11
+R12
+Eor_32
+R26
+R2
+R3
+R0
+Z156 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/or_32.vhd
+Z157 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/or_32.vhd
+l0
+L4
+Vo3hV;W;655OT>za@OM7h02
+!s100 FI5dz9mDG:j^3fSlGTSfR1
+R6
+32
+Z158 !s110 1648891948
+!i10b 1
+R148
+Z159 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/or_32.vhd|
+Z160 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/logic_comp/or_32.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 5 or_32 0 22 o3hV;W;655OT>za@OM7h02
+l13
+L11
+V;cbfMg[zC7ofza6DhBPW41
+!s100 7Z>z46zndEd3_lICgMoF:1
+R6
+32
+R158
+!i10b 1
+R148
+R159
+R160
+!i113 0
+R11
+R12
+Ep4_adder
+R73
+R13
+R2
+R3
+R0
+R74
+R75
+l0
+L5
+V5@QX6:1cQUP0oM7cM?PIm3
+!s100 WV]a?]9JGW4Pn:1m:]dS12
+R6
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R11
+R12
+Abehavioral
+R13
+R2
+R3
+R14
+l52
+L49
+Vm:m0@COA9fMUdHbBfRKBi0
+!s100 a@RFOc9gAXFB:KP<?1^402
+R6
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R11
+R12
+Astructural
+R13
+R2
+R3
+R14
+l37
+L15
+VcQI;_oTO:DLY`fRYL:23I2
+!s100 j@BJClbE52`P_<gE;H=2R3
+R6
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R11
+R12
+Epg
+R26
+R2
+R3
+R0
+R81
+R82
+l0
+L4
+V:UzEEzJC_K>87X9oK4DL60
+!s100 35Uak0K;=m2jKXf?gL4U73
+R6
+32
+R83
+!i10b 1
+R64
+R84
+R85
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+R49
+l14
+L13
+V`6ocODG9IM=zNa3=3]BI_1
+!s100 ]IW56EIO9bPNC^5FVT25@3
+R6
+32
+R83
+!i10b 1
+R64
+R84
+R85
+!i113 0
+R11
+R12
+Ephase3
+R102
+R2
+R3
+R0
+Z161 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd
+Z162 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd
+l0
+L4
+Vl`2gXk=beJIdMn2l4H1^l2
+!s100 ^zDLAe]d=i3;laK8_f6;;1
+R6
+32
+R121
+!i10b 1
+R153
+Z163 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd|
+Z164 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 6 phase3 0 22 l`2gXk=beJIdMn2l4H1^l2
+l79
+L30
+V_OI<ZfAGjz[`@O72EnAYL0
+!s100 U@bk`<j?e_EaM2dGah0PR2
+R6
+32
+R121
+!i10b 1
+R153
+R163
+R164
+!i113 0
+R11
+R12
+Ephase_4
+R102
+R2
+R3
+R0
+Z165 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/phase_4.vhd
+Z166 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/phase_4.vhd
+l0
+L4
+V59mPnDUIh=^=9L0e;bhhW0
+!s100 Gd0AeYmTD:i[:[M[[T1G@0
+R6
+32
+R103
+!i10b 1
+Z167 !s108 1648891957.000000
+Z168 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/phase_4.vhd|
+Z169 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/phase_4.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 7 phase_4 0 22 59mPnDUIh=^=9L0e;bhhW0
+l59
+L21
+VcdUVhnToZ^?CIBXcgbmZd1
+!s100 ]Qj6OKR2O[7W?bZOE3hFB0
+R6
+32
+R103
+!i10b 1
+R167
+R168
+R169
+!i113 0
+R11
+R12
+Eram
+R26
+R13
+R118
+R2
+R3
+R0
+Z170 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/RAM.vhd
+Z171 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/RAM.vhd
+l0
+L7
+V4[cP[zL]zHiimCI9UdYNo1
+!s100 W59RFET[RD23@h6SEi_g?0
+R6
+32
+R104
+!i10b 1
+R167
+Z172 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/RAM.vhd|
+Z173 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/RAM.vhd|
+!i113 0
+R11
+R12
+Aram_bhe
+R13
+R118
+R2
+R3
+DEx4 work 3 ram 0 22 4[cP[zL]zHiimCI9UdYNo1
+l29
+L23
+V;4LdMjT<Vg11YEXDP2_3>1
+!s100 okAYBU6bBY3:1jLEl:@IW0
+R6
+32
+R104
+!i10b 1
+R167
+R172
+R173
+!i113 0
+R11
+R12
+Erca
+R26
+R18
+R19
+R2
+R3
+R0
+R86
+R87
+l0
+L5
+VEf6_XUVdPPEfD1?5SFH<B2
+!s100 8A]n:EQZ_J^KRd^TGV5U90
+R6
+32
+R43
+!i10b 1
+R88
+R89
+R90
+!i113 0
+R11
+R12
+Abehavioral
+R18
+R19
+R2
+R3
+R51
+l44
+L42
+VM0Q7J8G8E34fdAmjfK]232
+!s100 VC3H=c>T@7i17Pe=z^eXR2
+R6
+32
+R43
+!i10b 1
+R88
+R89
+R90
+!i113 0
+R11
+R12
+Astructural
+R18
+R19
+R2
+R3
+R51
+l28
+L15
+V>lzCXQkO3<98aMN0<KAlz1
+!s100 _Y5en@6e?lM<Dm[ljDTh?2
+R6
+32
+R43
+!i10b 1
+R88
+R89
+R90
+!i113 0
+R11
+R12
+Ereg_fetch
+R26
+R33
+R2
+R3
+R0
+Z174 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+Z175 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+l0
+L5
+V3[l@B4ECoh=R]1?l3gYPA2
+!s100 N5eDQKng@RYA5zN<TRA?20
+R6
+32
+R115
+!i10b 1
+R95
+Z176 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd|
+Z177 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd|
+!i113 0
+R11
+R12
+Astructural
+R33
+R2
+R3
+DEx4 work 9 reg_fetch 0 22 3[l@B4ECoh=R]1?l3gYPA2
+l59
+L31
+Vc?Z7^d^@CPb87G@:d1:gg3
+!s100 9O[>AmA:P6GYfbF`IUD@:1
+R6
+32
+R115
+!i10b 1
+R95
+R176
+R177
+!i113 0
+R11
+R12
+Eregister_1
+R26
+R2
+R3
+R0
+Z178 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd
+Z179 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd
+l0
+L4
+V[Lmb4KS?OH7i3PKhH9EfS2
+!s100 HAJ;?^<M6C1lm_a@NLoV>1
+R6
+32
+R94
+!i10b 1
+R122
+Z180 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd|
+Z181 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd|
+!i113 0
+R11
+R12
+Abeh
+R2
+R3
+DEx4 work 10 register_1 0 22 [Lmb4KS?OH7i3PKhH9EfS2
+l15
+L13
+V:Y`=C`1VE=V:BbagRLDLP1
+!s100 N4;3D_;c=1bG5k_YBk_ng1
+R6
+32
+R94
+!i10b 1
+R122
+R180
+R181
+!i113 0
+R11
+R12
+Eregister_file
+R26
+R17
+R13
+R18
+R19
+R2
+R3
+R0
+R92
+R93
+l0
+L8
+VGWaP:Kl=BTKEJzc=S_VIE2
+!s100 cNOCWn[dkT:l>g4IG]BaG2
+R6
+32
+R94
+!i10b 1
+R95
+R96
+R97
+!i113 0
+R11
+R12
+Aa
+R17
+R13
+R18
+R19
+R2
+R3
+R91
+l35
+L27
+V?Y=ScdTZNV^=QKZ@6C;J:3
+!s100 i7z0=FN^za6<;e@LhLXca3
+R6
+32
+R94
+!i10b 1
+R95
+R96
+R97
+!i113 0
+R11
+R12
+Eshifter
+Z182 w1648539502
+R17
+R2
+R3
+R0
+Z183 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+Z184 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd
+l0
+L5
+Vd^aU=E9>Jej_<B;k>`Se31
+!s100 oNLg^zUF@YKoVIFgLf]?H0
+R6
+32
+R22
+!i10b 1
+R128
+Z185 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd|
+Z186 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/shifter.vhd|
+!i113 0
+R11
+R12
+Astructural
+R17
+R2
+R3
+DEx4 work 7 shifter 0 22 d^aU=E9>Jej_<B;k>`Se31
+l55
+L16
+V943GJ5hcgZX9ZXIfRd;MY2
+!s100 cYm50[mDSN[E1]V2^czI43
+R6
+32
+R22
+!i10b 1
+R128
+R185
+R186
+!i113 0
+R11
+R12
+Esum_generator
+R26
+R2
+R3
+R0
+R98
+R99
+l0
+L4
+V`A]8?D]_;gaoH;Q9Z7J[P0
+!s100 <aoY2^5C]4mlD<Vl=AhLZ3
+R6
+32
+R36
+!i10b 1
+R77
+R100
+R101
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+R80
+l25
+L14
+VNUjR[F@1_fgDJB]nECR?f1
+!s100 8S6>QLY8d`O2F9KK;PeQ82
+R6
+32
+R36
+!i10b 1
+R77
+R100
+R101
+!i113 0
+R11
+R12
+Exor_1
+R26
+R2
+R3
+R0
+Z187 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd
+Z188 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd
+l0
+L4
+V4`U;BdzX;F;W6cf>H4^212
+!s100 6BljSUboI[9cI]BEi^IR>2
+R6
+32
+Z189 !s110 1648891945
+!i10b 1
+Z190 !s108 1648891945.000000
+Z191 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd|
+Z192 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_1.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 5 xor_1 0 22 4`U;BdzX;F;W6cf>H4^212
+l13
+L11
+V`Q9F8I3c7n:BeL9Q_e3[z3
+!s100 ;NlYOn;]``KfRNma_ej1@2
+R6
+32
+R189
+!i10b 1
+R190
+R191
+R192
+!i113 0
+R11
+R12
+Exor_32
+R26
+R2
+R3
+R0
+Z193 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd
+Z194 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd
+l0
+L4
+VYJCen>f2nk:gAB63:2G8J1
+!s100 0o1znN4a_Nc^aoE9iY<OY3
+R6
+32
+R29
+!i10b 1
+R190
+Z195 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd|
+Z196 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_3/phase3_comp/alu_comp/add_sub_comp/xor_32.vhd|
+!i113 0
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 6 xor_32 0 22 YJCen>f2nk:gAB63:2G8J1
+l21
+L12
+V9@J0o@0oFkAP<ckF<e6VI0
+!s100 SiZ:@82ejKGQE=3KNUA<L0
+R6
+32
+R29
+!i10b 1
+R190
+R195
+R196
+!i113 0
+R11
+R12
