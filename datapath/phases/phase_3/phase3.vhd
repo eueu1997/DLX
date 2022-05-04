@@ -14,6 +14,7 @@ entity phase3 is
 		 branch_or_comp : in std_logic; -- branching means we get a, comparing means we need the result of a+b so we can check if it is zero to say that are equalt
 		 be : in std_logic; -- 0 be , 1 bne
 		 alu_type : in std_logic_vector(3 downto 0);
+		 alu_en : in std_logic;
 		 c_out : out std_logic;
 		 cin : in std_logic;
 		 -- output of the condition
@@ -48,6 +49,7 @@ component ALU is
 		alu_input1	:	in	std_logic_vector(operand_width -1 downto 0);
 		alu_input2	:	in	std_logic_vector(operand_width -1 downto 0);
 		cin 		: 	in std_logic;
+		alu_en		:   in std_logic;
 		ALU_type	:	in	std_logic_vector(0 to 3);
 		alu_output	:	out	std_logic_vector(operand_width -1 downto 0);
 		co 			:   out std_logic
@@ -93,7 +95,7 @@ end process;
 --zero_reg : register_1 generic map ( 1) port map (zero_out,cond,cond_en);
 alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,en);
 --ALU
-alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,cin,alu_type,alu_outs,c_outs);
+alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,cin,alu_en,alu_type,alu_outs,c_outs);
 -- zero check block
 zero1 : zero port map ( zero_in,be,zero_out);
 end structural;

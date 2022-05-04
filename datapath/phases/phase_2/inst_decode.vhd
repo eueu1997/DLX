@@ -15,7 +15,7 @@ entity inst_decode is
        RS2 : out std_logic_vector(bit_add-1 downto 0);
        RD2 : out std_logic;
 	   RD : out std_logic_vector(bit_add-1 downto 0);
-	   WR : out std_logic;
+	   --WR : out std_logic;
 	   IMM : out std_logic_vector(bit_data-1 downto 0));
 end inst_decode;
 
@@ -28,7 +28,7 @@ begin
 		when "01" =>	RS1 <= ir_s(25 downto 21);
 						RD1 <= '1';
 						RD <= ir_s(20 downto 16);
-						WR <= '1';
+						--WR <= '1';
 						IMM(31) <= ir_s(15);
 						IMM(30 downto 15) <= (others => '0');
 						IMM(14 downto 0) <= ir_s (14 downto 0) ;
@@ -37,14 +37,14 @@ begin
 						RS2 <= ir_s(20 downto 16);
 						RD2 <= '1';
 						RD <= ir_s(15 downto 0);
-						WR <= '1';
+						--WR <= '1';
 		when "11" =>	IMM(31) <= ir_s(25);
 						IMM(30 downto 25) <= (others => '0');
 						IMM(24 downto 0) <= ir_s (24 downto 0) ;
-			--IMM <= ir_s(25) & (others => '0') & ir_s(24 downto 0);
-		when others => RD1<='0';
-						 RD2<='0'; 
-						WR<='0';
+		when others =>  RD1<='0';
+						RD2<='0'; 
+						--WR<='0';
+
 	end case;
   end process;
 
