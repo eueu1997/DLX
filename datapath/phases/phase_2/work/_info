@@ -7,201 +7,408 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/ms21.41/Desktop/istruction decode
+Z0 d/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2
+T_opt
+!s110 1652127251
+V9zEN[@=fgA4TfcEacN_DY2
+04 5 2 work p2_tb tb 1
+=1-5254009c17d7-62797612-2a9a3-4ec5
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1652129748
+V_=W^gQ>FaDdhV@kO7FACA2
+04 10 2 work r_fetch_tb tb 1
+=1-5254009c17d7-62797fd3-a88a0-61f7
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1652130511
+VMzNA7kz5Ji_Wb=0;_Xdji2
+04 14 2 work inst_decode_tb tb 1
+=1-5254009c17d7-627982ce-7e8e3-2b64
+R1
+R2
+n@_opt2
+R3
+R0
 Ccfg_rf_beh
 eregister_file
 aA
-DAx4 work 13 register_file 1 a 22 ?Y=ScdTZNV^=QKZ@6C;J:3
-Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z7 DEx4 work 13 register_file 0 22 GWaP:Kl=BTKEJzc=S_VIE2
-Z8 w1628590237
+DAx4 work 13 register_file 1 a 22 IYU;n:U:<WT7o118R]SAo3
+Z4 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DEx4 work 13 register_file 0 22 W3J@4]EYJ6@Q;miH>H7OQ0
+Z11 w1652126986
 R0
-Z9 8/home/ms21.41/Desktop/istruction decode/registerfile.vhd
-Z10 F/home/ms21.41/Desktop/istruction decode/registerfile.vhd
+Z12 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
+Z13 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
 l0
-L63
-Ve`A7jIQQ^z78YlgeSTg9C3
-!s100 Q]ZVQ2zEH?G<KjdM[4]R=2
-Z11 OL;C;10.7c;67
+L64
+VO6M`f;H=J:V^ghBfPLC0U3
+!s100 X1]3TJXlPMYgbAO?Tb03O1
+Z14 OL;C;10.7c;67
 32
-Z12 !s110 1629469255
+Z15 !s110 1652129421
 !i10b 0
-Z13 !s108 1629469255.000000
-Z14 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/registerfile.vhd|
-Z15 !s107 /home/ms21.41/Desktop/istruction decode/registerfile.vhd|
+Z16 !s108 1652129421.000000
+Z17 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd|
+Z18 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd|
 !i113 0
-Z16 o-work work
-Z17 tExplicit 1 CvgOpt 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
 Pconstants
-w1628589484
+Z21 w1646670574
 R0
-8/home/ms21.41/Desktop/istruction decode/constants.vhd
-F/home/ms21.41/Desktop/istruction decode/constants.vhd
+8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd
+F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd
 l0
 L1
 VPMOOiAnA^PXPEk5kLCnEb3
 !s100 TSWRYlj5T7BiDLhF;F9Qn0
-R11
+R14
 32
-!s110 1629304228
+!s110 1652127192
 !i10b 1
-!s108 1629304227.000000
-!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/constants.vhd|
-!s107 /home/ms21.41/Desktop/istruction decode/constants.vhd|
+!s108 1652127191.000000
+!s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd|
+!s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd|
 !i113 0
-R16
-R17
-Edecode
-w1629377713
-Z18 DPx4 work 9 constants 0 22 PMOOiAnA^PXPEk5kLCnEb3
-R5
-R6
+R19
+R20
+Einst_decode
+Z22 w1652117814
+Z23 DPx4 work 9 constants 0 22 PMOOiAnA^PXPEk5kLCnEb3
+R8
+R9
 R0
-8/home/ms21.41/Desktop/istruction decode/decode.vhd
-F/home/ms21.41/Desktop/istruction decode/decode.vhd
+Z24 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
+Z25 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
 l0
 L5
-VM]nbzZA8L[9f[@aD>E;H50
-!s100 bH[@WO7dGZo?A<GF5D7?O2
-R11
+VR<0RiAHSjV`]8NC@4EWDG0
+!s100 om;Eg<`X=[4V1_>^MW3TV2
+R14
 32
-!s110 1629378134
+Z26 !s110 1652127193
 !i10b 1
-!s108 1629378134.000000
-!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/decode.vhd|
-!s107 /home/ms21.41/Desktop/istruction decode/decode.vhd|
+Z27 !s108 1652127192.000000
+Z28 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd|
+Z29 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd|
 !i113 0
-R16
-R17
-Ereg_fetch
-Z19 w1629469548
-R18
-R5
-R6
+R19
+R20
+Abehavioral
+R23
+R8
+R9
+DEx4 work 11 inst_decode 0 22 R<0RiAHSjV`]8NC@4EWDG0
+l27
+L26
+VJ:MJ;PI2=6^3g7Enlz0I@0
+!s100 ROmhFN1@8F[FL>P<ZCD]g2
+R14
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R19
+R20
+Einst_decode_tb
+Z30 w1652130468
+R8
+R9
 R0
-Z20 8/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd
-Z21 F/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd
+Z31 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd
+Z32 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd
+l0
+L3
+V4hhIf4BYI[93o1o4MHBW90
+!s100 Tc[ZF7:6H[WPjlW3LJ8`f1
+R14
+32
+Z33 !s110 1652130471
+!i10b 1
+Z34 !s108 1652130471.000000
+Z35 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd|
+Z36 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd|
+!i113 0
+R19
+R20
+Atb
+R8
+R9
+DEx4 work 14 inst_decode_tb 0 22 4hhIf4BYI[93o1o4MHBW90
+l44
+L6
+V_SgQ:7ZV`;2iGXS]Rglz=1
+!s100 zC6LYAQ::nYHi<bglK3J80
+R14
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R19
+R20
+Ep2_tb
+Z37 w1652127129
+R8
+R9
+R0
+Z38 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
+Z39 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
+l0
+L3
+VXhgnLzDoiiLY4[05N?W7;2
+!s100 ndgCAEULNmXN@e2m7]U221
+R14
+32
+Z40 !s110 1652178100
+!i10b 1
+Z41 !s108 1652178099.000000
+Z42 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd|
+Z43 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd|
+!i113 0
+R19
+R20
+Atb
+R8
+R9
+Z44 DEx4 work 5 p2_tb 0 22 XhgnLzDoiiLY4[05N?W7;2
+l35
+L6
+Z45 Vj?g=be@?i:Oj4lbR1@U[D0
+Z46 !s100 IchFT]E[LIcc;O]P^GUMK0
+R14
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R19
+R20
+Ephase_2
+Z47 w1652127116
+R23
+R8
+R9
+R0
+Z48 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd
+Z49 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd
 l0
 L5
-V3[l@B4ECoh=R]1?l3gYPA2
-!s100 N5eDQKng@RYA5zN<TRA?20
-R11
+V;bMN>HGk2BOz5=ZYD[7;C1
+!s100 YZ7obd5VUE_Z8Hh[;di1O3
+R14
 32
-Z22 !s110 1629469579
+R26
 !i10b 1
-Z23 !s108 1629469579.000000
-Z24 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd|
-!s107 /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd|
+Z50 !s108 1652127193.000000
+Z51 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd|
+Z52 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd|
 !i113 0
-R16
-R17
+R19
+R20
 Astructural
-R18
-R5
-R6
-DEx4 work 9 reg_fetch 0 22 3[l@B4ECoh=R]1?l3gYPA2
+R23
+R8
+R9
+DEx4 work 7 phase_2 0 22 ;bMN>HGk2BOz5=ZYD[7;C1
+l66
+L21
+Vo5d49K9O?HhFMV9=T?L8c1
+!s100 c9_n?_i8z1ej[L2<I4Qb@3
+R14
+32
+R26
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R19
+R20
+Er_fetch_tb
+Z53 w1652129717
+R8
+R9
+R0
+Z54 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+Z55 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+l0
+L3
+V[X[iPRe0dL8E`?;>Tc1Td0
+!s100 e@^:z?Ll=:kK0YLYY]^1X0
+R14
+32
+!s110 1652129721
+!i10b 1
+Z56 !s108 1652129721.000000
+Z57 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd|
+Z58 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd|
+!i113 0
+R19
+R20
+Atb
+R8
+R9
+DEx4 work 10 r_fetch_tb 0 22 [X[iPRe0dL8E`?;>Tc1Td0
+l49
+L6
+VzQEE40KTaOCaiTOA8hfP60
+!s100 5XL[ZN5MmV9]In:3AY4G72
+R14
+32
+!s110 1652129722
+!i10b 1
+R56
+R57
+R58
+!i113 0
+R19
+R20
+Ereg_fetch
+Z59 w1652127037
+R23
+R8
+R9
+R0
+Z60 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+Z61 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+l0
+L5
+VW1E88TN5O8jC0<k0UekEk2
+!s100 O=660da4?Q1HIF^X?YPL20
+R14
+32
+Z62 !s110 1652129422
+!i10b 1
+Z63 !s108 1652129422.000000
+Z64 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd|
+Z65 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd|
+!i113 0
+R19
+R20
+Astructural
+R23
+R8
+R9
+DEx4 work 9 reg_fetch 0 22 W1E88TN5O8jC0<k0UekEk2
 l59
 L31
-Vc?Z7^d^@CPb87G@:d1:gg3
-!s100 9O[>AmA:P6GYfbF`IUD@:1
-R11
+VOcMA_RzkPL7IGQ:RfFJ`>0
+!s100 8fzH0`b>@XU9^AF]l8Y]Q0
+R14
 32
-R22
+R62
 !i10b 1
-R23
-R24
-Z25 !s107 /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd|
+R63
+R64
+R65
 !i113 0
-R16
-R17
+R19
+R20
 Eregister_1
-Z26 w1628589338
-R5
-R6
+R21
+R8
+R9
 R0
-Z27 8/home/ms21.41/Desktop/istruction decode/register.vhd
-Z28 F/home/ms21.41/Desktop/istruction decode/register.vhd
+Z66 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd
+Z67 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd
 l0
 L4
 V[Lmb4KS?OH7i3PKhH9EfS2
 !s100 HAJ;?^<M6C1lm_a@NLoV>1
-R11
+R14
 32
-Z29 !s110 1629469253
+R15
 !i10b 1
-Z30 !s108 1629469253.000000
-Z31 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/istruction decode/register.vhd|
-Z32 !s107 /home/ms21.41/Desktop/istruction decode/register.vhd|
+Z68 !s108 1652129420.000000
+Z69 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd|
+Z70 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd|
 !i113 0
-R16
-R17
+R19
+R20
 Abeh
-R5
-R6
+R8
+R9
 DEx4 work 10 register_1 0 22 [Lmb4KS?OH7i3PKhH9EfS2
 l15
 L13
 V:Y`=C`1VE=V:BbagRLDLP1
 !s100 N4;3D_;c=1bG5k_YBk_ng1
-R11
-32
-R29
-!i10b 1
-R30
-R31
-R32
-!i113 0
-R16
-R17
-Eregister_file
-R8
-R1
-R2
-R3
-R4
-R5
-R6
-R0
-R9
-R10
-l0
-L8
-VGWaP:Kl=BTKEJzc=S_VIE2
-!s100 cNOCWn[dkT:l>g4IG]BaG2
-R11
-32
-R12
-!i10b 1
-R13
 R14
+32
 R15
+!i10b 1
+R68
+R69
+R70
 !i113 0
-R16
-R17
-Aa
-R1
-R2
-R3
+R19
+R20
+Eregister_file
+R11
 R4
 R5
 R6
 R7
-l35
-L27
-V?Y=ScdTZNV^=QKZ@6C;J:3
-!s100 i7z0=FN^za6<;e@LhLXca3
-R11
-32
+R8
+R9
+R0
 R12
-!i10b 1
 R13
+l0
+L8
+VW3J@4]EYJ6@Q;miH>H7OQ0
+!s100 d;_j?lah_I`2bEi2<:>7Z0
 R14
+32
 R15
-!i113 0
+!i10b 1
 R16
 R17
+R18
+!i113 0
+R19
+R20
+Aa
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l35
+L27
+VIYU;n:U:<WT7o118R]SAo3
+!s100 4fEN>>lVJ^WPRCOn:0[b41
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20

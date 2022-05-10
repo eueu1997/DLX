@@ -10,7 +10,7 @@ entity register_file is
 			bit_add		:	integer;
 			bit_data	:	integer
 			);
- port ( CLK: 		IN std_logic;
+ port ( --CLK: 		IN std_logic;
          RESET: 	IN std_logic; --low active
 	 ENABLE: 	IN std_logic; --high active
 	 RD1: 		IN std_logic;
@@ -33,9 +33,10 @@ architecture A of register_file is
 
 	
 begin 
-	process(CLK)
+	process(wr, RD1, RD2, RESET)
+--process(CLK)
 	begin	
-	if rising_edge (clk) then
+	--if rising_edge (clk) then
 	--reset process
 		if (RESET = '1') then
 			registers <= (others=>(OTHERS=>'0'));
@@ -53,7 +54,7 @@ begin
 				out2 <= registers(to_integer(unsigned(add_rd2)));  --transferring data from registerfile to external world when rd2=1 and enable=1
 			end if;
 		end if;	
-	end if;
+	--end if;
 	end process;
 end A;
 

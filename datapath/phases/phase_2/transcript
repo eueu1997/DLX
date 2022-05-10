@@ -12,21 +12,21 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work {/home/ms21.41/Desktop/istruction decode/register.vhd}
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:20:53 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/istruction decode/register.vhd 
+# Start time: 22:13:10 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity register_1
 # -- Compiling architecture beh of register_1
-# End time: 16:20:53 on Aug 20,2021, Elapsed time: 0:00:00
+# End time: 22:13:10 on May 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/ms21.41/Desktop/istruction decode/registerfile.vhd}
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:20:55 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/istruction decode/registerfile.vhd 
+# Start time: 22:13:11 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -39,54 +39,313 @@ vcom -reportprogress 300 -work work {/home/ms21.41/Desktop/istruction decode/reg
 # -- Compiling configuration CFG_RF_BEH
 # -- Loading entity register_file
 # -- Loading architecture A of register_file
-# End time: 16:20:55 on Aug 20,2021, Elapsed time: 0:00:00
+# End time: 22:13:11 on May 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd}
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:20:57 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd 
+# Start time: 22:13:11 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 22:13:12 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:13:12 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
 # -- Compiling entity reg_fetch
 # -- Compiling architecture structural of reg_fetch
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(77): (vcom-1035) Formal port "d_in" has OPEN or no actual associated with it.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(77): (vcom-1035) Formal port "en" has OPEN or no actual associated with it.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(78): near "port": syntax error
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(83): (vcom-1035) Formal port "d_in" has OPEN or no actual associated with it.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(83): (vcom-1035) Formal port "en" has OPEN or no actual associated with it.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(84): near "port": syntax error
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(89): (vcom-1035) Formal port "d_in" has OPEN or no actual associated with it.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(89): (vcom-1035) Formal port "en" has OPEN or no actual associated with it.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(90): near "port": syntax error
-# ** Note: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(94): VHDL Compiler exiting
-# End time: 16:20:57 on Aug 20,2021, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work {/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd}
+# End time: 22:13:12 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:22:43 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd 
+# Start time: 22:13:12 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity inst_decode
+# -- Compiling architecture behavioral of inst_decode
+# End time: 22:13:13 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:13:13 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity phase_2
+# -- Compiling architecture structural of phase_2
+# End time: 22:13:13 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:13:14 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2_tb
+# -- Compiling architecture tb of p2_tb
+# End time: 22:13:14 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Optimization canceled
+vsim work.p2_tb -t ns
+# vsim work.p2_tb -t ns 
+# Start time: 22:14:09 on May 09,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2_tb(tb)#1
+add wave *
+run 10000
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:50:20 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1
+# -- Compiling architecture beh of register_1
+# End time: 22:50:21 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:50:21 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity register_file
+# -- Compiling architecture A of register_file
+# -- Compiling configuration CFG_RF_BEH
+# -- Loading entity register_file
+# -- Loading architecture A of register_file
+# End time: 22:50:21 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:50:22 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
 # -- Compiling entity reg_fetch
 # -- Compiling architecture structural of reg_fetch
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(92): (vcom-1436) Actual expression (indexed name) of formal "en" is not globally static.
-# ** Error: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(92): (vcom-1136) Unknown identifier "inst_type".
-# ** Note: /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd(94): VHDL Compiler exiting
-# End time: 16:22:43 on Aug 20,2021, Elapsed time: 0:00:00
+# End time: 22:50:22 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:50:22 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity r_fetch_tb
+# -- Compiling architecture tb of r_fetch_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(54): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(54): (vcom-1136) Unknown identifier "en".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(87): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(86): (vcom-1272) Length of expected is 5; length of actual is 32.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(91): VHDL Compiler exiting
+# End time: 22:50:23 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:51:10 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity r_fetch_tb
+# -- Compiling architecture tb of r_fetch_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(85): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(84): (vcom-1272) Length of expected is 5; length of actual is 32.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(89): VHDL Compiler exiting
+# End time: 22:51:11 on May 09,2022, Elapsed time: 0:00:01
 # Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work {/home/ms21.41/Desktop/istruction decode/reg_fetch.vhd}
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:26:19 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/istruction decode/reg_fetch.vhd 
+# Start time: 22:51:41 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity reg_fetch
-# -- Compiling architecture structural of reg_fetch
-# End time: 16:26:19 on Aug 20,2021, Elapsed time: 0:00:00
+# -- Compiling entity r_fetch_tb
+# -- Compiling architecture tb of r_fetch_tb
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(84): (vcom-1272) Length of expected is 5; length of actual is 32.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(88): VHDL Compiler exiting
+# End time: 22:51:41 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:52:29 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity r_fetch_tb
+# -- Compiling architecture tb of r_fetch_tb
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(62): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(64): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(66): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(79): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(88): VHDL Compiler exiting
+# End time: 22:52:30 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:54:57 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity r_fetch_tb
+# -- Compiling architecture tb of r_fetch_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(38): near "(": (vcom-1576) expecting ':'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(51): (vcom-1136) Unknown identifier "IMM".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(51): (vcom-1136) Unknown identifier "WR_in".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(51): (vcom-1136) Unknown identifier "A_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(51): (vcom-1136) Unknown identifier "B_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(51): (vcom-1136) Unknown identifier "imm_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(85): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(85): (vcom-1136) Unknown identifier "IMM".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd(89): VHDL Compiler exiting
+# End time: 22:54:58 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 22:55:21 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/r_fetch_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity r_fetch_tb
+# -- Compiling architecture tb of r_fetch_tb
+# End time: 22:55:22 on May 09,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+vsim -t ns work.r_fetch_tb
+# End time: 22:55:46 on May 09,2022, Elapsed time: 0:41:37
+# Errors: 12, Warnings: 0
+# vsim -t ns work.r_fetch_tb 
+# Start time: 22:55:47 on May 09,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.r_fetch_tb(tb)#1
+add wave *
+run 10000
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:03:29 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Inst_decode_tb
+# -- Compiling architecture tb of Inst_decode_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RS1".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RD1".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RS2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RD2".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RD".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "IMM".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(44): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(81): VHDL Compiler exiting
+# End time: 23:03:29 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:07:25 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Inst_decode_tb
+# -- Compiling architecture tb of Inst_decode_tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(46): (vcom-1136) Unknown identifier "IMM".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd(83): VHDL Compiler exiting
+# End time: 23:07:26 on May 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:07:51 on May 09,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/Inst_decode_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Inst_decode_tb
+# -- Compiling architecture tb of Inst_decode_tb
+# End time: 23:07:51 on May 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t ns work.inst_decode_tb
+# End time: 23:08:29 on May 09,2022, Elapsed time: 0:12:42
+# Errors: 10, Warnings: 0
+# vsim -t ns work.inst_decode_tb 
+# Start time: 23:08:29 on May 09,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.inst_decode_tb(tb)#1
+add wave *
+run 10000
+# Load canceled
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:21:39 on May 10,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2_tb
+# -- Compiling architecture tb of p2_tb
+# End time: 12:21:40 on May 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2_tb
+# End time: 12:22:30 on May 10,2022, Elapsed time: 13:14:01
+# Errors: 1, Warnings: 0
+# vsim -t 10ps work.p2_tb 
+# Start time: 12:22:30 on May 10,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2_tb(tb)#1
+add wave *
+run 1000ns
+# Break key hit

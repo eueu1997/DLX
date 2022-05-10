@@ -16,7 +16,11 @@ entity inst_decode is
        RD2 : out std_logic;
 	   RD : out std_logic_vector(bit_add-1 downto 0);
 	   --WR : out std_logic;
-	   IMM : out std_logic_vector(bit_data-1 downto 0));
+	   IMM : out std_logic_vector(bit_data-1 downto 0);
+	   RegA_LATCH_EN      : out std_logic;
+       RegB_LATCH_EN      : out std_logic;
+       RegIMM_LATCH_EN    : out std_logic);
+
 end inst_decode;
 
 architecture behavioral of inst_decode is
@@ -29,6 +33,8 @@ begin
 						RD1 <= '1';
 						RD <= ir_s(20 downto 16);
 						--WR <= '1';
+						RegA_LATCH_EN <= '1';
+						RegIMM_LATCH_EN <= '1';
 						IMM(31) <= ir_s(15);
 						IMM(30 downto 15) <= (others => '0');
 						IMM(14 downto 0) <= ir_s (14 downto 0) ;
@@ -36,14 +42,21 @@ begin
 						RD1 <= '1';
 						RS2 <= ir_s(20 downto 16);
 						RD2 <= '1';
-						RD <= ir_s(15 downto 0);
+						RD <= ir_s(15 downto 11);
+						RegA_LATCH_EN <= '1';
+						RegB_LATCH_EN <= '1';
+						RegIMM_LATCH_EN <= '1';
 						--WR <= '1';
 		when "11" =>	IMM(31) <= ir_s(25);
 						IMM(30 downto 25) <= (others => '0');
-						IMM(24 downto 0) <= ir_s (24 downto 0) ;
+						IMM(24 downto 0) <= ir_s (24 downto 0);
+						RegIMM_LATCH_EN <= '1';
 		when others =>  RD1<='0';
 						RD2<='0'; 
 						--WR<='0';
+						RegA_LATCH_EN <= '0';
+						RegB_LATCH_EN <= '0';
+						RegIMM_LATCH_EN <= '0';
 
 	end case;
   end process;

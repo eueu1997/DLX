@@ -2,21 +2,23 @@ library ieee;
 use ieee.std_logic_1164.all;
 use work.constants.all;
 -- modifica per jal : salvare il npc in R31
-entity decode is
+entity phase_2 is
 	generic (bit_data: integer := 32;
 			 bit_add: integer := 5);
-	port (inst_type: in std_logic_vector (1 downto 0);
+	port (
+		  inst_type: in std_logic_vector (1 downto 0);
 		  ir_s: in std_logic_vector(bit_data-1 downto 0);
-                  --jal : in std_logic;
+          --jal : in std_logic;
+		  --CLK: in std_logic;
 		  WR_in: in std_logic_vector(bit_data-1 downto 0);
 		  en : in std_logic;                              
 		  A_out: out std_logic_vector(bit_data-1 downto 0);
 		  B_out: out std_logic_vector(bit_data-1 downto 0);
 		  imm_out: out std_logic_vector(bit_data-1 downto 0)
 		 );
-end decode;
+end phase_2;
 
-architecture structural of decode is
+architecture structural of phase_2 is
 	component inst_decode
 		generic (bit_data: integer := 32;
 				bit_add: integer := 5);
@@ -28,7 +30,11 @@ architecture structural of decode is
     	   RD2 : out std_logic;
 		   RD : out std_logic_vector(bit_add-1 downto 0);
 		   --WR : out std_logic;
-		   IMM : out std_logic_vector(bit_data-1 downto 0));
+		   IMM : out std_logic_vector(bit_data-1 downto 0);
+		   RegA_LATCH_EN : out std_logic;
+       	   RegB_LATCH_EN      : out std_logic;
+           RegIMM_LATCH_EN    : out std_logic
+);
 	end component;
 
 	component reg_fetch
@@ -37,7 +43,7 @@ architecture structural of decode is
   port(RegA_LATCH_EN      : in std_logic;
        RegB_LATCH_EN      : in std_logic;
        RegIMM_LATCH_EN    : in std_logic;
-	   CLK : in std_logic;
+	   --CLK : in std_logic;
 	   RS1 : in std_logic_vector(bit_add-1 downto 0);
 	   RD1 : in std_logic;
        RS2 : in std_logic_vector(bit_add-1 downto 0);
@@ -54,7 +60,7 @@ architecture structural of decode is
 
 	
 	signal RS1_s, RS2_s, RD_s : std_logic_vector (bit_add-1 downto 0);
-	signal RD1_s, RD2_s, WR_s: std_logic;
+	signal RD1_s, RD2_s, WR_s, RegA_LATCH_EN, RegB_LATCH_EN, RegIMM_LATCH_EN, CLK: std_logic;
 	signal IMM_s : std_logic_vector(bit_data-1 downto 0);
 
 begin
@@ -64,10 +70,34 @@ begin
 
 	decode_u: inst_decode
 			generic map(bit_data, bit_add)
-			port map(inst_type, ir_s, RS1_s, RS1_s, RD2_s, RD_s, WR_s, IMM_s);
+			port map(inst_type,
+					ir_s,
+					RS1_s,
+					RD1_s,
+					RS2_s,
+					RD2_s,
+					RD_s,
+					IMM_s,
+					RegA_LATCH_EN,
+					RegB_LATCH_EN,
+					RegIMM_LATCH_EN);
 
 	reg_fetch_u: reg_fetch
 			generic map(bit_data, bit_add)
-			port map(RegA_LATCH_EN, RegB_LATCH_EN, RegIMM_LATCH_EN, CLK, RS1_s, RD1_s, RS2_s, RD2_s, RD_s, WR_s, IMM_s, WR_in);
+			port map(RegA_LATCH_EN,
+       RegB_LATCH_EN,
+       RegIMM_LATCH_EN,
+	   --CLK,
+	   RS1_s,
+	   RD1_s,
+       RS2_s,
+       RD2_s,
+	   RD_s,
+	   WR_s,
+	   IMM_s,
+	   WR_in,
+       A_out,
+       B_out,
+       imm_out);
 
 end structural;

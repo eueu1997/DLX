@@ -6,12 +6,12 @@ entity reg_fetch is
   generic (bit_data: integer := 32;
            bit_add: integer := 5);
   port(-- ID Control Signals
+	   --CLK : in std_logic;
+	   -- Datapath signal
+       		--input from decode
        RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
        RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
        RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch Enable
-	   CLK : in std_logic;
-	   -- Datapath signal
-       		--input from decode
 	   RS1 : in std_logic_vector(bit_add-1 downto 0);
 	   RD1 : in std_logic;
        RS2 : in std_logic_vector(bit_add-1 downto 0);
@@ -33,7 +33,7 @@ architecture structural of reg_fetch is
   component register_file 
     generic(bit_add : integer := 5;
             bit_data : integer := 32);
-    port(CLK: 		IN std_logic;
+    port(--CLK: 		IN std_logic;
          RESET: 	IN std_logic;
 	 ENABLE: 	IN std_logic;
 	 RD1: 		IN std_logic;
@@ -60,7 +60,7 @@ begin
 
   REG_FILE : register_file
     generic map(bit_add, bit_data)
-    port map(CLK,
+    port map(--CLK,
          '0', --RESET --POTREBBE SERVIRCI UN SEGNALE DI RESET
 	 '1', --ENABLE
 	 RD1, --RD1
