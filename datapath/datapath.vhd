@@ -79,14 +79,33 @@ end datapath;
 --xori   0  01 0 1110 0110 10  000100
 
 
-
-
-
-
-
-
-
-
+--add   DONE
+--addi  DONE 
+--and   DONE
+--andi  DONE
+--beqz  DONE
+--bnez  DONE
+--j     DONE
+--jal   TODO Has to implement a setter for the given register ( PHASE2 )
+--lw    DONE
+--nop   DONE ( We could make it just not triggering the registers)
+--or    DONE
+--ori   DONE
+--sge   DONE
+--sgei  DONE
+--sle   DONE
+--slei  DONE
+--sll   DONE
+--slli  DONE
+--sne   DONE
+--snei  DONE
+--srl   DONE
+--srli  DONE
+--sub   DONE
+--subi  DONE
+--sw    DONE
+--xor   DONE
+--xori  DONE
 
 
 
