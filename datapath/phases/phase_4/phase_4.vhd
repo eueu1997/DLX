@@ -61,7 +61,7 @@ begin
 
 alu_out_s <= alu_out;
 cond2 <= cond or j_en;
-mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond , b_en , pc);
+mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond , cond2 , pc);
 mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb_to_reg);
 
 ram1 : RAM generic map (nbit , nbit) port map ( ram_res, ram_en , rw , alu_out_s , ram_to_lmd , b);
