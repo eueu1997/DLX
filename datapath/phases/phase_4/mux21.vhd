@@ -16,7 +16,7 @@ architecture BEHAVIORAL of MUX21 is
 signal s : std_logic_vector( NBIT-1 downto 0);
 begin
 	s <= A when SEL='0' else B;
-	Y <= A when en = '0'else s;
+	Y <= A when en ='0'else s;
 	
 end BEHAVIORAL;
 

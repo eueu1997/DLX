@@ -1,6 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
-
+-------------------------------BEHAVIOR-------------------
+-- in the ALU can go as INPUT: -- NPC : in case of jump or branch, to add the NPC to the offset
+							   -- A   : in case of register operation 
+							   -- B   : in case of register operation
+							   -- IMM : in case of register-immediate operation or in case of jump or branch ( it contains the offset of 16(branch) or 26(jump) bit in this case)
+-- in case of normal aritmetich operation , the output is given as output
+-- in case of branch operation(beqz bnez) , the output is the npc+imm16 ( the new NPC in case ) and the A input is checked if it is zero(as condition) ( b r1,imm)
+-- in case of comparision operation(sg sb), the output of a SUB( used to perform the comparison) is not needed as aoutput, we to check if it =0 ( the two operand are equal), if != 0 we see the cout to undestand if a>b or a<b ( send the 2 signal  in CU)
 entity phase3 is 
 
 	generic ( nbit : integer);
@@ -95,7 +102,7 @@ end process;
 --zero_reg : register_1 generic map ( 1) port map (zero_out,cond,cond_en);
 alu_reg  : register_1 generic map (nbit ) port map (alu_outs,alu_out,en);
 --ALU
-alu1 : alu generic map ( 32,3) port map (alu_1,alu_2,cin,alu_en,alu_type,alu_outs,c_outs);
+alu1 : alu generic map ( 32,4) port map (alu_1,alu_2,cin,alu_en,alu_type,alu_outs,c_outs);
 -- zero check block
 zero1 : zero port map ( zero_in,be,zero_out);
 end structural;

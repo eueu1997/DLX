@@ -1,6 +1,17 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
+-------------------------------------------------------------
+-- en : signal to out the registers
+-- pc_s : it is the program counter. It come from outside because it can be codified by branching ( see the datapath.vhd for moore information)
+-- ir_s : Is the istruction read in the memory with the pc as address
+-- npc_r : Is the NPC but syncronous with the clock 
+-- npc_r : is the NPC but asyncronouse tothe clock ( more information on databath.vhd)
+-- pc_out : Is egual to pc_s. It could be usefull
+-------------------------------------------------------------
+------------------------BEHAVIOR-----------------------------
+--The PC_s goes to an adder that increase it,creating the NPC. Also it goes as addres in IMEM to get the Istruction
+-------------------------------------------------------------
 
 entity fetch is 
 	generic ( bit_add : integer;
@@ -26,7 +37,7 @@ component P4_ADDER is
         S: out std_logic_vector(NBIT-1 downto 0);
         Co: out std_logic);
 end component;
-
+--TODO implement the istruction loading 
 component IRAM is
   generic (
     bit_add : integer ;
