@@ -8,6 +8,7 @@ entity phase_4 is
 		  npc : in std_logic_vector( nbit - 1 downto 0);
 		  cond : in std_logic;
 		  j_en : in std_logic;
+		  bj_en : in std_logic;
 		  en : in std_logic;
 		  ram_en : in std_logic; 
 		  wb_sel : in std_logic;
@@ -61,14 +62,15 @@ begin
 
 alu_out_s <= alu_out;
 cond2 <= cond or j_en;
-mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond , b_en , pc);
-mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb_to_reg);
+--if cond=0 and j_en=0 --> is not a jump, maybe is a brach but in any case it has not to be taken -> PC<-NPC
+--if cond=1 and j_en=0 --> is 
+mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond2 , bj_en , pc);
+mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb);
 
 ram1 : RAM generic map (nbit , nbit) port map ( ram_res, ram_en , rw , alu_out_s , ram_to_lmd , b);
 
 lmd_reg 	: register_1 generic map (nbit) port map (ram_to_lmd,lmd_to_wb,en);
 alu_out_reg : register_1 generic map (nbit) port map (alu_out_s,aluout_s,en);
-wb_reg 		: register_1 generic map (nbit) port map (wb_to_reg,wb,en);
 
 end structural;
 

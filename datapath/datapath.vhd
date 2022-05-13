@@ -21,74 +21,100 @@ entity datapath is
 			alu_en : in std_logic;
 			cin : in std_logic;
 			--phase4 control signal
-			b_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
+			bj_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
 			j_en : in std_logic; -- enable unconditional branch
 			ram_en : in std_logic; -- enable the ram to be read/write
+			--(the next one is in phase5)
 			wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
 			ram_res : in std_logic; -- reaset the ram
 			rw : in std_logic; -- 0 for write, 1 for read
+			--phase5
+			rf_we : in std_logic;
 			cond: out std_logic;
 			c_out : out std_logic
 			);
 end datapath;
 ------- TODO----------------------------
 -- testare npc-> r31
--- IMPLEMENTARE READING/WRITING PER PIU DI UN BYTE
 -- IMPLEMENTARE BLOCCO CHE SETTA A 0/1 1 REGISTRO ALAL VOLTA DEL REG FILE
--- CAPIRE OP NOP
 -----------------------------------------
+<<<<<<< HEAD
 
 -- aggiungere jal a tutte le cw
 --cw:
 --imem_res||inst_type-jal||npc_or_a/b_or_imm/branch_or_comp/be-alu_type-alu_ec-cin||b_en/j_en/ram_en/wb_sel/ram_res/rw
 -- add   0  10 0 1010 0000 10  000100
+=======
+--------------FULL ISTRUCTION SET ----------------
+-- add   0/10 0/1010 0000 10/ 000100
+>>>>>>> a2fa6d31b8c72048befbe9819fe4a5bd1f694bbf
 -- addd 
 -- addf
--- addi  0  01 0 1110 0000 10  000100
+-- addi  0/01 0/1110 0000 10/000100
 -- addu 
 -- addui
--- and   0  10 0 1010 0001 10  000100
--- andi  0  01 0 1110 0001 10  000100
--- beqz  0  01 0 0100 0000 10  100000
+-- and   10/10 0/010 0001 10/000100
+-- andi  0/01 0/1110 0001 10/000100
+-- beqz  0/01 0/0100 0000 10/100000
 -- bfpf
 -- bfpt
--- bnez  0  01 0 0101 0000 10  100000
+-- bnez  0/01 0/0101 0000 10/100000
 -- cvt commands
 -- div commands
 -- eqd
 -- g commands
--- j     0  11 0 0100 0000 10  110000
--- jal   0  11 1 0100 0000 10  110000
--- jalr  0  01 1 1100 0000 00 110000
--- jr    0  01 0 1100 0000 00  110000
--- lb    0  01 0 1110 0000 10  001101 -- creare sign extension
--- lbu   0  01 0 1110 0000 10  001101
+-- j     0/11 0/0100 0000 10/110000
+-- jal   0/11 1/0100 0000 10/110000
+-- jalr  0/01 1/1100 0000 00/110000
+-- jr    0/01 0/1100 0000 00/110000
+-- lb    0/01 0/1110 0000 10/001101 -- creare sign extension
+-- lbu   0/01 0/1110 0000 10/001101
 -- lw lh implement read more than one byte
--- mov   0  01 0 1100 0000 00  000100
--- mult  0  10 0 1010 0011 10  000100
--- or    0  10 0 1010 0111 10  000100
--- ori   0  01 0 1110 0111 10  000100
--- sb    0  01 0 1110 0000 10  001100
+-- mov   0/01 0/1100 0000 00/000100
+-- mult  0/11 0/1010 0011 10/000100
+-- or    0/11 0/1010 0111 10/000100
+-- ori   0/01 0/1110 0111 10/000100
+-- sb    0/01 0/1110 0000 10/001100
 -- seq,seqi add possibility to set to 1 or 0 a register
 -- sge,sgei,sgeu,sgeui,sgt,sgti,sle,slei
--- sll   0  10 0 1010 0100 10  000100
--- slli  0  01 0 1110 0100 10  000100
--- srl   0  10 0 1010 0101 10  000100
--- srli  0  01 0 1110 0101 10  000100
--- sub   0  10 0 1010 0010 10  000100
--- subi  0  01 0 1110 0010 10  000100
--- xor   0  10 0 1010 0110 10  000100
---xori   0  01 0 1110 0110 10  000100
+-- sll   0/10 0/1010 0100 10/000100
+-- slli  0/01 0/1110 0100 10/000100
+-- srl   0/10 0/1010 0101 10/000100
+-- srli  0/01 0/1110 0101 10/000100
+-- sub   0/10 0/1010 0010 10/000100
+-- subi  0/01 0/1110 0010 10/000100
+-- xor   0/10 0/1010 0110 10/000100
+--xori   0/01 0/1110 0110 10/000100
 
+----------------BASIC INSTRUCTION -------------------
 
-
-
-
-
-
-
-
-
+--add   DONE 0/10 0/1010 0000 10/000100
+--addi  DONE 0/01 0/1110 0000 10/000100
+--and   DONE 0/10 0/1010 0001 10/000100
+--andi  DONE 0/01 0/1110 0001 10/000100
+--beqz  DONE 0/01 0/0100 0000 10/100000
+--bnez  DONE 0/01 0/0101 0000 10/100000
+--j     DONE 0/11 0/0100 0000 10/110000
+--jal   TODO Has to implement a link between NPC and R31 ( PHASE2 ) 
+--lw    DONE 0/01 0/1110 0000 10/001000
+--nop   DONE ( We could make it just not triggering the registers)
+--or    DONE 0/11 0/1010 0111 10/000100
+--ori   DONE 0/01 0/1110 0111 10/000100
+--sge   TODO Has to implement a setter for the given register. 
+--sgei  TODO Has to implement a setter for the given register
+--sle   TODO Has to implement a setter for the given register
+--slei  TODO Has to implement a setter for the given register
+--sll   DONE 0/10 0/1010 0100 10/000100
+--slli  DONE 0/01 0/1110 0100 10/000100
+--sne   TODO Has to implement a setter for the given register. 
+--snei  TODO Has to implement a setter for the given register. 
+--srl   DONE 0/10 0/1010 0101 10/000100
+--srli  DONE 0/01 0/1110 0101 10/000100
+--sub   DONE 0/10 0/1010 0010 10/000100
+--subi  DONE 0/01 0/1110 0010 10/000100
+--sw    DONE 0/01 0/1110 0000 10/001001
+--xor   DONE 0/10 0/1010 0110 10/000100
+--xori  DONE 0/01 0/1110 0110 10/000100
 
 
 
@@ -162,18 +188,22 @@ end component;
 	end component;
 
 	component phase_4 is --PHASE 4
+
 		port(alu_out : in std_logic_vector(bit_data-1  downto 0);
 		b : in std_logic_vector(bit_data- 1 downto 0);
 		npc : in std_logic_vector( bit_data - 1 downto 0);
+
 		cond : in std_logic;
 		j_en : in std_logic;
+		bj_en : in std_logic;
 		en : in std_logic;
 		ram_en : in std_logic; 
 		wb_sel : in std_logic;
 		ram_res : in std_logic;
 		rw : in std_logic;
 		pc : out std_logic_vector ( bit_data -1 downto 0 );
-		wb : out std_logic_vector ( bit_data -1 downto 0)););
+		wb : out std_logic_vector ( bit_data -1 downto 0));
+
 	end component;
 
 	component register_1 is
@@ -227,5 +257,5 @@ port map (inst_type,
 	phase_3 : phase3 generic map(bit_data) port map (pc_out2,A,B,imm,npc_or_a,b_or_imm,branch_or_comp,be,alu_type,alu_en,c_out,cin,cond_s,ALU_out,reg_en);
 	reg_B : register_1 generic map ( bit_data) port map(B,B1,reg_en)
 
-	phase_4 : phase_4 generic map ( bit_data) port map(ALU_out,B1,npc_d,cond_s,j_en,reg_en,ram_en,wb_sel,ram_res,rw,pc_s,WR_in);
+	phase_4 : phase_4 generic map ( bit_data) port map(ALU_out,B1,npc_d,cond_s,j_en,bj_en,reg_en,ram_en,wb_sel,ram_res,rw,pc_s,WR_in);
 end structural;
