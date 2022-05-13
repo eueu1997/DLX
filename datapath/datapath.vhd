@@ -24,9 +24,12 @@ entity datapath is
 			bj_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
 			j_en : in std_logic; -- enable unconditional branch
 			ram_en : in std_logic; -- enable the ram to be read/write
+			--(the next one is in phase5)
 			wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
 			ram_res : in std_logic; -- reaset the ram
 			rw : in std_logic; -- 0 for write, 1 for read
+			--phase5
+			rf_we : in std_logic;
 			cond: out std_logic;
 			c_out : out std_logic
 			);
