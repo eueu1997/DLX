@@ -33,7 +33,7 @@ architecture A of register_file is
 
 	
 begin 
-	process(wr, RD1, RD2, RESET)
+	process(wr, RD1, RD2, RESET,enable,add_wr,add_rd1,add_rd2,registers,datain)
 --process(CLK)
 	begin	
 	--if rising_edge (clk) then

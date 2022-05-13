@@ -11,7 +11,7 @@ entity datapath is
 			imem_res : in std_logic;
 			-- phase 2 control signal
 			inst_type : in std_logic_vector ( 1 downto 0);
-			jal : in std_logic;
+			--jal : in std_logic;
 			--phase 3 control signal
 			npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
 			b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
@@ -38,7 +38,9 @@ end datapath;
 -- CAPIRE OP NOP
 -----------------------------------------
 
--- aggiungere jal a tutte e cw
+-- aggiungere jal a tutte le cw
+--cw:
+--imem_res||inst_type-jal||npc_or_a/b_or_imm/branch_or_comp/be-alu_type-alu_ec-cin||b_en/j_en/ram_en/wb_sel/ram_res/rw
 -- add   0  10 0 1010 0000 10  000100
 -- addd 
 -- addf
@@ -63,8 +65,8 @@ end datapath;
 -- lbu   0  01 0 1110 0000 10  001101
 -- lw lh implement read more than one byte
 -- mov   0  01 0 1100 0000 00  000100
--- mult  0  11 0 1010 0011 10  000100
--- or    0  11 0 1010 0111 10  000100
+-- mult  0  10 0 1010 0011 10  000100
+-- or    0  10 0 1010 0111 10  000100
 -- ori   0  01 0 1110 0111 10  000100
 -- sb    0  01 0 1110 0000 10  001100
 -- seq,seqi add possibility to set to 1 or 0 a register
@@ -105,27 +107,37 @@ architecture structural of datapath is
 		  pc_out : out std_logic_vector(bit_add-1  downto 0);
 		--npc out with no register
 		  npc_d : out std_logic_vector(bit_add-1  downto 0);
-		  ir_s : out std_logic_vector(i_size -1 downto 0));
+		  ir_s : out std_logic_vector(bit_data-1 downto 0));
 	end component;
 
 	component decode is --PHASE 2
-		generic(bit_data: integer := 32;
-				bit_add: integer := 5);
-		port(
-		-- I,R or J type of instruction  
+		generic (bit_data: integer := 32;
+			 bit_add: integer := 5);
+	port (--Control signal
 		  inst_type: in std_logic_vector (1 downto 0);
-		--signals from phase 1
+		  RF_EN : in std_logic;  -- high active
+		  RF_RESET : in std_logic; -- low active
+		  W_EN: in std_logic;	 -- not directly from cu during decode phase 
+	      RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
+          RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
+          RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch
+		  RegRD_ADD_EN		 : in std_logic;
+		
+		--input from phase 1
 		  ir_s: in std_logic_vector(bit_data-1 downto 0);
-		  WR_in: in std_logic_vector(bit_data-1 downto 0);
-		  en : in std_logic;
-		-- signal to phase 3
+		--input for write
+		  data_write_in: in std_logic_vector(bit_data-1 downto 0);
+		  reg_write_add: in std_logic_vector(bit_add-1 downto 0);
+
+		--output                              
 		  A_out: out std_logic_vector(bit_data-1 downto 0);
 		  B_out: out std_logic_vector(bit_data-1 downto 0);
-		  imm_out: out std_logic_vector(bit_data-1 downto 0));
-	end component;
-
+		  imm_out: out std_logic_vector(bit_data-1 downto 0);
+		  RD_saved_out: out std_logic_vector(bit_add-1 downto 0)
+          --jal : in std_logic;
+		 );
+end component;
 	component phase3 is --PHASE 3
-
 	generic ( nbit : integer);
 	port( npc : in std_logic_vector(nbit-1 downto 0);
 		 a : in std_logic_vector(nbit-1 downto 0);
@@ -150,9 +162,9 @@ architecture structural of datapath is
 	end component;
 
 	component phase_4 is --PHASE 4
-		port(alu_out : in std_logic_vector(nbit -1  downto 0);
-		b : in std_logic_vector(nbit - 1 downto 0);
-		npc : in std_logic_vector( nbit - 1 downto 0);
+		port(alu_out : in std_logic_vector(bit_data-1  downto 0);
+		b : in std_logic_vector(bit_data- 1 downto 0);
+		npc : in std_logic_vector( bit_data - 1 downto 0);
 		cond : in std_logic;
 		j_en : in std_logic;
 		en : in std_logic;
@@ -160,15 +172,15 @@ architecture structural of datapath is
 		wb_sel : in std_logic;
 		ram_res : in std_logic;
 		rw : in std_logic;
-		pc : out std_logic_vector ( nbit -1 downto 0 );
-		wb : out std_logic_vector ( nbit -1 downto 0)););
+		pc : out std_logic_vector ( bit_data -1 downto 0 );
+		wb : out std_logic_vector ( bit_data -1 downto 0)););
 	end component;
 
 	component register_1 is
 
-		generic ( n_bit : integer);
-		port (d_in : in std_logic_vector(n_bit-1 downto 0);
-			  d_out : out std_logic_vector(n_bit-1 downto 0);
+		generic ( bit_data : integer);
+		port (d_in : in std_logic_vector(bit_data-1 downto 0);
+			  d_out : out std_logic_vector(bit_data-1 downto 0);
 			  en : in std_logic);
 	
 	end component;
@@ -190,7 +202,26 @@ begin
 	cond <= cond_s;
 	phase_1 : fetch generic map ( bit_add, bit_data ) port map (pc_s,reg_en,imem_res,npc_s,pc_out,npc_d,ir_s);
 
-	phase_2 : decode port map (inst_type,ir_s,WR_in,reg_en,A,B,imm);
+	phase_2 : decode generic map (bit_data, bit_add)
+port map (inst_type,
+		  RF_EN,
+		  RF_RESET,
+		  W_EN,
+	      RegA_LATCH_EN,
+          RegB_LATCH_EN,
+          RegIMM_LATCH_EN,
+		  RegRD_ADD_EN,
+		--input from phase 1
+		  ir_s,
+		--input for write
+		  data_write_in,
+		  reg_write_add,
+		--output                              
+		  A_out,
+		  B_out,
+		  imm_out,
+		  RD_saved_out);
+
 	reg_npc : register_1 generic map(bit_add) port map (pc_out,pc_out2,reg_en);
 
 	phase_3 : phase3 generic map(bit_data) port map (pc_out2,A,B,imm,npc_or_a,b_or_imm,branch_or_comp,be,alu_type,alu_en,c_out,cin,cond_s,ALU_out,reg_en);

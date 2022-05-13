@@ -5,62 +5,85 @@ use work.constants.all;
 entity phase_2 is
 	generic (bit_data: integer := 32;
 			 bit_add: integer := 5);
-	port (
+	port (--Control signal
 		  inst_type: in std_logic_vector (1 downto 0);
+		  RF_EN : in std_logic;  -- high active
+		  RF_RESET : in std_logic; -- low active
+		  W_EN: in std_logic;	 -- not directly from cu during decode phase 
+	      RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
+          RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
+          RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch
+		  RegRD_ADD_EN		 : in std_logic;
+		
+		--input from phase 1
 		  ir_s: in std_logic_vector(bit_data-1 downto 0);
-          --jal : in std_logic;
-		  --CLK: in std_logic;
-		  WR_in: in std_logic_vector(bit_data-1 downto 0);
-		  en : in std_logic;                              
+		--input for write
+		  data_write_in: in std_logic_vector(bit_data-1 downto 0);
+		  reg_write_add: in std_logic_vector(bit_add-1 downto 0);
+
+		--output                              
 		  A_out: out std_logic_vector(bit_data-1 downto 0);
 		  B_out: out std_logic_vector(bit_data-1 downto 0);
-		  imm_out: out std_logic_vector(bit_data-1 downto 0)
+		  imm_out: out std_logic_vector(bit_data-1 downto 0);
+		  RD_saved_out: out std_logic_vector(bit_add-1 downto 0)
+          --jal : in std_logic;
 		 );
 end phase_2;
 
 architecture structural of phase_2 is
 	component inst_decode
-		generic (bit_data: integer := 32;
-				bit_add: integer := 5);
- 		port(inst_type : in std_logic_vector (1 downto 0);
-    	   ir_s : in std_logic_vector(bit_data-1 downto 0);
-		   RS1 : out std_logic_vector(bit_add-1 downto 0);
-		   RD1 : out std_logic;
-    	   RS2 : out std_logic_vector(bit_add-1 downto 0);
-    	   RD2 : out std_logic;
-		   RD : out std_logic_vector(bit_add-1 downto 0);
-		   --WR : out std_logic;
-		   IMM : out std_logic_vector(bit_data-1 downto 0);
-		   RegA_LATCH_EN : out std_logic;
-       	   RegB_LATCH_EN      : out std_logic;
-           RegIMM_LATCH_EN    : out std_logic
-);
+  generic (bit_data: integer := 32;
+           bit_add: integer := 5);
+  port(-- CU Control Signals
+		inst_type : in std_logic_vector (1 downto 0); -- instruction type
+													  -- 01 I; 10 R; 11 J
+       -- Datapath signal input
+       ir_s : in std_logic_vector(bit_data-1 downto 0);
+
+	   -- output
+	   reg_read_add_1 : out std_logic_vector(bit_add-1 downto 0);
+	   reg_read_en_1 : out std_logic;
+       reg_read_add_2 : out std_logic_vector(bit_add-1 downto 0);
+       reg_read_en_2 : out std_logic;
+	   reg_dest : out std_logic_vector(bit_add-1 downto 0);
+	   IMM : out std_logic_vector(bit_data-1 downto 0));
+
 	end component;
 
 	component reg_fetch
-	generic (bit_data: integer := 32;
+	 generic (bit_data: integer := 32;
            bit_add: integer := 5);
-  port(RegA_LATCH_EN      : in std_logic;
-       RegB_LATCH_EN      : in std_logic;
-       RegIMM_LATCH_EN    : in std_logic;
-	   --CLK : in std_logic;
-	   RS1 : in std_logic_vector(bit_add-1 downto 0);
-	   RD1 : in std_logic;
-       RS2 : in std_logic_vector(bit_add-1 downto 0);
-       RD2 : in std_logic;
-	   RD : in std_logic_vector(bit_add-1 downto 0);
-	   WR : in std_logic;
+  port(--Control Signals (sub CW)
+	   RF_EN : in std_logic;
+	   RF_RESET: in std_logic;
+	   W_EN	: in std_logic;
+	   RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
+       RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
+       RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch Enable
+	   RegRD_ADD_EN	: in std_logic;
+	   --cw_reg_fetch : in std_logic_vector (6 downto 0);
+
+	   -- Input signal from instruction decode phase
+	   reg_read_add_1 : in std_logic_vector(bit_add-1 downto 0);
+	   reg_read_EN_1 : in std_logic;
+       reg_read_add_2: in std_logic_vector(bit_add-1 downto 0);
+       reg_read_EN_2 : in std_logic;
+	   reg_write_save_add : in std_logic_vector(bit_add-1 downto 0);
 	   IMM : in std_logic_vector(bit_data-1 downto 0);
-	   WR_in : in std_logic_vector(bit_data-1 downto 0);
+			--external input
+	   data_write_in : in std_logic_vector(bit_data-1 downto 0);
+	   reg_write_add : in std_logic_vector(bit_add-1 downto 0);
+			--output
        A_out : out std_logic_vector(bit_data-1 downto 0);
        B_out : out std_logic_vector(bit_data-1 downto 0);
-       imm_out : out std_logic_vector(bit_data-1 downto 0)
+       imm_out : out std_logic_vector(bit_data-1 downto 0);
+	   rd_saved_out : out std_logic_vector(bit_add-1 downto 0)
       );
 	end component;
 
 	
-	signal RS1_s, RS2_s, RD_s : std_logic_vector (bit_add-1 downto 0);
-	signal RD1_s, RD2_s, WR_s, RegA_LATCH_EN, RegB_LATCH_EN, RegIMM_LATCH_EN, CLK: std_logic;
+	signal reg_read_add_1s, reg_read_add_2s, reg_dest_add_s : std_logic_vector (bit_add-1 downto 0);
+	signal reg_read_EN_1s, reg_read_EN_2s: std_logic;
 	signal IMM_s : std_logic_vector(bit_data-1 downto 0);
 
 begin
@@ -72,32 +95,34 @@ begin
 			generic map(bit_data, bit_add)
 			port map(inst_type,
 					ir_s,
-					RS1_s,
-					RD1_s,
-					RS2_s,
-					RD2_s,
-					RD_s,
-					IMM_s,
-					RegA_LATCH_EN,
-					RegB_LATCH_EN,
-					RegIMM_LATCH_EN);
+					reg_read_add_1s,
+					reg_read_en_1s,
+					reg_read_add_2s,
+					reg_read_en_2s,
+					reg_dest_add_s,
+					IMM_s);
 
 	reg_fetch_u: reg_fetch
 			generic map(bit_data, bit_add)
-			port map(RegA_LATCH_EN,
+			port map(
+	   RF_EN,       -------- CU
+	   RF_RESET,
+	   W_EN,
+	   RegA_LATCH_EN,
        RegB_LATCH_EN,
        RegIMM_LATCH_EN,
-	   --CLK,
-	   RS1_s,
-	   RD1_s,
-       RS2_s,
-       RD2_s,
-	   RD_s,
-	   WR_s,
+	   RegRD_ADD_EN, -----------
+	   reg_read_add_1s,
+	   reg_read_EN_1s,
+       reg_read_add_2s,
+       reg_read_EN_2s,
+	   reg_dest_add_s, -- in saved register
 	   IMM_s,
-	   WR_in,
+	   data_write_in,
+	   reg_write_add,
        A_out,
        B_out,
-       imm_out);
+       imm_out,
+	   rd_saved_out);
 
 end structural;
