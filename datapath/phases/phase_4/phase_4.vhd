@@ -62,13 +62,12 @@ begin
 alu_out_s <= alu_out;
 cond2 <= cond or j_en;
 mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond , cond2 , pc);
-mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb_to_reg);
+mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb);
 
 ram1 : RAM generic map (nbit , nbit) port map ( ram_res, ram_en , rw , alu_out_s , ram_to_lmd , b);
 
 lmd_reg 	: register_1 generic map (nbit) port map (ram_to_lmd,lmd_to_wb,en);
 alu_out_reg : register_1 generic map (nbit) port map (alu_out_s,aluout_s,en);
-wb_reg 		: register_1 generic map (nbit) port map (wb_to_reg,wb,en);
 
 end structural;
 
