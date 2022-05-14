@@ -18,7 +18,7 @@ entity dlx_cu is
     CW2_SIZE            :    integer :=;
     CW3_SIZE            :    integer := 2;
     CW4_SIZE            :    integer := 2;
-    CW5_SIZE            :    integer := 2;
+    CW5_SIZE            :    integer := 2);
   port (
     Clk                : in  std_logic;  -- Clock
     Rst                : in  std_logic;  -- Reset:Active-Low
@@ -26,61 +26,56 @@ entity dlx_cu is
     IR_IN              : in  std_logic_vector(IR_SIZE - 1 downto 0);
     
    --phase 1 control signal
-   imem_res : in std_logic; -- to reset the istruction memory
+   imem_res : out std_logic; -- to reset the istruction memory
    -- phase 2 control signal
-   inst_type : in std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
-	 RF_RESET: in std_logic;
-	 W_EN	: in std_logic;
-	 RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
-   RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
-   RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch Enable
-	 RegRD_ADD_EN	: in std_logic;
+   inst_type : out std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
+   RF_EN : out std_logic;  -- high active
+   RF_RESET: out std_logic;
+	 W_EN	: out std_logic;
    --phase 3 control signal
-   npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
-   b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
-   branch_or_comp : in std_logic; -- if the value sent in zero block is for branching(0) or cmaparison
-   be : in std_logic; -- 0 for beq, 1 for bneq
-   alu_type : in std_logic_vector(3 downto 0);
-   alu_en : in std_logic;
-   cin : in std_logic;
+   npc_or_a : out std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
+   b_or_imm : out std_logic; -- inputtin 'b'(0) register fetched or immediate 
+   branch_or_comp : out std_logic; -- if the value sent in zero block is for branching(0) or cmaparison
+   be : out std_logic; -- 0 for beq, 1 for bneq
+   alu_type : out std_logic_vector(3 downto 0);
+   alu_en : out std_logic;
+   cin : out std_logic;
    --phase4 control signal
-   bj_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
-   j_en : in std_logic; -- enable unconditional branch
-   ram_en : in std_logic; -- enable the ram to be read/write
-   --(the next one is in phase5)
-   wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
-   ram_res : in std_logic; -- reaset the ram
-   rw : in std_logic; -- 0 for write, 1 for read
+   bj_en : out std_logic; -- enable the condition evaluation to choose between the branched addres or npc
+   j_en : out std_logic; -- enable unconditional branch
+   ram_en : out std_logic; -- enable the ram to be read/write    
+   ram_res : out std_logic; -- reaset the ram
+   rw : out std_logic; -- 0 for write, 1 for read
    --phase5
-   rf_we : in std_logic; RF_WE              : out std_logic);  -- Register File Write Enable
-
+   wb_sel : out std_logic; -- 0 for reading from memory, 1 if write back from alu
+   rf_we : out std_logic); -- enabling writing for write back on phase 2
 end dlx_cu;
 
 architecture dlx_cu_hw of dlx_cu is
   type mem_array is array (integer range 0 to MICROCODE_MEM_SIZE - 1) of std_logic_vector(CW_SIZE - 1 downto 0);
   signal cw_mem_op : mem_array := ("111100010000111", -- 0X00 RESERVED
                                 "000000000000000", -- 0X01 FUNC-OPERATION
-                                "111011111001100", -- 0X02 J
+                                "011101000000101100000", -- 0X02 J
                                 "000000000000000", -- 0X03 JAL
-                                "000000000000000", -- 0X04 BEQZ
-                                "000000000000000", -- 0X05 BNEZ
+                                "001101000000101000000", -- 0X04 BEQZ
+                                "001101010000101000000", -- 0X05 BNEZ
                                 "000000000000000", -- 0X06
                                 "000000000000000",
-                                "000000000000000", -- 0X08 ADDI
+                                "001111100000100000011", -- 0X08 ADDI
                                 "000000000000000", -- 0X09 ADDUI
-                                "000000000000000", -- 0X0A SUBI
+                                "001111100010100000011", -- 0X0A SUBI
                                 "000000000000000", -- 0X0B SUBUI
-                                "000000000000000", -- 0X0C ANDI
-                                "000000000000000", -- 0X0D ORI
-                                "000000000000000", -- 0X0E XORI
+                                "001111100001100000011", -- 0X0C ANDI
+                                "00111100111100000011", -- 0X0D ORI
+                                "001111100110100000011", -- 0X0E XORI
                                 "000000000000000", --
                                 "000000000000000", -- 0X10
                                 "000000000000000", --
                                 "000000000000000", --
                                 "000000000000000", --
-                                "000000000000000", -- 
+                                "001111100100100000011",--0x14 SLLI 
                                 "000000000000000", -- 0X15 NOP
-                                "000000000000000", --
+                                "001111100101100000011", -- 0X16 SRLI
                                 "000000000000000",
                                 "000000000000000", -- 0X18 SEQI
                                 "000000000000000", -- 0X19 SNEI
@@ -90,27 +85,27 @@ architecture dlx_cu_hw of dlx_cu is
                                 "000000000000000", --
                                 "000000000000000",
                                 "000000000000000", --
+                                "000000000000000", -- 0x20
+                                "000000000000000", --
+                                "000000000000000", -- 
+                                "001111100000100010001", -- 0x023 LW
+                                "000000000000000", --
+                                "000000000000000",
+                                "000000000000000", --
                                 "000000000000000", --
                                 "000000000000000", --
                                 "000000000000000", -- 
                                 "000000000000000",
-                                "000000000000000", --
-                                "000000000000000",
-                                "000000000000000", --
-                                "000000000000000", --
-                                "000000000000000", --
-                                "000000000000000", -- 
-                                "000000000000000",
-                                "000000000000000", --
+                                "001111100000100010100", -- 0X2B SW
                                 "000000000000000");--
   
   signal cw_mem_func : mem_array :=("111100010000111", --0X00
                                     "000000000000000", --0X01
                                     "111011111001100", -- 0X02
                                     "000000000000000", -- 
-                                    "000000000000000", -- 0X04 SLL
+                                    "010110100100100000011", -- 0X04 SLL
                                     "000000000000000", --                                    
-                                    "000000000000000", -- 0X06 SRL
+                                    "010110100101100000011", -- 0X06 SRL
                                     "000000000000000", --                                    
                                     "000000000000000",
                                     "000000000000000",
@@ -136,14 +131,14 @@ architecture dlx_cu_hw of dlx_cu is
                                     "000000000000000",
                                     "000000000000000",
                                     "000000000000000",
-                                    "000000000000000",-- 0X20 ADD
+                                    "010110100000100000011",-- 0X20 ADD
                                     "000000000000000",
-                                    "000000000000000",-- 0X22 SUB
+                                    "010110100010100000011",-- 0X22 SUB
                                     "000000000000000",
                                     "000000000000000",-- 0X23 
-                                    "000000000000000",-- 0X24 AND
-                                    "000000000000000",-- 0X25 OR
-                                    "000000000000000",-- 0X26 XOR
+                                    "010110100001100000011",-- 0X24 AND
+                                    "011110100111100000011",-- 0X25 OR
+                                    "010110100110100000011",-- 0X26 XOR
                                     "000000000000000",
                                     "000000000000000",-- 0X28 SEQ
                                     "000000000000000",-- 0X29 SNEQ
