@@ -13,7 +13,12 @@ entity dlx_cu is
     OP_CODE_SIZE       :     integer := 6;  -- Op Code Size
     -- ALU_OPC_SIZE       :     integer := 6;  -- ALU Op Code Word Size
     IR_SIZE            :     integer := 32;  -- Instruction Register Size    
-    CW_SIZE            :     integer := 15);  -- Control Word Size
+    CW_SIZE            :     integer := 15;  -- Control Word Size
+    CW1_SIZE            :    integer := 2;
+    CW2_SIZE            :    integer :=;
+    CW3_SIZE            :    integer := 2;
+    CW4_SIZE            :    integer := 2;
+    CW5_SIZE            :    integer := 2;
   port (
     Clk                : in  std_logic;  -- Clock
     Rst                : in  std_logic;  -- Reset:Active-Low
@@ -48,27 +53,100 @@ end dlx_cu;
 
 architecture dlx_cu_hw of dlx_cu is
   type mem_array is array (integer range 0 to MICROCODE_MEM_SIZE - 1) of std_logic_vector(CW_SIZE - 1 downto 0);
-  signal cw_mem_op : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
+  signal cw_mem_op : mem_array := ("111100010000111", -- 0X00 RESERVED
+                                "000000000000000", -- 0X01 FUNC-OPERATION
+                                "111011111001100", -- 0X02 J
+                                "000000000000000", -- 0X03 JAL
+                                "000000000000000", -- 0X04 BEQZ
+                                "000000000000000", -- 0X05 BNEZ
+                                "000000000000000", -- 0X06
                                 "000000000000000",
-                                "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
-                                "000000000000000", -- JAL to be filled
-                                "000000000000000", -- BEQZ to be filled
-                                "000000000000000", -- BNEZ
+                                "000000000000000", -- 0X08 ADDI
+                                "000000000000000", -- 0X09 ADDUI
+                                "000000000000000", -- 0X0A SUBI
+                                "000000000000000", -- 0X0B SUBUI
+                                "000000000000000", -- 0X0C ANDI
+                                "000000000000000", -- 0X0D ORI
+                                "000000000000000", -- 0X0E XORI
+                                "000000000000000", --
+                                "000000000000000", -- 0X10
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", -- 
+                                "000000000000000", -- 0X15 NOP
+                                "000000000000000", --
+                                "000000000000000",
+                                "000000000000000", -- 0X18 SEQI
+                                "000000000000000", -- 0X19 SNEI
+                                "000000000000000", --
                                 "000000000000000", -- 
                                 "000000000000000",
-                                "000000000000000", -- ADD i (0X08): FILL IT!!!
-                                "000000000000000");-- to be completed (enlarged and filled)
+                                "000000000000000", --
+                                "000000000000000",
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", -- 
+                                "000000000000000",
+                                "000000000000000", --
+                                "000000000000000",
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", -- 
+                                "000000000000000",
+                                "000000000000000", --
+                                "000000000000000");--
   
-  signal cw_mem_func : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
-                                "000000000000000",
-                                "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
-                                "000000000000000", -- JAL to be filled
-                                "000000000000000", -- BEQZ to be filled
-                                "000000000000000", -- BNEZ
-                                "000000000000000", -- 
-                                "000000000000000",
-                                "000000000000000", -- ADD i (0X08): FILL IT!!!
-                                "000000000000000");-- to be completed (enlarged and filled)                              
+  signal cw_mem_func : mem_array :=("111100010000111", --0X00
+                                    "000000000000000", --0X01
+                                    "111011111001100", -- 0X02
+                                    "000000000000000", -- 
+                                    "000000000000000", -- 0X04 SLL
+                                    "000000000000000", --                                    
+                                    "000000000000000", -- 0X06 SRL
+                                    "000000000000000", --                                    
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",--0X10
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",-- 0X20 ADD
+                                    "000000000000000",
+                                    "000000000000000",-- 0X22 SUB
+                                    "000000000000000",
+                                    "000000000000000",-- 0X23 
+                                    "000000000000000",-- 0X24 AND
+                                    "000000000000000",-- 0X25 OR
+                                    "000000000000000",-- 0X26 XOR
+                                    "000000000000000",
+                                    "000000000000000",-- 0X28 SEQ
+                                    "000000000000000",-- 0X29 SNEQ
+                                    "000000000000000",-- 0X2A SLT
+                                    "000000000000000",-- 0X2B SGT
+                                    "000000000000000",-- 0X2C SLE
+                                    "000000000000000",-- 0X2B SGE
+                                    );                           
                                 
   signal IR_opcode : std_logic_vector(OP_CODE_SIZE -1 downto 0);  -- OpCode part of IR
   signal IR_func : std_logic_vector(FUNC_SIZE downto 0);   -- Func part of IR when Rtype
@@ -77,10 +155,10 @@ architecture dlx_cu_hw of dlx_cu is
 
   -- control word is shifted to the correct stage
   signal cw1 : std_logic_vector(CW_SIZE -1 downto 0); -- first stage
-  signal cw2 : std_logic_vector(CW_SIZE - 1 - 2 downto 0); -- second stage
-  signal cw3 : std_logic_vector(CW_SIZE - 1 - 5 downto 0); -- third stage
-  signal cw4 : std_logic_vector(CW_SIZE - 1 - 9 downto 0); -- fourth stage
-  signal cw5 : std_logic_vector(CW_SIZE -1 - 13 downto 0); -- fifth stage
+  signal cw2 : std_logic_vector(CW_SIZE - 1 - CW1_SIZE downto 0); -- second stage
+  signal cw3 : std_logic_vector(CW_SIZE - 1 - CW1_SIZE - CW2_SIZE downto 0); -- third stage
+  signal cw4 : std_logic_vector(CW_SIZE - 1 - CW1_SIZE - CW2_SIZE - CW3_SIZE downto 0); -- fourth stage
+  signal cw5 : std_logic_vector(CW_SIZE  -1 - CW1_SIZE - CW2_SIZE - CW3_SIZE - CW4_SIZE downto 0); -- fifth stage
 
   signal aluOpcode_i: aluOp := NOP; -- ALUOP defined in package
   signal aluOpcode1: aluOp := NOP;
@@ -93,9 +171,10 @@ begin  -- dlx_cu_rtl
 
   IR_opcode(5 downto 0) <= IR_IN(31 downto 26);
   IR_func(10 downto 0)  <= IR_IN(FUNC_SIZE - 1 downto 0);
-
-  cw <= cw_mem(conv_integer(IR_opcode));
-
+  
+  cw <= cw_mem_func(conv_integer(IR_func)) when IR_func = 0x01;
+  cw <= cw_mem_op(conv_integer(IR_opcode));
+  
 
   -- stage one control signals
   IR_LATCH_EN  <= cw1(CW_SIZE - 1);
