@@ -29,7 +29,12 @@ entity dlx_cu is
    imem_res : in std_logic; -- to reset the istruction memory
    -- phase 2 control signal
    inst_type : in std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
-   --jal : in std_logic;
+	 RF_RESET: in std_logic;
+	 W_EN	: in std_logic;
+	 RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
+   RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
+   RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch Enable
+	 RegRD_ADD_EN	: in std_logic;
    --phase 3 control signal
    npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
    b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
