@@ -7,13 +7,13 @@ entity phase_2 is
 			 bit_add: integer := 5);
 	port (--Control signal
 		  inst_type: in std_logic_vector (1 downto 0);
-		  RF_EN : in std_logic;  -- high active
 		  RF_RESET : in std_logic; -- low active
 		  W_EN: in std_logic;	 -- not directly from cu during decode phase 
-	      RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
-          RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
-          RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch
-		  RegRD_ADD_EN		 : in std_logic;
+	      --RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
+          --RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
+          --RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch
+		  --RegRD_ADD_EN		 : in std_logic;
+			reg_en: in std_logic;
 		
 		--input from phase 1
 		  ir_s: in std_logic_vector(bit_data-1 downto 0);
@@ -54,7 +54,6 @@ architecture structural of phase_2 is
 	 generic (bit_data: integer := 32;
            bit_add: integer := 5);
   port(--Control Signals (sub CW)
-	   RF_EN : in std_logic;
 	   RF_RESET: in std_logic;
 	   W_EN	: in std_logic;
 	   RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
@@ -108,10 +107,10 @@ begin
 	   RF_EN,       -------- CU
 	   RF_RESET,
 	   W_EN,
-	   RegA_LATCH_EN,
-       RegB_LATCH_EN,
-       RegIMM_LATCH_EN,
-	   RegRD_ADD_EN, -----------
+	   Reg_en,
+       Reg_en,
+       Reg_EN,
+	   Reg_EN, -----------
 	   reg_read_add_1s,
 	   reg_read_EN_1s,
        reg_read_add_2s,

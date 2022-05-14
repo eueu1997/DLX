@@ -32,7 +32,7 @@ architecture A of register_file is
 	signal REGISTERS : REG_ARRAY; 
 
 	
-begin 
+begin
 	process(wr, RD1, RD2, RESET,enable,add_wr,add_rd1,add_rd2,registers,datain)
 --process(CLK)
 	begin	
