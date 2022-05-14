@@ -11,9 +11,8 @@ entity datapath is
 			imem_res : in std_logic;
 			-- phase 2 control signal
 			inst_type : in std_logic_vector ( 1 downto 0);
-			RF_EN : out std_logic;  -- high active
-			RF_RESET: out std_logic;
-			W_EN	: out std_logic;
+			RF_RESET: out std_logic; -- active low
+			W_EN	: out std_logic; -- set by cw5
 			--phase 3 control signal
 			npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
 			b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
@@ -25,13 +24,12 @@ entity datapath is
 			--phase4 control signal
 			bj_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
 			j_en : in std_logic; -- enable unconditional branch
-			ram_en : in std_logic; -- enable the ram to be read/write
-			--(the next one is in phase5)
-			wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
+			ram_en : in std_logic; -- enable the ram to be read/write			
 			ram_res : in std_logic; -- reaset the ram
 			rw : in std_logic; -- 0 for write, 1 for read
 			--phase5
-			rf_we : in std_logic;
+			wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
+
 			cond: out std_logic;
 			c_out : out std_logic
 			);
@@ -85,33 +83,33 @@ end datapath;
 
 ----------------BASIC INSTRUCTION -------------------
 
---add   DONE 0/10 0/1010 0000 10/00000/11
---addi  DONE 0/01 0/1110 0000 10/00000/11
---and   DONE 0/10 0/1010 0001 10/00000/11
---andi  DONE 0/01 0/1110 0001 10/00000/11
---beqz  DONE 0/01 0/0100 0000 10/10000/00
---bnez  DONE 0/01 0/0101 0000 10/10000/00
---j     DONE 0/11 0/0100 0000 10/11000/00
+--add   DONE 0/10 1/1010 0000 10/00000/11
+--addi  DONE 0/01 1/1110 0000 10/00000/11
+--and   DONE 0/10 1/1010 0001 10/00000/11
+--andi  DONE 0/01 1/1110 0001 10/00000/11
+--beqz  DONE 0/01 1/0100 0000 10/10000/00
+--bnez  DONE 0/01 1/0101 0000 10/10000/00
+--j     DONE 0/11 1/0100 0000 10/11000/00
 --jal   TODO Has to implement a link between NPC and R31 ( PHASE2 ) 
---lw    DONE 0/01 0/1110 0000 10/00100/01
+--lw    DONE 0/01 1/1110 0000 10/00100/01
 --nop   DONE ( We could make it just not triggering the registers)
---or    DONE 0/11 0/1010 0111 10/00000/11
---ori   DONE 0/01 0/1110 0111 10/00000/11
+--or    DONE 0/11 1/1010 0111 10/00000/11
+--ori   DONE 0/01 /1110 0111 10/00000/11
 --sge   TODO Has to implement a setter for the given register. 
 --sgei  TODO Has to implement a setter for the given register
 --sle   TODO Has to implement a setter for the given register
 --slei  TODO Has to implement a setter for the given register
---sll   DONE 0/10 0/1010 0100 10/00000/11
---slli  DONE 0/01 0/1110 0100 10/00000/11
+--sll   DONE 0/10 1/1010 0100 10/00000/11
+--slli  DONE 0/01 1/1110 0100 10/00000/11
 --sne   TODO Has to implement a setter for the given register. 
 --snei  TODO Has to implement a setter for the given register. 
---srl   DONE 0/10 0/1010 0101 10/00000/11
---srli  DONE 0/01 0/1110 0101 10/00000/11
---sub   DONE 0/10 0/1010 0010 10/00000/11
---subi  DONE 0/01 0/1110 0010 10/00000/11
---sw    DONE 0/01 0/1110 0000 10/00101/00
---xor   DONE 0/10 0/1010 0110 10/00000/11
---xori  DONE 0/01 0/1110 0110 10/00000/11
+--srl   DONE 0/10 1/1010 0101 10/00000/11
+--srli  DONE 0/01 1/1110 0101 10/00000/11
+--sub   DONE 0/10 1/1010 0010 10/00000/11
+--subi  DONE 0/01 1/1110 0010 10/00000/11
+--sw    DONE 0/01 1/1110 0000 10/00101/00
+--xor   DONE 0/10 1/1010 0110 10/00000/11
+--xori  DONE 0/01 1/1110 0110 10/00000/11
 
 
 
