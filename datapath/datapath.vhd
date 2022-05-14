@@ -38,16 +38,11 @@ end datapath;
 -- testare npc-> r31
 -- IMPLEMENTARE BLOCCO CHE SETTA A 0/1 1 REGISTRO ALAL VOLTA DEL REG FILE
 -----------------------------------------
-<<<<<<< HEAD
 
 -- aggiungere jal a tutte le cw
 --cw:
 --imem_res||inst_type-jal||npc_or_a/b_or_imm/branch_or_comp/be-alu_type-alu_ec-cin||b_en/j_en/ram_en/wb_sel/ram_res/rw
 -- add   0  10 0 1010 0000 10  000100
-=======
---------------FULL ISTRUCTION SET ----------------
--- add   0/10 0/1010 0000 10/ 000100
->>>>>>> a2fa6d31b8c72048befbe9819fe4a5bd1f694bbf
 -- addd 
 -- addf
 -- addi  0/01 0/1110 0000 10/000100

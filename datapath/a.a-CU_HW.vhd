@@ -20,38 +20,35 @@ entity dlx_cu is
     -- Instruction Register
     IR_IN              : in  std_logic_vector(IR_SIZE - 1 downto 0);
     
-    -- IF Control Signal
-    IR_LATCH_EN        : out std_logic;  -- Instruction Register Latch Enable
-    NPC_LATCH_EN       : out std_logic;
-                                        -- NextProgramCounter Register Latch Enable
-    -- ID Control Signals
-    RegA_LATCH_EN      : out std_logic;  -- Register A Latch Enable
-    RegB_LATCH_EN      : out std_logic;  -- Register B Latch Enable
-    RegIMM_LATCH_EN    : out std_logic;  -- Immediate Register Latch Enable
-
-    -- EX Control Signals
-    MUXA_SEL           : out std_logic;  -- MUX-A Sel
-    MUXB_SEL           : out std_logic;  -- MUX-B Sel
-    ALU_OUTREG_EN      : out std_logic;  -- ALU Output Register Enable
-    EQ_COND            : out std_logic;  -- Branch if (not) Equal to Zero
-    -- ALU Operation Code
-    ALU_OPCODE         : out aluOp; -- choose between implicit or exlicit coding, like std_logic_vector(ALU_OPC_SIZE -1 downto 0);
-    
-    -- MEM Control Signals
-    DRAM_WE            : out std_logic;  -- Data RAM Write Enable
-    LMD_LATCH_EN       : out std_logic;  -- LMD Register Latch Enable
-    JUMP_EN            : out std_logic;  -- JUMP Enable Signal for PC input MUX
-    PC_LATCH_EN        : out std_logic;  -- Program Counte Latch Enable
-
-    -- WB Control signals
-    WB_MUX_SEL         : out std_logic;  -- Write Back MUX Sel
-    RF_WE              : out std_logic);  -- Register File Write Enable
+   --phase 1 control signal
+   imem_res : in std_logic; -- to reset the istruction memory
+   -- phase 2 control signal
+   inst_type : in std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
+   --jal : in std_logic;
+   --phase 3 control signal
+   npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
+   b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
+   branch_or_comp : in std_logic; -- if the value sent in zero block is for branching(0) or cmaparison
+   be : in std_logic; -- 0 for beq, 1 for bneq
+   alu_type : in std_logic_vector(3 downto 0);
+   alu_en : in std_logic;
+   cin : in std_logic;
+   --phase4 control signal
+   bj_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
+   j_en : in std_logic; -- enable unconditional branch
+   ram_en : in std_logic; -- enable the ram to be read/write
+   --(the next one is in phase5)
+   wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
+   ram_res : in std_logic; -- reaset the ram
+   rw : in std_logic; -- 0 for write, 1 for read
+   --phase5
+   rf_we : in std_logic; RF_WE              : out std_logic);  -- Register File Write Enable
 
 end dlx_cu;
 
 architecture dlx_cu_hw of dlx_cu is
   type mem_array is array (integer range 0 to MICROCODE_MEM_SIZE - 1) of std_logic_vector(CW_SIZE - 1 downto 0);
-  signal cw_mem : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
+  signal cw_mem_op : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
                                 "000000000000000",
                                 "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
                                 "000000000000000", -- JAL to be filled
@@ -61,7 +58,17 @@ architecture dlx_cu_hw of dlx_cu is
                                 "000000000000000",
                                 "000000000000000", -- ADD i (0X08): FILL IT!!!
                                 "000000000000000");-- to be completed (enlarged and filled)
-                                
+  
+  signal cw_mem_func : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
+                                "000000000000000",
+                                "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
+                                "000000000000000", -- JAL to be filled
+                                "000000000000000", -- BEQZ to be filled
+                                "000000000000000", -- BNEZ
+                                "000000000000000", -- 
+                                "000000000000000",
+                                "000000000000000", -- ADD i (0X08): FILL IT!!!
+                                "000000000000000");-- to be completed (enlarged and filled)                              
                                 
   signal IR_opcode : std_logic_vector(OP_CODE_SIZE -1 downto 0);  -- OpCode part of IR
   signal IR_func : std_logic_vector(FUNC_SIZE downto 0);   -- Func part of IR when Rtype
