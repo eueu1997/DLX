@@ -67,7 +67,7 @@ begin
     generic map(bit_add, bit_data)
     port map(
      RF_RESET, --RESET
-	 RF_EN, --ENABLE
+	 '1',
 	 reg_read_en_1, --RD1
 	 reg_read_en_2, --RD2
 	 W_EN, -- WR_EN
