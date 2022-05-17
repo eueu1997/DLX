@@ -251,6 +251,8 @@ begin  -- dlx_cu_rtl
 		when others => aluOpcode_i <= NOP;
 	 end case;
 	end process ALU_OP_CODE_P;
-
+ -- 6 opcode 5 rs1 5 rd  16 imm         I type 01
+  --6 opcode 5 rs1 5 rs2 5 rd 11 func   R type 10
+  --6 opcode 26 imm                     J type 11
 
 end dlx_cu_hw;
