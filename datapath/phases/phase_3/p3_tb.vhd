@@ -25,8 +25,7 @@ component phase3 is
 		 -- aoutput of the block
 		 alu_out : out std_logic_vector(nbit-1 downto 0);
 		 -- register output enable
-		 cond_en : in std_logic;
-		 alu_out_en : in std_logic);
+		 en : in std_logic);
 
 
 
@@ -34,12 +33,12 @@ end component;
 constant nbit : integer  := 32 ;
 signal npc,a,b,imm,alu_out : std_logic_vector(nbit -1 downto 0);
 signal alu_type : std_logic_vector(3 downto 0);
-signal npcora,borimm,brorcomp,be,cout,alu,cond,cin : std_logic;
+signal npcora,borimm,brorcomp,be,cout,alu,cond,cin,en : std_logic;
 --signal cond : std_logic_vector(0 downto 0);
 
 begin
 
-    uut : phase3 generic map ( nbit ) port map ( npc,a,b,imm,npcora,borimm,brorcomp,be,alu_type,cout,cin,cond,alu_out,cond,alu);
+    uut : phase3 generic map ( nbit ) port map ( npc,a,b,imm,npcora,borimm,brorcomp,be,alu_type,cout,cin,cond,alu_out,en);
 
     -- try to test all combinatio--
     cin <= '0';
@@ -53,11 +52,9 @@ begin
     brorcomp <= '0';
     be <= '0';
     alu_type <= "0000";
-    cond <= '0';
-    alu <= '0';
+    en <= '0';
 	wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
     -- addi
     a <= "00000000000000000000000000001100" ;
@@ -67,11 +64,9 @@ begin
     brorcomp <= '0' ;
     be <= '0';
     alu_type <= "0000";
-    cond <= '0';
-    alu <= '0' ;
+    en <= '0';
 	wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
     -- sub
     
@@ -82,11 +77,9 @@ begin
     brorcomp <= '0';
     be <= '0';
     alu_type <= "0010";
-    cond <= '0';
-    alu <= '0';
+    en <= '0';
 	wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
    
 	-- subi
@@ -97,11 +90,9 @@ begin
     brorcomp <= '0';
     be <= '0';
     alu_type <= "0010" ;
-    cond <= '0';
-    alu <= '0' ;
+    en <= '0';
 	wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
     -- and
     
@@ -112,11 +103,9 @@ begin
     brorcomp <= '0';
     be <= '0';
     alu_type <= "0001";
-    cond <= '0';
-    alu <= '0';
+    en <= '0';
 	wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
     -- or
     
@@ -127,11 +116,9 @@ begin
     brorcomp <= '0';
     be <= '0';
     alu_type <= "0111";
-    cond <= '0';
-    alu <= '0';
-wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '0';
+    wait for 80 ns;
+    en <= '1';
 	wait for 20 ns;
     --cmp 
     
@@ -142,11 +129,9 @@ wait for 80 ns;
     brorcomp <= '0';
     be <= '1';
     alu_type <= "1011";
-    cond <= '0';
-    alu <= '0';
+    en <= '0';
 wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
     -- branch
     
@@ -157,11 +142,9 @@ wait for 80 ns;
     brorcomp <= '1';
     be <= '0';
     alu_type <= "0010";
-    cond <= '0';
-    alu <= '0';
+    en <= '0';
 wait for 80 ns;
-    cond <= '1';
-    alu <= '1';
+    en <= '1';
 	wait for 20 ns;
  
 end process;
