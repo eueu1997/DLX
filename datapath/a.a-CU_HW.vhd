@@ -29,9 +29,7 @@ entity dlx_cu is
    imem_res : out std_logic; -- to reset the istruction memory
    -- phase 2 control signal
    inst_type : out std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
-   RF_EN : out std_logic;  -- high active
    RF_RESET: out std_logic;
-	 W_EN	: out std_logic;
    --phase 3 control signal
    npc_or_a : out std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
    b_or_imm : out std_logic; -- inputtin 'b'(0) register fetched or immediate 
@@ -177,19 +175,21 @@ begin  -- dlx_cu_rtl
   
 
   -- stage one control signals
-  IR_LATCH_EN  <= cw1(CW_SIZE - 1);
-  NPC_LATCH_EN <= cw1(CW_SIZE - 2);
+  imem_res  <= cw1(CW_SIZE - 1);
   
   -- stage two control signals
-  RegA_LATCH_EN   <= cw2(CW_SIZE - 3);
-  RegB_LATCH_EN   <= cw2(CW_SIZE - 4);
-  RegIMM_LATCH_EN <= cw2(CW_SIZE - 5);
+  inst_type   <= cw2(CW_SIZE - 3);
+  RF_RESET   <= cw2(CW_SIZE - 4);
   
   -- stage three control signals
-  MUXA_SEL      <= cw3(CW_SIZE - 6);
-  MUXB_SEL      <= cw3(CW_SIZE - 7);
-  ALU_OUTREG_EN <= cw3(CW_SIZE - 8);
-  EQ_COND       <= cw3(CW_SIZE - 9);
+  npc_or_a      <= cw3(CW_SIZE - 6);
+  b_or_imm      <= cw3(CW_SIZE - 7);
+  branch_or_comp <= cw3(CW_SIZE - 8);
+  be       <= cw3(CW_SIZE - 9);
+  alu_type       <= cw3(CW_SIZE - 10 to CW_SIZE - 13);
+  alu_en       <= cw3(CW_SIZE - 14);
+  cin       <= cw3(CW_SIZE - 15);
+
   
   -- stage four control signals
   DRAM_WE      <= cw4(CW_SIZE - 10);

@@ -11,8 +11,8 @@ entity datapath is
 			imem_res : in std_logic;
 			-- phase 2 control signal
 			inst_type : in std_logic_vector ( 1 downto 0);
-			RF_RESET: out std_logic; -- active low
-			W_EN	: out std_logic; -- set by cw5
+			RF_RESET: in std_logic; -- active low
+			W_EN	: in std_logic; -- set by cw5
 			--phase 3 control signal
 			npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
 			b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
@@ -213,7 +213,7 @@ end component;
 constant bit_add : integer := 5;
 constant bit_data : integer := 32;
 -- phase 1 signal 
-signal pc_s,pc_out,pc_out2,npc_s,npc_d : std_logic_vector(bit_add -1 downto 0);
+signal pc_in,pc_out,pc_out2,npc_s,npc_d : std_logic_vector(bit_add -1 downto 0);
 signal ir_s : std_logic_vector(bit_data -1 downto 0);
 --phase 2 signals
 signal A,B,imm,WR_in : std_logic_vector ( bit_data -1 downto 0);
@@ -225,7 +225,7 @@ signal ALU_out,B1 : std_logic_vector(bit_data - 1 downto 0);
 signal cond_s : std_logic;
 begin
 	cond <= cond_s;
-	phase_1 : fetch generic map ( bit_add, bit_data ) port map (pc_s,reg_en,imem_res,npc_s,pc_out,npc_d,ir_s);
+	phase_1 : fetch generic map ( bit_add, bit_data ) port map (pc_in,reg_en,imem_res,npc_s,pc_out,npc_d,ir_s);
 
 	phase_2 : decode generic map (bit_data, bit_add)
 port map (inst_type,
@@ -252,5 +252,5 @@ port map (inst_type,
 	phase_3 : phase3 generic map(bit_data) port map (pc_out2,A,B,imm,npc_or_a,b_or_imm,branch_or_comp,be,alu_type,alu_en,c_out,cin,cond_s,ALU_out,reg_en);
 	reg_B : register_1 generic map ( bit_data) port map(B,B1,reg_en)
 
-	phase_4 : phase_4 generic map ( bit_data) port map(ALU_out,B1,npc_d,cond_s,j_en,bj_en,reg_en,ram_en,wb_sel,ram_res,rw,pc_s,WR_in);
+	phase_4 : phase_4 generic map ( bit_data) port map(ALU_out,B1,npc_d,cond_s,j_en,bj_en,reg_en,ram_en,wb_sel,ram_res,rw,pc_in,WR_in);
 end structural;
