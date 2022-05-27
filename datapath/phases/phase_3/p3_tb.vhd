@@ -42,7 +42,7 @@ begin
 
     -- try to test all combinatio--
     cin <= '0';
-    -- add
+    -- add 2 positive
 	process
 	begin
     a <= "00000000000000000000000000001100";
@@ -56,6 +56,19 @@ begin
 	wait for 80 ns;
     en <= '1';
 	wait for 20 ns;
+
+    a <= "1111001111111111100000000001100";
+    b <= "1111110000000000000000000000011";
+    npcora <= '1';
+    borimm <= '0';
+    brorcomp <= '0';
+    be <= '0';
+    alu_type <= "0000";
+    en <= '0';
+	wait for 80 ns;
+    en <= '1';
+	wait for 20 ns;
+
     -- addi
     a <= "00000000000000000000000000001100" ;
     imm <= "00000000000000000000000000000011";
