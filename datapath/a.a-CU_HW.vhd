@@ -13,7 +13,12 @@ entity dlx_cu is
     OP_CODE_SIZE       :     integer := 6;  -- Op Code Size
     -- ALU_OPC_SIZE       :     integer := 6;  -- ALU Op Code Word Size
     IR_SIZE            :     integer := 32;  -- Instruction Register Size    
-    CW_SIZE            :     integer := 15);  -- Control Word Size
+    CW_SIZE            :     integer := 15;  -- Control Word Size
+    CW1_SIZE            :    integer := 2;
+    CW2_SIZE            :    integer :=;
+    CW3_SIZE            :    integer := 2;
+    CW4_SIZE            :    integer := 2;
+    CW5_SIZE            :    integer := 2);
   port (
     Clk                : in  std_logic;  -- Clock
     Rst                : in  std_logic;  -- Reset:Active-Low
@@ -21,54 +26,125 @@ entity dlx_cu is
     IR_IN              : in  std_logic_vector(IR_SIZE - 1 downto 0);
     
    --phase 1 control signal
-   imem_res : in std_logic; -- to reset the istruction memory
+   imem_res : out std_logic; -- to reset the istruction memory
    -- phase 2 control signal
-   inst_type : in std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
-   --jal : in std_logic;
+   inst_type : out std_logic_vector ( 1 downto 0); -- "01" for I type , "10" for R type , "11" for J type
+   RF_RESET: out std_logic;
    --phase 3 control signal
-   npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
-   b_or_imm : in std_logic; -- inputtin 'b'(0) register fetched or immediate 
-   branch_or_comp : in std_logic; -- if the value sent in zero block is for branching(0) or cmaparison
-   be : in std_logic; -- 0 for beq, 1 for bneq
-   alu_type : in std_logic_vector(3 downto 0);
-   alu_en : in std_logic;
-   cin : in std_logic;
+   npc_or_a : out std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
+   b_or_imm : out std_logic; -- inputtin 'b'(0) register fetched or immediate 
+   branch_or_comp : out std_logic; -- if the value sent in zero block is for branching(0) or cmaparison
+   be : out std_logic; -- 0 for beq, 1 for bneq
+   alu_type : out std_logic_vector(3 downto 0);
+   alu_en : out std_logic;
+   cin : out std_logic;
    --phase4 control signal
-   bj_en : in std_logic; -- enable the condition evaluation to choose between the branched addres or npc
-   j_en : in std_logic; -- enable unconditional branch
-   ram_en : in std_logic; -- enable the ram to be read/write
-   --(the next one is in phase5)
-   wb_sel : in std_logic; -- 0 for reading from memory, 1 if write back from alu
-   ram_res : in std_logic; -- reaset the ram
-   rw : in std_logic; -- 0 for write, 1 for read
+   bj_en : out std_logic; -- enable the condition evaluation to choose between the branched addres or npc
+   j_en : out std_logic; -- enable unconditional branch
+   ram_en : out std_logic; -- enable the ram to be read/write    
+   ram_res : out std_logic; -- reaset the ram
+   rw : out std_logic; -- 0 for write, 1 for read
    --phase5
-   rf_we : in std_logic; RF_WE              : out std_logic);  -- Register File Write Enable
-
+   wb_sel : out std_logic; -- 0 for reading from memory, 1 if write back from alu
+   rf_we : out std_logic); -- enabling writing for write back on phase 2
 end dlx_cu;
 
 architecture dlx_cu_hw of dlx_cu is
   type mem_array is array (integer range 0 to MICROCODE_MEM_SIZE - 1) of std_logic_vector(CW_SIZE - 1 downto 0);
-  signal cw_mem_op : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
+  signal cw_mem_op : mem_array := ("111100010000111", -- 0X00 RESERVED
+                                "000000000000000", -- 0X01 FUNC-OPERATION
+                                "011101000000101100000", -- 0X02 J
+                                "000000000000000", -- 0X03 JAL
+                                "001101000000101000000", -- 0X04 BEQZ
+                                "001101010000101000000", -- 0X05 BNEZ
+                                "000000000000000", -- 0X06
                                 "000000000000000",
-                                "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
-                                "000000000000000", -- JAL to be filled
-                                "000000000000000", -- BEQZ to be filled
-                                "000000000000000", -- BNEZ
+                                "001111100000100000011", -- 0X08 ADDI
+                                "000000000000000", -- 0X09 ADDUI
+                                "001111100010100000011", -- 0X0A SUBI
+                                "000000000000000", -- 0X0B SUBUI
+                                "001111100001100000011", -- 0X0C ANDI
+                                "00111100111100000011", -- 0X0D ORI
+                                "001111100110100000011", -- 0X0E XORI
+                                "000000000000000", --
+                                "000000000000000", -- 0X10
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", --
+                                "001111100100100000011",--0x14 SLLI 
+                                "000000000000000", -- 0X15 NOP
+                                "001111100101100000011", -- 0X16 SRLI
+                                "000000000000000",
+                                "000000000000000", -- 0X18 SEQI
+                                "000000000000000", -- 0X19 SNEI
+                                "000000000000000", --
                                 "000000000000000", -- 
                                 "000000000000000",
-                                "000000000000000", -- ADD i (0X08): FILL IT!!!
-                                "000000000000000");-- to be completed (enlarged and filled)
+                                "000000000000000", --
+                                "000000000000000",
+                                "000000000000000", --
+                                "000000000000000", -- 0x20
+                                "000000000000000", --
+                                "000000000000000", -- 
+                                "001111100000100010001", -- 0x023 LW
+                                "000000000000000", --
+                                "000000000000000",
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", --
+                                "000000000000000", -- 
+                                "000000000000000",
+                                "001111100000100010100", -- 0X2B SW
+                                "000000000000000");--
   
-  signal cw_mem_func : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
-                                "000000000000000",
-                                "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
-                                "000000000000000", -- JAL to be filled
-                                "000000000000000", -- BEQZ to be filled
-                                "000000000000000", -- BNEZ
-                                "000000000000000", -- 
-                                "000000000000000",
-                                "000000000000000", -- ADD i (0X08): FILL IT!!!
-                                "000000000000000");-- to be completed (enlarged and filled)                              
+  signal cw_mem_func : mem_array :=("111100010000111", --0X00
+                                    "000000000000000", --0X01
+                                    "111011111001100", -- 0X02
+                                    "000000000000000", -- 
+                                    "010110100100100000011", -- 0X04 SLL
+                                    "000000000000000", --                                    
+                                    "010110100101100000011", -- 0X06 SRL
+                                    "000000000000000", --                                    
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",--0X10
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "000000000000000",
+                                    "010110100000100000011",-- 0X20 ADD
+                                    "000000000000000",
+                                    "010110100010100000011",-- 0X22 SUB
+                                    "000000000000000",
+                                    "000000000000000",-- 0X23 
+                                    "010110100001100000011",-- 0X24 AND
+                                    "011110100111100000011",-- 0X25 OR
+                                    "010110100110100000011",-- 0X26 XOR
+                                    "000000000000000",
+                                    "000000000000000",-- 0X28 SEQ
+                                    "000000000000000",-- 0X29 SNEQ
+                                    "000000000000000",-- 0X2A SLT
+                                    "000000000000000",-- 0X2B SGT
+                                    "000000000000000",-- 0X2C SLE
+                                    "000000000000000",-- 0X2B SGE
+                                    );                           
                                 
   signal IR_opcode : std_logic_vector(OP_CODE_SIZE -1 downto 0);  -- OpCode part of IR
   signal IR_func : std_logic_vector(FUNC_SIZE downto 0);   -- Func part of IR when Rtype
@@ -77,10 +153,10 @@ architecture dlx_cu_hw of dlx_cu is
 
   -- control word is shifted to the correct stage
   signal cw1 : std_logic_vector(CW_SIZE -1 downto 0); -- first stage
-  signal cw2 : std_logic_vector(CW_SIZE - 1 - 2 downto 0); -- second stage
-  signal cw3 : std_logic_vector(CW_SIZE - 1 - 5 downto 0); -- third stage
-  signal cw4 : std_logic_vector(CW_SIZE - 1 - 9 downto 0); -- fourth stage
-  signal cw5 : std_logic_vector(CW_SIZE -1 - 13 downto 0); -- fifth stage
+  signal cw2 : std_logic_vector(CW_SIZE - 1 - CW1_SIZE downto 0); -- second stage
+  signal cw3 : std_logic_vector(CW_SIZE - 1 - CW1_SIZE - CW2_SIZE downto 0); -- third stage
+  signal cw4 : std_logic_vector(CW_SIZE - 1 - CW1_SIZE - CW2_SIZE - CW3_SIZE downto 0); -- fourth stage
+  signal cw5 : std_logic_vector(CW_SIZE  -1 - CW1_SIZE - CW2_SIZE - CW3_SIZE - CW4_SIZE downto 0); -- fifth stage
 
   signal aluOpcode_i: aluOp := NOP; -- ALUOP defined in package
   signal aluOpcode1: aluOp := NOP;
@@ -93,24 +169,27 @@ begin  -- dlx_cu_rtl
 
   IR_opcode(5 downto 0) <= IR_IN(31 downto 26);
   IR_func(10 downto 0)  <= IR_IN(FUNC_SIZE - 1 downto 0);
-
-  cw <= cw_mem(conv_integer(IR_opcode));
-
+  
+  cw <= cw_mem_func(conv_integer(IR_func)) when IR_func = 0x01;
+  cw <= cw_mem_op(conv_integer(IR_opcode));
+  
 
   -- stage one control signals
-  IR_LATCH_EN  <= cw1(CW_SIZE - 1);
-  NPC_LATCH_EN <= cw1(CW_SIZE - 2);
+  imem_res  <= cw1(CW_SIZE - 1);
   
   -- stage two control signals
-  RegA_LATCH_EN   <= cw2(CW_SIZE - 3);
-  RegB_LATCH_EN   <= cw2(CW_SIZE - 4);
-  RegIMM_LATCH_EN <= cw2(CW_SIZE - 5);
+  inst_type   <= cw2(CW_SIZE - 3);
+  RF_RESET   <= cw2(CW_SIZE - 4);
   
   -- stage three control signals
-  MUXA_SEL      <= cw3(CW_SIZE - 6);
-  MUXB_SEL      <= cw3(CW_SIZE - 7);
-  ALU_OUTREG_EN <= cw3(CW_SIZE - 8);
-  EQ_COND       <= cw3(CW_SIZE - 9);
+  npc_or_a      <= cw3(CW_SIZE - 6);
+  b_or_imm      <= cw3(CW_SIZE - 7);
+  branch_or_comp <= cw3(CW_SIZE - 8);
+  be       <= cw3(CW_SIZE - 9);
+  alu_type       <= cw3(CW_SIZE - 10 to CW_SIZE - 13);
+  alu_en       <= cw3(CW_SIZE - 14);
+  cin       <= cw3(CW_SIZE - 15);
+
   
   -- stage four control signals
   DRAM_WE      <= cw4(CW_SIZE - 10);
@@ -172,6 +251,8 @@ begin  -- dlx_cu_rtl
 		when others => aluOpcode_i <= NOP;
 	 end case;
 	end process ALU_OP_CODE_P;
-
+ -- 6 opcode 5 rs1 5 rd  16 imm         I type 01
+  --6 opcode 5 rs1 5 rs2 5 rd 11 func   R type 10
+  --6 opcode 26 imm                     J type 11
 
 end dlx_cu_hw;
