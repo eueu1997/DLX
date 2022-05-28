@@ -14,7 +14,7 @@
 # //
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:52:14 on May 13,2022
+# Start time: 15:21:44 on May 14,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -22,43 +22,30 @@ vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/dat
 # -- Loading package CONSTANTS
 # -- Compiling entity datapath
 # -- Compiling architecture structural of datapath
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(110): (vcom-1136) Unknown identifier "i_size".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(110): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(110): Type error in range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(140): near "component": (vcom-1576) expecting END.
-# End time: 17:52:15 on May 13,2022, Elapsed time: 0:00:01
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:56:22 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity datapath
-# -- Compiling architecture structural of datapath
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(165): (vcom-1136) Unknown identifier "nbit".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(165): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(165): Type error in range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(166): (vcom-1136) Unknown identifier "nbit".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(166): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(166): Type error in range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(167): (vcom-1136) Unknown identifier "nbit".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(167): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(167): Type error in range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(175): (vcom-1136) Unknown identifier "nbit".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(175): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(175): Type error in range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(176): (vcom-1136) Unknown identifier "nbit".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(176): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(176): Type error in range expression.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(176): near ")": (vcom-1576) expecting END.
-# End time: 17:56:23 on May 13,2022, Elapsed time: 0:00:01
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(213): (vcom-1294) Declaration with designator "bit_add" already exists in this region.
+# ** =====> Prior declaration of "bit_add" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(6).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(214): (vcom-1294) Declaration with designator "bit_data" already exists in this region.
+# ** =====> Prior declaration of "bit_data" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(7).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(232): (vcom-1136) Unknown identifier "RF_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(233): (vcom-1136) Unknown identifier "RF_RESET".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(234): (vcom-1136) Unknown identifier "W_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(235): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(236): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(237): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(238): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(242): (vcom-1136) Unknown identifier "data_write_in".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(243): (vcom-1136) Unknown identifier "reg_write_add".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(245): (vcom-1136) Unknown identifier "A_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(246): (vcom-1136) Unknown identifier "B_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(247): (vcom-1136) Unknown identifier "imm_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(248): (vcom-1136) Unknown identifier "RD_saved_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(255): near "phase_4": (vcom-1576) expecting ';'.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(256): VHDL Compiler exiting
+# End time: 15:21:44 on May 14,2022, Elapsed time: 0:00:00
 # Errors: 16, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:58:01 on May 13,2022
+# Start time: 15:26:26 on May 14,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -66,6 +53,250 @@ vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/dat
 # -- Loading package CONSTANTS
 # -- Compiling entity datapath
 # -- Compiling architecture structural of datapath
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(176): near ")": (vcom-1576) expecting END.
-# End time: 17:58:02 on May 13,2022, Elapsed time: 0:00:01
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(213): (vcom-1294) Declaration with designator "bit_add" already exists in this region.
+# ** =====> Prior declaration of "bit_add" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(6).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(214): (vcom-1294) Declaration with designator "bit_data" already exists in this region.
+# ** =====> Prior declaration of "bit_data" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(7).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(232): (vcom-1136) Unknown identifier "RF_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(233): (vcom-1136) Unknown identifier "RF_RESET".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(234): (vcom-1136) Unknown identifier "W_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(235): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(236): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(237): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(238): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(242): (vcom-1136) Unknown identifier "data_write_in".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(243): (vcom-1136) Unknown identifier "reg_write_add".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(245): (vcom-1136) Unknown identifier "A_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(246): (vcom-1136) Unknown identifier "B_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(247): (vcom-1136) Unknown identifier "imm_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(248): (vcom-1136) Unknown identifier "RD_saved_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(255): near "phase_4": (vcom-1576) expecting ';'.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(256): VHDL Compiler exiting
+# End time: 15:26:26 on May 14,2022, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:31:35 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath
+# -- Compiling architecture structural of datapath
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(217): (vcom-1294) Declaration with designator "bit_add" already exists in this region.
+# ** =====> Prior declaration of "bit_add" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(6).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(218): (vcom-1294) Declaration with designator "bit_data" already exists in this region.
+# ** =====> Prior declaration of "bit_data" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(7).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(238): (vcom-1136) Unknown identifier "W_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(246): (vcom-1136) Unknown identifier "data_write_in".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(247): (vcom-1136) Unknown identifier "reg_write_add".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(249): (vcom-1136) Unknown identifier "A_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(250): (vcom-1136) Unknown identifier "B_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(251): (vcom-1136) Unknown identifier "imm_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(252): (vcom-1136) Unknown identifier "RD_saved_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(259): near "phase_4": (vcom-1576) expecting ';'.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(260): VHDL Compiler exiting
+# End time: 15:31:36 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:34:07 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath
+# -- Compiling architecture structural of datapath
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(240): (vcom-1136) Unknown identifier "W_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(248): (vcom-1136) Unknown identifier "data_write_in".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(249): (vcom-1136) Unknown identifier "reg_write_add".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(251): (vcom-1136) Unknown identifier "A_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(252): (vcom-1136) Unknown identifier "B_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(253): (vcom-1136) Unknown identifier "imm_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(254): (vcom-1136) Unknown identifier "RD_saved_out".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(261): near "phase_4": (vcom-1576) expecting ';'.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath.vhd(262): VHDL Compiler exiting
+# End time: 15:34:08 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:48:07 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(16): (vcom-1294) Declaration with designator "Reg_en" already exists in this region.
+# ** =====> Prior declaration of "reg_en" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(9).
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(40): VHDL Compiler exiting
+# End time: 16:48:07 on May 14,2022, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:50:19 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(92): near "port": (vcom-1576) expecting ';'.
+# End time: 16:50:20 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:50:57 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(116): (vcom-1294) Declaration with designator "ir_s" already exists in this region.
+# ** =====> Prior declaration of "ir_s" is at /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(35).
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(142): (vcom-1141) Identifier "phase_2" does not identify a component declaration.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(179): (vcom-1136) Unknown identifier "B".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(188): Symbol "phase_4" has already been declared in this region.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(188): (vcom-1141) Identifier "phase_4" does not identify a component declaration.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(207): VHDL Compiler exiting
+# End time: 16:50:58 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:55:07 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(142): (vcom-1141) Identifier "phase_2" does not identify a component declaration.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(179): (vcom-1136) Unknown identifier "B".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(188): Symbol "phase_4" has already been declared in this region.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(188): (vcom-1141) Identifier "phase_4" does not identify a component declaration.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(207): VHDL Compiler exiting
+# End time: 16:55:08 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:58:08 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(140): (vcom-1141) Identifier "phase_2" does not identify a component declaration.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(186): Symbol "phase_4" has already been declared in this region.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(186): (vcom-1141) Identifier "phase_4" does not identify a component declaration.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(205): VHDL Compiler exiting
+# End time: 16:58:09 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:59:15 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(140): (vcom-1141) Identifier "phase_2" does not identify a component declaration.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(199): (vcom-1136) Unknown identifier "WR_in".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(205): VHDL Compiler exiting
+# End time: 16:59:16 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:59:53 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(140): (vcom-1141) Identifier "phase_2" does not identify a component declaration.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(205): VHDL Compiler exiting
+# End time: 16:59:53 on May 14,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:00:41 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(152): (vcom-1027) Number of positional association elements (12) exceeds number of formals (11).
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(205): VHDL Compiler exiting
+# End time: 17:00:41 on May 14,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:02:22 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(143): (vcom-1136) Unknown identifier "W_EN".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(146): (vcom-1136) Unknown identifier "data_write_in_s".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(147): (vcom-1136) Unknown identifier "reg_write_add_s".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd(204): VHDL Compiler exiting
+# End time: 17:02:23 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:04:12 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# End time: 17:04:13 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:27:57 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/datapath_m.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath_m
+# -- Compiling architecture structural of datapath_m
+# End time: 17:27:58 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 17:57:45 on May 14,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity register_file
+# -- Compiling architecture A of register_file
+# -- Compiling configuration CFG_RF_BEH
+# -- Loading entity register_file
+# -- Loading architecture A of register_file
+# End time: 17:57:46 on May 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

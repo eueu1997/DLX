@@ -11,6 +11,12 @@ entity datapath is
 			imem_res : in std_logic;
 			-- phase 2 control signal
 			inst_type : in std_logic_vector ( 1 downto 0);
+ 			RF_EN : in std_logic;  -- high active
+			RF_RESET : in std_logic; -- low active
+	   		RegA_LATCH_EN      : in std_logic;
+          	RegB_LATCH_EN      : in std_logic;
+          	RegIMM_LATCH_EN    : in std_logic;
+		  	RegRD_ADD_EN		 : in std_logic;
 			--jal : in std_logic;
 			--phase 3 control signal
 			npc_or_a : in std_logic; -- inputtin from 'a'(1) register fetched or adding the npc
@@ -138,18 +144,16 @@ architecture structural of datapath is
 		  inst_type: in std_logic_vector (1 downto 0);
 		  RF_EN : in std_logic;  -- high active
 		  RF_RESET : in std_logic; -- low active
-		  W_EN: in std_logic;	 -- not directly from cu during decode phase 
-	      RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable
-          RegB_LATCH_EN      : in std_logic;  -- Register B Latch Enable
-          RegIMM_LATCH_EN    : in std_logic;  -- Immediate Register Latch
+		  W_EN: in std_logic;-- not directly from cu during decode phase 
+	      RegA_LATCH_EN      : in std_logic;
+          RegB_LATCH_EN      : in std_logic;
+          RegIMM_LATCH_EN    : in std_logic;
 		  RegRD_ADD_EN		 : in std_logic;
-		
 		--input from phase 1
 		  ir_s: in std_logic_vector(bit_data-1 downto 0);
 		--input for write
 		  data_write_in: in std_logic_vector(bit_data-1 downto 0);
 		  reg_write_add: in std_logic_vector(bit_add-1 downto 0);
-
 		--output                              
 		  A_out: out std_logic_vector(bit_data-1 downto 0);
 		  B_out: out std_logic_vector(bit_data-1 downto 0);
@@ -210,19 +214,21 @@ end component;
 	
 	end component;
 
-constant bit_add : integer := 5;
-constant bit_data : integer := 32;
 -- phase 1 signal 
 signal pc_s,pc_out,pc_out2,npc_s,npc_d : std_logic_vector(bit_add -1 downto 0);
 signal ir_s : std_logic_vector(bit_data -1 downto 0);
+
 --phase 2 signals
 signal A,B,imm,WR_in : std_logic_vector ( bit_data -1 downto 0);
 -- in phase 2 inserted a register poer npc that must follow the pipe in case of Branch instruction
 -- the npc from phase 1 go directly to the mux in phase 4 without regs( there is one "after" the mux)
 -- in case of brench the sequentiality is mantained due to bubble insertion ( I hypotize this way)
+
 --PHASE3 signal
 signal ALU_out,B1 : std_logic_vector(bit_data - 1 downto 0);
 signal cond_s : std_logic;
+
+
 begin
 	cond <= cond_s;
 	phase_1 : fetch generic map ( bit_add, bit_data ) port map (pc_s,reg_en,imem_res,npc_s,pc_out,npc_d,ir_s);
