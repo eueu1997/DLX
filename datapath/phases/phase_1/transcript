@@ -12,23 +12,38 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/a.c-IRAM.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/G.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 10:13:12 on Sep 30,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/a.c-IRAM.vhd 
+# Start time: 14:36:58 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/G.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package NUMERIC_STD
-# -- Compiling entity IRAM
-# -- Compiling architecture IRam_Bhe of IRAM
-# End time: 10:13:12 on Sep 30,2021, Elapsed time: 0:00:00
+# -- Compiling entity G
+# -- Compiling architecture behavioral of G
+# -- Compiling configuration CFG_G_BEH
+# -- Loading entity G
+# -- Loading architecture behavioral of G
+# End time: 14:36:59 on May 28,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/carry_generator.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/PG.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 10:13:18 on Sep 30,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/carry_generator.vhd 
+# Start time: 14:37:03 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/PG.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PG
+# -- Compiling architecture behavioral of PG
+# -- Compiling configuration CFG_PG_BEH
+# -- Loading entity PG
+# -- Loading architecture behavioral of PG
+# End time: 14:37:03 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_generator.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:12 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_generator.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -42,12 +57,101 @@ vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_
 # -- Loading architecture structural of CARRY_GENERATOR
 # -- Loading entity PG
 # -- Loading entity G
-# End time: 10:13:18 on Sep 30,2021, Elapsed time: 0:00:00
+# End time: 14:37:12 on May 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/carry_select.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/register.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 10:13:22 on Sep 30,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/carry_select.vhd 
+# Start time: 14:37:17 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1
+# -- Compiling architecture beh of register_1
+# End time: 14:37:18 on May 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/registerfile.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:18 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/registerfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity register_file
+# -- Compiling architecture A of register_file
+# -- Compiling configuration CFG_RF_BEH
+# -- Loading entity register_file
+# -- Loading architecture A of register_file
+# End time: 14:37:19 on May 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:21 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL of MUX21
+# End time: 14:37:21 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fa.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:23 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 14:37:23 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/rca.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:26 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RCA
+# -- Compiling architecture STRUCTURAL of RCA
+# -- Compiling architecture BEHAVIORAL of RCA
+# -- Loading entity RCA
+# -- Compiling configuration CFG_RCA_STRUCTURAL
+# -- Loading entity RCA
+# -- Loading architecture STRUCTURAL of RCA
+# -- Loading entity FA
+# -- Loading configuration cfg_fa_behavioral
+# -- Compiling configuration CFG_RCA_BEHAVIORAL
+# -- Loading entity RCA
+# -- Loading architecture BEHAVIORAL of RCA
+# End time: 14:37:26 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:30 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 14:37:30 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_select.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:31 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_select.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -63,33 +167,490 @@ vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_
 # -- Loading entity MUX21
 # -- Loading configuration cfg_rca_structural
 # -- Loading configuration cfg_mux21_behavioral
-# End time: 10:13:22 on Sep 30,2021, Elapsed time: 0:00:00
+# End time: 14:37:31 on May 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/fa.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/sum_generator.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 10:13:25 on Sep 30,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/fa.vhd 
+# Start time: 14:37:40 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/sum_generator.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity FA
-# -- Compiling architecture BEHAVIORAL of FA
-# -- Compiling configuration CFG_FA_BEHAVIORAL
-# -- Loading entity FA
-# -- Loading architecture BEHAVIORAL of FA
-# End time: 10:13:26 on Sep 30,2021, Elapsed time: 0:00:01
+# -- Compiling entity SUM_GENERATOR
+# -- Compiling architecture STRUCTURAL of SUM_GENERATOR
+# -- Compiling configuration CFG_SUM_GENERATOR_STRUCTURAL
+# -- Loading entity SUM_GENERATOR
+# -- Loading architecture STRUCTURAL of SUM_GENERATOR
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_SELECT
+# -- Loading configuration cfg_carry_select_structural
+# End time: 14:37:40 on May 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/P4_adder.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 10:13:33 on Sep 30,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd 
+# Start time: 14:37:45 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/P4_adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity G
-# -- Compiling architecture behavioral of G
-# -- Compiling configuration CFG_G_BEH
-# -- Loading entity G
-# -- Loading architecture behavioral of G
-# End time: 10:13:33 on Sep 30,2021, Elapsed time: 0:00:00
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# -- Compiling architecture behavioral of P4_ADDER
+# -- Loading entity P4_ADDER
+# -- Compiling configuration CFG_P4_ADDER_STRUCTURAL
+# -- Loading entity P4_ADDER
+# -- Loading architecture STRUCTURAL of P4_ADDER
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Loading entity CARRY_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading configuration cfg_carry_generator_structural
+# -- Loading configuration cfg_sum_generator_structural
+# -- Compiling configuration CFG_P4_ADDER_BEH
+# -- Loading entity P4_ADDER
+# -- Loading architecture behavioral of P4_ADDER
+# End time: 14:37:45 on May 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:49 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IRAM
+# -- Compiling architecture IRam_Bhe of IRAM
+# End time: 14:37:49 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:37:57 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fetch
+# -- Compiling architecture structural of fetch
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd(76): Symbol "pc_out" has already been declared in this region.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd(77): (vcom-1454) Formal "d_out" of mode OUT cannot be associated with an expression.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd(84): VHDL Compiler exiting
+# End time: 14:37:57 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:40:42 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fetch
+# -- Compiling architecture structural of fetch
+# -- Compiling configuration CFG_FETCH
+# -- Loading entity fetch
+# -- Loading architecture structural of fetch
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity P4_ADDER
+# -- Loading package std_logic_textio
+# -- Loading entity IRAM
+# -- Loading entity register_1
+# -- Loading configuration cfg_p4_adder_structural
+# End time: 14:40:42 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:40:45 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(31): (vcom-1136) Unknown identifier "ir_s".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(37): (vcom-1136) Unknown identifier "imem_ress".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(37): Enumeration literal '1' is not of type (error).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(39): near ";": syntax error
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(41): VHDL Compiler exiting
+# End time: 14:40:45 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:41:33 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(37): (vcom-1136) Unknown identifier "imem_ress".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(37): Enumeration literal '1' is not of type (error).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(39): near ";": syntax error
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(41): VHDL Compiler exiting
+# End time: 14:41:33 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:42:20 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(39): near ";": syntax error
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd(41): VHDL Compiler exiting
+# End time: 14:42:20 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:42:31 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity fetch
+# End time: 14:42:31 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cfg_tb -t 10ps
+# vsim work.cfg_tb -t 10ps 
+# Start time: 14:43:00 on May 28,2022
+# ** Error: (vsim-7) Failed to open info file "/home/ms21.41/Desktop/project/phase_1/block/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "/home/ms21.41/Desktop/project/phase_1/block/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory /home/ms21.41/Desktop/project/phase_1/block/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 14:43:00 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# vsim -t 10ps work.cfg_tb 
+# Start time: 14:44:02 on May 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave *
+# A time value could not be extracted from the current line
+run 200 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+# Load canceled
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:54:56 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fetch
+# -- Compiling architecture structural of fetch
+# -- Compiling configuration CFG_FETCH
+# -- Loading entity fetch
+# -- Loading architecture structural of fetch
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity P4_ADDER
+# -- Loading package std_logic_textio
+# -- Loading entity IRAM
+# -- Loading entity register_1
+# -- Loading configuration cfg_p4_adder_structural
+# End time: 14:54:56 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:54:58 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity fetch
+# End time: 14:54:58 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 100ps work.cfg_tb
+# End time: 14:55:18 on May 28,2022, Elapsed time: 0:11:16
+# Errors: 3, Warnings: 3
+# vsim -t 100ps work.cfg_tb 
+# Start time: 14:55:18 on May 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave *
+run 200 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+vsim -t 10ps work.cfg_tb
+# End time: 14:56:53 on May 28,2022, Elapsed time: 0:01:35
+# Errors: 2, Warnings: 3
+# vsim -t 10ps work.cfg_tb 
+# Start time: 14:56:53 on May 28,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave *
+run 200 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:58:26 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity fetch
+# End time: 14:58:26 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# End time: 14:58:45 on May 28,2022, Elapsed time: 0:01:52
+# Errors: 2, Warnings: 3
+# vsim -t 10ps work.cfg_tb 
+# Start time: 14:58:45 on May 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave *
+run 200 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:04:27 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity fetch
+# End time: 15:04:27 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# End time: 15:04:48 on May 28,2022, Elapsed time: 0:06:03
+# Errors: 2, Warnings: 3
+# vsim -t 10ps work.cfg_tb 
+# Start time: 15:04:48 on May 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave *
+run 100 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+# ** Fatal: (vsim-3421) Value 327385215 is out of range 0 to 100.
+#    Time: 27 ns  Iteration: 1  Process: /tb/UUT/I_MEM/line__32 File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+# Fatal error in Block I_MEM at /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd 32 Block I_MEM
+# 
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:09:16 on May 28,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity fetch
+# End time: 15:09:16 on May 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.cfg_tb
+# End time: 15:09:31 on May 28,2022, Elapsed time: 0:04:43
+# Errors: 4, Warnings: 3
+# vsim -t 10ps work.cfg_tb 
+# Start time: 15:09:31 on May 28,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave 
+# wrong number of args for "add wave".
+# Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-filter <f> | -nofilter <f>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
+add wave *
+run 100 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+# ** Fatal: (vsim-3421) Value 327385215 is out of range 0 to 100.
+#    Time: 27 ns  Iteration: 1  Process: /tb/UUT/I_MEM/line__32 File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+# Fatal error in Block I_MEM at /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd 32 Block I_MEM
+# 
+vsim -t 10ps work.cfg_tb
+# End time: 15:10:30 on May 28,2022, Elapsed time: 0:00:59
+# Errors: 4, Warnings: 3
+# vsim -t 10ps work.cfg_tb 
+# Start time: 15:10:30 on May 28,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cfg_tb#1
+# Loading work.tb(tb1)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.fetch(structural)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.p4_adder(behavioral)#1
+add wave *
+add wave *
+run 100 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/I_MEM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/ADD
+# ** Error: (vsim-3953) STD_LOGIC_1164.HREAD End of string encountered
+#    Time: 0 ps  Iteration: 1  Instance: /tb/UUT/I_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb/UUT/I_MEM
+# ** Fatal: (vsim-3421) Value 327385215 is out of range 0 to 100.
+#    Time: 27 ns  Iteration: 1  Process: /tb/UUT/I_MEM/line__32 File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+# Fatal error in Block I_MEM at /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd 32 Block I_MEM
+# 
+# Break key hit
+# Break key hit
+# End time: 15:18:34 on May 28,2022, Elapsed time: 0:08:04
+# Errors: 3, Warnings: 3

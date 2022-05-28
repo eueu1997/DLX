@@ -73,7 +73,7 @@ ADD : P4_ADDER   generic map ( bit_add,4)
 I_MEM : IRAM    generic map ( bit_add,i_size)
   				port map ( imem_res,from_pc,mem_to_ir);
 
-PC_out : register_1 generic map( bit_add)
+PC_out_r : register_1 generic map( bit_add)
  				port map(from_pc,pc_out,en);
 IR : register_1 generic map(i_size)
 				port map(mem_to_ir,ir_s,en);

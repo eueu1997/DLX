@@ -9,36 +9,36 @@ z2
 cModel Technology
 Z0 d/home/ms21.41/Desktop/project/phase_1/block
 T_opt
-!s110 1628164640
-Vd@mMTdK=U2RQT1=]Fz]e53
+!s110 1653743088
+VcjNcgG]ILW80CH3zBgl3W3
 04 6 0 work cfg_tb 1
-=1-5254009c17d7-610bd21f-c40c0-7c37
+=1-5254009c17d7-62921df0-97530-44f7
 o-quiet -auto_acc_if_foreign -work work
 tCvgOpt 0
 n@_opt
 OL;O;10.7c;67
 R0
 Ecarry_generator
-Z1 w1617806105
+Z1 w1646670574
 Z2 DPx4 work 9 constants 0 22 LDG1jg>QdmLMC]HcdmRmg3
 Z3 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z7 d/home/ms21.41/Desktop/datapath/phases/phase_1
-Z8 8/home/ms21.41/Desktop/datapath/phases/phase_1/carry_generator.vhd
-Z9 F/home/ms21.41/Desktop/datapath/phases/phase_1/carry_generator.vhd
+Z7 d/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1
+Z8 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_generator.vhd
+Z9 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_generator.vhd
 l0
 L7
 V0_:gnz@Z2;PPm8GdUNBIi0
 !s100 4aDm14@im01Y@:TkRNfe@3
 Z10 OL;C;10.7c;67
 32
-Z11 !s110 1632989598
+Z11 !s110 1653741432
 !i10b 1
-Z12 !s108 1632989598.000000
-Z13 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_1/carry_generator.vhd|
-Z14 !s107 /home/ms21.41/Desktop/datapath/phases/phase_1/carry_generator.vhd|
+Z12 !s108 1653741432.000000
+Z13 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_generator.vhd|
+Z14 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_generator.vhd|
 !i113 0
 Z15 o-work work
 Z16 tExplicit 1 CvgOpt 0
@@ -64,24 +64,24 @@ R14
 R15
 R16
 Ecarry_select
-Z18 w1617874099
+R1
 R2
 R5
 R6
 R7
-Z19 8/home/ms21.41/Desktop/datapath/phases/phase_1/carry_select.vhd
-Z20 F/home/ms21.41/Desktop/datapath/phases/phase_1/carry_select.vhd
+Z18 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_select.vhd
+Z19 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_select.vhd
 l0
 L6
 VF=i]Ref]=L2KQc:MTz9ze3
 !s100 _3Eh3EZ_Si?7?i<MPl[cJ0
 R10
 32
-Z21 !s110 1632989602
+Z20 !s110 1653741451
 !i10b 1
-Z22 !s108 1632989602.000000
-Z23 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_1/carry_select.vhd|
-Z24 !s107 /home/ms21.41/Desktop/datapath/phases/phase_1/carry_select.vhd|
+Z21 !s108 1653741451.000000
+Z22 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_select.vhd|
+Z23 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/carry_select.vhd|
 !i113 0
 R15
 R16
@@ -89,26 +89,26 @@ Astructural
 R2
 R5
 R6
-Z25 DEx4 work 12 carry_select 0 22 F=i]Ref]=L2KQc:MTz9ze3
+Z24 DEx4 work 12 carry_select 0 22 F=i]Ref]=L2KQc:MTz9ze3
 l39
 L14
 VD6d]2f=>BlOZ?ZeXJbFAD0
 !s100 GN8d[N<iMa2OhgWQjl8;V1
 R10
 32
-R21
+R20
 !i10b 1
+R21
 R22
 R23
-R24
 !i113 0
 R15
 R16
 Ccfg_carry_generator_structural
 eCARRY_GENERATOR
-Z26 aSTRUCTURAL
-Z27 DEx4 work 1 g 0 22 DjlPB`l2;Db]zWz@BD<P42
-Z28 DEx4 work 2 pg 0 22 :UzEEzJC_K>87X9oK4DL60
+Z25 aSTRUCTURAL
+Z26 DEx4 work 1 g 0 22 DjlPB`l2;Db]zWz@BD<P42
+Z27 DEx4 work 2 pg 0 22 :UzEEzJC_K>87X9oK4DL60
 DAx4 work 15 carry_generator 10 structural 22 VboQe=9AfM`o23<fk9Qha2
 R2
 R3
@@ -136,176 +136,176 @@ R15
 R16
 Ccfg_carry_select_structural
 eCARRY_SELECT
-R26
-Z29 DEx4 work 5 mux21 0 22 2VYDSEbL^GUjUHd0f]AYF1
-Z30 DEx4 work 3 rca 0 22 Ef6_XUVdPPEfD1?5SFH<B2
+R25
+Z28 DEx4 work 5 mux21 0 22 2VYDSEbL^GUjUHd0f]AYF1
+Z29 DEx4 work 3 rca 0 22 Ef6_XUVdPPEfD1?5SFH<B2
 DCx4 work 20 cfg_mux21_behavioral 0 22 Tj<maO_7GVR65NE8f4QiP2
-Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z32 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 DCx4 work 18 cfg_rca_structural 0 22 1^@z>k?`Wb?1`8nB0ZJ6>2
 DAx4 work 12 carry_select 10 structural 22 D6d]2f=>BlOZ?ZeXJbFAD0
 R2
 R5
 R6
-R25
-R18
+R24
+R1
 R7
+R18
 R19
-R20
 l0
 L54
 VEZfFk8^b0[bUPe;_>078l0
 !s100 BoeWX^<c1ZaM[SkbdoFI]3
 R10
 32
-R21
+R20
 !i10b 0
+R21
 R22
 R23
-R24
 !i113 0
 R15
 R16
 Ccfg_fa_behavioral
 eFA
-Z33 aBEHAVIORAL
+Z32 aBEHAVIORAL
 DAx4 work 2 fa 10 behavioral 22 VN4zj<1UDaI=Q>fmVIbH21
 R5
 R6
-Z34 DEx4 work 2 fa 0 22 @IjnZ7??KFC`DOlen7^781
-Z35 w1617874124
+Z33 DEx4 work 2 fa 0 22 @IjnZ7??KFC`DOlen7^781
+R1
 R7
-Z36 8/home/ms21.41/Desktop/datapath/phases/phase_1/fa.vhd
-Z37 F/home/ms21.41/Desktop/datapath/phases/phase_1/fa.vhd
+Z34 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fa.vhd
+Z35 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fa.vhd
 l0
 L21
 VNPQMC<oE<8CcT6^oMIFj32
 !s100 >Bdj?3K]:j@Xai4Gj1gaR2
 R10
 32
-Z38 !s110 1632989606
+Z36 !s110 1653741443
 !i10b 0
-Z39 !s108 1632989605.000000
-Z40 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_1/fa.vhd|
-Z41 !s107 /home/ms21.41/Desktop/datapath/phases/phase_1/fa.vhd|
+Z37 !s108 1653741443.000000
+Z38 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fa.vhd|
+Z39 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fa.vhd|
 !i113 0
 R15
 R16
 Ccfg_fetch
 efetch
 astructural
-Z42 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-Z43 DEx4 work 10 register_1 0 22 >KJX6WQbb>AWbDOg]b<jR1
-Z44 DEx4 work 4 iram 0 22 FeMlkT8<DgJkgf1b6L^eJ1
-Z45 DEx4 work 8 p4_adder 0 22 7DZgOOlUebn0`F_7hV]f<1
+Z40 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z41 DEx4 work 10 register_1 0 22 >KJX6WQbb>AWbDOg]b<jR1
+Z42 DEx4 work 4 iram 0 22 FeMlkT8<DgJkgf1b6L^eJ1
+Z43 DEx4 work 8 p4_adder 0 22 V7AB`zM`LG?cKo:DBQkGQ1
+R30
 R31
-R32
 DCx4 work 23 cfg_p4_adder_structural 0 22 ljXC^WSQOdo>PfFoGfCa;3
-DAx4 work 5 fetch 10 structural 22 4[6IlIDcbkXeUi=GjRSUQ2
+DAx4 work 5 fetch 10 structural 22 @G[3nz05jaLDPZ^cUZ]XG0
 R4
 R5
 R6
-Z46 DEx4 work 5 fetch 0 22 Zdem^>5?Hl5aUjf7GneMo0
-Z47 w1628164485
-R0
-Z48 8/home/ms21.41/Desktop/project/phase_1/block/fetch.vhd
-Z49 F/home/ms21.41/Desktop/project/phase_1/block/fetch.vhd
+Z44 DEx4 work 5 fetch 0 22 eFYz68]zjM@f8lMCTV0WB2
+Z45 w1653741639
+R7
+Z46 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd
+Z47 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd
 l0
-L72
-VczbH:0AB28T21W9<lQcz:2
-!s100 PRn;3[e]7AYhi[5TmaM@i2
+L86
+VWjo6IKC9_>O:hRCgL?d?63
+!s100 kgTGBH11;_a57BS6N0T5S2
 R10
 32
-Z50 !s110 1628164615
+Z48 !s110 1653742496
 !i10b 0
-Z51 !s108 1628164615.000000
-Z52 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/fetch.vhd|
-Z53 !s107 /home/ms21.41/Desktop/project/phase_1/block/fetch.vhd|
+Z49 !s108 1653742496.000000
+Z50 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd|
+Z51 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/fetch.vhd|
 !i113 0
 R15
 R16
 Ccfg_g_beh
 eG
-Z54 abehavioral
+Z52 abehavioral
 DAx4 work 1 g 10 behavioral 22 KX4hE1PN9AO9FY_5^f[0C2
 R5
 R6
-R27
-Z55 w1617797208
+R26
+R1
 R7
-Z56 8/home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd
-Z57 F/home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd
+Z53 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/G.vhd
+Z54 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/G.vhd
 l0
 L16
 VG7k]SSXiO<>Z^TRZCKT]f0
 !s100 i3O_e?T;OR]3J^85I8^Zl2
 R10
 32
-Z58 !s110 1632989613
+Z55 !s110 1653741419
 !i10b 0
-Z59 !s108 1632989613.000000
-Z60 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd|
-!s107 /home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd|
+Z56 !s108 1653741418.000000
+Z57 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/G.vhd|
+Z58 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/G.vhd|
 !i113 0
 R15
 R16
 Ccfg_mux21_behavioral
 eMUX21
-R33
+R32
 DAx4 work 5 mux21 10 behavioral 22 8JCg<2zG^9;<lE[J`eJc<1
 R2
 R5
 R6
-R29
-Z61 w1617874732
-R0
-Z62 8/home/ms21.41/Desktop/project/phase_1/block/mux21.vhd
-Z63 F/home/ms21.41/Desktop/project/phase_1/block/mux21.vhd
+R28
+R1
+R7
+Z59 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/mux21.vhd
+Z60 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/mux21.vhd
 l0
 L19
 VTj<maO_7GVR65NE8f4QiP2
 !s100 ?hbOzU=M>ZIH_CoQE]Shm0
 R10
 32
-Z64 !s110 1628065606
+Z61 !s110 1653741441
 !i10b 0
-Z65 !s108 1628065606.000000
-Z66 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/mux21.vhd|
-Z67 !s107 /home/ms21.41/Desktop/project/phase_1/block/mux21.vhd|
+Z62 !s108 1653741441.000000
+Z63 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/mux21.vhd|
+Z64 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/mux21.vhd|
 !i113 0
 R15
 R16
 Ccfg_p4_adder_beh
-Z68 eP4_ADDER
-R54
+Z65 eP4_ADDER
+R52
 DAx4 work 8 p4_adder 10 behavioral 22 K2<WI:0B3S<L][GnIK62g2
+R30
 R31
-R32
 R5
 R6
-R45
-Z69 w1628159290
-R0
-Z70 8/home/ms21.41/Desktop/project/phase_1/block/P4_adder.vhd
-Z71 F/home/ms21.41/Desktop/project/phase_1/block/P4_adder.vhd
+R43
+R1
+R7
+Z66 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/P4_adder.vhd
+Z67 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/P4_adder.vhd
 l0
 L67
 VWg]?aVAGR;[RK`N4l_XNR0
 !s100 m;fhm5]EGBKlC5W@^j^lj1
 R10
 32
-Z72 !s110 1628159315
+Z68 !s110 1653741465
 !i10b 0
-Z73 !s108 1628159315.000000
-Z74 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/P4_adder.vhd|
-Z75 !s107 /home/ms21.41/Desktop/project/phase_1/block/P4_adder.vhd|
+Z69 !s108 1653741465.000000
+Z70 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/P4_adder.vhd|
+Z71 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/P4_adder.vhd|
 !i113 0
 R15
 R16
 Ccfg_p4_adder_structural
-R68
-R26
-Z76 DEx4 work 13 sum_generator 0 22 `A]8?D]_;gaoH;Q9Z7J[P0
+R65
+R25
+Z72 DEx4 work 13 sum_generator 0 22 `A]8?D]_;gaoH;Q9Z7J[P0
 R17
 DCx4 work 28 cfg_sum_generator_structural 0 22 a837I51UMcEZNJ093?5=^0
 R2
@@ -313,135 +313,164 @@ R3
 R4
 DCx4 work 30 cfg_carry_generator_structural 0 22 ni1d^B]RZ9>BEdk1[TlKL3
 DAx4 work 8 p4_adder 10 structural 22 cQI;_oTO:DLY`fRYL:23I2
+R30
 R31
-R32
 R5
 R6
-R45
-R69
-R0
-R70
-R71
+R43
+R1
+R7
+R66
+R67
 l0
 L57
 VljXC^WSQOdo>PfFoGfCa;3
 !s100 J2>O8_1kaeb@Rj_[PV3]P0
 R10
 32
-R72
+R68
 !i10b 0
-R73
-R74
-R75
+R69
+R70
+R71
 !i113 0
 R15
 R16
 Ccfg_pg_beh
 ePG
-R54
+R52
 DAx4 work 2 pg 10 behavioral 22 `6ocODG9IM=zNa3=3]BI_1
 R5
 R6
-R28
-Z77 w1617874976
-R0
-Z78 8/home/ms21.41/Desktop/project/phase_1/block/PG.vhd
-Z79 F/home/ms21.41/Desktop/project/phase_1/block/PG.vhd
+R27
+R1
+R7
+Z73 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/PG.vhd
+Z74 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/PG.vhd
 l0
 L19
 V<[PU?z>MgohMW?41VDNmL2
 !s100 ?MbAJ0>@GFf?IL[265hl52
 R10
 32
-Z80 !s110 1628065553
+Z75 !s110 1653741423
 !i10b 0
-Z81 !s108 1628065552.000000
-Z82 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/PG.vhd|
-Z83 !s107 /home/ms21.41/Desktop/project/phase_1/block/PG.vhd|
+Z76 !s108 1653741423.000000
+Z77 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/PG.vhd|
+Z78 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/PG.vhd|
 !i113 0
 R15
 R16
 Ccfg_rca_behavioral
 eRCA
-R33
-DAx4 work 3 rca 10 behavioral 22 M0Q7J8G8E34fdAmjfK]232
-R31
 R32
+DAx4 work 3 rca 10 behavioral 22 M0Q7J8G8E34fdAmjfK]232
+R30
+R31
 R5
 R6
-R30
-Z84 w1617874190
-R0
-Z85 8/home/ms21.41/Desktop/project/phase_1/block/rca.vhd
-Z86 F/home/ms21.41/Desktop/project/phase_1/block/rca.vhd
+R29
+R1
+R7
+Z79 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/rca.vhd
+Z80 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/rca.vhd
 l0
 L70
 V<V2=zf:Tmbn1@a[c_l;RL3
 !s100 9J^1?UPjKQXToIGOhHN_l1
 R10
 32
-Z87 !s110 1628065598
+Z81 !s110 1653741446
 !i10b 0
-Z88 !s108 1628065598.000000
-Z89 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/rca.vhd|
-Z90 !s107 /home/ms21.41/Desktop/project/phase_1/block/rca.vhd|
+Z82 !s108 1653741446.000000
+Z83 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/rca.vhd|
+Z84 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/rca.vhd|
 !i113 0
 R15
 R16
 Ccfg_rca_structural
 eRCA
-R26
-R34
+R25
+R33
 DCx4 work 17 cfg_fa_behavioral 0 22 NPQMC<oE<8CcT6^oMIFj32
 DAx4 work 3 rca 10 structural 22 >lzCXQkO3<98aMN0<KAlz1
+R30
 R31
-R32
 R5
 R6
-R30
-R84
-R0
-R85
-R86
+R29
+R1
+R7
+R79
+R80
 l0
 L60
 V1^@z>k?`Wb?1`8nB0ZJ6>2
 !s100 `A5J_F]HH_UbfX<G45^c03
 R10
 32
-R87
+R81
 !i10b 0
-R88
-R89
-R90
+R82
+R83
+R84
+!i113 0
+R15
+R16
+Ccfg_rf_beh
+eregister_file
+aA
+DAx4 work 13 register_file 1 a 22 ?Y=ScdTZNV^=QKZ@6C;J:3
+R3
+R4
+R30
+R31
+R5
+R6
+Z85 DEx4 work 13 register_file 0 22 GWaP:Kl=BTKEJzc=S_VIE2
+R1
+R7
+Z86 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/registerfile.vhd
+Z87 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/registerfile.vhd
+l0
+L63
+Ve`A7jIQQ^z78YlgeSTg9C3
+!s100 Q]ZVQ2zEH?G<KjdM[4]R=2
+R10
+32
+Z88 !s110 1653741439
+!i10b 0
+Z89 !s108 1653741438.000000
+Z90 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/registerfile.vhd|
+Z91 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/registerfile.vhd|
 !i113 0
 R15
 R16
 Ccfg_sum_generator_structural
 eSUM_GENERATOR
-R26
 R25
+R24
 R2
 DCx4 work 27 cfg_carry_select_structural 0 22 EZfFk8^b0[bUPe;_>078l0
 DAx4 work 13 sum_generator 10 structural 22 NUjR[F@1_fgDJB]nECR?f1
 R5
 R6
-R76
-Z91 w1617036445
-R0
-Z92 8/home/ms21.41/Desktop/project/phase_1/block/sum_generator.vhd
-Z93 F/home/ms21.41/Desktop/project/phase_1/block/sum_generator.vhd
+R72
+R1
+R7
+Z92 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/sum_generator.vhd
+Z93 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/sum_generator.vhd
 l0
 L39
 Va837I51UMcEZNJ093?5=^0
 !s100 <GmbZ4VX`k9zoHQaNRIJ61
 R10
 32
-Z94 !s110 1628065617
+Z94 !s110 1653741460
 !i10b 0
-Z95 !s108 1628065617.000000
-Z96 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/sum_generator.vhd|
-Z97 !s107 /home/ms21.41/Desktop/project/phase_1/block/sum_generator.vhd|
+Z95 !s108 1653741460.000000
+Z96 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/sum_generator.vhd|
+Z97 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/sum_generator.vhd|
 !i113 0
 R15
 R16
@@ -449,106 +478,106 @@ Ccfg_tb
 etb
 atb1
 R4
-R46
-DAx4 work 2 tb 3 tb1 22 7M`kZc?L]eH<e;3@iQ0SR2
+R44
+DAx4 work 2 tb 3 tb1 22 YzE[0R0amSYobKhahoSmL0
 R5
 R6
 Z98 DEx4 work 2 tb 0 22 4eIeKCB7b]7j8Ii`T_EZ:3
-Z99 w1628164499
-R0
-Z100 8/home/ms21.41/Desktop/project/phase_1/block/tb.vhd
-Z101 F/home/ms21.41/Desktop/project/phase_1/block/tb.vhd
+Z99 w1653743052
+R7
+Z100 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
+Z101 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd
 l0
-L47
-VEYB;_`_2<YY96]U5QNXHH1
-!s100 ;_4<>fMh6CoOemIJJg7OK0
+L42
+ViZXdUPJ>Ujlg>6PD`<VXY0
+!s100 fF;M<?>dil7?]AJUfkgD]1
 R10
 32
-Z102 !s110 1628164618
+Z102 !s110 1653743356
 !i10b 0
-Z103 !s108 1628164618.000000
-Z104 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/tb.vhd|
-Z105 !s107 /home/ms21.41/Desktop/project/phase_1/block/tb.vhd|
+Z103 !s108 1653743356.000000
+Z104 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd|
+Z105 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/tb.vhd|
 !i113 0
 R15
 R16
 Pconstants
-w1617874106
-R0
-8/home/ms21.41/Desktop/project/phase_1/block/constants.vhd
-F/home/ms21.41/Desktop/project/phase_1/block/constants.vhd
+R1
+R7
+8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/constants.vhd
+F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/constants.vhd
 l0
 L1
 VLDG1jg>QdmLMC]HcdmRmg3
 !s100 <BS5I82dg74WBU@FBZObR0
 R10
 32
-!s110 1628065094
+!s110 1653741450
 !i10b 1
-!s108 1628065094.000000
-!s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/constants.vhd|
-!s107 /home/ms21.41/Desktop/project/phase_1/block/constants.vhd|
+!s108 1653741450.000000
+!s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/constants.vhd|
+!s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/constants.vhd|
 !i113 0
 R15
 R16
 Efa
-R35
+R1
 R5
 R6
 R7
-R36
-R37
+R34
+R35
 l0
 L4
 V@IjnZ7??KFC`DOlen7^781
 !s100 ?=7GSNh2i_P381A[`Sd]i2
 R10
 32
-R38
+R36
 !i10b 1
+R37
+R38
 R39
-R40
-R41
 !i113 0
 R15
 R16
 Abehavioral
 R5
 R6
-R34
+R33
 l14
 L12
 VVN4zj<1UDaI=Q>fmVIbH21
 !s100 M@@WaOI_<AlQeUTGTcBZk0
 R10
 32
-R38
+R36
 !i10b 1
+R37
+R38
 R39
-R40
-R41
 !i113 0
 R15
 R16
 Efetch
-R47
+R45
 R4
 R5
 R6
-R0
-R48
-R49
+R7
+R46
+R47
 l0
-L5
-VZdem^>5?Hl5aUjf7GneMo0
-!s100 aAkgji8g;K`z0O:K1:K3I1
+L16
+VeFYz68]zjM@f8lMCTV0WB2
+!s100 ?SRNRkzW6:a4HNh2BK6500
 R10
 32
-R50
+R48
 !i10b 1
+R49
+R50
 R51
-R52
-R53
 !i113 0
 R15
 R16
@@ -556,39 +585,225 @@ Astructural
 R4
 R5
 R6
-R46
-l55
-L17
-V4[6IlIDcbkXeUi=GjRSUQ2
-!s100 @`Jz93gAAgMgEjGP8;=332
+R44
+l67
+L29
+V@G[3nz05jaLDPZ^cUZ]XG0
+!s100 MFG@ImFY^kNN69n<RBNeK2
 R10
 32
-R50
+R48
 !i10b 1
+R49
+R50
 R51
-R52
-R53
 !i113 0
 R15
 R16
 Eg
-R55
+R1
 R5
 R6
 R7
-R56
-R57
+R53
+R54
 l0
 L4
 VDjlPB`l2;Db]zWz@BD<P42
 !s100 Yie0MDdibMFA9Nd^_AH0U1
 R10
 32
-R58
+R55
 !i10b 1
+R56
+R57
+R58
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+R26
+l12
+L11
+VKX4hE1PN9AO9FY_5^f[0C2
+!s100 f;c]W1=[?6O2_WG2j;BC42
+R10
+32
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 0
+R15
+R16
+Eiram
+R1
+R4
+R40
+R5
+R6
+R7
+Z106 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+Z107 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd
+l0
+L12
+VFeMlkT8<DgJkgf1b6L^eJ1
+!s100 0edlm[30VlU=:Z2XT3Rkg3
+R10
+32
+Z108 !s110 1653741469
+!i10b 1
+Z109 !s108 1653741469.000000
+Z110 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd|
+Z111 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/a.c-IRAM.vhd|
+!i113 0
+R15
+R16
+Airam_bhe
+R4
+R40
+R5
+R6
+R42
+l30
+L24
+ViCSDhAf3`;D70G^0RaNS?2
+!s100 R1=g8I8:TM0YM87kO2??h3
+R10
+32
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 0
+R15
+R16
+Emux21
+R1
+R2
+R5
+R6
+R7
 R59
 R60
-Z106 !s107 /home/ms21.41/Desktop/datapath/phases/phase_1/G.vhd|
+l0
+L6
+V2VYDSEbL^GUjUHd0f]AYF1
+!s100 ZnZ323PL;TbbVZi>7_1f;2
+R10
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 0
+R15
+R16
+Abehavioral
+R2
+R5
+R6
+R28
+l15
+L14
+V8JCg<2zG^9;<lE[J`eJc<1
+!s100 aSilf3^Q=a6>8onCMJK]k2
+R10
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 0
+R15
+R16
+Ep4_adder
+R1
+R30
+R31
+R5
+R6
+R7
+R66
+R67
+l0
+L5
+VV7AB`zM`LG?cKo:DBQkGQ1
+!s100 1=W@379QgOknMVM;Q>f2=1
+R10
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 0
+R15
+R16
+Abehavioral
+R30
+R31
+R5
+R6
+R43
+l51
+L49
+VK2<WI:0B3S<L][GnIK62g2
+!s100 Lg6`PVfAR`?[A0B=TofRZ3
+R10
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 0
+R15
+R16
+Astructural
+R30
+R31
+R5
+R6
+R43
+l37
+L15
+VcQI;_oTO:DLY`fRYL:23I2
+!s100 j@BJClbE52`P_<gE;H=2R3
+R10
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 0
+R15
+R16
+Epg
+R1
+R5
+R6
+R7
+R73
+R74
+l0
+L4
+V:UzEEzJC_K>87X9oK4DL60
+!s100 35Uak0K;=m2jKXf?gL4U73
+R10
+32
+R75
+!i10b 1
+R76
+R77
+R78
 !i113 0
 R15
 R16
@@ -596,313 +811,174 @@ Abehavioral
 R5
 R6
 R27
-l12
-L11
-Z107 VKX4hE1PN9AO9FY_5^f[0C2
-Z108 !s100 f;c]W1=[?6O2_WG2j;BC42
-R10
-32
-R58
-!i10b 1
-R59
-R60
-R106
-!i113 0
-R15
-R16
-Eiram
-Z109 w1628164609
-R4
-R42
-R5
-R6
-R7
-Z110 8/home/ms21.41/Desktop/datapath/phases/phase_1/a.c-IRAM.vhd
-Z111 F/home/ms21.41/Desktop/datapath/phases/phase_1/a.c-IRAM.vhd
-l0
-L12
-VFeMlkT8<DgJkgf1b6L^eJ1
-!s100 0edlm[30VlU=:Z2XT3Rkg3
-R10
-32
-Z112 !s110 1632989592
-!i10b 1
-Z113 !s108 1632989592.000000
-Z114 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/datapath/phases/phase_1/a.c-IRAM.vhd|
-Z115 !s107 /home/ms21.41/Desktop/datapath/phases/phase_1/a.c-IRAM.vhd|
-!i113 0
-R15
-R16
-Airam_bhe
-R4
-R42
-R5
-R6
-R44
-l30
-L24
-ViCSDhAf3`;D70G^0RaNS?2
-!s100 R1=g8I8:TM0YM87kO2??h3
-R10
-32
-R112
-!i10b 1
-R113
-R114
-R115
-!i113 0
-R15
-R16
-Emux21
-R61
-R2
-R5
-R6
-R0
-R62
-R63
-l0
-L6
-V2VYDSEbL^GUjUHd0f]AYF1
-!s100 ZnZ323PL;TbbVZi>7_1f;2
-R10
-32
-R64
-!i10b 1
-R65
-R66
-R67
-!i113 0
-R15
-R16
-Abehavioral
-R2
-R5
-R6
-R29
-l15
-L14
-V8JCg<2zG^9;<lE[J`eJc<1
-!s100 aSilf3^Q=a6>8onCMJK]k2
-R10
-32
-R64
-!i10b 1
-R65
-R66
-R67
-!i113 0
-R15
-R16
-Ep4_adder
-R69
-R31
-R32
-R5
-R6
-R0
-R70
-R71
-l0
-L5
-V7DZgOOlUebn0`F_7hV]f<1
-!s100 7BG32iZ7Pj4[_Y<cZ8oV:2
-R10
-32
-R72
-!i10b 1
-R73
-R74
-R75
-!i113 0
-R15
-R16
-Abehavioral
-R31
-R32
-R5
-R6
-R45
-l51
-L49
-VK2<WI:0B3S<L][GnIK62g2
-!s100 Lg6`PVfAR`?[A0B=TofRZ3
-R10
-32
-R72
-!i10b 1
-R73
-R74
-R75
-!i113 0
-R15
-R16
-Astructural
-R31
-R32
-R5
-R6
-R45
-l37
-L15
-VcQI;_oTO:DLY`fRYL:23I2
-!s100 j@BJClbE52`P_<gE;H=2R3
-R10
-32
-R72
-!i10b 1
-R73
-R74
-R75
-!i113 0
-R15
-R16
-Epg
-R77
-R5
-R6
-R0
-R78
-R79
-l0
-L4
-V:UzEEzJC_K>87X9oK4DL60
-!s100 35Uak0K;=m2jKXf?gL4U73
-R10
-32
-R80
-!i10b 1
-R81
-R82
-R83
-!i113 0
-R15
-R16
-Abehavioral
-R5
-R6
-R28
 l14
 L13
 V`6ocODG9IM=zNa3=3]BI_1
 !s100 ]IW56EIO9bPNC^5FVT25@3
 R10
 32
-R80
+R75
 !i10b 1
-R81
-R82
-R83
+R76
+R77
+R78
 !i113 0
 R15
 R16
 Erca
-R84
+R1
+R30
 R31
-R32
 R5
 R6
-R0
-R85
-R86
+R7
+R79
+R80
 l0
 L5
 VEf6_XUVdPPEfD1?5SFH<B2
 !s100 8A]n:EQZ_J^KRd^TGV5U90
 R10
 32
-R87
+R81
 !i10b 1
-R88
-R89
-R90
+R82
+R83
+R84
 !i113 0
 R15
 R16
 Abehavioral
+R30
 R31
-R32
 R5
 R6
-R30
+R29
 l44
 L42
 VM0Q7J8G8E34fdAmjfK]232
 !s100 VC3H=c>T@7i17Pe=z^eXR2
 R10
 32
-R87
+R81
 !i10b 1
-R88
-R89
-R90
+R82
+R83
+R84
 !i113 0
 R15
 R16
 Astructural
+R30
 R31
-R32
 R5
 R6
-R30
+R29
 l28
 L15
 V>lzCXQkO3<98aMN0<KAlz1
 !s100 _Y5en@6e?lM<Dm[ljDTh?2
 R10
 32
-R87
+R81
 !i10b 1
-R88
-R89
-R90
+R82
+R83
+R84
 !i113 0
 R15
 R16
 Eregister_1
-Z116 w1628065505
+R1
 R5
 R6
-R0
-Z117 8/home/ms21.41/Desktop/project/phase_1/block/register.vhd
-Z118 F/home/ms21.41/Desktop/project/phase_1/block/register.vhd
+R7
+Z112 8/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/register.vhd
+Z113 F/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/register.vhd
 l0
 L4
 V>KJX6WQbb>AWbDOg]b<jR1
 !s100 a5:0H84Y6bHblT8bXl0?R0
 R10
 32
-Z119 !s110 1628065541
+Z114 !s110 1653741438
 !i10b 1
-Z120 !s108 1628065540.000000
-Z121 !s90 -reportprogress|300|-work|work|/home/ms21.41/Desktop/project/phase_1/block/register.vhd|
-Z122 !s107 /home/ms21.41/Desktop/project/phase_1/block/register.vhd|
+Z115 !s108 1653741437.000000
+Z116 !s90 -reportprogress|300|-work|work|/home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/register.vhd|
+Z117 !s107 /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_1/register.vhd|
 !i113 0
 R15
 R16
 Abeh
 R5
 R6
-R43
+R41
 l15
 L13
 V:Y`=C`1VE=V:BbagRLDLP1
 !s100 N4;3D_;c=1bG5k_YBk_ng1
 R10
 32
-R119
+R114
 !i10b 1
-R120
-R121
-R122
+R115
+R116
+R117
+!i113 0
+R15
+R16
+Eregister_file
+R1
+R3
+R4
+R30
+R31
+R5
+R6
+R7
+R86
+R87
+l0
+L8
+VGWaP:Kl=BTKEJzc=S_VIE2
+!s100 cNOCWn[dkT:l>g4IG]BaG2
+R10
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 0
+R15
+R16
+Aa
+R3
+R4
+R30
+R31
+R5
+R6
+R85
+l35
+L27
+V?Y=ScdTZNV^=QKZ@6C;J:3
+!s100 i7z0=FN^za6<;e@LhLXca3
+R10
+32
+R88
+!i10b 1
+R89
+R90
+R91
 !i113 0
 R15
 R16
 Esum_generator
-R91
+R1
 R5
 R6
-R0
+R7
 R92
 R93
 l0
@@ -922,7 +998,7 @@ R16
 Astructural
 R5
 R6
-R76
+R72
 l25
 L14
 VNUjR[F@1_fgDJB]nECR?f1
@@ -941,7 +1017,7 @@ Etb
 R99
 R5
 R6
-R0
+R7
 R100
 R101
 l0
@@ -964,8 +1040,8 @@ R6
 R98
 l29
 L7
-V7M`kZc?L]eH<e;3@iQ0SR2
-!s100 ;<9ZP0:[nVe651enE<_OT3
+Z118 VYzE[0R0amSYobKhahoSmL0
+Z119 !s100 RV7`QFYLkz[NU2C0?RJFO0
 R10
 32
 R102
