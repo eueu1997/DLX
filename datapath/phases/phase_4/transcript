@@ -174,3 +174,199 @@ vsim -t 10ps work.tb
 add wave *
 run 100 ns
 # Break key hit
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:22:34 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:22:34 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.tb
+# End time: 15:22:41 on May 30,2022, Elapsed time: 0:08:16
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:22:41 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:24:43 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:24:43 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.tb
+# End time: 15:24:48 on May 30,2022, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:24:48 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:33:28 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(51): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(54): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(56): Illegal concurrent statement.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(57): VHDL Compiler exiting
+# End time: 15:33:28 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:33:44 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(51): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(54): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(56): Illegal concurrent statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(57): near "process": (vcom-1576) expecting ';'.
+# End time: 15:33:45 on May 30,2022, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:34:14 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:34:14 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.tb
+# End time: 15:34:19 on May 30,2022, Elapsed time: 0:09:31
+# Errors: 9, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:34:19 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns
+# Can't move the Now cursor.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:50:23 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:50:23 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave *
+vsim -t 10ps work.tb
+# End time: 15:50:50 on May 30,2022, Elapsed time: 0:16:31
+# Errors: 1, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:50:50 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+run 100 ns
+add wave *
+run 100 ns
+vsim -t 10ps work.tb
+# End time: 15:51:47 on May 30,2022, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:51:47 on May 30,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 na
+# Invalid time value: 100 na
+run 100 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:53:40 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:53:40 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.tb
+# End time: 15:53:45 on May 30,2022, Elapsed time: 0:01:58
+# Errors: 1, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:53:45 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns

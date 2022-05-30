@@ -12,7 +12,7 @@ entity RAM is
 	
     Rst  : in  std_logic;
 	en : in std_logic;
-	rw : in std_logic;
+	rw : in std_logic; -- 1 for read , 0 for write
     Addr : in  std_logic_vector(bit_add - 1 downto 0);
     Dout : out std_logic_vector(I_SIZE - 1 downto 0);
 	Din : in std_logic_vector(I_SIZE - 1 downto 0)
