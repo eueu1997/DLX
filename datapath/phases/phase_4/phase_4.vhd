@@ -62,8 +62,7 @@ begin
 
 alu_out_s <= alu_out;
 cond2 <= cond or j_en;
---if cond=0 and j_en=0 --> is not a jump, maybe is a brach but in any case it has not to be taken -> PC<-NPC
---if cond=1 and j_en=0 --> is 
+ 
 mux_pc 	: mux21 generic map ( nbit) port map (npc , alu_out_s , cond2 , bj_en , pc);
 mux_wb  : mux21 generic map (nbit) port map ( lmd_to_wb,aluout_s,wb_sel,'1',wb);
 

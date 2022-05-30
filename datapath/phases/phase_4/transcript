@@ -12,10 +12,24 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/project/phase_4/RAM.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/mux21.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:37:08 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/project/phase_4/RAM.vhd 
+# Start time: 15:03:08 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL of MUX21
+# End time: 15:03:08 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/RAM.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:03:09 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/RAM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -23,20 +37,140 @@ vcom -reportprogress 300 -work work /home/ms21.41/Desktop/project/phase_4/RAM.vh
 # -- Loading package NUMERIC_STD
 # -- Compiling entity RAM
 # -- Compiling architecture Ram_Bhe of RAM
-# ** Error: /home/ms21.41/Desktop/project/phase_4/RAM.vhd(32): near ")": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
-# End time: 16:37:08 on Aug 20,2021, Elapsed time: 0:00:00
+# End time: 15:03:09 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/register.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:03:11 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1
+# -- Compiling architecture beh of register_1
+# End time: 15:03:11 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/phase_4.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:03:12 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/phase_4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity phase_4
+# -- Compiling architecture structural of phase_4
+# End time: 15:03:13 on May 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:03:14 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(39): near ",": syntax error
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(41): near "0": syntax error
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(46): VHDL Compiler exiting
+# End time: 15:03:14 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:04:26 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:04:26 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb -t 10ps
+# vsim work.tb -t 10ps 
+# Start time: 15:04:41 on May 30,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:11:50 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(39): near ",": syntax error
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd(46): VHDL Compiler exiting
+# End time: 15:11:50 on May 30,2022, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms21.41/Desktop/project/phase_4/RAM.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:37:23 on Aug 20,2021
-# vcom -reportprogress 300 -work work /home/ms21.41/Desktop/project/phase_4/RAM.vhd 
+# Start time: 15:12:03 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RAM
-# -- Compiling architecture Ram_Bhe of RAM
-# ** Warning: /home/ms21.41/Desktop/project/phase_4/RAM.vhd(46): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
-# End time: 16:37:23 on Aug 20,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:12:03 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.tb
+# End time: 15:12:19 on May 30,2022, Elapsed time: 0:07:38
+# Errors: 1, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:12:19 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:14:18 on May 30,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_4/tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb1 of tb
+# -- Compiling configuration cfg_tb
+# -- Loading entity tb
+# -- Loading architecture tb1 of tb
+# -- Loading entity phase_4
+# End time: 15:14:18 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.tb
+# End time: 15:14:25 on May 30,2022, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.tb 
+# Start time: 15:14:25 on May 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(tb1)#1
+add wave *
+run 100 ns
+# Break key hit
