@@ -6,7 +6,7 @@ entity reg_fetch is
   generic (bit_data: integer := 32;
            bit_add: integer := 5);
   port(--Control Signals (sub CW)
-	   RF_EN : in std_logic;
+
 	   RF_RESET: in std_logic;
 	   W_EN	: in std_logic;
 	   RegA_LATCH_EN      : in std_logic;  -- Register A Latch Enable

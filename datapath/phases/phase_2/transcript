@@ -14,26 +14,26 @@
 # //
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:45:36 on May 13,2022
+# Start time: 14:36:16 on May 31,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/constants.vhd 
 # -- Loading package STANDARD
 # -- Compiling package CONSTANTS
-# End time: 16:45:37 on May 13,2022, Elapsed time: 0:00:01
+# End time: 14:36:16 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register_1.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:45:37 on May 13,2022
+# Start time: 14:36:21 on May 31,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/register_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity register_1
 # -- Compiling architecture beh of register_1
-# End time: 16:45:37 on May 13,2022, Elapsed time: 0:00:00
+# End time: 14:36:21 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:45:38 on May 13,2022
+# Start time: 14:36:22 on May 31,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -47,11 +47,11 @@ vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/pha
 # -- Compiling configuration CFG_RF_BEH
 # -- Loading entity register_file
 # -- Loading architecture A of register_file
-# End time: 16:45:38 on May 13,2022, Elapsed time: 0:00:00
+# End time: 14:36:22 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:45:38 on May 13,2022
+# Start time: 14:36:31 on May 31,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -59,16 +59,11 @@ vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/pha
 # -- Loading package CONSTANTS
 # -- Compiling entity reg_fetch
 # -- Compiling architecture structural of reg_fetch
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd(71): Signal [mode IN port] "reg_read_add_1" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd(72): Signal [mode IN port] "reg_read_add_2" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd(75): Signal [mode IN port] "reg_read_EN_1" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd(76): Signal [mode IN port] "reg_read_EN_2" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd(105): VHDL Compiler exiting
-# End time: 16:45:39 on May 13,2022, Elapsed time: 0:00:01
-# Errors: 4, Warnings: 0
+# End time: 14:36:31 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:45:39 on May 13,2022
+# Start time: 14:36:33 on May 31,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -76,221 +71,39 @@ vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/pha
 # -- Loading package CONSTANTS
 # -- Compiling entity inst_decode
 # -- Compiling architecture behavioral of inst_decode
-# End time: 16:45:39 on May 13,2022, Elapsed time: 0:00:00
+# End time: 14:36:33 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:45:39 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd 
+# Start time: 14:36:34 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
-# -- Compiling entity phase_2
-# -- Compiling architecture structural of phase_2
-# End time: 16:45:40 on May 13,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:47:16 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity reg_fetch
-# -- Compiling architecture structural of reg_fetch
-# End time: 16:47:16 on May 13,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:47:22 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p2_tb
-# -- Compiling architecture tb of p2_tb
-# End time: 16:47:22 on May 13,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 16:58:26 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p2_tb
-# -- Compiling architecture tb of p2_tb
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(49): near "port": (vcom-1576) expecting '('.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(74): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(74): (vcom-1136) Unknown identifier "RF_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(75): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(75): (vcom-1136) Unknown identifier "RF_RESET".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(78): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(78): (vcom-1136) Unknown identifier "W_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(79): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(79): (vcom-1136) Unknown identifier "reg_write_add".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(80): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(80): (vcom-1136) Unknown identifier "data_write_in".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(82): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(82): (vcom-1136) Unknown identifier "W_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(83): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(83): (vcom-1136) Unknown identifier "reg_write_add".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(84): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(84): (vcom-1136) Unknown identifier "data_write_in".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(86): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(86): (vcom-1136) Unknown identifier "W_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(92): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(92): (vcom-1136) Unknown identifier "inst_type".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(93): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(93): (vcom-1136) Unknown identifier "ir_s".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(95): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(95): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(96): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(96): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(97): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(97): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(98): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(98): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(105): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(105): (vcom-1136) Unknown identifier "inst_type".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(106): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(106): (vcom-1136) Unknown identifier "ir_s".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(108): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(108): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(109): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(109): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(110): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(110): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(111): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(111): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(117): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(117): (vcom-1136) Unknown identifier "inst_type".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(118): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(118): (vcom-1136) Unknown identifier "ir_s".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(120): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(120): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(121): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(121): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(122): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(122): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(123): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(123): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(129): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(129): (vcom-1136) Unknown identifier "inst_type".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(130): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(130): (vcom-1136) Unknown identifier "ir_s".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(132): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(132): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(133): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(133): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(134): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(134): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(135): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(135): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(141): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(141): (vcom-1136) Unknown identifier "inst_type".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(142): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(142): (vcom-1136) Unknown identifier "ir_s".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(144): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(144): (vcom-1136) Unknown identifier "RegA_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(145): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(145): (vcom-1136) Unknown identifier "RegB_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(146): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(146): (vcom-1136) Unknown identifier "RegIMM_LATCH_EN".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(147): Illegal target for signal assignment.
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(147): (vcom-1136) Unknown identifier "RegRD_ADD_EN".
-# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(151): VHDL Compiler exiting
-# End time: 16:58:27 on May 13,2022, Elapsed time: 0:00:01
-# Errors: 79, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:02:14 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p2_tb
-# -- Compiling architecture tb of p2_tb
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(54): near "port": (vcom-1576) expecting '('.
-# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(156): VHDL Compiler exiting
-# End time: 17:02:14 on May 13,2022, Elapsed time: 0:00:00
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(121): (vcom-1027) Number of positional association elements (19) exceeds number of formals (18).
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(123): VHDL Compiler exiting
+# End time: 14:36:34 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:02:47 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
+# Start time: 14:38:34 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity p2_tb
-# -- Compiling architecture tb of p2_tb
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(69): (vcom-1136) Unknown identifier "A_out".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(70): (vcom-1136) Unknown identifier "B_out".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(71): (vcom-1136) Unknown identifier "imm_out".
-# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(72): (vcom-1136) Unknown identifier "RD_saved_out".
-# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd(156): VHDL Compiler exiting
-# End time: 17:02:47 on May 13,2022, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:04:06 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p2_tb
-# -- Compiling architecture tb of p2_tb
-# End time: 17:04:07 on May 13,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:04:07 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p2_tb
-# -- Compiling architecture tb of p2_tb
-# End time: 17:04:07 on May 13,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.p2_tb -t 100ps
-# vsim work.p2_tb -t 100ps 
-# Start time: 17:04:28 on May 13,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.p2_tb(tb)#1
-add wave *
-run 10000000
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:16:05 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/registerfile.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling entity register_file
-# -- Compiling architecture A of register_file
-# -- Compiling configuration CFG_RF_BEH
-# -- Loading entity register_file
-# -- Loading architecture A of register_file
-# End time: 17:16:06 on May 13,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(104): (vcom-1136) Unknown identifier "RF_EN".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(124): VHDL Compiler exiting
+# End time: 14:38:34 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
 vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:16:10 on May 13,2022
+# Start time: 14:40:30 on May 31,2022
 # vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -298,64 +111,99 @@ vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/pha
 # -- Loading package CONSTANTS
 # -- Compiling entity reg_fetch
 # -- Compiling architecture structural of reg_fetch
-# End time: 17:16:11 on May 13,2022, Elapsed time: 0:00:01
+# End time: 14:40:30 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:16:14 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/phase_2.vhd 
+# Start time: 14:40:32 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
-# -- Compiling entity phase_2
-# -- Compiling architecture structural of phase_2
-# End time: 17:16:15 on May 13,2022, Elapsed time: 0:00:01
+# -- Compiling entity inst_decode
+# -- Compiling architecture behavioral of inst_decode
+# End time: 14:40:33 on May 31,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 17:16:16 on May 13,2022
-# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2_tb.vhd 
+# Start time: 14:40:34 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 14:40:34 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:40:37 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity p2_tb
 # -- Compiling architecture tb of p2_tb
-# End time: 17:16:17 on May 13,2022, Elapsed time: 0:00:01
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(61): near "ir_s": (vcom-1576) expecting ',' or ')'.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(149): VHDL Compiler exiting
+# End time: 14:40:37 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:41:06 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2_tb
+# -- Compiling architecture tb of p2_tb
+# End time: 14:41:06 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim -t 10ps work.p2_tb
-# End time: 17:16:52 on May 13,2022, Elapsed time: 0:12:24
-# Errors: 0, Warnings: 0
-# vsim -t 10ps work.p2_tb 
-# Start time: 17:16:52 on May 13,2022
+vsim work.p2_tb(tb) -t 10ps
+# vsim work.p2_tb(tb) -t 10ps 
+# Start time: 14:41:34 on May 31,2022
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.p2_tb(tb)#1
-run 10000 ns
-add wave +
-vsim -t 10ps work.p2_tb
-# End time: 17:17:44 on May 13,2022, Elapsed time: 0:00:52
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(71): (vopt-1270) Bad default binding for component instance "U: p2".
+#  (Component port "RF_EN" is not on the entity.)
+# ** Warning: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(71): (vopt-3473) Component instance "/p2_tb/U : p2" is not bound.
+# Optimization failed
+# Error loading design
+# End time: 14:41:35 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:42:01 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2_tb
+# -- Compiling architecture tb of p2tb
+# ** Error: (vcom-11) Could not find work.p2tb.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(6): VHDL Compiler exiting
+# End time: 14:42:01 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:42:21 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 14:42:21 on May 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -t 10ps work.p2_tb 
-# Start time: 17:17:44 on May 13,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.p2_tb(tb)#1
-add wave *
-run 10000 ns
-# End time: 17:41:50 on May 13,2022, Elapsed time: 0:24:06
-# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# vsim -t 10ps work.p2tb 
+# Start time: 14:42:31 on May 31,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(71): (vopt-1270) Bad default binding for component instance "U: p2".
+#  (Component port "RF_EN" is not on the entity.)
+# ** Warning: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(71): (vopt-3473) Component instance "/p2tb/U : p2" is not bound.
+# Optimization failed
+# Error loading design
+# End time: 14:42:32 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
