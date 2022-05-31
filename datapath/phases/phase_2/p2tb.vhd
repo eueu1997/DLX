@@ -19,25 +19,31 @@ component p2 is
 		--input for write
 		  data_write_in: in std_logic_vector(bit_data-1 downto 0);
 		  reg_write_add: in std_logic_vector(bit_add-1 downto 0);
-
+		--npc input
+		  npc_in : in std_logic_vector(bit_data-1 downto 0);
+		--output  
+		  npc_out : out std_logic_vector(bit_data-1 downto 0);  
 		--output                              
 		  A_out: out std_logic_vector(bit_data-1 downto 0);
 		  B_out: out std_logic_vector(bit_data-1 downto 0);
 		  imm_out: out std_logic_vector(bit_data-1 downto 0);
-		  RD_saved_out: out std_logic_vector(bit_add-1 downto 0)
-          --jal : in std_logic;
+		  RD_saved_out: out std_logic_vector(bit_add-1 downto 0);
+		-- setter
+		  set : in std_logic;
+		-- jal signal to save npc on r31
+          jal : in std_logic
 		 );
 end component;
 
 constant bit_data : integer := 32;
 constant bit_add : integer := 5;
 signal inst_type : std_logic_vector (1 downto 0);
-signal  RF_EN, RF_RESET, W_EN, reg_en: std_logic;
+signal  RF_EN, RF_RESET, W_EN, reg_en,jal,set: std_logic;
 signal ir_s : std_logic_vector (bit_data-1 downto 0);
 signal data_write_in : std_logic_vector (bit_data-1 downto 0);
 signal reg_write_add : std_logic_vector (bit_add-1 downto 0);
 
-signal A_out, B_out, IMM_out : std_logic_vector (bit_data-1 downto 0);
+signal A_out, B_out, IMM_out , npc_in,npc_out : std_logic_vector (bit_data-1 downto 0);
 signal rd_saved_out : std_logic_vector (bit_add-1 downto 0);
 
 
@@ -62,12 +68,15 @@ begin
 		--input for write
 		  data_write_in,
 		  reg_write_add,
+		  npc_in,
+		  npc_out,
 		--output                              
 		  A_out,
 		  B_out,
 		  imm_out,
-		  RD_saved_out
-          --jal : in std_logic;
+		  RD_saved_out,
+          set,
+			jal
 		 );
 
 process
@@ -79,11 +88,11 @@ process
 --fill registers 1 and 2
 	W_EN <= '1';
 	reg_write_add <= "00001";
-	data_write_in <= "00000000"&"00000000"&"00000000"&"00000001";
+	data_write_in <= "00000000"&"00000000"&"00000000"&"11000001";
 wait for 2 ns;
 	W_EN <= '1';
 	reg_write_add <= "00010";
-	data_write_in <= "00000000"&"00000000"&"00000000"&"00000010";
+	data_write_in <= "00000000"&"00000000"&"00000000"&"00100110";
 wait for 2 ns;
 	W_EN <= '0';
 
@@ -104,7 +113,7 @@ wait for 50 ns;
 --addi --01 --OP_CODE 0x08
 --R[ regb ] <-- R[ rega ] + imm16
 	inst_type <= "01";
-	ir_s <= "001000"&"000001"&"00010"&"001000100010001";
+	ir_s <= "001000"&"00001"&"00010"&"0001000100010001";
 wait for 2 ns;
 	reg_en<='1';
 wait for 2 ns ;
@@ -145,6 +154,34 @@ wait for 2 ns ;
 	reg_en <='0';
 
 wait for 50 ns;
-	end process;
+jal<= '1';
+npc_in<= "00001010101001010000101010100101";
+wait for 2 ns;
+jal<='0';
+
+--and --10 --FUNC_CODE 0x24
+--R[regc] <-- R[rega] & R[regb]
+	inst_type <= "10";
+	ir_s <= "000001"&"11111"&"00001"&"00011"&"00000110000";
+wait for 2 ns;
+	reg_en<='1';
+wait for 2 ns ;
+	reg_en <='0';
+wait for 50 ns;
+	inst_type <= "10";
+	ir_s <= "000001"&"00010"&"00001"&"00011"&"00000110000";
+wait for 2 ns;
+	reg_en<='1';
+wait for 2 ns ;
+	reg_en <='0';
+wait for 50 ns;
+	inst_type <= "10";
+	ir_s <= "000001"&"00011"&"00001"&"00011"&"00000110000";
+wait for 2 ns;
+	reg_en<='1';
+wait for 2 ns ;
+	reg_en <='0';
+wait;
+end process;
 end tb;
 

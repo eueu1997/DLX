@@ -207,3 +207,701 @@ vsim -t 10ps work.p2tb
 # Error loading design
 # End time: 14:42:32 on May 31,2022, Elapsed time: 0:00:01
 # Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:53:47 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/inst_decode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity inst_decode
+# -- Compiling architecture behavioral of inst_decode
+# End time: 14:53:47 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:53:49 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/reg_fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity reg_fetch
+# -- Compiling architecture structural of reg_fetch
+# End time: 14:53:49 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:53:51 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(54): near "rf_en_": Identifier may not end with an underline.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(125): VHDL Compiler exiting
+# End time: 14:53:51 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:54:52 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 14:54:52 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:54:55 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 14:54:55 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# vsim -t 10ps work.p2tb 
+# Start time: 14:55:05 on May 31,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:00:22 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(107): (vcom-1272) Length of expected is 32; length of actual is 31.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(149): VHDL Compiler exiting
+# End time: 15:00:23 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:02:22 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 15:02:22 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 15:02:30 on May 31,2022, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 15:02:30 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:45:28 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(29): (vcom-1136) Unknown identifier "set".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(29): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(29): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 15:45:28 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:45:51 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(32): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 15:45:51 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:46:04 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(114): Illegal sequential statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(138): Illegal sequential statement.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(144): Illegal sequential statement.
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(140): (vcom-1141) Identifier "register_1" does not identify a component declaration.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(145): near "structural": (vcom-1576) expecting IF.
+# End time: 15:46:04 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:47:35 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(143): (vcom-1141) Identifier "register_1" does not identify a component declaration.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd(148): VHDL Compiler exiting
+# End time: 15:47:35 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:48:04 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 15:48:04 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:50:01 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 15:50:02 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:54:23 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(73): near "set": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(153): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(153): (vcom-1136) Unknown identifier "npc".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(154): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(165): near "tb": (vcom-1576) expecting PROCESS.
+# End time: 15:54:24 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:54:41 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(153): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(153): (vcom-1136) Unknown identifier "npc".
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(154): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(165): near "tb": (vcom-1576) expecting PROCESS.
+# End time: 15:54:41 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:55:02 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(154): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(165): near "tb": (vcom-1576) expecting PROCESS.
+# End time: 15:55:02 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:55:19 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(165): near "tb": (vcom-1576) expecting PROCESS.
+# End time: 15:55:19 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:56:07 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 15:56:08 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 15:56:24 on May 31,2022, Elapsed time: 0:53:54
+# Errors: 20, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 15:56:24 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(75): (vopt-1130) Port "npc_in" of entity "p2" is not in the component being instantiated.
+# Optimization failed
+# Error loading design
+# End time: 15:56:24 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:58:35 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 15:58:35 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:58:37 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(158): Illegal target for signal assignment.
+# ** Error: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(158): (vcom-1136) Unknown identifier "npc".
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(172): VHDL Compiler exiting
+# End time: 15:58:37 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:58:58 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 15:58:58 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# vsim -t 10ps work.p2tb 
+# Start time: 15:59:02 on May 31,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+# ** Fatal: (vsim-3348) Port length (5) does not match actual length (32) for port "/p2tb/U/npc_out".
+#    Time: 0 ps  Iteration: 0  Instance: /p2tb/U File: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd Line: 23
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 15:59:03 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:00:25 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 16:00:25 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:00:28 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:00:29 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# vsim -t 10ps work.p2tb 
+# Start time: 16:00:31 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:01:34 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 16:01:34 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:01:37 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:01:37 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:01:42 on May 31,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:01:42 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:07:41 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 16:07:41 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:07:45 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:07:45 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:07:50 on May 31,2022, Elapsed time: 0:06:08
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:07:50 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:13:45 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 16:13:46 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:13:49 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:13:49 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:13:55 on May 31,2022, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:13:55 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:15:45 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:15:45 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:15:50 on May 31,2022, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:15:50 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:17:26 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:17:26 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:17:30 on May 31,2022, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:17:30 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:19:35 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# ** Error (suppressible): /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(95): (vcom-1272) Length of expected is 32; length of actual is 31.
+# ** Note: /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd(178): VHDL Compiler exiting
+# End time: 16:19:35 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:19:49 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:19:49 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:19:53 on May 31,2022, Elapsed time: 0:02:23
+# Errors: 1, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:19:53 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run500 ns
+# invalid command name "run500"
+run 500 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:22:42 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:22:42 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:22:47 on May 31,2022, Elapsed time: 0:02:54
+# Errors: 1, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:22:47 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 600 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:25:20 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:25:21 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:25:24 on May 31,2022, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:25:24 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 600 ns
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:31:05 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:31:05 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:31:09 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity p2
+# -- Compiling architecture structural of p2
+# End time: 16:31:10 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 16:31:12 on May 31,2022
+# vcom -reportprogress 300 -work work /home/ms22.57/Documents/DLX/DLX/datapath/phases/phase_2/p2tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity p2tb
+# -- Compiling architecture tb of p2tb
+# End time: 16:31:12 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 10ps work.p2tb
+# End time: 16:31:17 on May 31,2022, Elapsed time: 0:05:53
+# Errors: 0, Warnings: 0
+# vsim -t 10ps work.p2tb 
+# Start time: 16:31:17 on May 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.p2tb(tb)#1
+add wave *
+run 600 ns
